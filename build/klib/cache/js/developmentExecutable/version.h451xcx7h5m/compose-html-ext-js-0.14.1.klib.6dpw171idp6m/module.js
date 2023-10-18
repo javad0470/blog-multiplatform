@@ -22,8 +22,8 @@
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var protoOf = kotlin_kotlin.$_$.lb;
-  var objectCreate = kotlin_kotlin.$_$.jb;
+  var protoOf = kotlin_kotlin.$_$.mb;
+  var objectCreate = kotlin_kotlin.$_$.kb;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
   var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.u;
   var equals = kotlin_kotlin.$_$.fa;
@@ -79,13 +79,13 @@
   var addEventListener_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.g1;
   var AttrsScope = kotlin_org_jetbrains_compose_html_html_core.$_$.f1;
   var classMeta = kotlin_kotlin.$_$.ca;
-  var VOID = kotlin_kotlin.$_$.cg;
-  var setMetadataFor = kotlin_kotlin.$_$.mb;
+  var VOID = kotlin_kotlin.$_$.gg;
+  var setMetadataFor = kotlin_kotlin.$_$.nb;
   var Unit_getInstance = kotlin_kotlin.$_$.p4;
-  var objectMeta = kotlin_kotlin.$_$.kb;
-  var THROW_ISE = kotlin_kotlin.$_$.ue;
+  var objectMeta = kotlin_kotlin.$_$.lb;
+  var THROW_ISE = kotlin_kotlin.$_$.ye;
   var enumEntries = kotlin_kotlin.$_$.r9;
-  var Enum = kotlin_kotlin.$_$.ie;
+  var Enum = kotlin_kotlin.$_$.me;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.d1;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.e2;
   var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.v2;
@@ -94,9 +94,9 @@
   var color = kotlin_org_jetbrains_compose_html_html_core.$_$.l7;
   var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.r8;
   var boxSizing = kotlin_org_jetbrains_compose_html_html_core.$_$.k7;
-  var Number_0 = kotlin_kotlin.$_$.pe;
+  var Number_0 = kotlin_kotlin.$_$.te;
   var UnsupportedOperationException_init_$Create$ = kotlin_kotlin.$_$.a2;
-  var toString = kotlin_kotlin.$_$.qb;
+  var toString = kotlin_kotlin.$_$.rb;
   var interfaceMeta = kotlin_kotlin.$_$.na;
   var property = kotlin_org_jetbrains_compose_html_html_core.$_$.s6;
   var property_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.t6;
@@ -109,12 +109,12 @@
   var copyToArray = kotlin_kotlin.$_$.o6;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
   var joinToString = kotlin_kotlin.$_$.g7;
-  var THROW_CCE = kotlin_kotlin.$_$.te;
-  var Annotation = kotlin_kotlin.$_$.de;
+  var THROW_CCE = kotlin_kotlin.$_$.xe;
+  var Annotation = kotlin_kotlin.$_$.he;
   var lastOrNull = kotlin_kotlin.$_$.l7;
   var get_lastIndex = kotlin_kotlin.$_$.j7;
   var joinToString_0 = kotlin_kotlin.$_$.f7;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.sf;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.wf;
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.s1;
   var listOf = kotlin_kotlin.$_$.o7;
   var emptyList = kotlin_kotlin.$_$.r6;
@@ -130,13 +130,13 @@
   var isNumber = kotlin_kotlin.$_$.ya;
   var CSSVariable = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
   var getKClassFromExpression = kotlin_kotlin.$_$.c;
-  var ensureNotNull = kotlin_kotlin.$_$.mf;
-  var removeSuffix = kotlin_kotlin.$_$.ad;
+  var ensureNotNull = kotlin_kotlin.$_$.qf;
+  var removeSuffix = kotlin_kotlin.$_$.cd;
   var collectionSizeOrDefault = kotlin_kotlin.$_$.a6;
   var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.i;
   var charSequenceLength = kotlin_kotlin.$_$.aa;
   var charSequenceGet = kotlin_kotlin.$_$.z9;
-  var isWhitespace = kotlin_kotlin.$_$.vc;
+  var isWhitespace = kotlin_kotlin.$_$.xc;
   var Collection = kotlin_kotlin.$_$.z4;
   var isInterface = kotlin_kotlin.$_$.wa;
   var checkCountOverflow = kotlin_kotlin.$_$.y5;
@@ -155,25 +155,25 @@
   var plus_0 = kotlin_kotlin.$_$.y7;
   var ElementBuilder = kotlin_org_jetbrains_compose_html_html_core.$_$.e9;
   var TagElement$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.l9;
-  var to = kotlin_kotlin.$_$.bg;
-  var lazy = kotlin_kotlin.$_$.rf;
+  var to = kotlin_kotlin.$_$.fg;
+  var lazy = kotlin_kotlin.$_$.vf;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h1;
-  var KProperty1 = kotlin_kotlin.$_$.ec;
+  var KProperty1 = kotlin_kotlin.$_$.gc;
   var getPropertyCallableRef = kotlin_kotlin.$_$.ja;
   var toString_0 = kotlin_kotlin.$_$.i2;
-  var isBlank = kotlin_kotlin.$_$.sc;
+  var isBlank = kotlin_kotlin.$_$.uc;
   var CompletableDeferred = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.l;
   var json = kotlin_kotlin.$_$.db;
   var asCoroutineDispatcher = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.s;
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.n;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.w;
-  var Exception = kotlin_kotlin.$_$.ke;
-  var decodeToString = kotlin_kotlin.$_$.kc;
+  var Exception = kotlin_kotlin.$_$.oe;
+  var decodeToString = kotlin_kotlin.$_$.mc;
   var isCharSequence = kotlin_kotlin.$_$.sa;
-  var trim = kotlin_kotlin.$_$.ae;
-  var split = kotlin_kotlin.$_$.fd;
+  var trim = kotlin_kotlin.$_$.ee;
+  var split = kotlin_kotlin.$_$.id;
   var compareTo = kotlin_kotlin.$_$.da;
-  var repeat = kotlin_kotlin.$_$.bd;
+  var repeat = kotlin_kotlin.$_$.dd;
   var Exception_init_$Init$ = kotlin_kotlin.$_$.i1;
   var captureStack = kotlin_kotlin.$_$.w9;
   var CoroutineImpl = kotlin_kotlin.$_$.m9;
@@ -186,12 +186,12 @@
   var returnIfSuspended = kotlin_kotlin.$_$.h;
   var SuspendFunction1 = kotlin_kotlin.$_$.n9;
   var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.n1;
-  var isUpperCase = kotlin_kotlin.$_$.uc;
-  var isLowerCase = kotlin_kotlin.$_$.tc;
-  var get_lastIndex_0 = kotlin_kotlin.$_$.wc;
-  var replace = kotlin_kotlin.$_$.cd;
-  var last = kotlin_kotlin.$_$.yc;
-  var first = kotlin_kotlin.$_$.qc;
+  var isUpperCase = kotlin_kotlin.$_$.wc;
+  var isLowerCase = kotlin_kotlin.$_$.vc;
+  var get_lastIndex_0 = kotlin_kotlin.$_$.yc;
+  var replace = kotlin_kotlin.$_$.fd;
+  var last = kotlin_kotlin.$_$.ad;
+  var first = kotlin_kotlin.$_$.sc;
   //endregion
   //region block: pre-declaration
   setMetadataFor(ComparableAttrsScope, 'ComparableAttrsScope', classMeta, VOID, [AttrsScope]);
@@ -337,11 +337,11 @@
   setMetadataFor(Companion_13, 'Companion', objectMeta);
   setMetadataFor(UserSelect, 'UserSelect', classMeta);
   setMetadataFor(Companion_14, 'Companion', objectMeta);
-  setMetadataFor(WhiteSpace, 'WhiteSpace', classMeta);
+  setMetadataFor(TextDecorationLine, 'TextDecorationLine', classMeta);
   setMetadataFor(Companion_15, 'Companion', objectMeta);
   setMetadataFor(TextAlign, 'TextAlign', classMeta);
   setMetadataFor(Companion_16, 'Companion', objectMeta);
-  setMetadataFor(TextDecorationLine, 'TextDecorationLine', classMeta);
+  setMetadataFor(WhiteSpace, 'WhiteSpace', classMeta);
   setMetadataFor(Companion_17, 'Companion', objectMeta);
   setMetadataFor(CSSTransition, 'CSSTransition', classMeta);
   setMetadataFor(Companion_18, 'Companion', objectMeta);
@@ -2919,35 +2919,29 @@
   function Companion_14() {
     Companion_instance_14 = this;
   }
-  protoOf(Companion_14).get_Normal_22avww_k$ = function () {
-    return new WhiteSpace('normal');
+  protoOf(Companion_14).get_Underline_oo7egz_k$ = function () {
+    return new TextDecorationLine('underline');
   };
-  protoOf(Companion_14).get_NoWrap_21tqz8_k$ = function () {
-    return new WhiteSpace('nowrap');
+  protoOf(Companion_14).get_Overline_lz0ci7_k$ = function () {
+    return new TextDecorationLine('overline');
   };
-  protoOf(Companion_14).get_Pre_18jlye_k$ = function () {
-    return new WhiteSpace('pre');
+  protoOf(Companion_14).get_LineThrough_pr9ajs_k$ = function () {
+    return new TextDecorationLine('line-through');
   };
-  protoOf(Companion_14).get_PreWrap_nintz8_k$ = function () {
-    return new WhiteSpace('pre-wrap');
-  };
-  protoOf(Companion_14).get_PreLine_nigmr2_k$ = function () {
-    return new WhiteSpace('pre-line');
-  };
-  protoOf(Companion_14).get_BreakSpaces_6b23jx_k$ = function () {
-    return new WhiteSpace('break-spaces');
+  protoOf(Companion_14).get_None_wo6tgh_k$ = function () {
+    return new TextDecorationLine('none');
   };
   protoOf(Companion_14).get_Inherit_a1a9e6_k$ = function () {
-    return new WhiteSpace('inherit');
+    return new TextDecorationLine('inherit');
   };
   protoOf(Companion_14).get_Initial_a0h2v9_k$ = function () {
-    return new WhiteSpace('initial');
+    return new TextDecorationLine('initial');
   };
   protoOf(Companion_14).get_Revert_3t1tzh_k$ = function () {
-    return new WhiteSpace('revert');
+    return new TextDecorationLine('revert');
   };
   protoOf(Companion_14).get_Unset_ii4mhs_k$ = function () {
-    return new WhiteSpace('unset');
+    return new TextDecorationLine('unset');
   };
   var Companion_instance_14;
   function Companion_getInstance_17() {
@@ -2958,12 +2952,12 @@
   function get_$stableprop_46() {
     return 0;
   }
-  function WhiteSpace(value) {
+  function TextDecorationLine(value) {
     Companion_getInstance_17();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(WhiteSpace).toString = function () {
+  protoOf(TextDecorationLine).toString = function () {
     return this.value_1;
   };
   function _get_value__a43j40_16($this) {
@@ -3019,29 +3013,35 @@
   function Companion_16() {
     Companion_instance_16 = this;
   }
-  protoOf(Companion_16).get_Underline_oo7egz_k$ = function () {
-    return new TextDecorationLine('underline');
+  protoOf(Companion_16).get_Normal_22avww_k$ = function () {
+    return new WhiteSpace('normal');
   };
-  protoOf(Companion_16).get_Overline_lz0ci7_k$ = function () {
-    return new TextDecorationLine('overline');
+  protoOf(Companion_16).get_NoWrap_21tqz8_k$ = function () {
+    return new WhiteSpace('nowrap');
   };
-  protoOf(Companion_16).get_LineThrough_pr9ajs_k$ = function () {
-    return new TextDecorationLine('line-through');
+  protoOf(Companion_16).get_Pre_18jlye_k$ = function () {
+    return new WhiteSpace('pre');
   };
-  protoOf(Companion_16).get_None_wo6tgh_k$ = function () {
-    return new TextDecorationLine('none');
+  protoOf(Companion_16).get_PreWrap_nintz8_k$ = function () {
+    return new WhiteSpace('pre-wrap');
+  };
+  protoOf(Companion_16).get_PreLine_nigmr2_k$ = function () {
+    return new WhiteSpace('pre-line');
+  };
+  protoOf(Companion_16).get_BreakSpaces_6b23jx_k$ = function () {
+    return new WhiteSpace('break-spaces');
   };
   protoOf(Companion_16).get_Inherit_a1a9e6_k$ = function () {
-    return new TextDecorationLine('inherit');
+    return new WhiteSpace('inherit');
   };
   protoOf(Companion_16).get_Initial_a0h2v9_k$ = function () {
-    return new TextDecorationLine('initial');
+    return new WhiteSpace('initial');
   };
   protoOf(Companion_16).get_Revert_3t1tzh_k$ = function () {
-    return new TextDecorationLine('revert');
+    return new WhiteSpace('revert');
   };
   protoOf(Companion_16).get_Unset_ii4mhs_k$ = function () {
-    return new TextDecorationLine('unset');
+    return new WhiteSpace('unset');
   };
   var Companion_instance_16;
   function Companion_getInstance_19() {
@@ -3052,12 +3052,12 @@
   function get_$stableprop_48() {
     return 0;
   }
-  function TextDecorationLine(value) {
+  function WhiteSpace(value) {
     Companion_getInstance_19();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(TextDecorationLine).toString = function () {
+  protoOf(WhiteSpace).toString = function () {
     return this.value_1;
   };
   function userSelect(_this__u8e3s4, userSelect) {
@@ -3066,11 +3066,11 @@
   function whiteSpace(_this__u8e3s4, whiteSpace) {
     _this__u8e3s4.property_lwhspk_k$('white-space', whiteSpace);
   }
-  function textAlign(_this__u8e3s4, textAlign) {
-    _this__u8e3s4.property_lwhspk_k$('text-align', textAlign);
-  }
   function textDecorationLine(_this__u8e3s4, textDecorationLines) {
     _this__u8e3s4.property_ze5ozi_k$('text-decoration-line', joinToString(textDecorationLines, ' '));
+  }
+  function textAlign(_this__u8e3s4, textAlign) {
+    _this__u8e3s4.property_lwhspk_k$('text-align', textAlign);
   }
   function translateX(_this__u8e3s4, tx) {
     translate(_this__u8e3s4, tx);
@@ -5583,12 +5583,12 @@
   _.$_$.h2 = Companion_getInstance_9;
   _.$_$.i2 = Companion_getInstance_15;
   _.$_$.j2 = Companion_getInstance_18;
-  _.$_$.k2 = Companion_getInstance_19;
+  _.$_$.k2 = Companion_getInstance_17;
   _.$_$.l2 = Companion_getInstance_21;
   _.$_$.m2 = Companion_getInstance_16;
   _.$_$.n2 = Companion_getInstance_10;
   _.$_$.o2 = Companion_getInstance_22;
-  _.$_$.p2 = Companion_getInstance_17;
+  _.$_$.p2 = Companion_getInstance_19;
   //endregion
   return _;
 }));

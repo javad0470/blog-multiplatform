@@ -21,23 +21,23 @@
 }(this, function (_, kotlin_kotlin, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_com_varabyte_kobweb_kobweb_compose, kotlin_org_jetbrains_compose_html_html_core) {
   'use strict';
   //region block: imports
-  var THROW_ISE = kotlin_kotlin.$_$.ue;
+  var THROW_ISE = kotlin_kotlin.$_$.ye;
   var enumEntries = kotlin_kotlin.$_$.r9;
   var Unit_getInstance = kotlin_kotlin.$_$.p4;
-  var Enum = kotlin_kotlin.$_$.ie;
-  var protoOf = kotlin_kotlin.$_$.lb;
+  var Enum = kotlin_kotlin.$_$.me;
+  var protoOf = kotlin_kotlin.$_$.mb;
   var classMeta = kotlin_kotlin.$_$.ca;
-  var VOID = kotlin_kotlin.$_$.cg;
-  var setMetadataFor = kotlin_kotlin.$_$.mb;
+  var VOID = kotlin_kotlin.$_$.gg;
+  var setMetadataFor = kotlin_kotlin.$_$.nb;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
-  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u3;
+  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v3;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
   var Companion_getInstance_0 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.n1;
-  var THROW_CCE = kotlin_kotlin.$_$.te;
+  var THROW_CCE = kotlin_kotlin.$_$.xe;
   var isObject = kotlin_kotlin.$_$.za;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f3;
   var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.j9;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h1;
   //endregion

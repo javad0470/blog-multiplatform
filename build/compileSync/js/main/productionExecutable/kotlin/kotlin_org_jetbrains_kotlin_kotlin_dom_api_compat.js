@@ -13,18 +13,23 @@
   'use strict';
   //region block: imports
   var Regex_init_$Create$ = kotlin_kotlin.$_$.b1;
-  var toSet = kotlin_kotlin.$_$.q7;
-  var THROW_CCE = kotlin_kotlin.$_$.ad;
-  var isCharSequence = kotlin_kotlin.$_$.l9;
-  var trim = kotlin_kotlin.$_$.lc;
-  var toString = kotlin_kotlin.$_$.ha;
+  var toSet = kotlin_kotlin.$_$.r7;
+  var THROW_CCE = kotlin_kotlin.$_$.bd;
+  var isCharSequence = kotlin_kotlin.$_$.m9;
+  var trim = kotlin_kotlin.$_$.mc;
+  var toString = kotlin_kotlin.$_$.ia;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
-  var joinToString = kotlin_kotlin.$_$.k6;
+  var joinToString = kotlin_kotlin.$_$.l6;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.d1;
-  var charSequenceLength = kotlin_kotlin.$_$.t8;
-  var joinTo = kotlin_kotlin.$_$.m6;
+  var charSequenceLength = kotlin_kotlin.$_$.u8;
+  var joinTo = kotlin_kotlin.$_$.n6;
+  var protoOf = kotlin_kotlin.$_$.da;
+  var classMeta = kotlin_kotlin.$_$.w8;
+  var VOID = kotlin_kotlin.$_$.je;
+  var setMetadataFor = kotlin_kotlin.$_$.ea;
   //endregion
   //region block: pre-declaration
+  setMetadataFor(EventListenerHandler, 'EventListenerHandler', classMeta);
   //endregion
   function hasClass(_this__u8e3s4, cssClass) {
     // Inline function 'kotlin.text.matches' call
@@ -100,10 +105,10 @@
       var tmp0_apply = StringBuilder_init_$Create$();
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'kotlinx.dom.addClass.<anonymous>' call
-      tmp0_apply.n6(presentClasses);
+      tmp0_apply.p6(presentClasses);
       // Inline function 'kotlin.text.isEmpty' call
       if (!(charSequenceLength(presentClasses) === 0)) {
-        tmp0_apply.n6(' ');
+        tmp0_apply.p6(' ');
       }
       joinTo(missingClasses, tmp0_apply, ' ');
       _this__u8e3s4.className = tmp0_apply.toString();
@@ -111,11 +116,27 @@
     }
     return false;
   }
+  function EventListener(handler) {
+    return new EventListenerHandler(handler);
+  }
+  function EventListenerHandler(handler) {
+    this.oi_1 = handler;
+  }
+  protoOf(EventListenerHandler).pi = function (event) {
+    this.oi_1(event);
+  };
+  protoOf(EventListenerHandler).handleEvent = function (event) {
+    return this.pi(event);
+  };
+  protoOf(EventListenerHandler).toString = function () {
+    return 'EventListenerHandler(' + this.oi_1 + ')';
+  };
   //region block: exports
   _.$_$ = _.$_$ || {};
   _.$_$.a = addClass;
   _.$_$.b = hasClass;
   _.$_$.c = removeClass;
+  _.$_$.d = EventListener;
   //endregion
   return _;
 }));

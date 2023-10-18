@@ -92,6 +92,8 @@ public fun main(): Unit {
                 com.example.blogmultiplatform.pages.admin.LoginScreen() }
         ctx.router.register("/admin/my_posts") {
                 com.example.blogmultiplatform.pages.admin.MyPostPage() }
+        ctx.router.register("/admin/success") {
+                com.example.blogmultiplatform.pages.admin.SuccessPage() }
 
     }
     router.addRouteInterceptor {

@@ -15,6 +15,7 @@ import com.example.blogmultiplatform.util.Constant.FONT_FAMILY
 import com.example.blogmultiplatform.util.ID
 import com.example.blogmultiplatform.util.Res
 import com.example.blogmultiplatform.util.checkUserExistence
+import com.example.blogmultiplatform.util.noBorder
 import com.varabyte.kobweb.compose.css.Cursor
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.TextAlign
@@ -139,16 +140,7 @@ fun LoginScreen() {
                     .fontWeight(FontWeight.Medium)
                     .fontFamily(FONT_FAMILY)
                     .fontSize(16.px)
-                    .border(
-                        width = 0.px,
-                        style = LineStyle.None,
-                        color = Colors.Transparent
-                    )
-                    .outline(
-                        width = 0.px,
-                        style = LineStyle.None,
-                        color = Colors.Transparent
-                    )
+                    .noBorder()
                     .cursor(Cursor.Pointer)
                     .onClick {
                         scope.launch {

@@ -22,109 +22,111 @@
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var protoOf = kotlin_kotlin.$_$.ca;
-  var objectCreate = kotlin_kotlin.$_$.aa;
+  var protoOf = kotlin_kotlin.$_$.da;
+  var objectCreate = kotlin_kotlin.$_$.ba;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
   var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.u;
-  var equals = kotlin_kotlin.$_$.y8;
-  var hashCode = kotlin_kotlin.$_$.e9;
-  var classes = kotlin_org_jetbrains_compose_html_html_core.$_$.l;
-  var id = kotlin_org_jetbrains_compose_html_html_core.$_$.m;
-  var tabIndex = kotlin_org_jetbrains_compose_html_html_core.$_$.n;
-  var onClick = kotlin_org_jetbrains_compose_html_html_core.$_$.p;
-  var AttrsScope = kotlin_org_jetbrains_compose_html_html_core.$_$.o;
-  var classMeta = kotlin_kotlin.$_$.v8;
-  var VOID = kotlin_kotlin.$_$.he;
-  var setMetadataFor = kotlin_kotlin.$_$.da;
-  var Unit_getInstance = kotlin_kotlin.$_$.i4;
-  var objectMeta = kotlin_kotlin.$_$.ba;
-  var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.q;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.b3;
-  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.w2;
-  var color = kotlin_org_jetbrains_compose_html_html_core.$_$.p1;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.s2;
+  var equals = kotlin_kotlin.$_$.z8;
+  var hashCode = kotlin_kotlin.$_$.f9;
+  var classes = kotlin_org_jetbrains_compose_html_html_core.$_$.m;
+  var id = kotlin_org_jetbrains_compose_html_html_core.$_$.n;
+  var tabIndex = kotlin_org_jetbrains_compose_html_html_core.$_$.p;
+  var spellCheck = kotlin_org_jetbrains_compose_html_html_core.$_$.o;
+  var onClick = kotlin_org_jetbrains_compose_html_html_core.$_$.r;
+  var onKeyUp = kotlin_org_jetbrains_compose_html_html_core.$_$.s;
+  var AttrsScope = kotlin_org_jetbrains_compose_html_html_core.$_$.q;
+  var classMeta = kotlin_kotlin.$_$.w8;
+  var VOID = kotlin_kotlin.$_$.je;
+  var setMetadataFor = kotlin_kotlin.$_$.ea;
+  var Unit_getInstance = kotlin_kotlin.$_$.j4;
+  var objectMeta = kotlin_kotlin.$_$.ca;
+  var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.x;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.l3;
+  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.g3;
+  var color = kotlin_org_jetbrains_compose_html_html_core.$_$.w1;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.d1;
-  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.y1;
-  var boxSizing = kotlin_org_jetbrains_compose_html_html_core.$_$.o1;
-  var interfaceMeta = kotlin_kotlin.$_$.g9;
-  var toString = kotlin_kotlin.$_$.ha;
-  var property = kotlin_org_jetbrains_compose_html_html_core.$_$.a1;
-  var property_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.b1;
-  var variable = kotlin_org_jetbrains_compose_html_html_core.$_$.c1;
-  var StyleScope = kotlin_org_jetbrains_compose_html_html_core.$_$.e1;
-  var copyToArray = kotlin_kotlin.$_$.v5;
+  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.z1;
+  var boxSizing = kotlin_org_jetbrains_compose_html_html_core.$_$.v1;
+  var interfaceMeta = kotlin_kotlin.$_$.h9;
+  var toString = kotlin_kotlin.$_$.ia;
+  var property = kotlin_org_jetbrains_compose_html_html_core.$_$.h1;
+  var property_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.i1;
+  var variable = kotlin_org_jetbrains_compose_html_html_core.$_$.j1;
+  var StyleScope = kotlin_org_jetbrains_compose_html_html_core.$_$.l1;
+  var copyToArray = kotlin_kotlin.$_$.w5;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
-  var joinToString = kotlin_kotlin.$_$.l6;
-  var lastOrNull = kotlin_kotlin.$_$.q6;
-  var get_lastIndex = kotlin_kotlin.$_$.o6;
-  var joinToString_0 = kotlin_kotlin.$_$.k6;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.yd;
+  var joinToString = kotlin_kotlin.$_$.m6;
+  var lastOrNull = kotlin_kotlin.$_$.r6;
+  var get_lastIndex = kotlin_kotlin.$_$.p6;
+  var joinToString_0 = kotlin_kotlin.$_$.l6;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.zd;
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.o1;
-  var listOf = kotlin_kotlin.$_$.t6;
-  var emptyList = kotlin_kotlin.$_$.x5;
-  var addAll = kotlin_kotlin.$_$.f5;
-  var gridTemplateColumns = kotlin_org_jetbrains_compose_html_html_core.$_$.c2;
-  var Companion_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.g;
-  var display = kotlin_org_jetbrains_compose_html_html_core.$_$.s1;
-  var gridTemplateRows = kotlin_org_jetbrains_compose_html_html_core.$_$.d2;
-  var gridAutoColumns = kotlin_org_jetbrains_compose_html_html_core.$_$.a2;
-  var gridAutoRows = kotlin_org_jetbrains_compose_html_html_core.$_$.b2;
-  var listOfNotNull = kotlin_kotlin.$_$.s6;
-  var THROW_CCE = kotlin_kotlin.$_$.ad;
-  var isObject = kotlin_kotlin.$_$.s9;
-  var isNumber = kotlin_kotlin.$_$.r9;
+  var listOf = kotlin_kotlin.$_$.u6;
+  var emptyList = kotlin_kotlin.$_$.y5;
+  var addAll = kotlin_kotlin.$_$.g5;
+  var gridTemplateColumns = kotlin_org_jetbrains_compose_html_html_core.$_$.j2;
+  var Companion_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.h;
+  var display = kotlin_org_jetbrains_compose_html_html_core.$_$.z1;
+  var gridTemplateRows = kotlin_org_jetbrains_compose_html_html_core.$_$.k2;
+  var gridAutoColumns = kotlin_org_jetbrains_compose_html_html_core.$_$.h2;
+  var gridAutoRows = kotlin_org_jetbrains_compose_html_html_core.$_$.i2;
+  var listOfNotNull = kotlin_kotlin.$_$.t6;
+  var THROW_CCE = kotlin_kotlin.$_$.bd;
+  var isObject = kotlin_kotlin.$_$.t9;
+  var isNumber = kotlin_kotlin.$_$.s9;
   var getKClassFromExpression = kotlin_kotlin.$_$.c;
-  var ensureNotNull = kotlin_kotlin.$_$.sd;
-  var removeSuffix = kotlin_kotlin.$_$.nb;
-  var collectionSizeOrDefault = kotlin_kotlin.$_$.i5;
+  var ensureNotNull = kotlin_kotlin.$_$.td;
+  var removeSuffix = kotlin_kotlin.$_$.ob;
+  var collectionSizeOrDefault = kotlin_kotlin.$_$.j5;
   var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.i;
-  var charSequenceLength = kotlin_kotlin.$_$.t8;
-  var charSequenceGet = kotlin_kotlin.$_$.s8;
-  var isWhitespace = kotlin_kotlin.$_$.jb;
-  var toList = kotlin_kotlin.$_$.m7;
-  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
-  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a1;
-  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.s;
-  var Companion_getInstance_0 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h1;
-  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
+  var charSequenceLength = kotlin_kotlin.$_$.u8;
+  var charSequenceGet = kotlin_kotlin.$_$.t8;
+  var isWhitespace = kotlin_kotlin.$_$.kb;
+  var toList = kotlin_kotlin.$_$.n7;
+  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
+  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
+  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
+  var Companion_getInstance_0 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
+  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var DisposableEffect$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.l;
-  var ElementBuilder = kotlin_org_jetbrains_compose_html_html_core.$_$.e3;
-  var isInterface = kotlin_kotlin.$_$.p9;
-  var TagElement$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.j3;
-  var to = kotlin_kotlin.$_$.ge;
-  var lazy = kotlin_kotlin.$_$.xd;
-  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
-  var KProperty1 = kotlin_kotlin.$_$.sa;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.c9;
+  var ElementBuilder = kotlin_org_jetbrains_compose_html_html_core.$_$.p3;
+  var isInterface = kotlin_kotlin.$_$.q9;
+  var TagElement$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.w3;
+  var to = kotlin_kotlin.$_$.ie;
+  var lazy = kotlin_kotlin.$_$.yd;
+  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
+  var KProperty1 = kotlin_kotlin.$_$.ta;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.d9;
+  var isBlank = kotlin_kotlin.$_$.hb;
   var CompletableDeferred = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.h;
-  var json = kotlin_kotlin.$_$.v9;
-  var Enum = kotlin_kotlin.$_$.rc;
+  var json = kotlin_kotlin.$_$.w9;
+  var Enum = kotlin_kotlin.$_$.sc;
   var asCoroutineDispatcher = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.o;
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.j;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.s;
-  var Exception = kotlin_kotlin.$_$.tc;
-  var decodeToString = kotlin_kotlin.$_$.ya;
-  var isCharSequence = kotlin_kotlin.$_$.l9;
-  var trim = kotlin_kotlin.$_$.lc;
-  var isBlank = kotlin_kotlin.$_$.gb;
-  var split = kotlin_kotlin.$_$.rb;
-  var compareTo = kotlin_kotlin.$_$.w8;
-  var repeat = kotlin_kotlin.$_$.ob;
+  var Exception = kotlin_kotlin.$_$.uc;
+  var decodeToString = kotlin_kotlin.$_$.za;
+  var isCharSequence = kotlin_kotlin.$_$.m9;
+  var trim = kotlin_kotlin.$_$.mc;
+  var split = kotlin_kotlin.$_$.sb;
+  var compareTo = kotlin_kotlin.$_$.x8;
+  var repeat = kotlin_kotlin.$_$.pb;
   var Exception_init_$Init$ = kotlin_kotlin.$_$.h1;
-  var captureStack = kotlin_kotlin.$_$.p8;
-  var CoroutineImpl = kotlin_kotlin.$_$.i8;
+  var captureStack = kotlin_kotlin.$_$.q8;
+  var CoroutineImpl = kotlin_kotlin.$_$.j8;
   var CoroutineScope_0 = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.k;
-  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.u7;
-  var Companion_getInstance_1 = kotlin_kotlin.$_$.d4;
-  var _Result___init__impl__xyqfz8 = kotlin_kotlin.$_$.c2;
-  var intercepted = kotlin_kotlin.$_$.w7;
+  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.v7;
+  var Companion_getInstance_1 = kotlin_kotlin.$_$.e4;
+  var _Result___init__impl__xyqfz8 = kotlin_kotlin.$_$.d2;
+  var intercepted = kotlin_kotlin.$_$.x7;
   var SafeContinuation_init_$Create$ = kotlin_kotlin.$_$.a1;
   var returnIfSuspended = kotlin_kotlin.$_$.h;
   var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.k1;
-  var isUpperCase = kotlin_kotlin.$_$.ib;
-  var isLowerCase = kotlin_kotlin.$_$.hb;
-  var get_lastIndex_0 = kotlin_kotlin.$_$.kb;
-  var toString_0 = kotlin_kotlin.$_$.b2;
+  var isUpperCase = kotlin_kotlin.$_$.jb;
+  var isLowerCase = kotlin_kotlin.$_$.ib;
+  var get_lastIndex_0 = kotlin_kotlin.$_$.lb;
+  var toString_0 = kotlin_kotlin.$_$.c2;
   //endregion
   //region block: pre-declaration
   setMetadataFor(ComparableAttrsScope, 'ComparableAttrsScope', classMeta, VOID, [AttrsScope]);
@@ -175,42 +177,49 @@
   setMetadataFor(Companion_6, 'Companion', objectMeta);
   setMetadataFor(VerticalAlign, 'VerticalAlign', classMeta);
   setMetadataFor(Companion_7, 'Companion', objectMeta);
-  setMetadataFor(ListStyleType, 'ListStyleType', classMeta);
+  setMetadataFor(Resize, 'Resize', classMeta);
   setMetadataFor(Companion_8, 'Companion', objectMeta);
+  setMetadataFor(ListStyleType, 'ListStyleType', classMeta);
+  setMetadataFor(Companion_9, 'Companion', objectMeta);
   setMetadataFor(ObjectFit, 'ObjectFit', classMeta);
   setMetadataFor(CSSOutline, 'CSSOutline', classMeta);
-  setMetadataFor(Companion_9, 'Companion', objectMeta);
+  setMetadataFor(Companion_10, 'Companion', objectMeta);
   setMetadataFor(Overflow, 'Overflow', classMeta);
+  setMetadataFor(Companion_11, 'Companion', objectMeta);
+  setMetadataFor(ScrollBehavior, 'ScrollBehavior', classMeta);
   setMetadataFor(StyleVariable, 'StyleVariable', classMeta);
   setMetadataFor(PropertyValue, 'PropertyValue', classMeta, StyleVariable);
   setMetadataFor(NumberValue, 'NumberValue', classMeta, StyleVariable);
   setMetadataFor(StyleVariablePropertyProvider, 'StyleVariablePropertyProvider', classMeta);
   setMetadataFor(StyleVariableNumberProvider, 'StyleVariableNumberProvider', classMeta);
-  setMetadataFor(Companion_10, 'Companion', objectMeta);
-  setMetadataFor(UserSelect, 'UserSelect', classMeta);
-  setMetadataFor(Companion_11, 'Companion', objectMeta);
-  setMetadataFor(WhiteSpace, 'WhiteSpace', classMeta);
   setMetadataFor(Companion_12, 'Companion', objectMeta);
-  setMetadataFor(TextAlign, 'TextAlign', classMeta);
+  setMetadataFor(UserSelect, 'UserSelect', classMeta);
   setMetadataFor(Companion_13, 'Companion', objectMeta);
-  setMetadataFor(TextDecorationLine, 'TextDecorationLine', classMeta);
+  setMetadataFor(WhiteSpace, 'WhiteSpace', classMeta);
   setMetadataFor(Companion_14, 'Companion', objectMeta);
-  setMetadataFor(CSSTransition, 'CSSTransition', classMeta);
+  setMetadataFor(TextAlign, 'TextAlign', classMeta);
   setMetadataFor(Companion_15, 'Companion', objectMeta);
+  setMetadataFor(TextDecorationLine, 'TextDecorationLine', classMeta);
+  setMetadataFor(Companion_16, 'Companion', objectMeta);
+  setMetadataFor(CSSTransition, 'CSSTransition', classMeta);
+  setMetadataFor(Companion_17, 'Companion', objectMeta);
   setMetadataFor(TransitionProperty, 'TransitionProperty', classMeta);
+  setMetadataFor(Companion_18, 'Companion', objectMeta);
+  setMetadataFor(Visibility, 'Visibility', classMeta);
   setMetadataFor(_no_name_provided__qut3iv, VOID, classMeta);
   setMetadataFor(RefCallback, 'RefCallback', classMeta);
   setMetadataFor(Simple, 'Simple', classMeta, RefCallback);
   setMetadataFor(KeysToEffect, 'KeysToEffect', classMeta);
   setMetadataFor(Builder, 'Builder', classMeta);
   setMetadataFor(ElementRefScope, 'ElementRefScope', classMeta);
-  setMetadataFor(Companion_16, 'Companion', objectMeta);
+  setMetadataFor(Companion_19, 'Companion', objectMeta);
   setMetadataFor(GenericNamespacedElementBuilder, 'GenericNamespacedElementBuilder', classMeta, VOID, [ElementBuilder]);
-  setMetadataFor(Companion_17, 'Companion', objectMeta);
+  setMetadataFor(Companion_20, 'Companion', objectMeta);
   setMetadataFor(GenericElementBuilder, 'GenericElementBuilder', classMeta, VOID, [ElementBuilder]);
   setMetadataFor(SVGElementScope, 'SVGElementScope', classMeta);
   setMetadataFor(SVGShapeElementScope, 'SVGShapeElementScope', classMeta, SVGElementScope);
   setMetadataFor(SVGPathScope, 'SVGPathScope', classMeta, SVGShapeElementScope);
+  setMetadataFor(LoadContext, 'LoadContext', classMeta);
   setMetadataFor(HttpMethod, 'HttpMethod', classMeta, Enum);
   setMetadataFor(ResponseException, 'ResponseException', classMeta, Exception);
   setMetadataFor(getBodyBytesAsync$slambda, 'getBodyBytesAsync$slambda', classMeta, CoroutineImpl, VOID, VOID, VOID, [1]);
@@ -226,38 +235,41 @@
     return ComparableAttrsScope_init_$Init$(objectCreate(protoOf(ComparableAttrsScope)));
   }
   function ComparableAttrsScope(wrapped) {
-    this.v2b_1 = wrapped;
+    this.m2e_1 = wrapped;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.w2b_1 = LinkedHashMap_init_$Create$();
+    tmp.n2e_1 = LinkedHashMap_init_$Create$();
     var tmp_0 = this;
     // Inline function 'kotlin.collections.mutableSetOf' call
-    tmp_0.x2b_1 = LinkedHashSet_init_$Create$();
+    tmp_0.o2e_1 = LinkedHashSet_init_$Create$();
     var tmp_1 = this;
     // Inline function 'kotlin.collections.mutableSetOf' call
-    tmp_1.y2b_1 = LinkedHashSet_init_$Create$();
-    this.z2b_1 = null;
-    this.a2c_1 = 8;
+    tmp_1.p2e_1 = LinkedHashSet_init_$Create$();
+    this.q2e_1 = null;
+    this.r2e_1 = 8;
   }
-  protoOf(ComparableAttrsScope).g1y = function (attr, value) {
+  protoOf(ComparableAttrsScope).h1z = function (attr, value) {
     // Inline function 'kotlin.collections.set' call
-    this.w2b_1.j3(attr, value);
-    this.v2b_1.g1y(attr, value);
+    this.n2e_1.l3(attr, value);
+    this.m2e_1.h1z(attr, value);
     return this;
   };
-  protoOf(ComparableAttrsScope).s1y = function (classes) {
-    this.x2b_1.j(classes);
+  protoOf(ComparableAttrsScope).t1z = function (classes) {
+    this.o2e_1.j(classes);
   };
-  protoOf(ComparableAttrsScope).w1y = function (listener) {
-    this.y2b_1.a(listener);
-    this.v2b_1.w1y(listener);
+  protoOf(ComparableAttrsScope).y1z = function (update, value) {
+    this.m2e_1.y1z(update, value);
   };
-  protoOf(ComparableAttrsScope).r1y = function (builder) {
-    var tmp0_elvis_lhs = this.z2b_1;
+  protoOf(ComparableAttrsScope).z1z = function (listener) {
+    this.p2e_1.a(listener);
+    this.m2e_1.z1z(listener);
+  };
+  protoOf(ComparableAttrsScope).s1z = function (builder) {
+    var tmp0_elvis_lhs = this.q2e_1;
     var style = tmp0_elvis_lhs == null ? new ComparableStyleScope() : tmp0_elvis_lhs;
     builder(style);
-    this.z2b_1 = style;
-    this.v2b_1.r1y(builder);
+    this.q2e_1 = style;
+    this.m2e_1.s1z(builder);
   };
   protoOf(ComparableAttrsScope).equals = function (other) {
     var tmp;
@@ -265,68 +277,71 @@
     var tmp_1;
     var tmp_2;
     if (other instanceof ComparableAttrsScope) {
-      tmp_2 = equals(other.w2b_1, this.w2b_1);
+      tmp_2 = equals(other.n2e_1, this.n2e_1);
     } else {
       tmp_2 = false;
     }
     if (tmp_2) {
-      tmp_1 = equals(other.x2b_1, this.x2b_1);
+      tmp_1 = equals(other.o2e_1, this.o2e_1);
     } else {
       tmp_1 = false;
     }
     if (tmp_1) {
-      tmp_0 = equals(other.y2b_1, this.y2b_1);
+      tmp_0 = equals(other.p2e_1, this.p2e_1);
     } else {
       tmp_0 = false;
     }
     if (tmp_0) {
-      tmp = equals(other.z2b_1, this.z2b_1);
+      tmp = equals(other.q2e_1, this.q2e_1);
     } else {
       tmp = false;
     }
     return tmp;
   };
   protoOf(ComparableAttrsScope).hashCode = function () {
-    var result = hashCode(this.w2b_1);
-    result = imul(31, result) + hashCode(this.x2b_1) | 0;
-    result = imul(31, result) + hashCode(this.y2b_1) | 0;
+    var result = hashCode(this.n2e_1);
+    result = imul(31, result) + hashCode(this.o2e_1) | 0;
+    result = imul(31, result) + hashCode(this.p2e_1) | 0;
     var tmp = imul(31, result);
-    var tmp0_safe_receiver = this.z2b_1;
+    var tmp0_safe_receiver = this.q2e_1;
     var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.hashCode();
     result = tmp + (tmp1_elvis_lhs == null ? 0 : tmp1_elvis_lhs) | 0;
     return result;
   };
   function DummyAttrsScope() {
   }
-  protoOf(DummyAttrsScope).g1y = function (attr, value) {
+  protoOf(DummyAttrsScope).h1z = function (attr, value) {
     return this;
   };
-  protoOf(DummyAttrsScope).s1y = function (classes) {
+  protoOf(DummyAttrsScope).t1z = function (classes) {
     return Unit_getInstance();
   };
-  protoOf(DummyAttrsScope).w1y = function (listener) {
+  protoOf(DummyAttrsScope).y1z = function (update, value) {
     return Unit_getInstance();
   };
-  protoOf(DummyAttrsScope).r1y = function (builder) {
+  protoOf(DummyAttrsScope).z1z = function (listener) {
+    return Unit_getInstance();
+  };
+  protoOf(DummyAttrsScope).s1z = function (builder) {
     return Unit_getInstance();
   };
   function justifyItems(_this__u8e3s4, justifyItems) {
-    _this__u8e3s4.z26('justify-items', justifyItems);
+    _this__u8e3s4.q28('justify-items', justifyItems);
   }
   function JustifyItemsPosition(value) {
     JustifyItems.call(this, value);
-    this.d2c_1 = 0;
+    this.u2e_1 = 0;
   }
   function Companion() {
     Companion_instance = this;
   }
-  protoOf(Companion).e2c = function () {
+  protoOf(Companion).v2e = function () {
     return new JustifyItemsPosition('center');
   };
-  protoOf(Companion).f2c = function () {
+  protoOf(Companion).w2e = function () {
     return new JustifyItemsPosition('start');
   };
-  protoOf(Companion).g2c = function () {
+  protoOf(Companion).x2e = function () {
     return new JustifyItemsPosition('end');
   };
   var Companion_instance;
@@ -337,29 +352,29 @@
   }
   function JustifyItems(value) {
     Companion_getInstance_2();
-    this.h2c_1 = value;
-    this.i2c_1 = 0;
+    this.y2e_1 = value;
+    this.z2e_1 = 0;
   }
   protoOf(JustifyItems).toString = function () {
-    return this.h2c_1;
+    return this.y2e_1;
   };
   function justifySelf(_this__u8e3s4, justifySelf) {
-    _this__u8e3s4.z26('justify-self', justifySelf);
+    _this__u8e3s4.q28('justify-self', justifySelf);
   }
   function JustifySelfPosition(value) {
     JustifySelf.call(this, value);
-    this.l2c_1 = 0;
+    this.c2f_1 = 0;
   }
   function Companion_0() {
     Companion_instance_0 = this;
   }
-  protoOf(Companion_0).e2c = function () {
+  protoOf(Companion_0).v2e = function () {
     return new JustifySelfPosition('center');
   };
-  protoOf(Companion_0).f2c = function () {
+  protoOf(Companion_0).w2e = function () {
     return new JustifySelfPosition('start');
   };
-  protoOf(Companion_0).g2c = function () {
+  protoOf(Companion_0).x2e = function () {
     return new JustifySelfPosition('end');
   };
   var Companion_instance_0;
@@ -370,11 +385,11 @@
   }
   function JustifySelf(value) {
     Companion_getInstance_3();
-    this.m2c_1 = value;
-    this.n2c_1 = 0;
+    this.d2f_1 = value;
+    this.e2f_1 = 0;
   }
   protoOf(JustifySelf).toString = function () {
-    return this.m2c_1;
+    return this.d2f_1;
   };
   function borderBottom(_this__u8e3s4, width, style, color) {
     width = width === VOID ? null : width;
@@ -383,13 +398,13 @@
     borderBottom_0(_this__u8e3s4, borderBottom$lambda(width, style, color));
   }
   function borderColor(_this__u8e3s4, color) {
-    _this__u8e3s4.z26('border-color', color);
+    _this__u8e3s4.q28('border-color', color);
   }
   function borderStyle(_this__u8e3s4, lineStyle) {
     // Inline function 'org.jetbrains.compose.web.css.value' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    _this__u8e3s4.u26('border-style', lineStyle);
+    _this__u8e3s4.l28('border-style', lineStyle);
   }
   function borderTop(_this__u8e3s4, width, style, color) {
     width = width === VOID ? null : width;
@@ -402,14 +417,14 @@
     var tmp0_apply = new CSSBorder();
     // Inline function 'kotlin.contracts.contract' call
     borderBuild(tmp0_apply);
-    _this__u8e3s4.z26('border-bottom', tmp0_apply);
+    _this__u8e3s4.q28('border-bottom', tmp0_apply);
   }
   function borderTop_0(_this__u8e3s4, borderBuild) {
     // Inline function 'kotlin.apply' call
     var tmp0_apply = new CSSBorder();
     // Inline function 'kotlin.contracts.contract' call
     borderBuild(tmp0_apply);
-    _this__u8e3s4.z26('border-top', tmp0_apply);
+    _this__u8e3s4.q28('border-top', tmp0_apply);
   }
   function borderBottom$lambda($width, $style, $color) {
     return function ($this$borderBottom) {
@@ -484,7 +499,7 @@
   function Companion_1() {
     Companion_instance_1 = this;
   }
-  protoOf(Companion_1).o2c = function () {
+  protoOf(Companion_1).f2f = function () {
     return new BoxSizing('content-box');
   };
   var Companion_instance_1;
@@ -495,11 +510,11 @@
   }
   function BoxSizing(value) {
     Companion_getInstance_4();
-    this.p2c_1 = value;
-    this.q2c_1 = 0;
+    this.g2f_1 = value;
+    this.h2f_1 = 0;
   }
   protoOf(BoxSizing).toString = function () {
-    return this.p2c_1;
+    return this.g2f_1;
   };
   function boxShadow(_this__u8e3s4, offsetX, offsetY, blurRadius, spreadRadius, color, inset) {
     offsetX = offsetX === VOID ? get_px(0) : offsetX;
@@ -516,27 +531,27 @@
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.compose.css.boxShadow.<anonymous>' call
     if (inset) {
-      tmp0_apply.n6('inset');
-      tmp0_apply.m5(_Char___init__impl__6a9atx(32));
+      tmp0_apply.p6('inset');
+      tmp0_apply.o5(_Char___init__impl__6a9atx(32));
     }
-    tmp0_apply.m6(offsetX);
-    tmp0_apply.m5(_Char___init__impl__6a9atx(32));
-    tmp0_apply.m6(offsetY);
+    tmp0_apply.o6(offsetX);
+    tmp0_apply.o5(_Char___init__impl__6a9atx(32));
+    tmp0_apply.o6(offsetY);
     if (!(blurRadius == null)) {
-      tmp0_apply.m5(_Char___init__impl__6a9atx(32));
-      tmp0_apply.m6(blurRadius);
+      tmp0_apply.o5(_Char___init__impl__6a9atx(32));
+      tmp0_apply.o6(blurRadius);
     }
     if (!(spreadRadius == null)) {
       if (blurRadius == null) {
-        tmp0_apply.m5(_Char___init__impl__6a9atx(32));
-        tmp0_apply.m5(_Char___init__impl__6a9atx(48));
+        tmp0_apply.o5(_Char___init__impl__6a9atx(32));
+        tmp0_apply.o5(_Char___init__impl__6a9atx(48));
       }
-      tmp0_apply.m5(_Char___init__impl__6a9atx(32));
-      tmp0_apply.m6(spreadRadius);
+      tmp0_apply.o5(_Char___init__impl__6a9atx(32));
+      tmp0_apply.o6(spreadRadius);
     }
     if (!(color == null)) {
-      tmp0_apply.m5(_Char___init__impl__6a9atx(32));
-      tmp0_apply.m6(color);
+      tmp0_apply.o5(_Char___init__impl__6a9atx(32));
+      tmp0_apply.o6(color);
     }
     tmp$ret$1 = tmp0_apply.toString();
     boxShadow_0(_this__u8e3s4, tmp$ret$1);
@@ -545,7 +560,7 @@
     boxSizing(_this__u8e3s4, boxSizing_0.toString());
   }
   function boxShadow_0(_this__u8e3s4, value) {
-    _this__u8e3s4.u26('box-shadow', value);
+    _this__u8e3s4.l28('box-shadow', value);
   }
   function calc(action) {
     // Inline function 'kotlin.with' call
@@ -566,62 +581,62 @@
   function ComparableStyleScope() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.s2c_1 = LinkedHashMap_init_$Create$();
+    tmp.j2f_1 = LinkedHashMap_init_$Create$();
     var tmp_0 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp_0.t2c_1 = LinkedHashMap_init_$Create$();
-    this.u2c_1 = 0;
+    tmp_0.k2f_1 = LinkedHashMap_init_$Create$();
+    this.l2f_1 = 0;
   }
-  protoOf(ComparableStyleScope).z26 = function (propertyName, value) {
+  protoOf(ComparableStyleScope).q28 = function (propertyName, value) {
     // Inline function 'kotlin.collections.set' call
-    var tmp0_set = this.s2c_1;
+    var tmp0_set = this.j2f_1;
     var tmp1_set = toString(value);
-    tmp0_set.j3(propertyName, tmp1_set);
+    tmp0_set.l3(propertyName, tmp1_set);
   };
-  protoOf(ComparableStyleScope).b27 = function (variableName, value) {
+  protoOf(ComparableStyleScope).s28 = function (variableName, value) {
     // Inline function 'kotlin.collections.set' call
-    var tmp0_set = this.t2c_1;
+    var tmp0_set = this.k2f_1;
     var tmp1_set = toString(value);
-    tmp0_set.j3(variableName, tmp1_set);
+    tmp0_set.l3(variableName, tmp1_set);
   };
   protoOf(ComparableStyleScope).equals = function (other) {
     var tmp;
     var tmp_0;
     if (other instanceof ComparableStyleScope) {
-      tmp_0 = equals(this.s2c_1, other.s2c_1);
+      tmp_0 = equals(this.j2f_1, other.j2f_1);
     } else {
       tmp_0 = false;
     }
     if (tmp_0) {
-      tmp = equals(this.t2c_1, other.t2c_1);
+      tmp = equals(this.k2f_1, other.k2f_1);
     } else {
       tmp = false;
     }
     return tmp;
   };
   protoOf(ComparableStyleScope).hashCode = function () {
-    var result = hashCode(this.s2c_1);
-    result = imul(31, result) + hashCode(this.t2c_1) | 0;
+    var result = hashCode(this.j2f_1);
+    result = imul(31, result) + hashCode(this.k2f_1) | 0;
     return result;
   };
   function isNotEmpty(_this__u8e3s4) {
     var tmp;
     // Inline function 'kotlin.collections.isNotEmpty' call
-    if (!_this__u8e3s4.s2c_1.k()) {
+    if (!_this__u8e3s4.j2f_1.k()) {
       tmp = true;
     } else {
       // Inline function 'kotlin.collections.isNotEmpty' call
-      tmp = !_this__u8e3s4.t2c_1.k();
+      tmp = !_this__u8e3s4.k2f_1.k();
     }
     return tmp;
   }
   function Companion_2() {
     Companion_instance_2 = this;
   }
-  protoOf(Companion_2).v2c = function () {
+  protoOf(Companion_2).m2f = function () {
     return new Cursor('pointer');
   };
-  protoOf(Companion_2).w2c = function () {
+  protoOf(Companion_2).n2f = function () {
     return new Cursor('not-allowed');
   };
   var Companion_instance_2;
@@ -632,23 +647,29 @@
   }
   function Cursor(value) {
     Companion_getInstance_5();
-    this.x2c_1 = value;
-    this.y2c_1 = 0;
+    this.o2f_1 = value;
+    this.p2f_1 = 0;
   }
   protoOf(Cursor).toString = function () {
-    return this.x2c_1;
+    return this.o2f_1;
   };
   function cursor(_this__u8e3s4, cursor) {
-    _this__u8e3s4.z26('cursor', cursor);
+    _this__u8e3s4.q28('cursor', cursor);
   }
   function Companion_3() {
     Companion_instance_3 = this;
   }
-  protoOf(Companion_3).z2c = function () {
+  protoOf(Companion_3).q2f = function () {
     return new FontWeight('500');
   };
-  protoOf(Companion_3).a2d = function () {
+  protoOf(Companion_3).r2f = function () {
     return new FontWeight('600');
+  };
+  protoOf(Companion_3).s2f = function () {
+    return new FontWeight('normal');
+  };
+  protoOf(Companion_3).t2f = function () {
+    return new FontWeight('bold');
   };
   var Companion_instance_3;
   function Companion_getInstance_6() {
@@ -658,79 +679,82 @@
   }
   function FontWeight(value) {
     Companion_getInstance_6();
-    this.b2d_1 = value;
-    this.c2d_1 = 0;
+    this.u2f_1 = value;
+    this.v2f_1 = 0;
   }
   protoOf(FontWeight).toString = function () {
-    return this.b2d_1;
+    return this.u2f_1;
   };
   function fontWeight(_this__u8e3s4, weight) {
-    _this__u8e3s4.z26('font-weight', weight);
+    _this__u8e3s4.q28('font-weight', weight);
+  }
+  function disabled(_this__u8e3s4) {
+    _this__u8e3s4.h1z('disabled', 'true');
   }
   function GridTrackBuilder() {
     GridTrackBuilderInRepeat.call(this);
-    this.f2d_1 = 0;
+    this.y2f_1 = 0;
   }
-  protoOf(GridTrackBuilder).g2d = function (count, block) {
+  protoOf(GridTrackBuilder).z2f = function (count, block) {
     // Inline function 'kotlin.collections.toTypedArray' call
     // Inline function 'kotlin.apply' call
     var tmp0_apply = new GridTrackBuilder();
     // Inline function 'kotlin.contracts.contract' call
     block(tmp0_apply);
-    var tmp1_toTypedArray = tmp0_apply.h2d_1;
+    var tmp1_toTypedArray = tmp0_apply.a2g_1;
     var repeatTracks = copyToArray(tmp1_toTypedArray);
-    this.h2d_1.a(Companion_getInstance_8().j2d(count, repeatTracks.slice()));
+    this.a2g_1.a(Companion_getInstance_8().c2g(count, repeatTracks.slice()));
   };
   function GridTrackBuilderInRepeat() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.h2d_1 = ArrayList_init_$Create$();
-    this.i2d_1 = 8;
+    tmp.a2g_1 = ArrayList_init_$Create$();
+    this.b2g_1 = 8;
   }
-  protoOf(GridTrackBuilderInRepeat).k2d = function (track) {
-    this.h2d_1.a(track);
+  protoOf(GridTrackBuilderInRepeat).d2g = function (track) {
+    this.a2g_1.a(track);
   };
-  protoOf(GridTrackBuilderInRepeat).l2d = function (value) {
-    return this.k2d(Companion_getInstance_7().o2d(value));
+  protoOf(GridTrackBuilderInRepeat).e2g = function (value) {
+    return this.d2g(Companion_getInstance_7().h2g(value));
   };
-  protoOf(GridTrackBuilderInRepeat).m2d = function (min, max) {
-    return this.k2d(Companion_getInstance_7().p2d(min, max));
+  protoOf(GridTrackBuilderInRepeat).f2g = function (min, max) {
+    return this.d2g(Companion_getInstance_7().i2g(min, max));
   };
-  protoOf(GridTrackBuilderInRepeat).n2d = function (min, max) {
-    return this.m2d(Companion_getInstance_7().q2d(min), Companion_getInstance_7().o2d(max));
+  protoOf(GridTrackBuilderInRepeat).g2g = function (min, max) {
+    return this.f2g(Companion_getInstance_7().j2g(min), Companion_getInstance_7().h2g(max));
   };
   function FitContent() {
   }
   function MinMax(min, max) {
     TrackSize.call(this, 'minmax(' + min + ', ' + max + ')');
-    this.u2d_1 = min;
-    this.v2d_1 = max;
-    this.w2d_1 = 0;
+    this.n2g_1 = min;
+    this.o2g_1 = max;
+    this.p2g_1 = 0;
   }
   function Flex(value) {
     TrackSize.call(this, value);
-    this.a2e_1 = 0;
+    this.t2g_1 = 0;
   }
   function Inflexible(value) {
     TrackSize.call(this, value);
-    this.e2e_1 = 0;
+    this.x2g_1 = 0;
   }
   function Keyword() {
   }
   function Fixed(value) {
     Inflexible.call(this, value);
-    this.j2e_1 = 0;
+    this.c2h_1 = 0;
   }
   function Companion_4() {
     Companion_instance_4 = this;
   }
-  protoOf(Companion_4).q2d = function (value) {
+  protoOf(Companion_4).j2g = function (value) {
     return new Fixed(toString(value));
   };
-  protoOf(Companion_4).o2d = function (value) {
+  protoOf(Companion_4).h2g = function (value) {
     return new Flex(toString(value));
   };
-  protoOf(Companion_4).p2d = function (min, max) {
+  protoOf(Companion_4).i2g = function (min, max) {
     return new MinMax(min, max);
   };
   var Companion_instance_4;
@@ -741,29 +765,29 @@
   }
   function Track(count, entries) {
     Repeat.call(this, count, entries);
-    this.o2e_1 = 0;
+    this.h2h_1 = 0;
   }
   function Auto() {
   }
   function TrackSize(value) {
     Companion_getInstance_7();
     GridEntry.call(this, value);
-    this.r2e_1 = 0;
+    this.k2h_1 = 0;
   }
   function Repeat(value, entries) {
     GridEntry.call(this, 'repeat(' + toString(value) + ', ' + toTrackListString(entries) + ')');
-    this.u2e_1 = entries;
-    this.v2e_1 = 0;
+    this.n2h_1 = entries;
+    this.o2h_1 = 0;
   }
   function LineNames(names) {
     GridEntry.call(this, joinToString(names, ' ', '[', ']'));
-    this.y2e_1 = names;
-    this.z2e_1 = 0;
+    this.r2h_1 = names;
+    this.s2h_1 = 0;
   }
   function Companion_5() {
     Companion_instance_5 = this;
   }
-  protoOf(Companion_5).j2d = function (count, entries) {
+  protoOf(Companion_5).c2g = function (count, entries) {
     return new Track(count, entries.slice());
   };
   var Companion_instance_5;
@@ -774,11 +798,11 @@
   }
   function GridEntry(value) {
     Companion_getInstance_8();
-    this.a2f_1 = value;
-    this.b2f_1 = 0;
+    this.t2h_1 = value;
+    this.u2h_1 = 0;
   }
   protoOf(GridEntry).toString = function () {
-    return this.a2f_1;
+    return this.t2h_1;
   };
   function toTrackListString(_this__u8e3s4) {
     validate(_this__u8e3s4);
@@ -804,8 +828,8 @@
         var tmp_0 = get_lastIndex(tmp1_anonymous);
         var tmp$ret$2;
         // Inline function 'kotlin.collections.plus' call
-        var tmp0_plus = prev.y2e_1;
-        var tmp1_plus = element.y2e_1;
+        var tmp0_plus = prev.r2h_1;
+        var tmp1_plus = element.r2h_1;
         // Inline function 'kotlin.js.asDynamic' call
         tmp$ret$2 = tmp0_plus.concat(tmp1_plus);
         tmp1_anonymous.u9(tmp_0, new LineNames(tmp$ret$2.slice()));
@@ -837,7 +861,7 @@
           if (element instanceof Repeat) {
             // Inline function 'kotlin.collections.ifEmpty' call
             // Inline function 'kotlin.collections.filterIsInstance' call
-            var tmp0_filterIsInstance = element.u2e_1;
+            var tmp0_filterIsInstance = element.n2h_1;
             // Inline function 'kotlin.collections.filterIsInstanceTo' call
             var tmp0_filterIsInstanceTo = ArrayList_init_$Create$();
             var inductionVariable_0 = 0;
@@ -917,11 +941,11 @@
               if (element_2 instanceof MinMax) {
                 // Inline function 'kotlin.check' call
                 var tmp_1;
-                var tmp_2 = element_2.u2d_1;
+                var tmp_2 = element_2.n2g_1;
                 if (tmp_2 instanceof Fixed) {
                   tmp_1 = true;
                 } else {
-                  var tmp_3 = element_2.v2d_1;
+                  var tmp_3 = element_2.o2g_1;
                   tmp_1 = tmp_3 instanceof Fixed;
                 }
                 // Inline function 'kotlin.contracts.contract' call
@@ -942,7 +966,7 @@
     var tmp0_apply = new GridTrackBuilder();
     // Inline function 'kotlin.contracts.contract' call
     block(tmp0_apply);
-    gridTemplateColumns(_this__u8e3s4, toTrackListString_0(tmp0_apply.h2d_1));
+    gridTemplateColumns(_this__u8e3s4, toTrackListString_0(tmp0_apply.a2g_1));
   }
   function toTrackListString_0(_this__u8e3s4) {
     var tmp$ret$0;
@@ -955,42 +979,42 @@
     var tmp0_apply = new GridBuilder();
     // Inline function 'kotlin.contracts.contract' call
     block(tmp0_apply);
-    tmp0_apply.g2f(_this__u8e3s4);
+    tmp0_apply.z2h(_this__u8e3s4);
   }
   function GridBuilder() {
     GridBuilderInAuto.call(this);
-    this.l2f_1 = 0;
+    this.e2i_1 = 0;
   }
   function GridBuilderInAuto() {
-    this.c2f_1 = null;
-    this.d2f_1 = null;
-    this.e2f_1 = null;
-    this.f2f_1 = 8;
+    this.v2h_1 = null;
+    this.w2h_1 = null;
+    this.x2h_1 = null;
+    this.y2h_1 = 8;
   }
-  protoOf(GridBuilderInAuto).m2f = function (block) {
+  protoOf(GridBuilderInAuto).f2i = function (block) {
     var tmp = this;
     // Inline function 'kotlin.apply' call
     var tmp0_apply = new GridTrackBuilder();
     // Inline function 'kotlin.contracts.contract' call
     block(tmp0_apply);
-    tmp.c2f_1 = tmp0_apply.h2d_1;
+    tmp.v2h_1 = tmp0_apply.a2g_1;
   };
-  protoOf(GridBuilderInAuto).n2f = function (block) {
+  protoOf(GridBuilderInAuto).g2i = function (block) {
     var tmp = this;
     // Inline function 'kotlin.apply' call
     var tmp0_apply = new GridTrackBuilder();
     // Inline function 'kotlin.contracts.contract' call
     block(tmp0_apply);
-    tmp.d2f_1 = tmp0_apply.h2d_1;
+    tmp.w2h_1 = tmp0_apply.a2g_1;
   };
-  protoOf(GridBuilderInAuto).g2f = function (scope) {
+  protoOf(GridBuilderInAuto).z2h = function (scope) {
     // Inline function 'org.jetbrains.compose.web.css.Companion.Grid' call
     Companion_getInstance();
     // Inline function 'org.jetbrains.compose.web.css.DisplayStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     display(scope, 'grid');
-    var tmp0_safe_receiver = this.c2f_1;
+    var tmp0_safe_receiver = this.v2h_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -998,7 +1022,7 @@
       // Inline function 'kotlin.contracts.contract' call
       gridTemplateColumns(scope, toTrackListString_0(tmp0_safe_receiver));
     }
-    var tmp1_safe_receiver = this.d2f_1;
+    var tmp1_safe_receiver = this.w2h_1;
     if (tmp1_safe_receiver == null)
       null;
     else {
@@ -1006,14 +1030,14 @@
       // Inline function 'kotlin.contracts.contract' call
       gridTemplateRows(scope, toTrackListString_0(tmp1_safe_receiver));
     }
-    var tmp2_safe_receiver = this.e2f_1;
+    var tmp2_safe_receiver = this.x2h_1;
     if (tmp2_safe_receiver == null)
       null;
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'com.varabyte.kobweb.compose.css.GridBuilderInAuto.buildInto.<anonymous>' call
-      var tmp0_safe_receiver_0 = tmp2_safe_receiver.c2f_1;
+      var tmp0_safe_receiver_0 = tmp2_safe_receiver.v2h_1;
       if (tmp0_safe_receiver_0 == null)
         null;
       else {
@@ -1021,7 +1045,7 @@
         // Inline function 'kotlin.contracts.contract' call
         gridAutoColumns(scope, toTrackListString_0(tmp0_safe_receiver_0));
       }
-      var tmp1_safe_receiver_0 = tmp2_safe_receiver.d2f_1;
+      var tmp1_safe_receiver_0 = tmp2_safe_receiver.w2h_1;
       var tmp;
       if (tmp1_safe_receiver_0 == null) {
         tmp = null;
@@ -1036,7 +1060,7 @@
   function Companion_6() {
     Companion_instance_6 = this;
   }
-  protoOf(Companion_6).o2f = function () {
+  protoOf(Companion_6).h2i = function () {
     return new VerticalAlign('middle');
   };
   var Companion_instance_6;
@@ -1047,26 +1071,17 @@
   }
   function VerticalAlign(value) {
     Companion_getInstance_9();
-    this.p2f_1 = value;
-    this.q2f_1 = 0;
+    this.i2i_1 = value;
+    this.j2i_1 = 0;
   }
   protoOf(VerticalAlign).toString = function () {
-    return this.p2f_1;
+    return this.i2i_1;
   };
-  function verticalAlign(_this__u8e3s4, verticalAlign) {
-    _this__u8e3s4.z26('vertical-align', verticalAlign);
-  }
-  function paddingInline(_this__u8e3s4, value) {
-    _this__u8e3s4.u26('padding-inline', joinToString(value, ' '));
-  }
-  function zIndex(_this__u8e3s4, value) {
-    _this__u8e3s4.v26('z-index', value);
-  }
   function Companion_7() {
     Companion_instance_7 = this;
   }
-  protoOf(Companion_7).r2f = function () {
-    return new ListStyleType('none');
+  protoOf(Companion_7).k2i = function () {
+    return new Resize('none');
   };
   var Companion_instance_7;
   function Companion_getInstance_10() {
@@ -1074,13 +1089,45 @@
       new Companion_7();
     return Companion_instance_7;
   }
-  function ListStyleType(value) {
+  function Resize(value) {
     Companion_getInstance_10();
-    this.s2f_1 = value;
-    this.t2f_1 = 0;
+    this.l2i_1 = value;
+    this.m2i_1 = 0;
+  }
+  protoOf(Resize).toString = function () {
+    return this.l2i_1;
+  };
+  function verticalAlign(_this__u8e3s4, verticalAlign) {
+    _this__u8e3s4.q28('vertical-align', verticalAlign);
+  }
+  function paddingInline(_this__u8e3s4, value) {
+    _this__u8e3s4.l28('padding-inline', joinToString(value, ' '));
+  }
+  function zIndex(_this__u8e3s4, value) {
+    _this__u8e3s4.m28('z-index', value);
+  }
+  function resize(_this__u8e3s4, resize) {
+    _this__u8e3s4.q28('resize', resize);
+  }
+  function Companion_8() {
+    Companion_instance_8 = this;
+  }
+  protoOf(Companion_8).k2i = function () {
+    return new ListStyleType('none');
+  };
+  var Companion_instance_8;
+  function Companion_getInstance_11() {
+    if (Companion_instance_8 == null)
+      new Companion_8();
+    return Companion_instance_8;
+  }
+  function ListStyleType(value) {
+    Companion_getInstance_11();
+    this.n2i_1 = value;
+    this.o2i_1 = 0;
   }
   protoOf(ListStyleType).toString = function () {
-    return this.s2f_1;
+    return this.n2i_1;
   };
   function listStyle(_this__u8e3s4, type, position, image) {
     type = type === VOID ? null : type;
@@ -1091,45 +1138,45 @@
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
-      _this__u8e3s4.z26('list-style-type', type);
+      _this__u8e3s4.q28('list-style-type', type);
     }
     if (position == null)
       null;
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
-      _this__u8e3s4.z26('list-style-position', position);
+      _this__u8e3s4.q28('list-style-position', position);
     }
     if (image == null)
       null;
     else {
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
-      _this__u8e3s4.z26('list-style-image', image);
+      _this__u8e3s4.q28('list-style-image', image);
     }
   }
-  function Companion_8() {
-    Companion_instance_8 = this;
+  function Companion_9() {
+    Companion_instance_9 = this;
   }
-  protoOf(Companion_8).u2f = function () {
+  protoOf(Companion_9).p2i = function () {
     return new ObjectFit('scale-down');
   };
-  var Companion_instance_8;
-  function Companion_getInstance_11() {
-    if (Companion_instance_8 == null)
-      new Companion_8();
-    return Companion_instance_8;
+  var Companion_instance_9;
+  function Companion_getInstance_12() {
+    if (Companion_instance_9 == null)
+      new Companion_9();
+    return Companion_instance_9;
   }
   function ObjectFit(value) {
-    Companion_getInstance_11();
-    this.v2f_1 = value;
-    this.w2f_1 = 0;
+    Companion_getInstance_12();
+    this.q2i_1 = value;
+    this.r2i_1 = 0;
   }
   protoOf(ObjectFit).toString = function () {
-    return this.v2f_1;
+    return this.q2i_1;
   };
   function objectFit(_this__u8e3s4, objectFit) {
-    _this__u8e3s4.z26('object-fit', objectFit);
+    _this__u8e3s4.q28('object-fit', objectFit);
   }
   function outline(_this__u8e3s4, width, style, color) {
     width = width === VOID ? null : width;
@@ -1142,75 +1189,98 @@
     var tmp0_apply = new CSSOutline();
     // Inline function 'kotlin.contracts.contract' call
     outlineBuilder(tmp0_apply);
-    _this__u8e3s4.z26('outline', tmp0_apply);
+    _this__u8e3s4.q28('outline', tmp0_apply);
   }
   function CSSOutline() {
-    this.x2f_1 = null;
-    this.y2f_1 = null;
-    this.z2f_1 = null;
-    this.a2g_1 = 8;
+    this.s2i_1 = null;
+    this.t2i_1 = null;
+    this.u2i_1 = null;
+    this.v2i_1 = 8;
   }
   protoOf(CSSOutline).equals = function (other) {
     var tmp;
     if (other instanceof CSSOutline) {
-      tmp = (equals(this.x2f_1, other.x2f_1) ? equals(this.y2f_1, other.y2f_1) : false) ? equals(this.z2f_1, other.z2f_1) : false;
+      tmp = (equals(this.s2i_1, other.s2i_1) ? equals(this.t2i_1, other.t2i_1) : false) ? equals(this.u2i_1, other.u2i_1) : false;
     } else {
       tmp = false;
     }
     return tmp;
   };
   protoOf(CSSOutline).toString = function () {
-    var values = listOfNotNull([this.z2f_1, this.y2f_1, this.x2f_1]);
+    var values = listOfNotNull([this.u2i_1, this.t2i_1, this.s2i_1]);
     return joinToString_0(values, ' ');
   };
   function outline$lambda($width, $style, $color) {
     return function ($this$outline) {
-      $this$outline.x2f_1 = $width;
-      $this$outline.y2f_1 = $style;
-      $this$outline.z2f_1 = $color;
+      $this$outline.s2i_1 = $width;
+      $this$outline.t2i_1 = $style;
+      $this$outline.u2i_1 = $color;
       return Unit_getInstance();
     };
   }
-  function Companion_9() {
-    Companion_instance_9 = this;
+  function Companion_10() {
+    Companion_instance_10 = this;
   }
-  protoOf(Companion_9).b2g = function () {
+  protoOf(Companion_10).w2i = function () {
     return new Overflow('hidden');
   };
-  protoOf(Companion_9).c2g = function () {
+  protoOf(Companion_10).x2i = function () {
     return new Overflow('auto');
   };
-  var Companion_instance_9;
-  function Companion_getInstance_12() {
-    if (Companion_instance_9 == null)
-      new Companion_9();
-    return Companion_instance_9;
+  var Companion_instance_10;
+  function Companion_getInstance_13() {
+    if (Companion_instance_10 == null)
+      new Companion_10();
+    return Companion_instance_10;
   }
   function Overflow(value) {
-    Companion_getInstance_12();
-    this.d2g_1 = value;
-    this.e2g_1 = 0;
+    Companion_getInstance_13();
+    this.y2i_1 = value;
+    this.z2i_1 = 0;
   }
   protoOf(Overflow).toString = function () {
-    return this.d2g_1;
+    return this.y2i_1;
   };
   function overflowY(_this__u8e3s4, overflowY) {
-    _this__u8e3s4.z26('overflow-y', overflowY);
+    _this__u8e3s4.q28('overflow-y', overflowY);
   }
   function overflow(_this__u8e3s4, overflow) {
-    _this__u8e3s4.z26('overflow', overflow);
+    _this__u8e3s4.q28('overflow', overflow);
+  }
+  function Companion_11() {
+    Companion_instance_11 = this;
+  }
+  protoOf(Companion_11).a2j = function () {
+    return new ScrollBehavior('smooth');
+  };
+  var Companion_instance_11;
+  function Companion_getInstance_14() {
+    if (Companion_instance_11 == null)
+      new Companion_11();
+    return Companion_instance_11;
+  }
+  function ScrollBehavior(value) {
+    Companion_getInstance_14();
+    this.b2j_1 = value;
+    this.c2j_1 = 0;
+  }
+  protoOf(ScrollBehavior).toString = function () {
+    return this.b2j_1;
+  };
+  function scrollBehavior(_this__u8e3s4, scrollBehavior) {
+    _this__u8e3s4.q28('scroll-behavior', scrollBehavior);
   }
   function PropertyValue(name, defaultFallback, prefix) {
     defaultFallback = defaultFallback === VOID ? null : defaultFallback;
     prefix = prefix === VOID ? null : prefix;
     StyleVariable.call(this, name, defaultFallback, prefix);
-    this.i2g_1 = 0;
+    this.g2j_1 = 0;
   }
-  protoOf(PropertyValue).j2g = function (fallback) {
-    return this.n2g(fallback);
+  protoOf(PropertyValue).h2j = function (fallback) {
+    return this.l2j(fallback);
   };
-  protoOf(PropertyValue).o2g = function (fallback) {
-    return this.j2g((fallback == null ? true : isObject(fallback)) ? fallback : THROW_CCE());
+  protoOf(PropertyValue).m2j = function (fallback) {
+    return this.h2j((fallback == null ? true : isObject(fallback)) ? fallback : THROW_CCE());
   };
   function NumberValue(name, defaultFallback, prefix) {
     defaultFallback = defaultFallback === VOID ? null : defaultFallback;
@@ -1228,9 +1298,9 @@
       tmp = defaultFallback;
     }
     StyleVariable.call(this, name, tmp, prefix);
-    this.t2g_1 = 0;
+    this.r2j_1 = 0;
   }
-  protoOf(NumberValue).j2g = function (fallback) {
+  protoOf(NumberValue).h2j = function (fallback) {
     // Inline function 'kotlin.js.unsafeCast' call
     var tmp;
     if (fallback == null) {
@@ -1245,13 +1315,13 @@
       tmp = fallback;
     }
     // Inline function 'kotlin.js.asDynamic' call
-    return this.n2g(tmp);
+    return this.l2j(tmp);
   };
-  protoOf(NumberValue).o2g = function (fallback) {
-    return this.j2g((fallback == null ? true : isNumber(fallback)) ? fallback : THROW_CCE());
+  protoOf(NumberValue).m2j = function (fallback) {
+    return this.h2j((fallback == null ? true : isNumber(fallback)) ? fallback : THROW_CCE());
   };
   function StyleVariable(name, defaultFallback, prefix) {
-    this.k2g_1 = defaultFallback;
+    this.i2j_1 = defaultFallback;
     var tmp = this;
     var tmp_0;
     if (prefix == null) {
@@ -1263,16 +1333,16 @@
       tmp_0 = '' + prefix + '-' + name;
     }
     var tmp1_elvis_lhs = tmp_0;
-    tmp.l2g_1 = tmp1_elvis_lhs == null ? name : tmp1_elvis_lhs;
-    this.m2g_1 = 0;
+    tmp.j2j_1 = tmp1_elvis_lhs == null ? name : tmp1_elvis_lhs;
+    this.k2j_1 = 0;
   }
-  protoOf(StyleVariable).p2g = function (fallback, $super) {
+  protoOf(StyleVariable).n2j = function (fallback, $super) {
     fallback = fallback === VOID ? null : fallback;
-    return $super === VOID ? this.o2g(fallback) : $super.o2g.call(this, fallback);
+    return $super === VOID ? this.m2j(fallback) : $super.m2j.call(this, fallback);
   };
-  protoOf(StyleVariable).n2g = function (fallback) {
+  protoOf(StyleVariable).l2j = function (fallback) {
     // Inline function 'org.jetbrains.compose.web.css.CSSVariableValue' call
-    var tmp1_safe_receiver = fallback == null ? this.k2g_1 : fallback;
+    var tmp1_safe_receiver = fallback == null ? this.i2j_1 : fallback;
     var tmp;
     if (tmp1_safe_receiver == null) {
       tmp = null;
@@ -1289,15 +1359,15 @@
     // Inline function 'kotlin.js.asDynamic' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return 'var(--' + this.l2g_1 + (tmp2_elvis_lhs == null ? '' : tmp2_elvis_lhs) + ')';
+    return 'var(--' + this.j2j_1 + (tmp2_elvis_lhs == null ? '' : tmp2_elvis_lhs) + ')';
   };
   function StyleVariablePropertyProvider(defaultFallback, prefix) {
-    this.u2g_1 = defaultFallback;
-    this.v2g_1 = prefix;
-    this.w2g_1 = 0;
+    this.s2j_1 = defaultFallback;
+    this.t2j_1 = prefix;
+    this.u2j_1 = 0;
   }
-  protoOf(StyleVariablePropertyProvider).x2g = function (thisRef, property) {
-    return new PropertyValue(provideVariableName(thisRef, property), this.u2g_1, this.v2g_1);
+  protoOf(StyleVariablePropertyProvider).v2j = function (thisRef, property) {
+    return new PropertyValue(provideVariableName(thisRef, property), this.s2j_1, this.t2j_1);
   };
   function StyleVariable_0(defaultFallback, prefix) {
     defaultFallback = defaultFallback === VOID ? null : defaultFallback;
@@ -1305,12 +1375,12 @@
     return new StyleVariablePropertyProvider(defaultFallback, prefix);
   }
   function StyleVariableNumberProvider(defaultFallback, prefix) {
-    this.y2g_1 = defaultFallback;
-    this.z2g_1 = prefix;
-    this.a2h_1 = 0;
+    this.w2j_1 = defaultFallback;
+    this.x2j_1 = prefix;
+    this.y2j_1 = 0;
   }
-  protoOf(StyleVariableNumberProvider).x2g = function (thisRef, property) {
-    return new NumberValue(provideVariableName(thisRef, property), this.y2g_1, this.z2g_1);
+  protoOf(StyleVariableNumberProvider).v2j = function (thisRef, property) {
+    return new NumberValue(provideVariableName(thisRef, property), this.w2j_1, this.x2j_1);
   };
   function StyleVariable_1(defaultFallback, prefix) {
     defaultFallback = defaultFallback === VOID ? null : defaultFallback;
@@ -1325,66 +1395,23 @@
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.compose.css.provideVariableName.<anonymous>' call
     if (!(groupObject == null)) {
-      tmp0_apply.n6(removeSuffix(removeSuffix(titleCamelCaseToKebabCase(ensureNotNull(getKClassFromExpression(groupObject).qd())), '-vars'), '-variables'));
-      tmp0_apply.m5(_Char___init__impl__6a9atx(45));
+      tmp0_apply.p6(removeSuffix(removeSuffix(titleCamelCaseToKebabCase(ensureNotNull(getKClassFromExpression(groupObject).qd())), '-vars'), '-variables'));
+      tmp0_apply.o5(_Char___init__impl__6a9atx(45));
     }
-    tmp0_apply.n6(removeSuffix(removeSuffix(titleCamelCaseToKebabCase(property.callableName), '-var'), '-variable'));
+    tmp0_apply.p6(removeSuffix(removeSuffix(titleCamelCaseToKebabCase(property.callableName), '-var'), '-variable'));
     return tmp0_apply.toString();
   }
   function setVariable(_this__u8e3s4, variable, value) {
-    _this__u8e3s4.z26('--' + variable.l2g_1, value);
+    _this__u8e3s4.q28('--' + variable.j2j_1, value);
   }
-  function Companion_10() {
-    Companion_instance_10 = this;
+  function setVariable_0(_this__u8e3s4, variable, value) {
+    _this__u8e3s4.m28('--' + variable.j2j_1, value);
   }
-  protoOf(Companion_10).r2f = function () {
-    return new UserSelect('none');
-  };
-  var Companion_instance_10;
-  function Companion_getInstance_13() {
-    if (Companion_instance_10 == null)
-      new Companion_10();
-    return Companion_instance_10;
-  }
-  function UserSelect(value) {
-    Companion_getInstance_13();
-    this.b2h_1 = value;
-    this.c2h_1 = 0;
-  }
-  protoOf(UserSelect).toString = function () {
-    return this.b2h_1;
-  };
-  function Companion_11() {
-    Companion_instance_11 = this;
-  }
-  protoOf(Companion_11).d2h = function () {
-    return new WhiteSpace('nowrap');
-  };
-  protoOf(Companion_11).e2h = function () {
-    return new WhiteSpace('pre-wrap');
-  };
-  var Companion_instance_11;
-  function Companion_getInstance_14() {
-    if (Companion_instance_11 == null)
-      new Companion_11();
-    return Companion_instance_11;
-  }
-  function WhiteSpace(value) {
-    Companion_getInstance_14();
-    this.f2h_1 = value;
-    this.g2h_1 = 0;
-  }
-  protoOf(WhiteSpace).toString = function () {
-    return this.f2h_1;
-  };
   function Companion_12() {
     Companion_instance_12 = this;
   }
-  protoOf(Companion_12).e2c = function () {
-    return new TextAlign('center');
-  };
-  protoOf(Companion_12).f2c = function () {
-    return new TextAlign('start');
+  protoOf(Companion_12).k2i = function () {
+    return new UserSelect('none');
   };
   var Companion_instance_12;
   function Companion_getInstance_15() {
@@ -1392,22 +1419,22 @@
       new Companion_12();
     return Companion_instance_12;
   }
-  function TextAlign(value) {
+  function UserSelect(value) {
     Companion_getInstance_15();
-    this.h2h_1 = value;
-    this.i2h_1 = 0;
+    this.z2j_1 = value;
+    this.a2k_1 = 0;
   }
-  protoOf(TextAlign).toString = function () {
-    return this.h2h_1;
+  protoOf(UserSelect).toString = function () {
+    return this.z2j_1;
   };
   function Companion_13() {
     Companion_instance_13 = this;
   }
-  protoOf(Companion_13).j2h = function () {
-    return new TextDecorationLine('underline');
+  protoOf(Companion_13).b2k = function () {
+    return new WhiteSpace('nowrap');
   };
-  protoOf(Companion_13).r2f = function () {
-    return new TextDecorationLine('none');
+  protoOf(Companion_13).c2k = function () {
+    return new WhiteSpace('pre-wrap');
   };
   var Companion_instance_13;
   function Companion_getInstance_16() {
@@ -1415,36 +1442,82 @@
       new Companion_13();
     return Companion_instance_13;
   }
-  function TextDecorationLine(value) {
+  function WhiteSpace(value) {
     Companion_getInstance_16();
-    this.k2h_1 = value;
-    this.l2h_1 = 0;
+    this.d2k_1 = value;
+    this.e2k_1 = 0;
+  }
+  protoOf(WhiteSpace).toString = function () {
+    return this.d2k_1;
+  };
+  function Companion_14() {
+    Companion_instance_14 = this;
+  }
+  protoOf(Companion_14).v2e = function () {
+    return new TextAlign('center');
+  };
+  protoOf(Companion_14).w2e = function () {
+    return new TextAlign('start');
+  };
+  var Companion_instance_14;
+  function Companion_getInstance_17() {
+    if (Companion_instance_14 == null)
+      new Companion_14();
+    return Companion_instance_14;
+  }
+  function TextAlign(value) {
+    Companion_getInstance_17();
+    this.f2k_1 = value;
+    this.g2k_1 = 0;
+  }
+  protoOf(TextAlign).toString = function () {
+    return this.f2k_1;
+  };
+  function Companion_15() {
+    Companion_instance_15 = this;
+  }
+  protoOf(Companion_15).h2k = function () {
+    return new TextDecorationLine('underline');
+  };
+  protoOf(Companion_15).k2i = function () {
+    return new TextDecorationLine('none');
+  };
+  var Companion_instance_15;
+  function Companion_getInstance_18() {
+    if (Companion_instance_15 == null)
+      new Companion_15();
+    return Companion_instance_15;
+  }
+  function TextDecorationLine(value) {
+    Companion_getInstance_18();
+    this.i2k_1 = value;
+    this.j2k_1 = 0;
   }
   protoOf(TextDecorationLine).toString = function () {
-    return this.k2h_1;
+    return this.i2k_1;
   };
   function userSelect(_this__u8e3s4, userSelect) {
-    _this__u8e3s4.z26('user-select', userSelect);
+    _this__u8e3s4.q28('user-select', userSelect);
   }
   function whiteSpace(_this__u8e3s4, whiteSpace) {
-    _this__u8e3s4.z26('white-space', whiteSpace);
+    _this__u8e3s4.q28('white-space', whiteSpace);
   }
   function textAlign(_this__u8e3s4, textAlign) {
-    _this__u8e3s4.z26('text-align', textAlign);
+    _this__u8e3s4.q28('text-align', textAlign);
   }
   function textDecorationLine(_this__u8e3s4, textDecorationLines) {
-    _this__u8e3s4.u26('text-decoration-line', joinToString(textDecorationLines, ' '));
+    _this__u8e3s4.l28('text-decoration-line', joinToString(textDecorationLines, ' '));
   }
   function translateX(_this__u8e3s4, tx) {
     translate(_this__u8e3s4, tx);
   }
   function translate(_this__u8e3s4, tx) {
-    _this__u8e3s4.z26('translate', tx);
+    _this__u8e3s4.q28('translate', tx);
   }
-  function Companion_14() {
-    Companion_instance_14 = this;
+  function Companion_16() {
+    Companion_instance_16 = this;
   }
-  protoOf(Companion_14).m2h = function (properties, duration, timingFunction, delay) {
+  protoOf(Companion_16).k2k = function (properties, duration, timingFunction, delay) {
     // Inline function 'kotlin.collections.toTypedArray' call
     // Inline function 'kotlin.collections.map' call
     // Inline function 'kotlin.collections.mapTo' call
@@ -1459,38 +1532,38 @@
     }
     return copyToArray(tmp0_mapTo);
   };
-  protoOf(Companion_14).n2h = function (properties, duration, timingFunction, delay, $super) {
+  protoOf(Companion_16).l2k = function (properties, duration, timingFunction, delay, $super) {
     duration = duration === VOID ? null : duration;
     timingFunction = timingFunction === VOID ? null : timingFunction;
     delay = delay === VOID ? null : delay;
-    return $super === VOID ? this.m2h(properties, duration, timingFunction, delay) : $super.m2h.call(this, properties, duration, timingFunction, delay);
+    return $super === VOID ? this.k2k(properties, duration, timingFunction, delay) : $super.k2k.call(this, properties, duration, timingFunction, delay);
   };
-  var Companion_instance_14;
-  function Companion_getInstance_17() {
-    if (Companion_instance_14 == null)
-      new Companion_14();
-    return Companion_instance_14;
+  var Companion_instance_16;
+  function Companion_getInstance_19() {
+    if (Companion_instance_16 == null)
+      new Companion_16();
+    return Companion_instance_16;
   }
   function CSSTransition_init_$Init$(property, duration, timingFunction, delay, $this) {
     duration = duration === VOID ? null : duration;
     timingFunction = timingFunction === VOID ? null : timingFunction;
     delay = delay === VOID ? null : delay;
-    CSSTransition.call($this, Companion_getInstance_18().o2h(property), duration, timingFunction, delay);
+    CSSTransition.call($this, Companion_getInstance_20().m2k(property), duration, timingFunction, delay);
     return $this;
   }
   function CSSTransition_init_$Create$(property, duration, timingFunction, delay) {
     return CSSTransition_init_$Init$(property, duration, timingFunction, delay, objectCreate(protoOf(CSSTransition)));
   }
   function CSSTransition(property, duration, timingFunction, delay) {
-    Companion_getInstance_17();
+    Companion_getInstance_19();
     duration = duration === VOID ? null : duration;
     timingFunction = timingFunction === VOID ? null : timingFunction;
     delay = delay === VOID ? null : delay;
-    this.p2h_1 = property;
-    this.q2h_1 = duration;
-    this.r2h_1 = timingFunction;
-    this.s2h_1 = delay;
-    this.t2h_1 = 0;
+    this.n2k_1 = property;
+    this.o2k_1 = duration;
+    this.p2k_1 = timingFunction;
+    this.q2k_1 = delay;
+    this.r2k_1 = 0;
   }
   protoOf(CSSTransition).toString = function () {
     var tmp$ret$6;
@@ -1501,8 +1574,8 @@
     var tmp0_apply = ArrayList_init_$Create$();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.compose.css.CSSTransition.toString.<anonymous>' call
-    tmp0_apply.a(this.p2h_1.toString());
-    var tmp0_safe_receiver = this.q2h_1;
+    tmp0_apply.a(this.n2k_1.toString());
+    var tmp0_safe_receiver = this.o2k_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -1511,7 +1584,7 @@
       // Inline function 'com.varabyte.kobweb.compose.css.CSSTransition.toString.<anonymous>.<anonymous>' call
       tmp0_apply.a(toString(tmp0_safe_receiver));
     }
-    var tmp1_safe_receiver = this.r2h_1;
+    var tmp1_safe_receiver = this.p2k_1;
     if (tmp1_safe_receiver == null)
       null;
     else {
@@ -1520,20 +1593,20 @@
       // Inline function 'com.varabyte.kobweb.compose.css.CSSTransition.toString.<anonymous>.<anonymous>' call
       tmp0_apply.a(toString(tmp1_safe_receiver));
     }
-    if (!(this.s2h_1 == null)) {
-      if (this.q2h_1 == null) {
+    if (!(this.q2k_1 == null)) {
+      if (this.o2k_1 == null) {
         tmp0_apply.a('0s');
       }
-      tmp0_apply.a(toString(this.s2h_1));
+      tmp0_apply.a(toString(this.q2k_1));
     }
     tmp$ret$6 = tmp0_apply.db();
     return joinToString_0(tmp$ret$6, ' ');
   };
   protoOf(CSSTransition).hashCode = function () {
-    var result = hashCode(this.p2h_1);
-    result = imul(result, 31) + (this.q2h_1 == null ? 0 : hashCode(this.q2h_1)) | 0;
-    result = imul(result, 31) + (this.r2h_1 == null ? 0 : hashCode(this.r2h_1)) | 0;
-    result = imul(result, 31) + (this.s2h_1 == null ? 0 : hashCode(this.s2h_1)) | 0;
+    var result = hashCode(this.n2k_1);
+    result = imul(result, 31) + (this.o2k_1 == null ? 0 : hashCode(this.o2k_1)) | 0;
+    result = imul(result, 31) + (this.p2k_1 == null ? 0 : hashCode(this.p2k_1)) | 0;
+    result = imul(result, 31) + (this.q2k_1 == null ? 0 : hashCode(this.q2k_1)) | 0;
     return result;
   };
   protoOf(CSSTransition).equals = function (other) {
@@ -1542,20 +1615,20 @@
     if (!(other instanceof CSSTransition))
       return false;
     var tmp0_other_with_cast = other instanceof CSSTransition ? other : THROW_CCE();
-    if (!equals(this.p2h_1, tmp0_other_with_cast.p2h_1))
+    if (!equals(this.n2k_1, tmp0_other_with_cast.n2k_1))
       return false;
-    if (!equals(this.q2h_1, tmp0_other_with_cast.q2h_1))
+    if (!equals(this.o2k_1, tmp0_other_with_cast.o2k_1))
       return false;
-    if (!equals(this.r2h_1, tmp0_other_with_cast.r2h_1))
+    if (!equals(this.p2k_1, tmp0_other_with_cast.p2k_1))
       return false;
-    if (!equals(this.s2h_1, tmp0_other_with_cast.s2h_1))
+    if (!equals(this.q2k_1, tmp0_other_with_cast.q2k_1))
       return false;
     return true;
   };
-  function Companion_15() {
-    Companion_instance_15 = this;
+  function Companion_17() {
+    Companion_instance_17 = this;
   }
-  protoOf(Companion_15).o2h = function (customValue) {
+  protoOf(Companion_17).m2k = function (customValue) {
     // Inline function 'kotlin.check' call
     var tmp;
     // Inline function 'kotlin.text.isNotEmpty' call
@@ -1588,54 +1661,83 @@
     }
     return new TransitionProperty(customValue);
   };
-  var Companion_instance_15;
-  function Companion_getInstance_18() {
-    if (Companion_instance_15 == null)
-      new Companion_15();
-    return Companion_instance_15;
+  protoOf(Companion_17).s2k = function () {
+    return new TransitionProperty('all');
+  };
+  var Companion_instance_17;
+  function Companion_getInstance_20() {
+    if (Companion_instance_17 == null)
+      new Companion_17();
+    return Companion_instance_17;
   }
   function TransitionProperty(value) {
-    Companion_getInstance_18();
-    this.u2h_1 = value;
-    this.v2h_1 = 0;
+    Companion_getInstance_20();
+    this.t2k_1 = value;
+    this.u2k_1 = 0;
   }
   protoOf(TransitionProperty).toString = function () {
-    return this.u2h_1;
+    return this.t2k_1;
   };
   function transition(_this__u8e3s4, transitions) {
     // Inline function 'kotlin.collections.isNotEmpty' call
     // Inline function 'kotlin.collections.isEmpty' call
     if (!(transitions.length === 0)) {
-      _this__u8e3s4.u26('transition', joinToString(transitions));
+      _this__u8e3s4.l28('transition', joinToString(transitions));
     }
+  }
+  function Companion_18() {
+    Companion_instance_18 = this;
+  }
+  protoOf(Companion_18).v2k = function () {
+    return new Visibility('visible');
+  };
+  protoOf(Companion_18).w2i = function () {
+    return new Visibility('hidden');
+  };
+  var Companion_instance_18;
+  function Companion_getInstance_21() {
+    if (Companion_instance_18 == null)
+      new Companion_18();
+    return Companion_instance_18;
+  }
+  function Visibility(value) {
+    Companion_getInstance_21();
+    this.w2k_1 = value;
+    this.x2k_1 = 0;
+  }
+  protoOf(Visibility).toString = function () {
+    return this.w2k_1;
+  };
+  function visibility(_this__u8e3s4, visibility) {
+    _this__u8e3s4.q28('visibility', visibility);
   }
   function _no_name_provided__qut3iv() {
   }
-  protoOf(_no_name_provided__qut3iv).ol = function () {
+  protoOf(_no_name_provided__qut3iv).ql = function () {
     // Inline function 'com.varabyte.kobweb.compose.dom.Simple.invoke.<anonymous>' call
   };
   function Simple(handle) {
     RefCallback.call(this);
-    this.w2h_1 = handle;
-    this.x2h_1 = 0;
+    this.y2k_1 = handle;
+    this.z2k_1 = 0;
   }
-  protoOf(Simple).y2h = function (scope, element) {
-    this.w2h_1(element);
+  protoOf(Simple).a2l = function (scope, element) {
+    this.y2k_1(element);
     // Inline function 'androidx.compose.runtime.DisposableEffectScope.onDispose' call
     return new _no_name_provided__qut3iv();
   };
   function RefCallback() {
   }
   function KeysToEffect(keys, refCallback) {
-    this.z2h_1 = keys;
-    this.a2i_1 = refCallback;
+    this.b2l_1 = keys;
+    this.c2l_1 = refCallback;
   }
   protoOf(KeysToEffect).toString = function () {
-    return 'KeysToEffect(keys=' + this.z2h_1 + ', refCallback=' + this.a2i_1 + ')';
+    return 'KeysToEffect(keys=' + this.b2l_1 + ', refCallback=' + this.c2l_1 + ')';
   };
   protoOf(KeysToEffect).hashCode = function () {
-    var result = hashCode(this.z2h_1);
-    result = imul(result, 31) + hashCode(this.a2i_1) | 0;
+    var result = hashCode(this.b2l_1);
+    result = imul(result, 31) + hashCode(this.c2l_1) | 0;
     return result;
   };
   protoOf(KeysToEffect).equals = function (other) {
@@ -1644,38 +1746,38 @@
     if (!(other instanceof KeysToEffect))
       return false;
     var tmp0_other_with_cast = other instanceof KeysToEffect ? other : THROW_CCE();
-    if (!equals(this.z2h_1, tmp0_other_with_cast.z2h_1))
+    if (!equals(this.b2l_1, tmp0_other_with_cast.b2l_1))
       return false;
-    if (!equals(this.a2i_1, tmp0_other_with_cast.a2i_1))
+    if (!equals(this.c2l_1, tmp0_other_with_cast.c2l_1))
       return false;
     return true;
   };
   function Builder() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.b2i_1 = ArrayList_init_$Create$();
-    this.c2i_1 = 8;
+    tmp.d2l_1 = ArrayList_init_$Create$();
+    this.e2l_1 = 8;
   }
-  protoOf(Builder).d2i = function (keys, handle) {
-    this.b2i_1.a(new KeysToEffect(toList(keys), new Simple(handle)));
+  protoOf(Builder).f2l = function (keys, handle) {
+    this.d2l_1.a(new KeysToEffect(toList(keys), new Simple(handle)));
   };
-  protoOf(Builder).e2i = function (other) {
+  protoOf(Builder).g2l = function (other) {
     if (!(other == null)) {
-      this.b2i_1.j(other.f2i_1);
+      this.d2l_1.j(other.h2l_1);
     }
   };
   protoOf(Builder).db = function () {
-    return new ElementRefScope(this.b2i_1);
+    return new ElementRefScope(this.d2l_1);
   };
   function ElementRefScope(keyedCallbacks) {
-    this.f2i_1 = keyedCallbacks;
-    this.g2i_1 = 8;
+    this.h2l_1 = keyedCallbacks;
+    this.i2l_1 = 8;
   }
   protoOf(ElementRefScope).toString = function () {
-    return 'ElementRefScope(keyedCallbacks=' + this.f2i_1 + ')';
+    return 'ElementRefScope(keyedCallbacks=' + this.h2l_1 + ')';
   };
   protoOf(ElementRefScope).hashCode = function () {
-    return hashCode(this.f2i_1);
+    return hashCode(this.h2l_1);
   };
   protoOf(ElementRefScope).equals = function (other) {
     if (this === other)
@@ -1683,43 +1785,43 @@
     if (!(other instanceof ElementRefScope))
       return false;
     var tmp0_other_with_cast = other instanceof ElementRefScope ? other : THROW_CCE();
-    if (!equals(this.f2i_1, tmp0_other_with_cast.f2i_1))
+    if (!equals(this.h2l_1, tmp0_other_with_cast.h2l_1))
       return false;
     return true;
   };
   function registerRefScope$composable(_this__u8e3s4, scope, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0.ly(1682539725);
+    $composer_0.ny(1682539725);
     sourceInformation($composer_0, 'C(registerRefScope$composable)');
     if (isTraceInProgress()) {
       traceEventStart(1682539725, $changed, -1, 'com.varabyte.kobweb.compose.dom.registerRefScope$composable (ElementRefScope.kt:91)');
     }
     // Inline function 'androidx.compose.runtime.remember$composable' call
     var $composer_1 = $composer_0;
-    $composer_1.ly(547886695);
+    $composer_1.ny(547886695);
     sourceInformation($composer_1, 'CC(remember$composable):Composables.kt#9igjgp');
     // Inline function 'androidx.compose.runtime.cache' call
     // Inline function 'kotlin.let' call
-    var tmp0_let = $composer_1.cz();
+    var tmp0_let = $composer_1.ez();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
     var tmp;
-    if (false ? true : tmp0_let === Companion_getInstance_0().fy_1) {
+    if (false ? true : tmp0_let === Companion_getInstance_0().hy_1) {
       // Inline function 'com.varabyte.kobweb.compose.dom.registerRefScope$composable.<anonymous>' call
       var value = registerRefScope$composable$lambda;
-      $composer_1.dz(value);
+      $composer_1.fz(value);
       tmp = value;
     } else {
       tmp = tmp0_let;
     }
     var tmp_0 = tmp;
     var tmp0 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
-    $composer_1.my();
+    $composer_1.oy();
     registerRefScope$composable_0(_this__u8e3s4, scope, tmp0, $composer_0, 14 & $changed | 112 & $changed);
     if (isTraceInProgress()) {
       traceEventEnd();
     }
-    $composer_0.my();
+    $composer_0.oy();
   }
   function refScope(init) {
     // Inline function 'kotlin.run' call
@@ -1733,7 +1835,7 @@
   }
   function registerRefScope$composable_0(_this__u8e3s4, scope, transform, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0.ly(886891411);
+    $composer_0.ny(886891411);
     sourceInformation($composer_0, 'C(registerRefScope$composable)');
     if (isTraceInProgress()) {
       traceEventStart(886891411, $changed, -1, 'com.varabyte.kobweb.compose.dom.registerRefScope$composable (ElementRefScope.kt:107)');
@@ -1742,30 +1844,30 @@
       if (isTraceInProgress()) {
         traceEventEnd();
       }
-      $composer_0.my();
+      $composer_0.oy();
       return Unit_getInstance();
     }
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_iterator = scope.f2i_1.c();
+    var tmp0_iterator = scope.h2l_1.c();
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.compose.dom.registerRefScope$composable.<anonymous>' call
       // Inline function 'kotlin.collections.toTypedArray' call
-      var tmp0_toTypedArray = element.z2h_1;
+      var tmp0_toTypedArray = element.b2l_1;
       var tmp = copyToArray(tmp0_toTypedArray).slice();
       DisposableEffect$composable(tmp, registerRefScope$composable$lambda_0(element, transform, _this__u8e3s4), $composer_0, 0);
     }
     if (isTraceInProgress()) {
       traceEventEnd();
     }
-    $composer_0.my();
+    $composer_0.oy();
   }
   function registerRefScope$composable$lambda(it) {
     return it;
   }
   function registerRefScope$composable$lambda_0($element, $transform, $this_registerRefScope$composable) {
     return function ($this$DisposableEffect) {
-      return $element.a2i_1.y2h($this$DisposableEffect, $transform($this_registerRefScope$composable.m25($this$DisposableEffect)));
+      return $element.c2l_1.a2l($this$DisposableEffect, $transform($this_registerRefScope$composable.w26($this$DisposableEffect)));
     };
   }
   function GenericTag$composable(name, namespace, attrs, content, $composer, $changed, $default) {
@@ -1773,26 +1875,26 @@
     var attrs_0 = {_v: attrs};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.ry(-1742022847);
+    $composer_0 = $composer_0.ty(-1742022847);
     sourceInformation($composer_0, 'C(GenericTag$composable)P(2,3)');
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.ez(name) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.gz(name) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.ez(namespace_0._v) ? 32 : 16);
+      $dirty = $dirty | ($composer_0.gz(namespace_0._v) ? 32 : 16);
     if (!(($default & 4) === 0))
       $dirty = $dirty | 384;
     else if (($changed & 896) === 0)
-      $dirty = $dirty | ($composer_0.hz(attrs_0._v) ? 256 : 128);
+      $dirty = $dirty | ($composer_0.jz(attrs_0._v) ? 256 : 128);
     if (!(($default & 8) === 0))
       $dirty = $dirty | 3072;
     else if (($changed & 7168) === 0)
-      $dirty = $dirty | ($composer_0.hz(content_0._v) ? 2048 : 1024);
-    if (!(($dirty & 5851) === 1170) ? true : !$composer_0.iy()) {
+      $dirty = $dirty | ($composer_0.jz(content_0._v) ? 2048 : 1024);
+    if (!(($dirty & 5851) === 1170) ? true : !$composer_0.ky()) {
       if (!(($default & 2) === 0)) {
         namespace_0._v = null;
       }
@@ -1813,119 +1915,119 @@
         // Inline function 'kotlin.let' call
         // Inline function 'kotlin.contracts.contract' call
         // Inline function 'com.varabyte.kobweb.compose.dom.GenericTag$composable.<anonymous>' call
-        tmp = Companion_getInstance_19().i2i(tmp0_safe_receiver, name);
+        tmp = Companion_getInstance_22().k2l(tmp0_safe_receiver, name);
       }
       var tmp1_elvis_lhs = tmp;
-      var tmp_0 = tmp1_elvis_lhs == null ? Companion_getInstance_20().k2i(name) : tmp1_elvis_lhs;
+      var tmp_0 = tmp1_elvis_lhs == null ? Companion_getInstance_23().m2l(name) : tmp1_elvis_lhs;
       TagElement$composable(isInterface(tmp_0, ElementBuilder) ? tmp_0 : THROW_CCE(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty >> 3 | 896 & $dirty >> 3);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
     } else {
-      $composer_0.wy();
+      $composer_0.yy();
     }
-    var tmp0_safe_receiver_0 = $composer_0.sy();
+    var tmp0_safe_receiver_0 = $composer_0.uy();
     if (tmp0_safe_receiver_0 === null)
       null;
     else {
-      tmp0_safe_receiver_0.p1d(GenericTag$composable$lambda(name, namespace_0, attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver_0.r1d(GenericTag$composable$lambda(name, namespace_0, attrs_0, content_0, $changed, $default));
     }
   }
-  function Companion_16() {
-    Companion_instance_16 = this;
+  function Companion_19() {
+    Companion_instance_19 = this;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.h2i_1 = LinkedHashMap_init_$Create$();
+    tmp.j2l_1 = LinkedHashMap_init_$Create$();
   }
-  protoOf(Companion_16).i2i = function (namespace, qualifiedName) {
+  protoOf(Companion_19).k2l = function (namespace, qualifiedName) {
     // Inline function 'kotlin.collections.getOrPut' call
-    var tmp0_getOrPut = this.h2i_1;
+    var tmp0_getOrPut = this.j2l_1;
     var tmp1_getOrPut = to(namespace, qualifiedName);
-    var value = tmp0_getOrPut.f2(tmp1_getOrPut);
+    var value = tmp0_getOrPut.h2(tmp1_getOrPut);
     var tmp;
     if (value == null) {
       // Inline function 'com.varabyte.kobweb.compose.dom.Companion.create.<anonymous>' call
       var answer = new GenericNamespacedElementBuilder(namespace, qualifiedName);
-      tmp0_getOrPut.j3(tmp1_getOrPut, answer);
+      tmp0_getOrPut.l3(tmp1_getOrPut, answer);
       tmp = answer;
     } else {
       tmp = value;
     }
     return tmp;
   };
-  var Companion_instance_16;
-  function Companion_getInstance_19() {
-    if (Companion_instance_16 == null)
-      new Companion_16();
-    return Companion_instance_16;
+  var Companion_instance_19;
+  function Companion_getInstance_22() {
+    if (Companion_instance_19 == null)
+      new Companion_19();
+    return Companion_instance_19;
   }
   function _get_element__z0t21h($this) {
     // Inline function 'kotlin.getValue' call
     element$factory();
-    return $this.n2i_1.u1();
+    return $this.p2l_1.w1();
   }
   function GenericNamespacedElementBuilder$element$delegate$lambda(this$0) {
     return function () {
-      return document.createElementNS(this$0.l2i_1, this$0.m2i_1);
+      return document.createElementNS(this$0.n2l_1, this$0.o2l_1);
     };
   }
   function GenericNamespacedElementBuilder(namespace, qualifiedName) {
-    Companion_getInstance_19();
-    this.l2i_1 = namespace;
-    this.m2i_1 = qualifiedName;
+    Companion_getInstance_22();
+    this.n2l_1 = namespace;
+    this.o2l_1 = qualifiedName;
     var tmp = this;
-    tmp.n2i_1 = lazy(GenericNamespacedElementBuilder$element$delegate$lambda(this));
-    this.o2i_1 = 8;
+    tmp.p2l_1 = lazy(GenericNamespacedElementBuilder$element$delegate$lambda(this));
+    this.q2l_1 = 8;
   }
-  protoOf(GenericNamespacedElementBuilder).b1k = function () {
+  protoOf(GenericNamespacedElementBuilder).c1l = function () {
     var tmp = _get_element__z0t21h(this).cloneNode();
     return tmp instanceof Element ? tmp : THROW_CCE();
   };
-  function Companion_17() {
-    Companion_instance_17 = this;
+  function Companion_20() {
+    Companion_instance_20 = this;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.j2i_1 = LinkedHashMap_init_$Create$();
+    tmp.l2l_1 = LinkedHashMap_init_$Create$();
   }
-  protoOf(Companion_17).k2i = function (name) {
+  protoOf(Companion_20).m2l = function (name) {
     // Inline function 'kotlin.collections.getOrPut' call
-    var tmp0_getOrPut = this.j2i_1;
-    var value = tmp0_getOrPut.f2(name);
+    var tmp0_getOrPut = this.l2l_1;
+    var value = tmp0_getOrPut.h2(name);
     var tmp;
     if (value == null) {
       // Inline function 'com.varabyte.kobweb.compose.dom.Companion.create.<anonymous>' call
       var answer = new GenericElementBuilder(name);
-      tmp0_getOrPut.j3(name, answer);
+      tmp0_getOrPut.l3(name, answer);
       tmp = answer;
     } else {
       tmp = value;
     }
     return tmp;
   };
-  var Companion_instance_17;
-  function Companion_getInstance_20() {
-    if (Companion_instance_17 == null)
-      new Companion_17();
-    return Companion_instance_17;
+  var Companion_instance_20;
+  function Companion_getInstance_23() {
+    if (Companion_instance_20 == null)
+      new Companion_20();
+    return Companion_instance_20;
   }
   function _get_element__z0t21h_0($this) {
     // Inline function 'kotlin.getValue' call
     element$factory_0();
-    return $this.q2i_1.u1();
+    return $this.s2l_1.w1();
   }
   function GenericElementBuilder$element$delegate$lambda(this$0) {
     return function () {
-      return document.createElement(this$0.p2i_1);
+      return document.createElement(this$0.r2l_1);
     };
   }
   function GenericElementBuilder(name) {
-    Companion_getInstance_20();
-    this.p2i_1 = name;
+    Companion_getInstance_23();
+    this.r2l_1 = name;
     var tmp = this;
-    tmp.q2i_1 = lazy(GenericElementBuilder$element$delegate$lambda(this));
-    this.r2i_1 = 8;
+    tmp.s2l_1 = lazy(GenericElementBuilder$element$delegate$lambda(this));
+    this.t2l_1 = 8;
   }
-  protoOf(GenericElementBuilder).b1k = function () {
+  protoOf(GenericElementBuilder).c1l = function () {
     var tmp = _get_element__z0t21h_0(this).cloneNode();
     return tmp instanceof Element ? tmp : THROW_CCE();
   };
@@ -1948,18 +2050,18 @@
   function Svg$composable(attrs, content, $composer, $changed, $default) {
     var attrs_0 = {_v: attrs};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.ry(1737887414);
+    $composer_0 = $composer_0.ty(1737887414);
     sourceInformation($composer_0, 'C(Svg$composable)');
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.hz(attrs_0._v) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.jz(attrs_0._v) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.hz(content) ? 32 : 16);
-    if (!(($dirty & 91) === 18) ? true : !$composer_0.iy()) {
+      $dirty = $dirty | ($composer_0.jz(content) ? 32 : 16);
+    if (!(($dirty & 91) === 18) ? true : !$composer_0.ky()) {
       if (!(($default & 1) === 0)) {
         attrs_0._v = null;
       }
@@ -1971,78 +2073,78 @@
         traceEventEnd();
       }
     } else {
-      $composer_0.wy();
+      $composer_0.yy();
     }
-    var tmp0_safe_receiver = $composer_0.sy();
+    var tmp0_safe_receiver = $composer_0.uy();
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.p1d(Svg$composable$lambda(attrs_0, content, $changed, $default));
+      tmp0_safe_receiver.r1d(Svg$composable$lambda(attrs_0, content, $changed, $default));
     }
   }
   function Path$composable(_this__u8e3s4, scope, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.ry(-132115974);
+    $composer_0 = $composer_0.ty(-132115974);
     sourceInformation($composer_0, 'C(Path$composable)');
     var $dirty = $changed;
     if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.hz(scope) ? 32 : 16);
-    if (!(($dirty & 81) === 16) ? true : !$composer_0.iy()) {
+      $dirty = $dirty | ($composer_0.jz(scope) ? 32 : 16);
+    if (!(($dirty & 81) === 16) ? true : !$composer_0.ky()) {
       if (isTraceInProgress()) {
         traceEventStart(-132115974, $dirty, -1, 'com.varabyte.kobweb.compose.dom.Path$composable (Svg.kt:425)');
       }
       // Inline function 'androidx.compose.runtime.remember$composable' call
       var $composer_1 = $composer_0;
-      $composer_1.ly(-838505973);
+      $composer_1.ny(-838505973);
       sourceInformation($composer_1, 'CC(remember$composable)P(1):Composables.kt#9igjgp');
       // Inline function 'androidx.compose.runtime.cache' call
-      var tmp1_cache = $composer_1.ez(scope);
+      var tmp1_cache = $composer_1.gz(scope);
       // Inline function 'kotlin.let' call
-      var tmp0_let = $composer_1.cz();
+      var tmp0_let = $composer_1.ez();
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
       var tmp;
-      if (tmp1_cache ? true : tmp0_let === Companion_getInstance_0().fy_1) {
+      if (tmp1_cache ? true : tmp0_let === Companion_getInstance_0().hy_1) {
         // Inline function 'com.varabyte.kobweb.compose.dom.Path$composable.<anonymous>' call
         var value = Path$composable$lambda(scope);
-        $composer_1.dz(value);
+        $composer_1.fz(value);
         tmp = value;
       } else {
         tmp = tmp0_let;
       }
       var tmp_0 = tmp;
       var tmp0 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
-      $composer_1.my();
+      $composer_1.oy();
       var tmp_1 = tmp0;
       GenericTag$composable('path', 'http://www.w3.org/2000/svg', tmp_1, null, $composer_0, 54, 8);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
     } else {
-      $composer_0.wy();
+      $composer_0.yy();
     }
-    var tmp0_safe_receiver = $composer_0.sy();
+    var tmp0_safe_receiver = $composer_0.uy();
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.p1d(Path$composable$lambda_0(_this__u8e3s4, scope, $changed));
+      tmp0_safe_receiver.r1d(Path$composable$lambda_0(_this__u8e3s4, scope, $changed));
     }
   }
   function SVGPathScope(attrs) {
     SVGShapeElementScope.call(this, attrs);
-    this.v2i_1 = attrs;
-    this.w2i_1 = 8;
+    this.x2l_1 = attrs;
+    this.y2l_1 = 8;
   }
   function SVGShapeElementScope(attrs) {
     SVGElementScope.call(this, attrs);
-    this.c2j_1 = 0;
+    this.e2m_1 = 0;
   }
   function SVGElementScope(attrs) {
-    this.x2i_1 = attrs;
-    this.y2i_1 = 8;
+    this.z2l_1 = attrs;
+    this.a2m_1 = 8;
   }
-  protoOf(SVGElementScope).z2i = function (name, value) {
-    this.x2i_1.g1y(name, value);
+  protoOf(SVGElementScope).b2m = function (name, value) {
+    this.z2l_1.h1z(name, value);
   };
   function Svg$composable$lambda($attrs, $content, $$changed, $$default) {
     return function ($composer, $force) {
@@ -2059,6 +2161,88 @@
   function Path$composable$lambda_0($this_Path$composable, $scope, $$changed) {
     return function ($composer, $force) {
       Path$composable($this_Path$composable, $scope, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function loadDataUrlFromDisk(_this__u8e3s4, accept, onLoaded) {
+    accept = accept === VOID ? '' : accept;
+    var tmp = FileReader$readAsDataURL$ref();
+    loadFromDisk(_this__u8e3s4, accept, tmp, loadDataUrlFromDisk$lambda, onLoaded);
+  }
+  function LoadContext(filename, mimeType) {
+    this.f2m_1 = filename;
+    this.g2m_1 = mimeType;
+    this.h2m_1 = 0;
+  }
+  function loadFromDisk(_this__u8e3s4, accept, triggerLoad, deserialize, onLoading) {
+    accept = accept === VOID ? '' : accept;
+    // Inline function 'kotlin.apply' call
+    var tmp = _this__u8e3s4.createElement('input');
+    var tmp0_apply = tmp instanceof HTMLInputElement ? tmp : THROW_CCE();
+    // Inline function 'kotlin.contracts.contract' call
+    // Inline function 'com.varabyte.kobweb.compose.file.loadFromDisk.<anonymous>' call
+    tmp0_apply.type = 'file';
+    tmp0_apply.style.display = 'none';
+    tmp0_apply.accept = accept;
+    tmp0_apply.multiple = false;
+    var tempInput = tmp0_apply;
+    tempInput.onchange = loadFromDisk$lambda(triggerLoad, onLoading, deserialize);
+    ensureNotNull(_this__u8e3s4.body).append(tempInput);
+    tempInput.click();
+    tempInput.remove();
+  }
+  function FileReader$readAsDataURL$ref() {
+    var l = function (p0, p1) {
+      p0.readAsDataURL(p1);
+      return Unit_getInstance();
+    };
+    l.callableName = 'readAsDataURL';
+    return l;
+  }
+  function loadDataUrlFromDisk$lambda(result) {
+    return result;
+  }
+  function loadFromDisk$lambda$lambda($onLoading, $file, $deserialize) {
+    return function (loadEvt) {
+      var tmp$ret$0;
+      // Inline function 'kotlin.js.asDynamic' call
+      var tmp0_asDynamic = loadEvt.target;
+      tmp$ret$0 = tmp0_asDynamic;
+      var tmp = tmp$ret$0.result;
+      var result = (tmp == null ? true : isObject(tmp)) ? tmp : THROW_CCE();
+      var tmp_0 = $file.name;
+      var tmp$ret$3;
+      // Inline function 'kotlin.takeIf' call
+      var tmp1_takeIf = $file.type;
+      // Inline function 'kotlin.contracts.contract' call
+      var tmp_1;
+      var tmp$ret$2;
+      // Inline function 'com.varabyte.kobweb.compose.file.loadFromDisk.<anonymous>.<anonymous>.<anonymous>' call
+      var tmp$ret$1;
+      // Inline function 'kotlin.text.isNotBlank' call
+      tmp$ret$1 = !isBlank(tmp1_takeIf);
+      tmp$ret$2 = tmp$ret$1;
+      if (tmp$ret$2) {
+        tmp_1 = tmp1_takeIf;
+      } else {
+        tmp_1 = null;
+      }
+      tmp$ret$3 = tmp_1;
+      $onLoading(new LoadContext(tmp_0, tmp$ret$3), $deserialize(result));
+      return Unit_getInstance();
+    };
+  }
+  function loadFromDisk$lambda($triggerLoad, $onLoading, $deserialize) {
+    return function (changeEvt) {
+      var tmp$ret$0;
+      // Inline function 'kotlin.js.asDynamic' call
+      var tmp0_asDynamic = changeEvt.target;
+      tmp$ret$0 = tmp0_asDynamic;
+      var tmp = tmp$ret$0.files[0];
+      var file = tmp instanceof File ? tmp : THROW_CCE();
+      var reader = new FileReader();
+      reader.onload = loadFromDisk$lambda$lambda($onLoading, file, $deserialize);
+      $triggerLoad(reader, file);
       return Unit_getInstance();
     };
   }
@@ -2091,13 +2275,13 @@
         // Inline function 'kotlin.let' call
         // Inline function 'kotlin.contracts.contract' call
         // Inline function 'kotlin.collections.iterator' call
-        var tmp0_iterator = headers.s1().c();
+        var tmp0_iterator = headers.u1().c();
         while (tmp0_iterator.d()) {
           var tmp1_loop_parameter = tmp0_iterator.e();
           // Inline function 'kotlin.collections.component1' call
-          var key = tmp1_loop_parameter.r1();
+          var key = tmp1_loop_parameter.t1();
           // Inline function 'kotlin.collections.component2' call
-          var value = tmp1_loop_parameter.u1();
+          var value = tmp1_loop_parameter.w1();
           tmp0_apply[key] = value;
         }
       }
@@ -2107,7 +2291,7 @@
     }
     var headersJson = tmp;
     // Inline function 'org.w3c.fetch.RequestInit' call
-    var tmp1_RequestInit = method.x4_1;
+    var tmp1_RequestInit = method.z4_1;
     var tmp2_RequestInit = headersJson == null ? undefined : headersJson;
     var tmp3_RequestInit = body == null ? undefined : body;
     var tmp4_RequestInit = undefined;
@@ -2135,12 +2319,12 @@
     var requestInit = o;
     if (!(abortController == null)) {
       var requestInitDynamic = requestInit;
-      requestInitDynamic['signal'] = abortController.e2j_1;
+      requestInitDynamic['signal'] = abortController.j2m_1;
     }
     var tmp_1 = _this__u8e3s4.window.fetch(resource, requestInit);
     var tmp_2 = fetch$lambda(responseBytesDeferred);
     tmp_1.then(tmp_2, fetch$lambda_0(responseBytesDeferred));
-    return responseBytesDeferred.tn($completion);
+    return responseBytesDeferred.vn($completion);
   }
   var HttpMethod_DELETE_instance;
   var HttpMethod_GET_instance;
@@ -2187,7 +2371,7 @@
     var tmp0_apply = StringBuilder_init_$Create$();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.compose.http.ResponseException.<init>.<anonymous>' call
-    tmp0_apply.n6('URL = ' + response.url + ', Status = ' + response.status + ', Status Text = ' + response.statusText);
+    tmp0_apply.p6('URL = ' + response.url + ', Status = ' + response.status + ', Status Text = ' + response.statusText);
     var tmp1_safe_receiver = bodyBytes == null ? null : decodeToString(bodyBytes);
     var tmp;
     if (tmp1_safe_receiver == null) {
@@ -2216,7 +2400,7 @@
     var bodyString = tmp_0;
     if (!(bodyString == null)) {
       // Inline function 'kotlin.text.appendLine' call
-      tmp0_apply.m5(_Char___init__impl__6a9atx(10));
+      tmp0_apply.o5(_Char___init__impl__6a9atx(10));
       var lines = split(bodyString, ['\n']);
       var tmp$ret$5;
       $l$block: {
@@ -2243,7 +2427,7 @@
       var boundary = indent + repeat('-', longestLineLength);
       // Inline function 'kotlin.text.appendLine' call
       // Inline function 'kotlin.text.appendLine' call
-      tmp0_apply.n6(boundary).m5(_Char___init__impl__6a9atx(10));
+      tmp0_apply.p6(boundary).o5(_Char___init__impl__6a9atx(10));
       // Inline function 'kotlin.collections.forEach' call
       var tmp0_iterator = lines.c();
       while (tmp0_iterator.d()) {
@@ -2252,18 +2436,18 @@
         // Inline function 'kotlin.text.appendLine' call
         var tmp0_appendLine = indent + element;
         // Inline function 'kotlin.text.appendLine' call
-        tmp0_apply.n6(tmp0_appendLine).m5(_Char___init__impl__6a9atx(10));
+        tmp0_apply.p6(tmp0_appendLine).o5(_Char___init__impl__6a9atx(10));
       }
       // Inline function 'kotlin.text.appendLine' call
       // Inline function 'kotlin.text.appendLine' call
-      tmp0_apply.n6(boundary).m5(_Char___init__impl__6a9atx(10));
+      tmp0_apply.p6(boundary).o5(_Char___init__impl__6a9atx(10));
     }
     tmp$ret$15 = tmp0_apply.toString();
     Exception_init_$Init$(tmp$ret$15, this);
     captureStack(this, ResponseException);
-    this.w2j_1 = response;
-    this.x2j_1 = bodyBytes;
-    this.y2j_1 = 0;
+    this.b2n_1 = response;
+    this.c2n_1 = bodyBytes;
+    this.d2n_1 = 0;
   }
   function getBodyBytes(_this__u8e3s4, $completion) {
     var tmp = new $getBodyBytesCOROUTINE$1(_this__u8e3s4, $completion);
@@ -2273,13 +2457,13 @@
   }
   function fetch$lambda$lambda($responseBytesDeferred) {
     return function (bodyBytes) {
-      $responseBytesDeferred.un(bodyBytes);
+      $responseBytesDeferred.wn(bodyBytes);
       return Unit_getInstance();
     };
   }
   function fetch$lambda$lambda_0($responseBytesDeferred, $res) {
     return function (bodyBytes) {
-      $responseBytesDeferred.wn(new ResponseException($res, bodyBytes));
+      $responseBytesDeferred.yn(new ResponseException($res, bodyBytes));
       return Unit_getInstance();
     };
   }
@@ -2298,22 +2482,22 @@
   }
   function fetch$lambda_0($responseBytesDeferred) {
     return function (t) {
-      return $responseBytesDeferred.wn(t);
+      return $responseBytesDeferred.yn(t);
     };
   }
   function getBodyBytesAsync$slambda($result, $this_getBodyBytesAsync, resultContinuation) {
-    this.q2k_1 = $result;
-    this.r2k_1 = $this_getBodyBytesAsync;
+    this.v2n_1 = $result;
+    this.w2n_1 = $this_getBodyBytesAsync;
     CoroutineImpl.call(this, resultContinuation);
   }
-  protoOf(getBodyBytesAsync$slambda).i1g = function ($this$launch, $completion) {
-    var tmp = this.j1g($this$launch, $completion);
+  protoOf(getBodyBytesAsync$slambda).k1f = function ($this$launch, $completion) {
+    var tmp = this.l1f($this$launch, $completion);
     tmp.uh_1 = Unit_getInstance();
     tmp.vh_1 = null;
     return tmp.bi();
   };
   protoOf(getBodyBytesAsync$slambda).ni = function (p1, $completion) {
-    return this.i1g((!(p1 == null) ? isInterface(p1, CoroutineScope_0) : false) ? p1 : THROW_CCE(), $completion);
+    return this.k1f((!(p1 == null) ? isInterface(p1, CoroutineScope_0) : false) ? p1 : THROW_CCE(), $completion);
   };
   protoOf(getBodyBytesAsync$slambda).bi = function () {
     var suspendResult = this.uh_1;
@@ -2324,7 +2508,7 @@
           case 0:
             this.th_1 = 2;
             this.sh_1 = 1;
-            suspendResult = getBodyBytes(this.r2k_1, this);
+            suspendResult = getBodyBytes(this.w2n_1, this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
@@ -2332,7 +2516,7 @@
             continue $sm;
           case 1:
             var ARGUMENT = suspendResult;
-            this.q2k_1(ARGUMENT);
+            this.v2n_1(ARGUMENT);
             return Unit_getInstance();
           case 2:
             throw this.vh_1;
@@ -2348,15 +2532,15 @@
       }
      while (true);
   };
-  protoOf(getBodyBytesAsync$slambda).j1g = function ($this$launch, completion) {
-    var i = new getBodyBytesAsync$slambda(this.q2k_1, this.r2k_1, completion);
-    i.s2k_1 = $this$launch;
+  protoOf(getBodyBytesAsync$slambda).l1f = function ($this$launch, completion) {
+    var i = new getBodyBytesAsync$slambda(this.v2n_1, this.w2n_1, completion);
+    i.x2n_1 = $this$launch;
     return i;
   };
   function getBodyBytesAsync$slambda_0($result, $this_getBodyBytesAsync, resultContinuation) {
     var i = new getBodyBytesAsync$slambda($result, $this_getBodyBytesAsync, resultContinuation);
     var l = function ($this$launch, $completion) {
-      return i.i1g($this$launch, $completion);
+      return i.k1f($this$launch, $completion);
     };
     l.$arity = 1;
     return l;
@@ -2387,7 +2571,7 @@
       // Inline function 'kotlin.Companion.success' call
       var tmp0_success = Companion_getInstance_1();
       tmp$ret$3 = _Result___init__impl__xyqfz8(tmp0_resume);
-      $safe.r3(tmp$ret$3);
+      $safe.t3(tmp$ret$3);
       tmp$ret$4 = Unit_getInstance();
       return Unit_getInstance();
     };
@@ -2401,10 +2585,14 @@
       // Inline function 'kotlin.Companion.success' call
       var tmp0_success = Companion_getInstance_1();
       tmp$ret$0 = _Result___init__impl__xyqfz8(tmp0_resume);
-      $safe.r3(tmp$ret$0);
+      $safe.t3(tmp$ret$0);
       tmp$ret$1 = Unit_getInstance();
       return Unit_getInstance();
     };
+  }
+  function HttpMethod_GET_getInstance() {
+    HttpMethod_initEntries();
+    return HttpMethod_GET_instance;
   }
   function HttpMethod_POST_getInstance() {
     HttpMethod_initEntries();
@@ -2412,13 +2600,13 @@
   }
   function $tryFetchCOROUTINE$0(_this__u8e3s4, method, resource, headers, body, logOnError, abortController, resultContinuation) {
     CoroutineImpl.call(this, resultContinuation);
-    this.o2j_1 = _this__u8e3s4;
-    this.p2j_1 = method;
-    this.q2j_1 = resource;
-    this.r2j_1 = headers;
-    this.s2j_1 = body;
-    this.t2j_1 = logOnError;
-    this.u2j_1 = abortController;
+    this.t2m_1 = _this__u8e3s4;
+    this.u2m_1 = method;
+    this.v2m_1 = resource;
+    this.w2m_1 = headers;
+    this.x2m_1 = body;
+    this.y2m_1 = logOnError;
+    this.z2m_1 = abortController;
   }
   protoOf($tryFetchCOROUTINE$0).bi = function () {
     var suspendResult = this.uh_1;
@@ -2430,14 +2618,14 @@
             this.th_1 = 3;
             this.th_1 = 2;
             this.sh_1 = 1;
-            suspendResult = fetch(this.o2j_1, this.p2j_1, this.q2j_1, this.r2j_1, this.s2j_1, this.u2j_1, this);
+            suspendResult = fetch(this.t2m_1, this.u2m_1, this.v2m_1, this.w2m_1, this.x2m_1, this.z2m_1, this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
 
             continue $sm;
           case 1:
-            this.v2j_1 = suspendResult;
+            this.a2n_1 = suspendResult;
             this.th_1 = 3;
             this.sh_1 = 4;
             continue $sm;
@@ -2447,10 +2635,10 @@
             if (tmp_0 instanceof Error) {
               var t = this.vh_1;
               var tmp_1 = this;
-              if (this.t2j_1) {
-                console.log('Error fetching resource "' + this.q2j_1 + '"\n\n' + t);
+              if (this.y2m_1) {
+                console.log('Error fetching resource "' + this.v2m_1 + '"\n\n' + t);
               }
-              tmp_1.v2j_1 = null;
+              tmp_1.a2n_1 = null;
               this.sh_1 = 4;
               continue $sm;
             } else {
@@ -2461,7 +2649,7 @@
             throw this.vh_1;
           case 4:
             this.th_1 = 3;
-            return this.v2j_1;
+            return this.a2n_1;
         }
       } catch ($p) {
         var e = $p;
@@ -2476,7 +2664,7 @@
   };
   function $getBodyBytesCOROUTINE$1(_this__u8e3s4, resultContinuation) {
     CoroutineImpl.call(this, resultContinuation);
-    this.h2k_1 = _this__u8e3s4;
+    this.m2n_1 = _this__u8e3s4;
   }
   protoOf($getBodyBytesCOROUTINE$1).bi = function () {
     var suspendResult = this.uh_1;
@@ -2488,7 +2676,7 @@
             this.th_1 = 2;
             this.sh_1 = 1;
             var safe = SafeContinuation_init_$Create$(intercepted(this));
-            var tmp_0 = this.h2k_1.arrayBuffer();
+            var tmp_0 = this.m2n_1.arrayBuffer();
             var tmp_1 = tmp_0.then(getBodyBytes$lambda(safe));
             tmp_1.catch(getBodyBytes$lambda_0(safe));
             suspendResult = returnIfSuspended(safe.md(), this);
@@ -2517,16 +2705,24 @@
     _init_properties_HttpFetcher_kt__6mmkul();
     // Inline function 'kotlin.getValue' call
     http$factory();
-    return http$delegate.u1();
+    return http$delegate.w1();
   }
   var http$delegate;
   function HttpFetcher(window_0) {
-    this.t2k_1 = window_0;
-    this.u2k_1 = false;
-    this.v2k_1 = 8;
+    this.y2n_1 = window_0;
+    this.z2n_1 = false;
+    this.a2o_1 = 8;
   }
-  protoOf(HttpFetcher).w2k = function (resource, headers, body, abortController, $completion) {
-    return tryFetch(this.t2k_1, HttpMethod_POST_getInstance(), resource, headers, body, this.u2k_1, abortController, $completion);
+  protoOf(HttpFetcher).b2o = function (resource, headers, abortController, $completion) {
+    return fetch(this.y2n_1, HttpMethod_GET_getInstance(), resource, headers, null, abortController, $completion);
+  };
+  protoOf(HttpFetcher).c2o = function (resource, headers, abortController, $completion, $super) {
+    headers = headers === VOID ? null : headers;
+    abortController = abortController === VOID ? null : abortController;
+    return $super === VOID ? this.b2o(resource, headers, abortController, $completion) : $super.b2o.call(this, resource, headers, abortController, $completion);
+  };
+  protoOf(HttpFetcher).d2o = function (resource, headers, body, abortController, $completion) {
+    return tryFetch(this.y2n_1, HttpMethod_POST_getInstance(), resource, headers, body, this.z2n_1, abortController, $completion);
   };
   function http$delegate$lambda() {
     _init_properties_HttpFetcher_kt__6mmkul();
@@ -2583,7 +2779,7 @@
           tmp = false;
         }
         if (tmp) {
-          tmp0_apply.n6('-');
+          tmp0_apply.p6('-');
         }
       }
       var tmp$ret$5;
@@ -2591,82 +2787,98 @@
       // Inline function 'kotlin.js.unsafeCast' call
       // Inline function 'kotlin.js.asDynamic' call
       tmp$ret$5 = toString_0(item).toLowerCase();
-      tmp0_apply.n6(tmp$ret$5);
+      tmp0_apply.p6(tmp$ret$5);
       lastIsUpper = isUpper;
     }
     return tmp0_apply.toString();
   }
   //region block: post-declaration
-  protoOf(ComparableAttrsScope).t1y = classes;
-  protoOf(ComparableAttrsScope).u1y = id;
-  protoOf(ComparableAttrsScope).v1y = tabIndex;
-  protoOf(ComparableAttrsScope).x1y = onClick;
-  protoOf(DummyAttrsScope).t1y = classes;
-  protoOf(DummyAttrsScope).u1y = id;
-  protoOf(DummyAttrsScope).v1y = tabIndex;
-  protoOf(DummyAttrsScope).x1y = onClick;
-  protoOf(CalcScopeInstance).r2c = unaryMinus;
-  protoOf(ComparableStyleScope).u26 = property;
-  protoOf(ComparableStyleScope).v26 = property_0;
-  protoOf(ComparableStyleScope).a27 = variable;
+  protoOf(ComparableAttrsScope).u1z = classes;
+  protoOf(ComparableAttrsScope).v1z = id;
+  protoOf(ComparableAttrsScope).w1z = tabIndex;
+  protoOf(ComparableAttrsScope).x1z = spellCheck;
+  protoOf(ComparableAttrsScope).a20 = onClick;
+  protoOf(ComparableAttrsScope).b20 = onKeyUp;
+  protoOf(DummyAttrsScope).u1z = classes;
+  protoOf(DummyAttrsScope).v1z = id;
+  protoOf(DummyAttrsScope).w1z = tabIndex;
+  protoOf(DummyAttrsScope).x1z = spellCheck;
+  protoOf(DummyAttrsScope).a20 = onClick;
+  protoOf(DummyAttrsScope).b20 = onKeyUp;
+  protoOf(CalcScopeInstance).i2f = unaryMinus;
+  protoOf(ComparableStyleScope).l28 = property;
+  protoOf(ComparableStyleScope).m28 = property_0;
+  protoOf(ComparableStyleScope).r28 = variable;
   //endregion
   //region block: exports
   _.$_$ = _.$_$ || {};
-  _.$_$.a = ComparableStyleScope;
-  _.$_$.b = NumberValue;
-  _.$_$.c = StyleVariable_1;
-  _.$_$.d = StyleVariable_0;
-  _.$_$.e = borderBottom;
-  _.$_$.f = borderColor;
-  _.$_$.g = borderStyle;
-  _.$_$.h = borderTop;
-  _.$_$.i = boxShadow;
-  _.$_$.j = boxSizing_0;
-  _.$_$.k = calc;
-  _.$_$.l = cursor;
-  _.$_$.m = fontWeight;
-  _.$_$.n = gridTemplateColumns_0;
-  _.$_$.o = grid;
-  _.$_$.p = isNotEmpty;
-  _.$_$.q = justifyItems;
-  _.$_$.r = justifySelf;
-  _.$_$.s = listStyle;
-  _.$_$.t = objectFit;
-  _.$_$.u = outline;
-  _.$_$.v = overflowY;
-  _.$_$.w = overflow;
-  _.$_$.x = paddingInline;
-  _.$_$.y = setVariable;
-  _.$_$.z = textAlign;
-  _.$_$.a1 = textDecorationLine;
-  _.$_$.b1 = transition;
-  _.$_$.c1 = translateX;
-  _.$_$.d1 = userSelect;
-  _.$_$.e1 = verticalAlign;
-  _.$_$.f1 = whiteSpace;
-  _.$_$.g1 = zIndex;
-  _.$_$.h1 = Path$composable;
-  _.$_$.i1 = Svg$composable;
-  _.$_$.j1 = refScope;
-  _.$_$.k1 = registerRefScope$composable;
-  _.$_$.l1 = get_http;
-  _.$_$.m1 = titleCamelCaseToKebabCase;
-  _.$_$.n1 = ComparableAttrsScope_init_$Create$;
-  _.$_$.o1 = CSSTransition_init_$Create$;
-  _.$_$.p1 = Companion_getInstance_4;
-  _.$_$.q1 = Companion_getInstance_17;
-  _.$_$.r1 = Companion_getInstance_5;
-  _.$_$.s1 = Companion_getInstance_6;
-  _.$_$.t1 = Companion_getInstance_2;
-  _.$_$.u1 = Companion_getInstance_3;
-  _.$_$.v1 = Companion_getInstance_10;
-  _.$_$.w1 = Companion_getInstance_11;
-  _.$_$.x1 = Companion_getInstance_12;
-  _.$_$.y1 = Companion_getInstance_15;
-  _.$_$.z1 = Companion_getInstance_16;
-  _.$_$.a2 = Companion_getInstance_13;
-  _.$_$.b2 = Companion_getInstance_9;
-  _.$_$.c2 = Companion_getInstance_14;
+  _.$_$.a = CSSTransition;
+  _.$_$.b = ComparableStyleScope;
+  _.$_$.c = NumberValue;
+  _.$_$.d = StyleVariable_1;
+  _.$_$.e = StyleVariable_0;
+  _.$_$.f = borderBottom;
+  _.$_$.g = borderColor;
+  _.$_$.h = borderStyle;
+  _.$_$.i = borderTop;
+  _.$_$.j = boxShadow;
+  _.$_$.k = boxSizing_0;
+  _.$_$.l = calc;
+  _.$_$.m = cursor;
+  _.$_$.n = disabled;
+  _.$_$.o = fontWeight;
+  _.$_$.p = gridTemplateColumns_0;
+  _.$_$.q = grid;
+  _.$_$.r = isNotEmpty;
+  _.$_$.s = justifyItems;
+  _.$_$.t = justifySelf;
+  _.$_$.u = listStyle;
+  _.$_$.v = objectFit;
+  _.$_$.w = outline;
+  _.$_$.x = overflowY;
+  _.$_$.y = overflow;
+  _.$_$.z = paddingInline;
+  _.$_$.a1 = resize;
+  _.$_$.b1 = scrollBehavior;
+  _.$_$.c1 = setVariable;
+  _.$_$.d1 = setVariable_0;
+  _.$_$.e1 = textAlign;
+  _.$_$.f1 = textDecorationLine;
+  _.$_$.g1 = transition;
+  _.$_$.h1 = translateX;
+  _.$_$.i1 = userSelect;
+  _.$_$.j1 = verticalAlign;
+  _.$_$.k1 = visibility;
+  _.$_$.l1 = whiteSpace;
+  _.$_$.m1 = zIndex;
+  _.$_$.n1 = Path$composable;
+  _.$_$.o1 = Svg$composable;
+  _.$_$.p1 = refScope;
+  _.$_$.q1 = registerRefScope$composable;
+  _.$_$.r1 = registerRefScope$composable_0;
+  _.$_$.s1 = loadDataUrlFromDisk;
+  _.$_$.t1 = get_http;
+  _.$_$.u1 = titleCamelCaseToKebabCase;
+  _.$_$.v1 = ComparableAttrsScope_init_$Create$;
+  _.$_$.w1 = CSSTransition_init_$Create$;
+  _.$_$.x1 = Companion_getInstance_4;
+  _.$_$.y1 = Companion_getInstance_19;
+  _.$_$.z1 = Companion_getInstance_5;
+  _.$_$.a2 = Companion_getInstance_6;
+  _.$_$.b2 = Companion_getInstance_2;
+  _.$_$.c2 = Companion_getInstance_3;
+  _.$_$.d2 = Companion_getInstance_11;
+  _.$_$.e2 = Companion_getInstance_12;
+  _.$_$.f2 = Companion_getInstance_13;
+  _.$_$.g2 = Companion_getInstance_10;
+  _.$_$.h2 = Companion_getInstance_14;
+  _.$_$.i2 = Companion_getInstance_17;
+  _.$_$.j2 = Companion_getInstance_18;
+  _.$_$.k2 = Companion_getInstance_20;
+  _.$_$.l2 = Companion_getInstance_15;
+  _.$_$.m2 = Companion_getInstance_9;
+  _.$_$.n2 = Companion_getInstance_21;
+  _.$_$.o2 = Companion_getInstance_16;
   //endregion
   return _;
 }));

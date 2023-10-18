@@ -1,19 +1,15 @@
 package com.example.blogmultiplatform.pages.admin
 
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.*
 import com.example.blogmultiplatform.components.AdminPageLayout
-import com.example.blogmultiplatform.models.Category
-import com.example.blogmultiplatform.models.EditorKey
-import com.example.blogmultiplatform.models.Theme
+import com.example.blogmultiplatform.components.LinkPopup
+import com.example.blogmultiplatform.components.MessagePopup
+import com.example.blogmultiplatform.models.*
+import com.example.blogmultiplatform.navigation.Screen
 import com.example.blogmultiplatform.styles.EditorKeyStyle
+import com.example.blogmultiplatform.util.*
 import com.example.blogmultiplatform.util.Constant.FONT_FAMILY
 import com.example.blogmultiplatform.util.Constant.SIDE_PANEL_WIDTH
-import com.example.blogmultiplatform.util.ID
-import com.example.blogmultiplatform.util.isUserLoggedIn
 import com.varabyte.kobweb.compose.css.Cursor
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.Overflow
@@ -29,34 +25,11 @@ import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.attrsModifier
 import com.varabyte.kobweb.compose.ui.graphics.Colors
-import com.varabyte.kobweb.compose.ui.modifiers.backgroundColor
-import com.varabyte.kobweb.compose.ui.modifiers.border
-import com.varabyte.kobweb.compose.ui.modifiers.borderRadius
-import com.varabyte.kobweb.compose.ui.modifiers.classNames
-import com.varabyte.kobweb.compose.ui.modifiers.color
-import com.varabyte.kobweb.compose.ui.modifiers.cursor
-import com.varabyte.kobweb.compose.ui.modifiers.disabled
-import com.varabyte.kobweb.compose.ui.modifiers.fillMaxHeight
-import com.varabyte.kobweb.compose.ui.modifiers.fillMaxSize
-import com.varabyte.kobweb.compose.ui.modifiers.fillMaxWidth
-import com.varabyte.kobweb.compose.ui.modifiers.fontFamily
-import com.varabyte.kobweb.compose.ui.modifiers.fontSize
-import com.varabyte.kobweb.compose.ui.modifiers.fontWeight
-import com.varabyte.kobweb.compose.ui.modifiers.height
-import com.varabyte.kobweb.compose.ui.modifiers.id
-import com.varabyte.kobweb.compose.ui.modifiers.margin
-import com.varabyte.kobweb.compose.ui.modifiers.maxHeight
-import com.varabyte.kobweb.compose.ui.modifiers.maxWidth
-import com.varabyte.kobweb.compose.ui.modifiers.onClick
-import com.varabyte.kobweb.compose.ui.modifiers.outline
-import com.varabyte.kobweb.compose.ui.modifiers.overflow
-import com.varabyte.kobweb.compose.ui.modifiers.padding
-import com.varabyte.kobweb.compose.ui.modifiers.resize
-import com.varabyte.kobweb.compose.ui.modifiers.scrollBehavior
-import com.varabyte.kobweb.compose.ui.modifiers.visibility
+import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.compose.ui.thenIf
 import com.varabyte.kobweb.compose.ui.toAttrs
 import com.varabyte.kobweb.core.Page
+import com.varabyte.kobweb.core.rememberPageContext
 import org.jetbrains.compose.web.dom.Input
 import com.varabyte.kobweb.silk.components.forms.Switch
 import com.varabyte.kobweb.silk.components.forms.SwitchSize
@@ -68,8 +41,10 @@ import com.varabyte.kobweb.silk.components.style.toModifier
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import kotlinx.browser.document
+import kotlinx.browser.localStorage
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import org.jetbrains.compose.web.attributes.InputType
-import org.jetbrains.compose.web.css.LineStyle
 import org.jetbrains.compose.web.css.px
 import org.jetbrains.compose.web.dom.A
 import org.jetbrains.compose.web.dom.Button
@@ -78,6 +53,27 @@ import org.jetbrains.compose.web.dom.Li
 import org.jetbrains.compose.web.dom.Text
 import org.jetbrains.compose.web.dom.TextArea
 import org.jetbrains.compose.web.dom.Ul
+import org.w3c.dom.HTMLInputElement
+import org.w3c.dom.HTMLTextAreaElement
+import org.w3c.dom.get
+import kotlin.js.Date
+
+data class CreatePageUiState(
+    var id: String = "",
+    var title: String = "",
+    var subTitle: String = "",
+    var thumbnail: String = "",
+    var content: String = "",
+    var thumbnailInputDisabled: Boolean = true,
+    var category: Category = Category.Programming,
+    var popular: Boolean = false,
+    var main: Boolean = false,
+    var sponsored: Boolean = false,
+    var editorVisibility: Boolean = true,
+    var messagePopup: Boolean = false,
+    var linkPopup: Boolean = false,
+    var imagePopup: Boolean = false,
+)
 
 @Page
 @Composable
@@ -89,14 +85,10 @@ fun CreatePage() {
 
 @Composable
 fun CreateScreen() {
+    val context = rememberPageContext()
+    val scope = rememberCoroutineScope()
     val breakpoint = rememberBreakpoint()
-    var popularSwitch by remember { mutableStateOf(false) }
-    var mainSwitch by remember { mutableStateOf(false) }
-    var sponsoredSwitch by remember { mutableStateOf(false) }
-    var thumbnailInputDisabled by remember { mutableStateOf(true) }
-    var editorVisibility by remember { mutableStateOf(true) }
-    var selectedCategory by remember { mutableStateOf(Category.Programming) }
-    var fileName by remember { mutableStateOf("") }
+    var uiState by remember { mutableStateOf(CreatePageUiState()) }
 
     AdminPageLayout {
         Box(
@@ -126,9 +118,9 @@ fun CreateScreen() {
                     ) {
                         Switch(
                             modifier = Modifier.margin(right = 8.px),
-                            checked = popularSwitch,
+                            checked = uiState.popular,
                             onCheckedChange = {
-                                popularSwitch = it
+                                uiState = uiState.copy(popular = it)
                             },
                             size = SwitchSize.LG
                         )
@@ -151,9 +143,9 @@ fun CreateScreen() {
                     ) {
                         Switch(
                             modifier = Modifier.margin(right = 8.px),
-                            checked = mainSwitch,
+                            checked = uiState.main,
                             onCheckedChange = {
-                                mainSwitch = it
+                                uiState = uiState.copy(main = it)
                             },
                             size = SwitchSize.LG
                         )
@@ -171,9 +163,9 @@ fun CreateScreen() {
                     ) {
                         Switch(
                             modifier = Modifier.margin(right = 8.px),
-                            checked = sponsoredSwitch,
+                            checked = uiState.sponsored,
                             onCheckedChange = {
-                                sponsoredSwitch = it
+                                uiState = uiState.copy(sponsored = it)
                             },
                             size = SwitchSize.LG
                         )
@@ -190,22 +182,14 @@ fun CreateScreen() {
                 Input(
                     type = InputType.Text,
                     attrs = Modifier
+                        .id(ID.titleInput)
                         .fillMaxWidth()
                         .height(54.px)
                         .margin(topBottom = 12.px)
                         .padding(leftRight = 20.px)
                         .backgroundColor(Theme.LightGray.rgb)
                         .borderRadius(4.px)
-                        .border(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
-                        .outline(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
+                        .noBorder()
                         .fontFamily(FONT_FAMILY)
                         .fontSize(16.px)
                         .toAttrs {
@@ -216,22 +200,14 @@ fun CreateScreen() {
                 Input(
                     type = InputType.Text,
                     attrs = Modifier
+                        .id(ID.subTitleInput)
                         .fillMaxWidth()
                         .height(54.px)
                         .margin(bottom = 12.px)
                         .padding(leftRight = 20.px)
                         .backgroundColor(Theme.LightGray.rgb)
                         .borderRadius(4.px)
-                        .border(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
-                        .outline(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
+                        .noBorder()
                         .fontFamily(FONT_FAMILY)
                         .fontSize(16.px)
                         .toAttrs {
@@ -240,9 +216,9 @@ fun CreateScreen() {
                 )
 
                 CategoryDropDown(
-                    selectedCategory = selectedCategory,
+                    selectedCategory = uiState.category,
                     onCategorySelected = {
-                        selectedCategory = it
+                        uiState = uiState.copy(category = it)
                     }
                 )
 
@@ -255,9 +231,9 @@ fun CreateScreen() {
                 ) {
                     Switch(
                         modifier = Modifier.margin(right = 8.px),
-                        checked = !thumbnailInputDisabled,
+                        checked = !uiState.thumbnailInputDisabled,
                         onCheckedChange = {
-                            thumbnailInputDisabled = !it
+                            uiState = uiState.copy(thumbnailInputDisabled = !it)
                         },
                         size = SwitchSize.MD
                     )
@@ -270,50 +246,120 @@ fun CreateScreen() {
                     )
                 }
                 ThumbnailUploader(
-                    thumbnail = fileName,
-                    thumbnailInputDisabled = thumbnailInputDisabled,
+                    thumbnail = uiState.thumbnail,
+                    thumbnailInputDisabled = uiState.thumbnailInputDisabled,
                     onThumbnailSelect = { filename, file ->
-                        fileName = filename
+                        (document.getElementById(ID.thumbnailInput) as HTMLInputElement).value = filename
+                        uiState = uiState.copy(thumbnail = file)
                     }
                 )
 
                 EditorControls(
                     breakpoint = breakpoint,
-                    editorVisibility = editorVisibility,
-                    onEditorVisibilityChanged = { editorVisibility = !editorVisibility }
+                    editorVisibility = uiState.editorVisibility,
+                    onEditorVisibilityChanged = {
+                        uiState = uiState.copy(editorVisibility = !uiState.editorVisibility)
+                    },
+                    onLinkClick = {
+                        uiState = uiState.copy(linkPopup = true)
+                    },
+                    onImageClick = { uiState = uiState.copy(imagePopup = true) }
                 )
 
-                Editor(editorVisibility = editorVisibility)
+                Editor(editorVisibility = uiState.editorVisibility)
 
-                Button(
-                    attrs = Modifier
-                        .onClick {}
-                        .fillMaxWidth()
-                        .height(54.px)
-                        .margin(top = 24.px)
-                        .backgroundColor(Theme.Primary.rgb)
-                        .color(Colors.White)
-                        .border(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
-                        .outline(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
-                        .fontFamily(FONT_FAMILY)
-                        .fontSize(16.px)
-                        .borderRadius(4.px)
-                        .toAttrs()
-                ) {
-                    SpanText(
-                        text = "Create"
-                    )
-                }
+                CreateButton(
+                    onClick = {
+                        uiState =
+                            uiState.copy(title = (document.getElementById(ID.titleInput) as HTMLInputElement).value)
+                        uiState =
+                            uiState.copy(subTitle = (document.getElementById(ID.subTitleInput) as HTMLInputElement).value)
+                        uiState =
+                            uiState.copy(content = (document.getElementById(ID.editor) as HTMLTextAreaElement).value)
+
+                        if (!uiState.thumbnailInputDisabled) {
+                            uiState =
+                                uiState.copy(thumbnail = (document.getElementById(ID.thumbnailInput) as HTMLInputElement).value)
+                        }
+                        if (
+                            uiState.title.isNotEmpty() &&
+                            uiState.subTitle.isNotEmpty() &&
+                            uiState.thumbnail.isNotEmpty() &&
+                            uiState.content.isNotEmpty()
+                        ) {
+                            scope.launch {
+                                val result = addPost(
+                                    post = Post(
+                                        author = localStorage["username"].toString(),
+                                        title = uiState.title,
+                                        subTitle = uiState.subTitle,
+                                        date = Date.now().toLong(),
+                                        thumbnail = uiState.thumbnail,
+                                        content = uiState.content,
+                                        category = uiState.category,
+                                        popular = uiState.popular,
+                                        sponsored = uiState.sponsored,
+                                        main = uiState.main,
+                                    )
+                                )
+                                if (result) {
+                                    context.router.navigateTo(Screen.AdminSuccess.route)
+                                }
+                            }
+                        } else {
+                            scope.launch {
+                                uiState = uiState.copy(messagePopup = true)
+                                delay(3000)
+                                uiState = uiState.copy(messagePopup = false)
+                            }
+                        }
+                    }
+                )
             }
         }
+    }
+
+    if (uiState.messagePopup) {
+        MessagePopup(
+            message = "Please fill out all fields",
+            onDialogDismissed = {
+                uiState = uiState.copy(messagePopup = false)
+            }
+        )
+    }
+
+    if (uiState.linkPopup) {
+        LinkPopup(
+            editorControl = EditorControl.Link,
+            onDialogDismissed = {
+                uiState = uiState.copy(linkPopup = false)
+            },
+            onAddClick = { href, title ->
+                applyStyle(
+                    controlStyle = ControlStyle.Link(
+                        selectedText = getSelectedText(),
+                        href = href,
+                        title = title
+                    )
+                )
+            }
+        )
+    }
+
+    if (uiState.imagePopup) {
+        LinkPopup(
+            editorControl = EditorControl.Image,
+            onDialogDismissed = { uiState = uiState.copy(imagePopup = false) },
+            onAddClick = { imageUrl, description ->
+                applyStyle(
+                    controlStyle = ControlStyle.Image(
+                        selectedText = getSelectedText(),
+                        imageUrl = imageUrl,
+                        desc = description
+                    )
+                )
+            }
+        )
     }
 }
 
@@ -360,7 +406,7 @@ fun CategoryDropDown(
                 .fillMaxWidth()
                 .toAttrs()
         ) {
-            Category.values().forEach { category ->
+            Category.entries.forEach { category ->
                 Li {
                     A(
                         attrs = Modifier
@@ -395,21 +441,13 @@ fun ThumbnailUploader(
         Input(
             type = InputType.Text,
             attrs = Modifier
+                .id(ID.thumbnailInput)
                 .fillMaxSize()
                 .margin(right = 12.px)
                 .padding(leftRight = 20.px)
                 .backgroundColor(Theme.LightGray.rgb)
                 .borderRadius(4.px)
-                .border(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
-                .outline(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
+                .noBorder()
                 .fontFamily(FONT_FAMILY)
                 .fontSize(16.px)
                 .thenIf(
@@ -436,16 +474,7 @@ fun ThumbnailUploader(
                 .backgroundColor(if (!thumbnailInputDisabled) Theme.Gray.rgb else Theme.Primary.rgb)
                 .color(if (!thumbnailInputDisabled) Theme.DarkGray.rgb else Colors.White)
                 .borderRadius(4.px)
-                .border(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
-                .outline(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
+                .noBorder()
                 .fontFamily(FONT_FAMILY)
                 .fontSize(14.px)
                 .fontWeight(FontWeight.Medium)
@@ -467,7 +496,9 @@ fun ThumbnailUploader(
 fun EditorControls(
     breakpoint: Breakpoint,
     editorVisibility: Boolean,
-    onEditorVisibilityChanged: () -> Unit
+    onEditorVisibilityChanged: () -> Unit,
+    onLinkClick: () -> Unit,
+    onImageClick: () -> Unit
 ) {
     Box(
         modifier = Modifier.fillMaxWidth()
@@ -482,8 +513,17 @@ fun EditorControls(
                     .borderRadius(4.px)
                     .height(54.px)
             ) {
-                EditorKey.values().forEach {
-                    EditorKeyView(key = it)
+                EditorControl.entries.forEach {
+                    EditorControlView(
+                        control = it,
+                        onClick = {
+                            applyControlStyle(
+                                editorControl = it,
+                                onLinkClick = onLinkClick,
+                                onImageClick = onImageClick
+                            )
+                        }
+                    )
                 }
             }
             Box(
@@ -502,17 +542,12 @@ fun EditorControls(
                         .borderRadius(4.px)
                         .backgroundColor(if (editorVisibility) Theme.LightGray.rgb else Theme.Primary.rgb)
                         .color(if (editorVisibility) Theme.DarkGray.rgb else Colors.White)
-                        .border(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
-                        .outline(
-                            width = 0.px,
-                            style = LineStyle.None,
-                            color = Colors.Transparent
-                        )
-                        .onClick { onEditorVisibilityChanged() }
+                        .noBorder()
+                        .onClick {
+                            onEditorVisibilityChanged()
+                            document.getElementById(ID.editorPreview)?.innerHTML = getEditor().value
+                            js("hljs.highlightAll()") as Unit
+                        }
                         .toAttrs()
                 ) {
                     SpanText(
@@ -529,21 +564,22 @@ fun EditorControls(
 }
 
 @Composable
-fun EditorKeyView(key: EditorKey) {
+fun EditorControlView(
+    control: EditorControl,
+    onClick: () -> Unit
+) {
     Box(
         modifier = EditorKeyStyle.toModifier()
             .fillMaxHeight()
             .padding(leftRight = 12.px)
             .borderRadius(4.px)
             .cursor(Cursor.Pointer)
-            .onClick {
-
-            },
+            .onClick { onClick() },
         contentAlignment = Alignment.Center
     ) {
         Image(
-            src = key.icon,
-            desc = "${key.name} icon"
+            src = control.icon,
+            desc = "${control.name} icon"
         )
     }
 }
@@ -565,20 +601,20 @@ fun Editor(editorVisibility: Boolean) {
                 .borderRadius(4.px)
                 .fontFamily(FONT_FAMILY)
                 .fontSize(16.px)
-                .border(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
-                .outline(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
+                .noBorder()
                 .resize(Resize.None)
                 .visibility(
                     if (editorVisibility) Visibility.Visible else Visibility.Hidden
                 )
+                .onKeyDown {
+                    if (it.code == "Enter" && it.shiftKey) {
+                        applyStyle(
+                            controlStyle = ControlStyle.Break(
+                                selectedText = getSelectedText()
+                            )
+                        )
+                    }
+                }
                 .toAttrs {
                     attr("placeholder", "Type here ...")
                 }
@@ -600,16 +636,7 @@ fun Editor(editorVisibility: Boolean) {
                 .scrollBehavior(ScrollBehavior.Smooth)
                 .backgroundColor(Theme.LightGray.rgb)
                 .borderRadius(4.px)
-                .border(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
-                .outline(
-                    width = 0.px,
-                    style = LineStyle.None,
-                    color = Colors.Transparent
-                )
+                .noBorder()
                 .toAttrs()
         ) {
 
@@ -617,6 +644,29 @@ fun Editor(editorVisibility: Boolean) {
     }
 }
 
+@Composable
+fun CreateButton(onClick: () -> Unit) {
+    Button(
+        attrs = Modifier
+            .onClick {
+                onClick()
+            }
+            .fillMaxWidth()
+            .height(54.px)
+            .margin(top = 24.px)
+            .backgroundColor(Theme.Primary.rgb)
+            .color(Colors.White)
+            .noBorder()
+            .fontFamily(FONT_FAMILY)
+            .fontSize(16.px)
+            .borderRadius(4.px)
+            .toAttrs()
+    ) {
+        SpanText(
+            text = "Create"
+        )
+    }
+}
 
 
 

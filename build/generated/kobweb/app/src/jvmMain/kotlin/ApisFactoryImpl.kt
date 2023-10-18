@@ -8,6 +8,7 @@ public class ApisFactoryImpl : ApisFactory {
     public override fun create(logger: Logger): Apis {
         val data = MutableData()
         val apis = Apis(data, logger)
+        apis.register("/add_post") { ctx -> com.example.blogmultiplatform.api.addPost(ctx) }
         apis.register("/check_user_id") { ctx -> com.example.blogmultiplatform.api.checkUserID(ctx)
                 }
         apis.register("/user_check") { ctx -> com.example.blogmultiplatform.api.userCheck(ctx) }
