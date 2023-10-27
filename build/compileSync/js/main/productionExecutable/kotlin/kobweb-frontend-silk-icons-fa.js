@@ -22,33 +22,33 @@
   'use strict';
   //region block: imports
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u3;
+  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y3;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var Unit_getInstance = kotlin_kotlin.$_$.j4;
-  var Enum = kotlin_kotlin.$_$.sc;
-  var protoOf = kotlin_kotlin.$_$.da;
+  var Enum = kotlin_kotlin.$_$.wc;
+  var protoOf = kotlin_kotlin.$_$.ea;
   var classMeta = kotlin_kotlin.$_$.w8;
-  var VOID = kotlin_kotlin.$_$.je;
-  var setMetadataFor = kotlin_kotlin.$_$.ea;
+  var VOID = kotlin_kotlin.$_$.ne;
+  var setMetadataFor = kotlin_kotlin.$_$.fa;
   var Companion_getInstance_0 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
-  var THROW_CCE = kotlin_kotlin.$_$.bd;
+  var THROW_CCE = kotlin_kotlin.$_$.fd;
   var isObject = kotlin_kotlin.$_$.t9;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e3;
-  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.u3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i3;
+  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.x3;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   //endregion
   //region block: pre-declaration
   setMetadataFor(IconSize, 'IconSize', classMeta, Enum);
   setMetadataFor(IconCategory, 'IconCategory', classMeta, Enum);
   //endregion
-  function FaBars$composable(modifier, size, $composer, $changed, $default) {
+  function FaMagnifyingGlass$composable(modifier, size, $composer, $changed, $default) {
     var modifier_0 = {_v: modifier};
     var size_0 = {_v: size};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.ty(-2140615546);
-    sourceInformation($composer_0, 'C(FaBars$composable)');
+    $composer_0 = $composer_0.ty(-2027643633);
+    sourceInformation($composer_0, 'C(FaMagnifyingGlass$composable)');
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
@@ -66,9 +66,9 @@
         size_0._v = null;
       }
       if (isTraceInProgress()) {
-        traceEventStart(-2140615546, $dirty, -1, 'com.varabyte.kobweb.silk.components.icons.fa.FaBars$composable (FaIcons.kt:176)');
+        traceEventStart(-2027643633, $dirty, -1, 'com.varabyte.kobweb.silk.components.icons.fa.FaMagnifyingGlass$composable (FaIcons.kt:851)');
       }
-      FaIcon$composable('bars', modifier_0._v, IconCategory_SOLID_getInstance(), size_0._v, $composer_0, 390 | 112 & $dirty << 3 | 7168 & $dirty << 6, 0);
+      FaIcon$composable('magnifying-glass', modifier_0._v, IconCategory_SOLID_getInstance(), size_0._v, $composer_0, 390 | 112 & $dirty << 3 | 7168 & $dirty << 6, 0);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -79,7 +79,7 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.r1d(FaBars$composable$lambda(modifier_0, size_0, $changed, $default));
+      tmp0_safe_receiver.r1d(FaMagnifyingGlass$composable$lambda(modifier_0, size_0, $changed, $default));
     }
   }
   var IconSize_XXS_instance;
@@ -122,7 +122,46 @@
   }
   function IconSize(name, ordinal, className) {
     Enum.call(this, name, ordinal);
-    this.x4h_1 = className;
+    this.j4j_1 = className;
+  }
+  function FaBars$composable(modifier, size, $composer, $changed, $default) {
+    var modifier_0 = {_v: modifier};
+    var size_0 = {_v: size};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.ty(-2140615546);
+    sourceInformation($composer_0, 'C(FaBars$composable)');
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.gz(modifier_0._v) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.gz(size_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) ? true : !$composer_0.ky()) {
+      if (!(($default & 1) === 0)) {
+        modifier_0._v = Companion_getInstance();
+      }
+      if (!(($default & 2) === 0)) {
+        size_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(-2140615546, $dirty, -1, 'com.varabyte.kobweb.silk.components.icons.fa.FaBars$composable (FaIcons.kt:176)');
+      }
+      FaIcon$composable('bars', modifier_0._v, IconCategory_SOLID_getInstance(), size_0._v, $composer_0, 390 | 112 & $dirty << 3 | 7168 & $dirty << 6, 0);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.yy();
+    }
+    var tmp0_safe_receiver = $composer_0.uy();
+    if (tmp0_safe_receiver === null)
+      null;
+    else {
+      tmp0_safe_receiver.r1d(FaBars$composable$lambda(modifier_0, size_0, $changed, $default));
+    }
   }
   function FaXmark$composable(modifier, size, $composer, $changed, $default) {
     var modifier_0 = {_v: modifier};
@@ -288,7 +327,13 @@
   }
   function IconCategory(name, ordinal, className) {
     Enum.call(this, name, ordinal);
-    this.a4i_1 = className;
+    this.m4j_1 = className;
+  }
+  function FaMagnifyingGlass$composable$lambda($modifier, $size, $$changed, $$default) {
+    return function ($composer, $force) {
+      FaMagnifyingGlass$composable($modifier._v, $size._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
   }
   function FaBars$composable$lambda($modifier, $size, $$changed, $$default) {
     return function ($composer, $force) {
@@ -310,10 +355,10 @@
   }
   function FaIcon$composable$lambda($style, $name, $size) {
     return function ($this$toAttrs) {
-      $this$toAttrs.u1z([$style._v.a4i_1, 'fa-' + $name]);
+      $this$toAttrs.u1z([$style._v.m4j_1, 'fa-' + $name]);
       var tmp;
       if (!($size._v == null)) {
-        $this$toAttrs.u1z([$size._v.x4h_1]);
+        $this$toAttrs.u1z([$size._v.j4j_1]);
         tmp = Unit_getInstance();
       }
       return Unit_getInstance();
@@ -324,6 +369,10 @@
       FaIcon$composable($name, $modifier, $style._v, $size._v, $composer, updateChangedFlags($$changed | 1), $$default);
       return Unit_getInstance();
     };
+  }
+  function IconSize_SM_getInstance() {
+    IconSize_initEntries();
+    return IconSize_SM_instance;
   }
   function IconSize_LG_getInstance() {
     IconSize_initEntries();
@@ -344,10 +393,12 @@
   //region block: exports
   _.$_$ = _.$_$ || {};
   _.$_$.a = FaBars$composable;
-  _.$_$.b = FaPlus$composable;
-  _.$_$.c = FaXmark$composable;
-  _.$_$.d = IconSize_LG_getInstance;
-  _.$_$.e = IconSize_XL_getInstance;
+  _.$_$.b = FaMagnifyingGlass$composable;
+  _.$_$.c = FaPlus$composable;
+  _.$_$.d = FaXmark$composable;
+  _.$_$.e = IconSize_LG_getInstance;
+  _.$_$.f = IconSize_SM_getInstance;
+  _.$_$.g = IconSize_XL_getInstance;
   //endregion
   return _;
 }));

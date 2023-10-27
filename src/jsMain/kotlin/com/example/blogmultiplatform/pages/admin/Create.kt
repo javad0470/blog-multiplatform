@@ -9,6 +9,7 @@ import com.example.blogmultiplatform.navigation.Screen
 import com.example.blogmultiplatform.styles.EditorKeyStyle
 import com.example.blogmultiplatform.util.*
 import com.example.blogmultiplatform.util.Constant.FONT_FAMILY
+import com.example.blogmultiplatform.models.Constants.POST_ID_PARAM
 import com.example.blogmultiplatform.util.Constant.SIDE_PANEL_WIDTH
 import com.varabyte.kobweb.compose.css.Cursor
 import com.varabyte.kobweb.compose.css.FontWeight
@@ -66,6 +67,7 @@ data class CreatePageUiState(
     var content: String = "",
     var thumbnailInputDisabled: Boolean = true,
     var category: Category = Category.Programming,
+    var buttonText: String = "Create",
     var popular: Boolean = false,
     var main: Boolean = false,
     var sponsored: Boolean = false,
@@ -73,7 +75,24 @@ data class CreatePageUiState(
     var messagePopup: Boolean = false,
     var linkPopup: Boolean = false,
     var imagePopup: Boolean = false,
-)
+) {
+    fun reset() = this.copy(
+        id = "",
+        title = "",
+        subTitle = "",
+        content = "",
+        thumbnail = "",
+        category = Category.Programming,
+        buttonText = "Create",
+        main = false,
+        popular = false,
+        sponsored = false,
+        editorVisibility = false,
+        messagePopup = false,
+        linkPopup = false,
+        imagePopup = false,
+    )
+}
 
 @Page
 @Composable
@@ -89,6 +108,36 @@ fun CreateScreen() {
     val scope = rememberCoroutineScope()
     val breakpoint = rememberBreakpoint()
     var uiState by remember { mutableStateOf(CreatePageUiState()) }
+
+    val hasPostParam = remember(key1 = context.route) {
+        context.route.params.containsKey(POST_ID_PARAM)
+    }
+
+    LaunchedEffect(hasPostParam) {
+        if (hasPostParam) {
+            val postId = context.route.params[POST_ID_PARAM] ?: ""
+            val response = fetchSelectedPost(id = postId)
+            if (response is ApiResponse.Success) {
+                (document.getElementById(ID.editor) as HTMLTextAreaElement).value =
+                    response.data.content
+                uiState = uiState.copy(
+                    id = response.data.id,
+                    title = response.data.title,
+                    subTitle = response.data.subTitle,
+                    content = response.data.content,
+                    category = response.data.category,
+                    buttonText = "Update",
+                    thumbnail = response.data.thumbnail,
+                    main = response.data.main,
+                    popular = response.data.popular,
+                    sponsored = response.data.sponsored,
+                )
+            }
+        } else {
+            (document.getElementById(ID.editor) as HTMLTextAreaElement).value = ""
+            uiState = uiState.reset()
+        }
+    }
 
     AdminPageLayout {
         Box(
@@ -194,6 +243,7 @@ fun CreateScreen() {
                         .fontSize(16.px)
                         .toAttrs {
                             attr("placeholder", "Title")
+                            attr("value", uiState.title)
                         }
                 )
 
@@ -212,6 +262,7 @@ fun CreateScreen() {
                         .fontSize(16.px)
                         .toAttrs {
                             attr("placeholder", "SubTitle")
+                            attr("value", uiState.subTitle)
                         }
                 )
 
@@ -249,7 +300,8 @@ fun CreateScreen() {
                     thumbnail = uiState.thumbnail,
                     thumbnailInputDisabled = uiState.thumbnailInputDisabled,
                     onThumbnailSelect = { filename, file ->
-                        (document.getElementById(ID.thumbnailInput) as HTMLInputElement).value = filename
+                        (document.getElementById(ID.thumbnailInput) as HTMLInputElement).value =
+                            filename
                         uiState = uiState.copy(thumbnail = file)
                     }
                 )
@@ -269,6 +321,7 @@ fun CreateScreen() {
                 Editor(editorVisibility = uiState.editorVisibility)
 
                 CreateButton(
+                    text = uiState.buttonText,
                     onClick = {
                         uiState =
                             uiState.copy(title = (document.getElementById(ID.titleInput) as HTMLInputElement).value)
@@ -288,22 +341,41 @@ fun CreateScreen() {
                             uiState.content.isNotEmpty()
                         ) {
                             scope.launch {
-                                val result = addPost(
-                                    post = Post(
-                                        author = localStorage["username"].toString(),
-                                        title = uiState.title,
-                                        subTitle = uiState.subTitle,
-                                        date = Date.now().toLong(),
-                                        thumbnail = uiState.thumbnail,
-                                        content = uiState.content,
-                                        category = uiState.category,
-                                        popular = uiState.popular,
-                                        sponsored = uiState.sponsored,
-                                        main = uiState.main,
+                                if (hasPostParam) {
+                                    val result = updatePost(
+                                        post = Post(
+                                            id = uiState.id,
+                                            title = uiState.title,
+                                            subTitle = uiState.subTitle,
+                                            thumbnail = uiState.thumbnail,
+                                            content = uiState.content,
+                                            category = uiState.category,
+                                            popular = uiState.popular,
+                                            sponsored = uiState.sponsored,
+                                            main = uiState.main,
+                                        )
                                     )
-                                )
-                                if (result) {
-                                    context.router.navigateTo(Screen.AdminSuccess.route)
+                                    if (result) {
+                                        context.router.navigateTo(Screen.AdminSuccess.postUpdated())
+                                    }
+                                } else {
+                                    val result = addPost(
+                                        post = Post(
+                                            author = localStorage["username"].toString(),
+                                            title = uiState.title,
+                                            subTitle = uiState.subTitle,
+                                            date = Date.now().toLong(),
+                                            thumbnail = uiState.thumbnail,
+                                            content = uiState.content,
+                                            category = uiState.category,
+                                            popular = uiState.popular,
+                                            sponsored = uiState.sponsored,
+                                            main = uiState.main,
+                                        )
+                                    )
+                                    if (result) {
+                                        context.router.navigateTo(Screen.AdminSuccess.route)
+                                    }
                                 }
                             }
                         } else {
@@ -645,7 +717,10 @@ fun Editor(editorVisibility: Boolean) {
 }
 
 @Composable
-fun CreateButton(onClick: () -> Unit) {
+fun CreateButton(
+    text: String,
+    onClick: () -> Unit
+) {
     Button(
         attrs = Modifier
             .onClick {
@@ -662,9 +737,7 @@ fun CreateButton(onClick: () -> Unit) {
             .borderRadius(4.px)
             .toAttrs()
     ) {
-        SpanText(
-            text = "Create"
-        )
+        SpanText(text = text)
     }
 }
 

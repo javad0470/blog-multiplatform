@@ -12,22 +12,22 @@
 }(this, function (_, kotlin_kotlin) {
   'use strict';
   //region block: imports
-  var Regex_init_$Create$ = kotlin_kotlin.$_$.b1;
-  var toSet = kotlin_kotlin.$_$.r8;
-  var THROW_CCE = kotlin_kotlin.$_$.xe;
-  var isCharSequence = kotlin_kotlin.$_$.sa;
-  var trim = kotlin_kotlin.$_$.ee;
-  var toString = kotlin_kotlin.$_$.rb;
-  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
-  var joinToString = kotlin_kotlin.$_$.f7;
-  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.d1;
-  var charSequenceLength = kotlin_kotlin.$_$.aa;
-  var joinTo = kotlin_kotlin.$_$.h7;
-  var ensureNotNull = kotlin_kotlin.$_$.qf;
-  var protoOf = kotlin_kotlin.$_$.mb;
-  var classMeta = kotlin_kotlin.$_$.ca;
-  var VOID = kotlin_kotlin.$_$.gg;
-  var setMetadataFor = kotlin_kotlin.$_$.nb;
+  var Regex_init_$Create$ = kotlin_kotlin.$_$.c1;
+  var toSet = kotlin_kotlin.$_$.t8;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
+  var isCharSequence = kotlin_kotlin.$_$.ua;
+  var trim = kotlin_kotlin.$_$.ge;
+  var toString = kotlin_kotlin.$_$.tb;
+  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.k;
+  var joinToString = kotlin_kotlin.$_$.g7;
+  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.e1;
+  var charSequenceLength = kotlin_kotlin.$_$.ca;
+  var joinTo = kotlin_kotlin.$_$.i7;
+  var ensureNotNull = kotlin_kotlin.$_$.sf;
+  var protoOf = kotlin_kotlin.$_$.ob;
+  var classMeta = kotlin_kotlin.$_$.ea;
+  var VOID = kotlin_kotlin.$_$.ig;
+  var setMetadataFor = kotlin_kotlin.$_$.pb;
   //endregion
   //region block: pre-declaration
   setMetadataFor(EventListenerHandler, 'EventListenerHandler', classMeta);
@@ -144,27 +144,27 @@
     // Inline function 'kotlin.js.asDynamic' call
     return _this__u8e3s4[index];
   }
+  function get_0(_this__u8e3s4, index) {
+    // Inline function 'kotlin.js.asDynamic' call
+    return _this__u8e3s4[index];
+  }
   function EventSourceInit(withCredentials) {
     withCredentials = withCredentials === VOID ? false : withCredentials;
     var o = {};
     o['withCredentials'] = withCredentials;
     return o;
   }
-  function get_0(_this__u8e3s4, index) {
+  function get_1(_this__u8e3s4, key) {
     // Inline function 'kotlin.js.asDynamic' call
-    return _this__u8e3s4[index];
+    return _this__u8e3s4[key];
   }
   function set(_this__u8e3s4, key, value) {
     // Inline function 'kotlin.js.asDynamic' call
     _this__u8e3s4[key] = value;
   }
-  function get_1(_this__u8e3s4, index) {
+  function get_2(_this__u8e3s4, index) {
     // Inline function 'kotlin.js.asDynamic' call
     return _this__u8e3s4[index];
-  }
-  function get_2(_this__u8e3s4, key) {
-    // Inline function 'kotlin.js.asDynamic' call
-    return _this__u8e3s4[key];
   }
   function RequestInit(method, headers, body, referrer, referrerPolicy, mode, credentials, cache, redirect, integrity, keepalive, window_0) {
     method = method === VOID ? undefined : method;

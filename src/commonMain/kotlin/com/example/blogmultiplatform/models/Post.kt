@@ -1,15 +1,31 @@
 package com.example.blogmultiplatform.models
 
-expect class Post {
-    val id: String
-    val author: String
-    val date : Long
-    val title : String
-    val subTitle : String
-    val thumbnail : String
-    val content : String
-    val category : Category
-    val popular : Boolean
-    val main : Boolean
-    val sponsored : Boolean
-}
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class Post(
+    @SerialName("_id") val id: String = "",
+    val author: String = "",
+    val date: Long = 0L,
+    val title: String,
+    val subTitle: String,
+    val thumbnail: String,
+    val content: String,
+    val category: Category,
+    val popular: Boolean,
+    val main: Boolean,
+    val sponsored: Boolean,
+)
+
+
+@Serializable
+data class PostWithoutDetails(
+    @SerialName("_id") val id: String = "",
+    val author: String,
+    val date: Long,
+    val title: String,
+    val subTitle: String,
+    val thumbnail: String,
+    val category: Category,
+)

@@ -33,44 +33,44 @@
 }(this, function (_, kotlin_kotlin, kotlin_com_varabyte_kobweb_compose_html_ext, kotlin_org_jetbrains_compose_html_html_core, kotlin_com_varabyte_kobweb_kobweb_compose, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_com_varabyte_kobweb_silk_foundation, kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core, kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat) {
   'use strict';
   //region block: imports
-  var VOID = kotlin_kotlin.$_$.gg;
+  var VOID = kotlin_kotlin.$_$.ig;
   var StyleVariable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e;
   var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.r8;
-  var protoOf = kotlin_kotlin.$_$.mb;
-  var objectMeta = kotlin_kotlin.$_$.lb;
-  var setMetadataFor = kotlin_kotlin.$_$.nb;
-  var Unit_getInstance = kotlin_kotlin.$_$.p4;
-  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v3;
+  var protoOf = kotlin_kotlin.$_$.ob;
+  var objectMeta = kotlin_kotlin.$_$.nb;
+  var setMetadataFor = kotlin_kotlin.$_$.pb;
+  var Unit_getInstance = kotlin_kotlin.$_$.q4;
+  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y3;
   var fillMaxWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z;
   var Companion_getInstance_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.r;
   var borderBottom = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
-  var tabIndex = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
+  var tabIndex = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p2;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
   var get_ariaDisabled = kotlin_com_varabyte_kobweb_silk_foundation.$_$.j;
   var get_hover = kotlin_com_varabyte_kobweb_silk_foundation.$_$.r;
   var not = kotlin_com_varabyte_kobweb_silk_foundation.$_$.t;
   var get_active = kotlin_com_varabyte_kobweb_silk_foundation.$_$.g;
-  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.a2;
+  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.b2;
   var cursor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u;
-  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.z1;
-  var listOf = kotlin_kotlin.$_$.p7;
-  var transition = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
+  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.a2;
+  var listOf = kotlin_kotlin.$_$.q7;
+  var transition = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u2;
   var backgroundColor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t;
-  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.m2;
-  var userSelect = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u2;
+  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.o2;
+  var userSelect = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
   var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.n7;
-  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c2;
+  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e2;
   var calc = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.l;
   var margin = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o1;
   var flexGrow = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a1;
-  var overflow = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z1;
-  var Companion_getInstance_4 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.g2;
-  var KProperty0 = kotlin_kotlin.$_$.fc;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.ja;
-  var KProperty1 = kotlin_kotlin.$_$.gc;
+  var overflow = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
+  var Companion_getInstance_4 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h2;
+  var KProperty0 = kotlin_kotlin.$_$.hc;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.la;
+  var KProperty1 = kotlin_kotlin.$_$.ic;
   var ComponentStyle = kotlin_com_varabyte_kobweb_silk_foundation.$_$.f;
   var Companion_getInstance_5 = kotlin_com_varabyte_kobweb_silk_foundation.$_$.o1;
   var base = kotlin_com_varabyte_kobweb_silk_foundation.$_$.m;
@@ -80,59 +80,59 @@
   var height = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g1;
   var minWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s1;
   var fontSize = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c1;
-  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.b2;
+  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.c2;
   var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d1;
-  var Companion_getInstance_7 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.p2;
-  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
-  var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f2;
-  var Companion_getInstance_8 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.n2;
-  var verticalAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v2;
+  var Companion_getInstance_7 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r2;
+  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
+  var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h2;
+  var Companion_getInstance_8 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.p2;
+  var verticalAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y2;
   var borderRadius = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l;
   var border = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o;
-  var CSSTransition_init_$Create$ = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.x1;
-  var Colors_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n3;
-  var outline = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y1;
+  var CSSTransition_init_$Create$ = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y1;
+  var Colors_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q3;
+  var outline = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a2;
   var boxShadow = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q;
   var gap = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e1;
-  var opacity = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
-  var size = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;
+  var opacity = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y1;
+  var size = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o2;
   var border_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n;
-  var transition_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
-  var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l2;
-  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r3;
+  var transition_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v2;
+  var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
+  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u3;
   var rowClasses = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d;
   var Keyframes = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a;
   var addVariantBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.h;
   var addVariant = kotlin_com_varabyte_kobweb_silk_foundation.$_$.i;
   var StyleVariable_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.d;
+  var paddingInline = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d2;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   var Companion_getInstance_9 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.n1;
-  var THROW_CCE = kotlin_kotlin.$_$.xe;
-  var isObject = kotlin_kotlin.$_$.za;
-  var paddingInline = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
-  var interfaceMeta = kotlin_kotlin.$_$.na;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
+  var isObject = kotlin_kotlin.$_$.bb;
+  var interfaceMeta = kotlin_kotlin.$_$.pa;
   var Companion_getInstance_10 = kotlin_org_jetbrains_compose_html_html_core.$_$.o;
   var display = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i3;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
-  var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.d9;
+  var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.e9;
   var toModifier$composable = kotlin_com_varabyte_kobweb_silk_foundation.$_$.v;
   var ariaInvalid = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h;
   var ariaDisabled = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f;
   var ariaRequired = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i;
-  var Input$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.g9;
-  var setVariable_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k2;
+  var Input$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h9;
+  var setVariable_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;
   var get_placeholder = kotlin_com_varabyte_kobweb_silk_foundation.$_$.u;
-  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d3;
+  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g3;
   var get_ariaInvalid = kotlin_com_varabyte_kobweb_silk_foundation.$_$.k;
   var get_disabled = kotlin_com_varabyte_kobweb_silk_foundation.$_$.o;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h1;
-  var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.s1;
-  var getKClassFromExpression = kotlin_kotlin.$_$.c;
-  var toString = kotlin_kotlin.$_$.rb;
-  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.s1;
-  var Unit = kotlin_kotlin.$_$.if;
-  var isNumber = kotlin_kotlin.$_$.ya;
+  var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.t1;
+  var getKClassFromExpression = kotlin_kotlin.$_$.d;
+  var toString = kotlin_kotlin.$_$.tb;
+  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.t1;
+  var Unit = kotlin_kotlin.$_$.kf;
+  var isNumber = kotlin_kotlin.$_$.ab;
   var placeholder = kotlin_org_jetbrains_compose_html_html_core.$_$.s2;
   var disabled = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.n;
   var readOnly = kotlin_org_jetbrains_compose_html_html_core.$_$.t2;
@@ -141,31 +141,31 @@
   var margin_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n1;
   var RectF_init_$Create$ = kotlin_com_varabyte_kobweb_silk_foundation.$_$.n1;
   var clip = kotlin_com_varabyte_kobweb_silk_foundation.$_$.f1;
-  var overflow_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a2;
+  var overflow_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c2;
   var Companion_getInstance_11 = kotlin_org_jetbrains_compose_html_html_core.$_$.s;
-  var position = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g2;
+  var position = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i2;
   var Companion_getInstance_12 = kotlin_com_varabyte_kobweb_silk_foundation.$_$.p1;
   var toPalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d1;
-  var Label$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h9;
-  var THROW_ISE = kotlin_kotlin.$_$.ye;
-  var enumEntries = kotlin_kotlin.$_$.r9;
-  var Enum = kotlin_kotlin.$_$.me;
-  var classMeta = kotlin_kotlin.$_$.ca;
-  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y2;
+  var Label$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.i9;
+  var THROW_ISE = kotlin_kotlin.$_$.af;
+  var enumEntries = kotlin_kotlin.$_$.t9;
+  var Enum = kotlin_kotlin.$_$.oe;
+  var classMeta = kotlin_kotlin.$_$.ea;
+  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b3;
   var minHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r1;
-  var Companion_getInstance_13 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y1;
+  var Companion_getInstance_13 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.z1;
   var boxSizing = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r;
-  var translateX = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t2;
+  var translateX = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
   var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.p8;
   var minus = kotlin_org_jetbrains_compose_html_html_core.$_$.k8;
   var Box$composable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a;
-  var registerRefScope$composable_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r1;
+  var registerRefScope$composable_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.s1;
   var Checkbox_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.h;
   var ariaHidden = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g;
   var borderTop = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m;
   var ResponsiveValues = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d;
   var Breakpoint_ZERO_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.m1;
-  var getValue = kotlin_kotlin.$_$.b7;
+  var getValue = kotlin_kotlin.$_$.c7;
   var Breakpoint_SM_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.k1;
   var Breakpoint_MD_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.j1;
   var Breakpoint_LG_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.i1;
@@ -173,27 +173,27 @@
   var get_fr = kotlin_org_jetbrains_compose_html_html_core.$_$.t7;
   var gridTemplateColumns = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f1;
   var get_entries = kotlin_com_varabyte_kobweb_silk_foundation.$_$.c;
-  var collectionSizeOrDefault = kotlin_kotlin.$_$.a6;
-  var mapCapacity = kotlin_kotlin.$_$.q7;
-  var coerceAtLeast = kotlin_kotlin.$_$.wb;
-  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.r;
+  var collectionSizeOrDefault = kotlin_kotlin.$_$.b6;
+  var mapCapacity = kotlin_kotlin.$_$.r7;
+  var coerceAtLeast = kotlin_kotlin.$_$.yb;
+  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
   var NumberValue = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.c;
-  var TopStart_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u3;
+  var TopStart_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x3;
   var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var refScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.q1;
-  var KMutableProperty0 = kotlin_kotlin.$_$.dc;
-  var getLocalDelegateReference = kotlin_kotlin.$_$.ha;
-  var CoroutineImpl = kotlin_kotlin.$_$.m9;
+  var refScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r1;
+  var KMutableProperty0 = kotlin_kotlin.$_$.fc;
+  var getLocalDelegateReference = kotlin_kotlin.$_$.ja;
+  var CoroutineImpl = kotlin_kotlin.$_$.o9;
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.o;
-  var isInterface = kotlin_kotlin.$_$.wa;
+  var isInterface = kotlin_kotlin.$_$.ya;
   var LaunchedEffect$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.o;
   var CompositionLocalProvider$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g;
-  var SuspendFunction1 = kotlin_kotlin.$_$.n9;
+  var SuspendFunction1 = kotlin_kotlin.$_$.p9;
   var unaryMinus = kotlin_org_jetbrains_compose_html_html_core.$_$.x8;
   var margin_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l1;
-  var top = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
+  var top = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t2;
   var left = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i1;
-  var right = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i2;
+  var right = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k2;
   var bottom = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p;
   var base_0 = kotlin_com_varabyte_kobweb_silk_foundation.$_$.n;
   var base$composable = kotlin_com_varabyte_kobweb_silk_foundation.$_$.l;
@@ -206,7 +206,7 @@
   var addClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.a;
   var ColorGroup = kotlin_com_varabyte_kobweb_silk_foundation.$_$.b1;
   var MutablePalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.c1;
-  var KMutableProperty1 = kotlin_kotlin.$_$.ec;
+  var KMutableProperty1 = kotlin_kotlin.$_$.gc;
   //endregion
   //region block: pre-declaration
   setMetadataFor(TabVars, 'TabVars', objectMeta);
@@ -1079,6 +1079,11 @@
       new InputVars();
     return InputVars_instance;
   }
+  function inputPadding(_this__u8e3s4) {
+    _init_properties_Input_kt__b04mg8();
+    var padding = InputVars_getInstance().get_Padding_fgkl54_k$().value$default_x2j5m8_k$();
+    return paddingInline(_this__u8e3s4, padding, padding);
+  }
   function Input$composable_0(type, value, onValueChanged, modifier, variant, placeholder, size, enabled, valid, required, readOnly, spellCheck, autoComplete, onCommit, placeholderColor, focusBorderColor, invalidBorderColor, ref, $composer, $changed, $changed1, $default) {
     _init_properties_Input_kt__b04mg8();
     var modifier_0 = {_v: modifier};
@@ -1270,11 +1275,6 @@
     else {
       tmp0_safe_receiver.updateScope_xhrf9y_k$(Input$composable$lambda_0(type, value, onValueChanged, modifier_0, variant_0, placeholder_0, size_0, enabled_0, valid_0, required_0, readOnly_0, spellCheck_0, autoComplete_0, onCommit_0, placeholderColor_0, focusBorderColor_0, invalidBorderColor_0, ref_0, $changed, $changed1, $default));
     }
-  }
-  function inputPadding(_this__u8e3s4) {
-    _init_properties_Input_kt__b04mg8();
-    var padding = InputVars_getInstance().get_Padding_fgkl54_k$().value$default_x2j5m8_k$();
-    return paddingInline(_this__u8e3s4, padding, padding);
   }
   function get_$stableprop_3() {
     return 0;
@@ -2282,6 +2282,71 @@
       new SwitchVars();
     return SwitchVars_instance;
   }
+  function get_$stableprop_9() {
+    return 0;
+  }
+  function get_$stableprop_10() {
+    return 0;
+  }
+  function get_$stableprop_11() {
+    return 0;
+  }
+  function SM_0() {
+    SM_instance_0 = this;
+    this.width_1 = get_cssRem(1.375);
+    this.height_1 = get_cssRem(0.75);
+    this.$stable_1 = 0;
+  }
+  protoOf(SM_0).get_width_j0q4yl_k$ = function () {
+    return this.width_1;
+  };
+  protoOf(SM_0).get_height_e7t92o_k$ = function () {
+    return this.height_1;
+  };
+  var SM_instance_0;
+  function SM_getInstance_0() {
+    if (SM_instance_0 == null)
+      new SM_0();
+    return SM_instance_0;
+  }
+  function MD_0() {
+    MD_instance_0 = this;
+    this.width_1 = get_cssRem(1.875);
+    this.height_1 = get_cssRem(1);
+    this.$stable_1 = 0;
+  }
+  protoOf(MD_0).get_width_j0q4yl_k$ = function () {
+    return this.width_1;
+  };
+  protoOf(MD_0).get_height_e7t92o_k$ = function () {
+    return this.height_1;
+  };
+  var MD_instance_0;
+  function MD_getInstance_0() {
+    if (MD_instance_0 == null)
+      new MD_0();
+    return MD_instance_0;
+  }
+  function LG_0() {
+    LG_instance_0 = this;
+    this.width_1 = get_cssRem(2.875);
+    this.height_1 = get_cssRem(1.5);
+    this.$stable_1 = 0;
+  }
+  protoOf(LG_0).get_width_j0q4yl_k$ = function () {
+    return this.width_1;
+  };
+  protoOf(LG_0).get_height_e7t92o_k$ = function () {
+    return this.height_1;
+  };
+  var LG_instance_0;
+  function LG_getInstance_0() {
+    if (LG_instance_0 == null)
+      new LG_0();
+    return LG_instance_0;
+  }
+  function SwitchSize() {
+  }
   function Switch$composable(checked, onCheckedChange, modifier, variant, enabled, size, shape, colorScheme, thumbColor, focusBorderColor, ref, $composer, $changed, $changed1, $default) {
     _init_properties_Switch_kt__dwcqr0();
     var modifier_0 = {_v: modifier};
@@ -2423,71 +2488,6 @@
     else {
       tmp0_safe_receiver.updateScope_xhrf9y_k$(Switch$composable$lambda_0(checked, onCheckedChange, modifier_0, variant_0, enabled_0, size_0, shape_0, colorScheme_0, thumbColor_0, focusBorderColor_0, ref_0, $changed, $changed1, $default));
     }
-  }
-  function get_$stableprop_9() {
-    return 0;
-  }
-  function get_$stableprop_10() {
-    return 0;
-  }
-  function get_$stableprop_11() {
-    return 0;
-  }
-  function SM_0() {
-    SM_instance_0 = this;
-    this.width_1 = get_cssRem(1.375);
-    this.height_1 = get_cssRem(0.75);
-    this.$stable_1 = 0;
-  }
-  protoOf(SM_0).get_width_j0q4yl_k$ = function () {
-    return this.width_1;
-  };
-  protoOf(SM_0).get_height_e7t92o_k$ = function () {
-    return this.height_1;
-  };
-  var SM_instance_0;
-  function SM_getInstance_0() {
-    if (SM_instance_0 == null)
-      new SM_0();
-    return SM_instance_0;
-  }
-  function MD_0() {
-    MD_instance_0 = this;
-    this.width_1 = get_cssRem(1.875);
-    this.height_1 = get_cssRem(1);
-    this.$stable_1 = 0;
-  }
-  protoOf(MD_0).get_width_j0q4yl_k$ = function () {
-    return this.width_1;
-  };
-  protoOf(MD_0).get_height_e7t92o_k$ = function () {
-    return this.height_1;
-  };
-  var MD_instance_0;
-  function MD_getInstance_0() {
-    if (MD_instance_0 == null)
-      new MD_0();
-    return MD_instance_0;
-  }
-  function LG_0() {
-    LG_instance_0 = this;
-    this.width_1 = get_cssRem(2.875);
-    this.height_1 = get_cssRem(1.5);
-    this.$stable_1 = 0;
-  }
-  protoOf(LG_0).get_width_j0q4yl_k$ = function () {
-    return this.width_1;
-  };
-  protoOf(LG_0).get_height_e7t92o_k$ = function () {
-    return this.height_1;
-  };
-  var LG_instance_0;
-  function LG_getInstance_0() {
-    if (LG_instance_0 == null)
-      new LG_0();
-    return LG_instance_0;
-  }
-  function SwitchSize() {
   }
   var SwitchShape_PILL_instance;
   var SwitchShape_RECTANGLE_instance;
@@ -4537,7 +4537,7 @@
     var tmp8_backgroundOff = Colors_getInstance().get_LightGray_i1h2r4_k$();
     tmp5_$this.set_p21n25_k$(tmp7_backgroundOn, tmp8_backgroundOff, tmp6_thumb);
     (new MutableTab(tmp0_apply.get_light_iuogdp_k$())).set$default_opxhpz_k$(Colors_getInstance().get_Black_i7mvue_k$(), Colors_getInstance().get_White_ij46ow_k$(), Colors_getInstance().get_CornflowerBlue_r6uqqi_k$(), VOID, VOID, Colors_getInstance().get_LightGray_i1h2r4_k$(), Colors_getInstance().get_WhiteSmoke_gvtxtb_k$(), Colors_getInstance().get_White_ij46ow_k$());
-    (new MutableTooltip(tmp0_apply.get_light_iuogdp_k$())).set_60o1sz_k$(get_color_0(tmp0_apply.get_light_iuogdp_k$()), get_background(tmp0_apply.get_light_iuogdp_k$()));
+    (new MutableTooltip(tmp0_apply.get_light_iuogdp_k$())).set_60o1sz_k$(get_color_0(tmp0_apply.get_light_iuogdp_k$()), get_background_0(tmp0_apply.get_light_iuogdp_k$()));
     // Inline function 'kotlin.run' call
     // Inline function 'kotlin.contracts.contract' call
     var color_0 = Colors_getInstance().get_White_ij46ow_k$();
@@ -4563,7 +4563,7 @@
     var tmp8_backgroundOff_0 = Colors_getInstance().get_DarkGray_1y3y8u_k$();
     tmp5_$this_0.set_p21n25_k$(tmp7_backgroundOn_0, tmp8_backgroundOff_0, tmp6_thumb_0);
     (new MutableTab(tmp0_apply.get_dark_wokkvz_k$())).set$default_opxhpz_k$(Colors_getInstance().get_White_ij46ow_k$(), Colors_getInstance().get_Black_i7mvue_k$(), Colors_getInstance().get_LightSkyBlue_74jx4i_k$(), VOID, VOID, Colors_getInstance().get_DarkSlateGray_s468al_k$(), Colors_getInstance().get_DarkGray_1y3y8u_k$(), Colors_getInstance().get_Black_i7mvue_k$());
-    (new MutableTooltip(tmp0_apply.get_dark_wokkvz_k$())).set_60o1sz_k$(get_color_0(tmp0_apply.get_dark_wokkvz_k$()), get_background(tmp0_apply.get_dark_wokkvz_k$()));
+    (new MutableTooltip(tmp0_apply.get_dark_wokkvz_k$())).set_60o1sz_k$(get_color_0(tmp0_apply.get_dark_wokkvz_k$()), get_background_0(tmp0_apply.get_dark_wokkvz_k$()));
     mutableTheme.registerComponentStyle_35os1s_k$(get_SilkColorsStyle());
     mutableTheme.registerComponentStyle_35os1s_k$(get_DisabledStyle());
     mutableTheme.registerComponentStyle_35os1s_k$(get_SmoothColorStyle());
@@ -4681,7 +4681,7 @@
   function SilkColorsStyle$delegate$lambda($this$base) {
     _init_properties_InitSilkWidgets_kt__62z9ag();
     var palette = toPalette($this$base.get_colorMode_trbg8z_k$());
-    return setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(Companion_getInstance(), get_BackgroundColorVar(), get_background_0(palette)), get_ColorVar(), get_color(palette)), get_BorderColorVar(), get_border(palette)), get_FocusOutlineColorVar(), get_focusOutline_0(palette)), get_PlaceholderColorVar(), get_placeholder_0(palette)), ButtonVars_getInstance().get_BackgroundDefaultColor_so3bvr_k$(), get_button(palette).get_default_qtagd4_k$()), ButtonVars_getInstance().get_BackgroundHoverColor_qkbxz2_k$(), get_button(palette).get_hover_islez7_k$()), ButtonVars_getInstance().get_BackgroundPressedColor_qp3aco_k$(), get_button(palette).get_pressed_3zxk93_k$()), CheckboxVars_getInstance().get_IconBackgroundColor_fqf24z_k$(), get_checkbox(palette).get_background_stpfw7_k$()), CheckboxVars_getInstance().get_IconBackgroundHoverColor_gda561_k$(), get_checkbox(palette).get_hover_islez7_k$()), CheckboxVars_getInstance().get_IconColor_i8bnoh_k$(), get_checkbox(palette).get_color_ipu8u2_k$()), InputVars_getInstance().get_BorderHoverColor_4uita4_k$(), get_input(palette).get_hoveredBorder_pnis3i_k$()), InputVars_getInstance().get_BorderInvalidColor_3xft0h_k$(), get_input(palette).get_invalidBorder_suexpi_k$()), InputVars_getInstance().get_FilledColor_27lcwo_k$(), get_input(palette).get_filled_dbz78r_k$()), InputVars_getInstance().get_FilledHoverColor_z8l4su_k$(), get_input(palette).get_filledHover_panomn_k$()), InputVars_getInstance().get_FilledFocusColor_e3i8gm_k$(), get_input(palette).get_filledFocus_pbrnir_k$()), OverlayVars_getInstance().get_BackgroundColor_qhx06s_k$(), get_overlay_0(palette)), SwitchVars_getInstance().get_ThumbColor_g0t1d6_k$(), get_switch(palette).get_thumb_iz2gml_k$()), TabVars_getInstance().get_Color_i88tui_k$(), get_tab(palette).get_color_ipu8u2_k$()), TabVars_getInstance().get_BackgroundColor_qhx06s_k$(), get_tab(palette).get_background_stpfw7_k$()), TabVars_getInstance().get_DisabledBackgroundColor_cqusog_k$(), get_tab(palette).get_disabled_rbmjej_k$()), TabVars_getInstance().get_HoverBackgroundColor_uy6r32_k$(), get_tab(palette).get_hover_islez7_k$()), TabVars_getInstance().get_PressedBackgroundColor_ow7ud8_k$(), get_tab(palette).get_pressed_3zxk93_k$()), TooltipVars_getInstance().get_BackgroundColor_qhx06s_k$(), get_tooltip(palette).get_background_stpfw7_k$()), TooltipVars_getInstance().get_Color_i88tui_k$(), get_tooltip(palette).get_color_ipu8u2_k$());
+    return setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(setVariable(Companion_getInstance(), get_BackgroundColorVar(), get_background(palette)), get_ColorVar(), get_color(palette)), get_BorderColorVar(), get_border(palette)), get_FocusOutlineColorVar(), get_focusOutline(palette)), get_PlaceholderColorVar(), get_placeholder_0(palette)), ButtonVars_getInstance().get_BackgroundDefaultColor_so3bvr_k$(), get_button(palette).get_default_qtagd4_k$()), ButtonVars_getInstance().get_BackgroundHoverColor_qkbxz2_k$(), get_button(palette).get_hover_islez7_k$()), ButtonVars_getInstance().get_BackgroundPressedColor_qp3aco_k$(), get_button(palette).get_pressed_3zxk93_k$()), CheckboxVars_getInstance().get_IconBackgroundColor_fqf24z_k$(), get_checkbox(palette).get_background_stpfw7_k$()), CheckboxVars_getInstance().get_IconBackgroundHoverColor_gda561_k$(), get_checkbox(palette).get_hover_islez7_k$()), CheckboxVars_getInstance().get_IconColor_i8bnoh_k$(), get_checkbox(palette).get_color_ipu8u2_k$()), InputVars_getInstance().get_BorderHoverColor_4uita4_k$(), get_input(palette).get_hoveredBorder_pnis3i_k$()), InputVars_getInstance().get_BorderInvalidColor_3xft0h_k$(), get_input(palette).get_invalidBorder_suexpi_k$()), InputVars_getInstance().get_FilledColor_27lcwo_k$(), get_input(palette).get_filled_dbz78r_k$()), InputVars_getInstance().get_FilledHoverColor_z8l4su_k$(), get_input(palette).get_filledHover_panomn_k$()), InputVars_getInstance().get_FilledFocusColor_e3i8gm_k$(), get_input(palette).get_filledFocus_pbrnir_k$()), OverlayVars_getInstance().get_BackgroundColor_qhx06s_k$(), get_overlay(palette)), SwitchVars_getInstance().get_ThumbColor_g0t1d6_k$(), get_switch(palette).get_thumb_iz2gml_k$()), TabVars_getInstance().get_Color_i88tui_k$(), get_tab(palette).get_color_ipu8u2_k$()), TabVars_getInstance().get_BackgroundColor_qhx06s_k$(), get_tab(palette).get_background_stpfw7_k$()), TabVars_getInstance().get_DisabledBackgroundColor_cqusog_k$(), get_tab(palette).get_disabled_rbmjej_k$()), TabVars_getInstance().get_HoverBackgroundColor_uy6r32_k$(), get_tab(palette).get_hover_islez7_k$()), TabVars_getInstance().get_PressedBackgroundColor_ow7ud8_k$(), get_tab(palette).get_pressed_3zxk93_k$()), TooltipVars_getInstance().get_BackgroundColor_qhx06s_k$(), get_tooltip(palette).get_background_stpfw7_k$()), TooltipVars_getInstance().get_Color_i88tui_k$(), get_tooltip(palette).get_color_ipu8u2_k$());
   }
   function setSilkWidgetVariables$composable$lambda($this_setSilkWidgetVariables$composable, $$changed) {
     return function ($composer, $force) {
@@ -4707,12 +4707,6 @@
       var tmp = Companion_getInstance_5();
       SilkColorsStyle$delegate = base(tmp, VOID, VOID, SilkColorsStyle$delegate$lambda);
     }
-  }
-  function set_focusOutline(_this__u8e3s4, value) {
-    _this__u8e3s4.set_oci0ne_k$('focusOutline', value);
-  }
-  function get_focusOutline(_this__u8e3s4) {
-    return _this__u8e3s4.getValue_77wvui_k$('focusOutline');
   }
   function get_$stableprop_21() {
     return 0;
@@ -5005,26 +4999,89 @@
       new SilkWidgetColorGroups();
     return SilkWidgetColorGroups_instance;
   }
-  function get_color(_this__u8e3s4) {
-    return _this__u8e3s4.getValue_77wvui_k$('color');
-  }
-  function get_placeholder_0(_this__u8e3s4) {
-    return _this__u8e3s4.getValue_77wvui_k$('placeholder');
-  }
-  function get_input(_this__u8e3s4) {
-    return get_input_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
-  }
-  function get_border(_this__u8e3s4) {
-    return _this__u8e3s4.getValue_77wvui_k$('border');
+  function get_tooltip(_this__u8e3s4) {
+    return get_tooltip_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
   }
   function get_tab(_this__u8e3s4) {
     return get_tab_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
   }
-  function set_placeholder(_this__u8e3s4, value) {
-    _this__u8e3s4.set_oci0ne_k$('placeholder', value);
+  function get_switch(_this__u8e3s4) {
+    return get_switch_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
   }
-  function get_placeholder_1(_this__u8e3s4) {
+  function get_overlay(_this__u8e3s4) {
+    return _this__u8e3s4.getValue_77wvui_k$('overlay');
+  }
+  function get_input(_this__u8e3s4) {
+    return get_input_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
+  }
+  function get_checkbox(_this__u8e3s4) {
+    return get_checkbox_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
+  }
+  function get_button(_this__u8e3s4) {
+    return get_button_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
+  }
+  function get_placeholder_0(_this__u8e3s4) {
     return _this__u8e3s4.getValue_77wvui_k$('placeholder');
+  }
+  function get_focusOutline(_this__u8e3s4) {
+    return _this__u8e3s4.getValue_77wvui_k$('focusOutline');
+  }
+  function get_border(_this__u8e3s4) {
+    return _this__u8e3s4.getValue_77wvui_k$('border');
+  }
+  function get_color(_this__u8e3s4) {
+    return _this__u8e3s4.getValue_77wvui_k$('color');
+  }
+  function get_background(_this__u8e3s4) {
+    return _this__u8e3s4.getValue_77wvui_k$('background');
+  }
+  function get_tooltip_0(_this__u8e3s4) {
+    return new MutableTooltip(_this__u8e3s4);
+  }
+  function get_tab_0(_this__u8e3s4) {
+    return new MutableTab(_this__u8e3s4);
+  }
+  function get_switch_0(_this__u8e3s4) {
+    return new MutableSwitch(_this__u8e3s4);
+  }
+  function get_OVERLAY_KEY() {
+    return OVERLAY_KEY;
+  }
+  var OVERLAY_KEY;
+  function get_input_0(_this__u8e3s4) {
+    return new MutableInput(_this__u8e3s4);
+  }
+  function get_checkbox_0(_this__u8e3s4) {
+    return new MutableCheckbox(_this__u8e3s4);
+  }
+  function get_button_0(_this__u8e3s4) {
+    return new MutableButton(_this__u8e3s4);
+  }
+  function get_PLACEHOLDER_KEY() {
+    return PLACEHOLDER_KEY;
+  }
+  var PLACEHOLDER_KEY;
+  function get_FOCUS_OUTLINE_KEY() {
+    return FOCUS_OUTLINE_KEY;
+  }
+  var FOCUS_OUTLINE_KEY;
+  function get_BORDER_KEY() {
+    return BORDER_KEY;
+  }
+  var BORDER_KEY;
+  function get_COLOR_KEY() {
+    return COLOR_KEY;
+  }
+  var COLOR_KEY;
+  function get_BACKGROUND_KEY() {
+    return BACKGROUND_KEY;
+  }
+  var BACKGROUND_KEY;
+  function set_background(_this__u8e3s4, value) {
+    _this__u8e3s4.set_oci0ne_k$('background', value);
+  }
+  function get_background_0(_this__u8e3s4) {
+    return _this__u8e3s4.getValue_77wvui_k$('background');
   }
   function set_color(_this__u8e3s4, value) {
     _this__u8e3s4.set_oci0ne_k$('color', value);
@@ -5032,14 +5089,14 @@
   function get_color_0(_this__u8e3s4) {
     return _this__u8e3s4.getValue_77wvui_k$('color');
   }
-  function get_button(_this__u8e3s4) {
-    return get_button_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
-  }
   function set_border(_this__u8e3s4, value) {
     _this__u8e3s4.set_oci0ne_k$('border', value);
   }
   function get_border_0(_this__u8e3s4) {
     return _this__u8e3s4.getValue_77wvui_k$('border');
+  }
+  function set_focusOutline(_this__u8e3s4, value) {
+    _this__u8e3s4.set_oci0ne_k$('focusOutline', value);
   }
   function get_focusOutline_0(_this__u8e3s4) {
     return _this__u8e3s4.getValue_77wvui_k$('focusOutline');
@@ -5047,71 +5104,14 @@
   function set_overlay(_this__u8e3s4, value) {
     _this__u8e3s4.set_oci0ne_k$('overlay', value);
   }
-  function get_overlay(_this__u8e3s4) {
-    return _this__u8e3s4.getValue_77wvui_k$('overlay');
-  }
   function get_overlay_0(_this__u8e3s4) {
     return _this__u8e3s4.getValue_77wvui_k$('overlay');
   }
-  function get_tooltip(_this__u8e3s4) {
-    return get_tooltip_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
+  function set_placeholder(_this__u8e3s4, value) {
+    _this__u8e3s4.set_oci0ne_k$('placeholder', value);
   }
-  function get_switch(_this__u8e3s4) {
-    return get_switch_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
-  }
-  function set_background(_this__u8e3s4, value) {
-    _this__u8e3s4.set_oci0ne_k$('background', value);
-  }
-  function get_background(_this__u8e3s4) {
-    return _this__u8e3s4.getValue_77wvui_k$('background');
-  }
-  function get_checkbox(_this__u8e3s4) {
-    return get_checkbox_0(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
-  }
-  function get_background_0(_this__u8e3s4) {
-    return _this__u8e3s4.getValue_77wvui_k$('background');
-  }
-  function get_FOCUS_OUTLINE_KEY() {
-    return FOCUS_OUTLINE_KEY;
-  }
-  var FOCUS_OUTLINE_KEY;
-  function get_COLOR_KEY() {
-    return COLOR_KEY;
-  }
-  var COLOR_KEY;
-  function get_PLACEHOLDER_KEY() {
-    return PLACEHOLDER_KEY;
-  }
-  var PLACEHOLDER_KEY;
-  function get_input_0(_this__u8e3s4) {
-    return new MutableInput(_this__u8e3s4);
-  }
-  function get_BORDER_KEY() {
-    return BORDER_KEY;
-  }
-  var BORDER_KEY;
-  function get_tab_0(_this__u8e3s4) {
-    return new MutableTab(_this__u8e3s4);
-  }
-  function get_button_0(_this__u8e3s4) {
-    return new MutableButton(_this__u8e3s4);
-  }
-  function get_OVERLAY_KEY() {
-    return OVERLAY_KEY;
-  }
-  var OVERLAY_KEY;
-  function get_tooltip_0(_this__u8e3s4) {
-    return new MutableTooltip(_this__u8e3s4);
-  }
-  function get_switch_0(_this__u8e3s4) {
-    return new MutableSwitch(_this__u8e3s4);
-  }
-  function get_BACKGROUND_KEY() {
-    return BACKGROUND_KEY;
-  }
-  var BACKGROUND_KEY;
-  function get_checkbox_0(_this__u8e3s4) {
-    return new MutableCheckbox(_this__u8e3s4);
+  function get_placeholder_1(_this__u8e3s4) {
+    return _this__u8e3s4.getValue_77wvui_k$('placeholder');
   }
   function default$factory() {
     return getPropertyCallableRef('default', 1, KMutableProperty1, function (receiver) {
@@ -5469,11 +5469,11 @@
   protoOf(LG_0).get_padding_c2ipjs_k$ = get_padding;
   //endregion
   //region block: init
-  FOCUS_OUTLINE_KEY = 'focusOutline';
-  COLOR_KEY = 'color';
-  PLACEHOLDER_KEY = 'placeholder';
-  BORDER_KEY = 'border';
   OVERLAY_KEY = 'overlay';
+  PLACEHOLDER_KEY = 'placeholder';
+  FOCUS_OUTLINE_KEY = 'focusOutline';
+  BORDER_KEY = 'border';
+  COLOR_KEY = 'color';
   BACKGROUND_KEY = 'background';
   //endregion
   //region block: exports

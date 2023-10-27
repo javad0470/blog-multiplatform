@@ -30,36 +30,36 @@
   var imul = Math.imul;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
-  var THROW_CCE = kotlin_kotlin.$_$.bd;
+  var THROW_CCE = kotlin_kotlin.$_$.fd;
   var isObject = kotlin_kotlin.$_$.t9;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
   var Unit_getInstance = kotlin_kotlin.$_$.j4;
-  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k3;
-  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.v3;
+  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o3;
+  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.y3;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
-  var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.n1;
-  var protoOf = kotlin_kotlin.$_$.da;
-  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.m1;
-  var style_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.d1;
-  var returnUniversalSelector = kotlin_org_jetbrains_compose_html_html_core.$_$.g1;
-  var returnHoverSelector = kotlin_org_jetbrains_compose_html_html_core.$_$.f1;
-  var get_hover = kotlin_org_jetbrains_compose_html_html_core.$_$.e1;
-  var objectMeta = kotlin_kotlin.$_$.ca;
-  var VOID = kotlin_kotlin.$_$.je;
-  var setMetadataFor = kotlin_kotlin.$_$.ea;
+  var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.q1;
+  var protoOf = kotlin_kotlin.$_$.ea;
+  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.p1;
+  var style_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.g1;
+  var returnUniversalSelector = kotlin_org_jetbrains_compose_html_html_core.$_$.j1;
+  var returnHoverSelector = kotlin_org_jetbrains_compose_html_html_core.$_$.i1;
+  var get_hover = kotlin_org_jetbrains_compose_html_html_core.$_$.h1;
+  var objectMeta = kotlin_kotlin.$_$.da;
+  var VOID = kotlin_kotlin.$_$.ne;
+  var setMetadataFor = kotlin_kotlin.$_$.fa;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
   var From_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.f;
-  var to = kotlin_kotlin.$_$.ie;
+  var to = kotlin_kotlin.$_$.me;
   var To_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.g;
   var equals = kotlin_kotlin.$_$.z8;
   var hashCode = kotlin_kotlin.$_$.f9;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.i;
-  var toStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f3;
-  var StyleScopeBuilder = kotlin_org_jetbrains_compose_html_html_core.$_$.k1;
-  var CSSKeyframeRuleDeclaration = kotlin_org_jetbrains_compose_html_html_core.$_$.y;
-  var CSSKeyframesRuleDeclaration = kotlin_org_jetbrains_compose_html_html_core.$_$.z;
+  var toStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j3;
+  var StyleScopeBuilder = kotlin_org_jetbrains_compose_html_html_core.$_$.n1;
+  var CSSKeyframeRuleDeclaration = kotlin_org_jetbrains_compose_html_html_core.$_$.b1;
+  var CSSKeyframesRuleDeclaration = kotlin_org_jetbrains_compose_html_html_core.$_$.c1;
   var classMeta = kotlin_kotlin.$_$.w8;
   var mapCapacity = kotlin_kotlin.$_$.w6;
   var LinkedHashMap_init_$Create$_0 = kotlin_kotlin.$_$.r;
@@ -67,80 +67,80 @@
   var listOf = kotlin_kotlin.$_$.v6;
   var collectionSizeOrDefault = kotlin_kotlin.$_$.j5;
   var distinct = kotlin_kotlin.$_$.x5;
-  var lazy = kotlin_kotlin.$_$.yd;
-  var titleCamelCaseToKebabCase = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.u1;
-  var Raw = kotlin_org_jetbrains_compose_html_html_core.$_$.b1;
-  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u3;
+  var lazy = kotlin_kotlin.$_$.ce;
+  var titleCamelCaseToKebabCase = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.v1;
+  var Raw = kotlin_org_jetbrains_compose_html_html_core.$_$.e1;
+  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y3;
   var Companion_getInstance_1 = kotlin_org_jetbrains_compose_html_html_core.$_$.h;
   var display = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w;
-  var KProperty0 = kotlin_kotlin.$_$.sa;
+  var KProperty0 = kotlin_kotlin.$_$.ua;
   var getPropertyCallableRef = kotlin_kotlin.$_$.d9;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.z1;
   var charArrayOf = kotlin_kotlin.$_$.r8;
-  var split = kotlin_kotlin.$_$.rb;
+  var split = kotlin_kotlin.$_$.ub;
   var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.j;
   var charSequenceLength = kotlin_kotlin.$_$.u8;
   var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.u;
   var first = kotlin_kotlin.$_$.e6;
-  var Modifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z2;
+  var Modifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d3;
   var isInterface = kotlin_kotlin.$_$.q9;
-  var toString = kotlin_kotlin.$_$.ia;
+  var toString = kotlin_kotlin.$_$.ja;
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.o1;
   var isNotEmpty = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r;
-  var media = kotlin_org_jetbrains_compose_html_html_core.$_$.s2;
+  var media = kotlin_org_jetbrains_compose_html_html_core.$_$.v2;
   var plus = kotlin_kotlin.$_$.b7;
   var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.k1;
-  var removeSuffix = kotlin_kotlin.$_$.ob;
+  var removeSuffix = kotlin_kotlin.$_$.qb;
   var getStringHashCode = kotlin_kotlin.$_$.e9;
-  var StyleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
+  var StyleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e3;
   var copyToArray = kotlin_kotlin.$_$.w5;
   var classNames = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s;
   var getValue = kotlin_kotlin.$_$.h6;
   var toList = kotlin_kotlin.$_$.n7;
-  var removePrefix = kotlin_kotlin.$_$.nb;
+  var removePrefix = kotlin_kotlin.$_$.pb;
   var joinToString = kotlin_kotlin.$_$.l6;
   var listOf_0 = kotlin_kotlin.$_$.u6;
   var emptyList = kotlin_kotlin.$_$.y5;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.d1;
   var enumEntries = kotlin_kotlin.$_$.l8;
-  var Enum = kotlin_kotlin.$_$.sc;
-  var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.y1;
+  var Enum = kotlin_kotlin.$_$.wc;
+  var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.b2;
   var numberToDouble = kotlin_kotlin.$_$.z9;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
-  var toIntOrNull = kotlin_kotlin.$_$.bc;
-  var endsWith = kotlin_kotlin.$_$.db;
-  var startsWith = kotlin_kotlin.$_$.ub;
-  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.o2;
-  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e3;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.f3;
+  var toIntOrNull = kotlin_kotlin.$_$.fc;
+  var endsWith = kotlin_kotlin.$_$.fb;
+  var startsWith = kotlin_kotlin.$_$.xb;
+  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.q2;
+  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i3;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
-  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.u3;
-  var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.q1;
-  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.x3;
+  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.x3;
+  var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r1;
+  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.a4;
   var mutableStateListOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.u;
   var CompositionLocalProvider$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g;
   var composableLambdaInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a;
   var staticCompositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a1;
   var Map = kotlin_kotlin.$_$.z4;
-  var trimIndent = kotlin_kotlin.$_$.kc;
-  var MediaFeature = kotlin_org_jetbrains_compose_html_html_core.$_$.a1;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.zd;
+  var trimIndent = kotlin_kotlin.$_$.oc;
+  var MediaFeature = kotlin_org_jetbrains_compose_html_html_core.$_$.d1;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.de;
   var NoSuchElementException_init_$Create$ = kotlin_kotlin.$_$.s1;
   var produceState$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.w;
   var CoroutineImpl = kotlin_kotlin.$_$.j8;
   var ProduceStateScope = kotlin_org_jetbrains_compose_runtime_runtime.$_$.o;
   var EventListener = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.d;
   var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.v7;
-  var throwKotlinNothingValueException = kotlin_kotlin.$_$.fe;
+  var throwKotlinNothingValueException = kotlin_kotlin.$_$.je;
   var sourceInformationMarkerStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.y;
   var sourceInformationMarkerEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
   var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
   var compositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.q;
-  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l3;
+  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p3;
   var interfaceMeta = kotlin_kotlin.$_$.h9;
-  var ensureNotNull = kotlin_kotlin.$_$.td;
-  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c3;
-  var objectCreate = kotlin_kotlin.$_$.ba;
+  var ensureNotNull = kotlin_kotlin.$_$.xd;
+  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g3;
+  var objectCreate = kotlin_kotlin.$_$.ca;
   //endregion
   //region block: pre-declaration
   setMetadataFor(SilkStyleSheet, 'SilkStyleSheet', objectMeta, StyleSheet);
@@ -229,10 +229,10 @@
     var tmp;
     switch (tmp0) {
       case 0:
-        tmp = this.x45();
+        tmp = this.j47();
         break;
       case 1:
-        tmp = this.y45();
+        tmp = this.k47();
         break;
       default:
         noWhenBranchMatchedException();
@@ -243,7 +243,7 @@
   setMetadataFor(Palettes, 'Palettes', interfaceMeta);
   setMetadataFor(MutablePalettes, 'MutablePalettes', classMeta, VOID, [Palettes]);
   function getValue_0(key) {
-    return ensureNotNull(this.g38(key));
+    return ensureNotNull(this.k39(key));
   }
   setMetadataFor(Palette, 'Palette', interfaceMeta);
   setMetadataFor(EntryDelegate, 'EntryDelegate', classMeta);
@@ -333,14 +333,14 @@
       var $composer_3 = $composer_0;
       $composer_3.ny(-168645675);
       sourceInformation($composer_3, 'CC(Style$composable)');
-      Style$composable(null, tmp4_Style$composable.o29(), $composer_3, 0, 1);
+      Style$composable(null, tmp4_Style$composable.v29(), $composer_3, 0, 1);
       $composer_3.oy();
       // Inline function 'org.jetbrains.compose.web.css.Style$composable' call
       var tmp6_Style$composable = SilkStyleSheet_getInstance();
       var $composer_4 = $composer_0;
       $composer_4.ny(-168645675);
       sourceInformation($composer_4, 'CC(Style$composable)');
-      Style$composable(null, tmp6_Style$composable.o29(), $composer_4, 0, 1);
+      Style$composable(null, tmp6_Style$composable.v29(), $composer_4, 0, 1);
       $composer_4.oy();
       content($composer_0, 14 & $dirty >> 3);
       if (isTraceInProgress()) {
@@ -374,10 +374,10 @@
   function SilkStyleSheet() {
     SilkStyleSheet_instance = this;
     StyleSheet.call(this);
-    this.w3n_1 = 0;
+    this.i3p_1 = 0;
   }
-  protoOf(SilkStyleSheet).s29 = function (selector, cssRule) {
-    return this.r29(selector, cssRule);
+  protoOf(SilkStyleSheet).z29 = function (selector, cssRule) {
+    return this.y29(selector, cssRule);
   };
   var SilkStyleSheet_instance;
   function SilkStyleSheet_getInstance() {
@@ -386,21 +386,21 @@
     return SilkStyleSheet_instance;
   }
   function KeyframesBuilder(colorMode) {
-    this.x3n_1 = colorMode;
+    this.j3p_1 = colorMode;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.y3n_1 = LinkedHashMap_init_$Create$();
-    this.z3n_1 = 8;
+    tmp.k3p_1 = LinkedHashMap_init_$Create$();
+    this.l3p_1 = 8;
   }
-  protoOf(KeyframesBuilder).a3o = function (createStyle) {
+  protoOf(KeyframesBuilder).m3p = function (createStyle) {
     // Inline function 'kotlin.collections.plusAssign' call
-    var tmp0_plusAssign = this.y3n_1;
+    var tmp0_plusAssign = this.k3p_1;
     var tmp1_plusAssign = to(From_getInstance(), createStyle);
     tmp0_plusAssign.l3(tmp1_plusAssign.h3_1, tmp1_plusAssign.i3_1);
   };
-  protoOf(KeyframesBuilder).b3o = function (createStyle) {
+  protoOf(KeyframesBuilder).n3p = function (createStyle) {
     // Inline function 'kotlin.collections.plusAssign' call
-    var tmp0_plusAssign = this.y3n_1;
+    var tmp0_plusAssign = this.k3p_1;
     var tmp1_plusAssign = to(To_getInstance(), createStyle);
     tmp0_plusAssign.l3(tmp1_plusAssign.h3_1, tmp1_plusAssign.i3_1);
   };
@@ -412,9 +412,9 @@
   protoOf(KeyframesBuilder).hashCode = function () {
     return hashCode(get_comparableKeyframeStyles(this));
   };
-  protoOf(KeyframesBuilder).c3o = function (stylesheet, keyframesName) {
+  protoOf(KeyframesBuilder).o3p = function (stylesheet, keyframesName) {
     // Inline function 'kotlin.collections.map' call
-    var tmp0_map = this.y3n_1;
+    var tmp0_map = this.k3p_1;
     // Inline function 'kotlin.collections.mapTo' call
     var tmp0_mapTo = ArrayList_init_$Create$(tmp0_map.f());
     // Inline function 'kotlin.collections.iterator' call
@@ -434,11 +434,11 @@
       tmp0_mapTo.a(tmp$ret$3);
     }
     var keyframeRules = tmp0_mapTo;
-    stylesheet.t27(new CSSKeyframesRuleDeclaration(keyframesName, keyframeRules));
+    stylesheet.a28(new CSSKeyframesRuleDeclaration(keyframesName, keyframeRules));
   };
   function get_comparableKeyframeStyles(_this__u8e3s4) {
     // Inline function 'kotlin.collections.mapValues' call
-    var tmp0_mapValues = _this__u8e3s4.y3n_1;
+    var tmp0_mapValues = _this__u8e3s4.k3p_1;
     // Inline function 'kotlin.collections.mapValuesTo' call
     var tmp0_mapValuesTo = LinkedHashMap_init_$Create$_0(mapCapacity(tmp0_mapValues.f()));
     // Inline function 'kotlin.collections.associateByTo' call
@@ -462,7 +462,7 @@
   function Companion() {
     Companion_instance = this;
   }
-  protoOf(Companion).d3o = function (build) {
+  protoOf(Companion).p3p = function (build) {
     // Inline function 'kotlin.collections.count' call
     // Inline function 'kotlin.collections.map' call
     var tmp0_map = listOf([ColorMode_LIGHT_getInstance(), ColorMode_DARK_getInstance()]);
@@ -488,13 +488,13 @@
   }
   function Keyframes$usesColorMode$delegate$lambda(this$0) {
     return function () {
-      return !Companion_getInstance_4().d3o(this$0.e3o_1);
+      return !Companion_getInstance_4().p3p(this$0.q3p_1);
     };
   }
   function Keyframes(name, prefix, init) {
     Companion_getInstance_4();
     prefix = prefix === VOID ? null : prefix;
-    this.e3o_1 = init;
+    this.q3p_1 = init;
     var tmp = this;
     var tmp_0;
     if (prefix == null) {
@@ -506,76 +506,76 @@
       tmp_0 = '' + prefix + '-' + name;
     }
     var tmp1_elvis_lhs = tmp_0;
-    tmp.f3o_1 = tmp1_elvis_lhs == null ? name : tmp1_elvis_lhs;
+    tmp.r3p_1 = tmp1_elvis_lhs == null ? name : tmp1_elvis_lhs;
     var tmp_1 = this;
-    tmp_1.g3o_1 = lazy(Keyframes$usesColorMode$delegate$lambda(this));
-    this.h3o_1 = 8;
+    tmp_1.s3p_1 = lazy(Keyframes$usesColorMode$delegate$lambda(this));
+    this.t3p_1 = 8;
   }
   function KeyframesProvider(prefix, init) {
     CacheByPropertyNameDelegate.call(this);
-    this.k3o_1 = prefix;
-    this.l3o_1 = init;
-    this.m3o_1 = 0;
+    this.w3p_1 = prefix;
+    this.x3p_1 = init;
+    this.y3p_1 = 0;
   }
-  protoOf(KeyframesProvider).m2l = function (propertyName) {
+  protoOf(KeyframesProvider).l2m = function (propertyName) {
     var name = titleCamelCaseToKebabCase(propertyName);
-    return new Keyframes(name, this.k3o_1, this.l3o_1);
+    return new Keyframes(name, this.w3p_1, this.x3p_1);
   };
   function Keyframes_0(prefix, init) {
     prefix = prefix === VOID ? null : prefix;
     return new KeyframesProvider(prefix, init);
   }
   function registerKeyframes(_this__u8e3s4, keyframes) {
-    return _this__u8e3s4.p3o(keyframes.f3o_1, keyframes.e3o_1);
+    return _this__u8e3s4.b3q(keyframes.r3p_1, keyframes.q3p_1);
   }
   function get_DisplayIfAtLeastZeroStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayIfAtLeastZeroStyle$delegate.v2j(null, DisplayIfAtLeastZeroStyle$factory());
+    return DisplayIfAtLeastZeroStyle$delegate.r2k(null, DisplayIfAtLeastZeroStyle$factory());
   }
   var DisplayIfAtLeastZeroStyle$delegate;
   function get_DisplayIfAtLeastSmStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayIfAtLeastSmStyle$delegate.v2j(null, DisplayIfAtLeastSmStyle$factory());
+    return DisplayIfAtLeastSmStyle$delegate.r2k(null, DisplayIfAtLeastSmStyle$factory());
   }
   var DisplayIfAtLeastSmStyle$delegate;
   function get_DisplayIfAtLeastMdStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayIfAtLeastMdStyle$delegate.v2j(null, DisplayIfAtLeastMdStyle$factory());
+    return DisplayIfAtLeastMdStyle$delegate.r2k(null, DisplayIfAtLeastMdStyle$factory());
   }
   var DisplayIfAtLeastMdStyle$delegate;
   function get_DisplayIfAtLeastLgStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayIfAtLeastLgStyle$delegate.v2j(null, DisplayIfAtLeastLgStyle$factory());
+    return DisplayIfAtLeastLgStyle$delegate.r2k(null, DisplayIfAtLeastLgStyle$factory());
   }
   var DisplayIfAtLeastLgStyle$delegate;
   function get_DisplayIfAtLeastXlStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayIfAtLeastXlStyle$delegate.v2j(null, DisplayIfAtLeastXlStyle$factory());
+    return DisplayIfAtLeastXlStyle$delegate.r2k(null, DisplayIfAtLeastXlStyle$factory());
   }
   var DisplayIfAtLeastXlStyle$delegate;
   function get_DisplayUntilZeroStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayUntilZeroStyle$delegate.v2j(null, DisplayUntilZeroStyle$factory());
+    return DisplayUntilZeroStyle$delegate.r2k(null, DisplayUntilZeroStyle$factory());
   }
   var DisplayUntilZeroStyle$delegate;
   function get_DisplayUntilSmStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayUntilSmStyle$delegate.v2j(null, DisplayUntilSmStyle$factory());
+    return DisplayUntilSmStyle$delegate.r2k(null, DisplayUntilSmStyle$factory());
   }
   var DisplayUntilSmStyle$delegate;
   function get_DisplayUntilMdStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayUntilMdStyle$delegate.v2j(null, DisplayUntilMdStyle$factory());
+    return DisplayUntilMdStyle$delegate.r2k(null, DisplayUntilMdStyle$factory());
   }
   var DisplayUntilMdStyle$delegate;
   function get_DisplayUntilLgStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayUntilLgStyle$delegate.v2j(null, DisplayUntilLgStyle$factory());
+    return DisplayUntilLgStyle$delegate.r2k(null, DisplayUntilLgStyle$factory());
   }
   var DisplayUntilLgStyle$delegate;
   function get_DisplayUntilXlStyle() {
     _init_properties_BreakpointConditions_kt__53om95();
-    return DisplayUntilXlStyle$delegate.v2j(null, DisplayUntilXlStyle$factory());
+    return DisplayUntilXlStyle$delegate.r2k(null, DisplayUntilXlStyle$factory());
   }
   var DisplayUntilXlStyle$delegate;
   function invert(_this__u8e3s4) {
@@ -585,7 +585,7 @@
   function DisplayIfAtLeastZeroStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = invert(toMinWidthQuery(Breakpoint_ZERO_getInstance()));
-    $this$ComponentStyle.t3o(tmp, DisplayIfAtLeastZeroStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.f3q(tmp, DisplayIfAtLeastZeroStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayIfAtLeastZeroStyle$delegate$lambda$lambda() {
@@ -601,7 +601,7 @@
   function DisplayIfAtLeastSmStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = invert(toMinWidthQuery(Breakpoint_SM_getInstance()));
-    $this$ComponentStyle.t3o(tmp, DisplayIfAtLeastSmStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.f3q(tmp, DisplayIfAtLeastSmStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayIfAtLeastSmStyle$delegate$lambda$lambda() {
@@ -617,7 +617,7 @@
   function DisplayIfAtLeastMdStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = invert(toMinWidthQuery(Breakpoint_MD_getInstance()));
-    $this$ComponentStyle.t3o(tmp, DisplayIfAtLeastMdStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.f3q(tmp, DisplayIfAtLeastMdStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayIfAtLeastMdStyle$delegate$lambda$lambda() {
@@ -633,7 +633,7 @@
   function DisplayIfAtLeastLgStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = invert(toMinWidthQuery(Breakpoint_LG_getInstance()));
-    $this$ComponentStyle.t3o(tmp, DisplayIfAtLeastLgStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.f3q(tmp, DisplayIfAtLeastLgStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayIfAtLeastLgStyle$delegate$lambda$lambda() {
@@ -649,7 +649,7 @@
   function DisplayIfAtLeastXlStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = invert(toMinWidthQuery(Breakpoint_XL_getInstance()));
-    $this$ComponentStyle.t3o(tmp, DisplayIfAtLeastXlStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.f3q(tmp, DisplayIfAtLeastXlStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayIfAtLeastXlStyle$delegate$lambda$lambda() {
@@ -665,7 +665,7 @@
   function DisplayUntilZeroStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = Breakpoint_ZERO_getInstance();
-    $this$ComponentStyle.u3o(tmp, DisplayUntilZeroStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.g3q(tmp, DisplayUntilZeroStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayUntilZeroStyle$delegate$lambda$lambda() {
@@ -681,7 +681,7 @@
   function DisplayUntilSmStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = Breakpoint_SM_getInstance();
-    $this$ComponentStyle.u3o(tmp, DisplayUntilSmStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.g3q(tmp, DisplayUntilSmStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayUntilSmStyle$delegate$lambda$lambda() {
@@ -697,7 +697,7 @@
   function DisplayUntilMdStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = Breakpoint_MD_getInstance();
-    $this$ComponentStyle.u3o(tmp, DisplayUntilMdStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.g3q(tmp, DisplayUntilMdStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayUntilMdStyle$delegate$lambda$lambda() {
@@ -713,7 +713,7 @@
   function DisplayUntilLgStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = Breakpoint_LG_getInstance();
-    $this$ComponentStyle.u3o(tmp, DisplayUntilLgStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.g3q(tmp, DisplayUntilLgStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayUntilLgStyle$delegate$lambda$lambda() {
@@ -729,7 +729,7 @@
   function DisplayUntilXlStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_BreakpointConditions_kt__53om95();
     var tmp = Breakpoint_XL_getInstance();
-    $this$ComponentStyle.u3o(tmp, DisplayUntilXlStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.g3q(tmp, DisplayUntilXlStyle$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function DisplayUntilXlStyle$delegate$lambda$lambda() {
@@ -827,14 +827,14 @@
     while (tmp0_iterator_0.d()) {
       var element_0 = tmp0_iterator_0.e();
       // Inline function 'com.varabyte.kobweb.silk.components.style.Companion.notifySelectorName.<anonymous>' call
-      Companion_getInstance_5().v3o_1.a(element_0);
+      Companion_getInstance_5().h3q_1.a(element_0);
     }
   }
   function Companion_0() {
     Companion_instance_0 = this;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableSetOf' call
-    tmp.v3o_1 = LinkedHashSet_init_$Create$();
+    tmp.h3q_1 = LinkedHashSet_init_$Create$();
   }
   var Companion_instance_0;
   function Companion_getInstance_5() {
@@ -843,21 +843,21 @@
     return Companion_instance_0;
   }
   function addStyles(_this__u8e3s4, $this, cssRule, styles) {
-    _this__u8e3s4.t29(cssRule, ComponentStyle$addStyles$lambda(styles));
+    _this__u8e3s4.a2a(cssRule, ComponentStyle$addStyles$lambda(styles));
   }
   function withFinalSelectorName($this, selectorBaseName, group, handler) {
     if (group instanceof Light)
-      handler(suffixedWith(selectorBaseName, ColorMode_LIGHT_getInstance()), group.d3p_1);
+      handler(suffixedWith(selectorBaseName, ColorMode_LIGHT_getInstance()), group.p3q_1);
     else {
       if (group instanceof Dark)
-        handler(suffixedWith(selectorBaseName, ColorMode_DARK_getInstance()), group.b3p_1);
+        handler(suffixedWith(selectorBaseName, ColorMode_DARK_getInstance()), group.n3q_1);
       else {
         if (group instanceof ColorAgnostic)
-          handler(selectorBaseName, group.z3o_1);
+          handler(selectorBaseName, group.l3q_1);
         else {
           if (group instanceof ColorAware) {
-            handler(suffixedWith(selectorBaseName, ColorMode_LIGHT_getInstance()), group.w3o_1);
-            handler(suffixedWith(selectorBaseName, ColorMode_DARK_getInstance()), group.x3o_1);
+            handler(suffixedWith(selectorBaseName, ColorMode_LIGHT_getInstance()), group.i3q_1);
+            handler(suffixedWith(selectorBaseName, ColorMode_DARK_getInstance()), group.j3q_1);
           }
         }
       }
@@ -869,7 +869,7 @@
     // Inline function 'kotlin.apply' call
     // Inline function 'kotlin.contracts.contract' call
     init(_this__u8e3s4);
-    var tmp0_groupBy = _this__u8e3s4.r3o_1;
+    var tmp0_groupBy = _this__u8e3s4.d3q_1;
     // Inline function 'kotlin.collections.groupByTo' call
     var tmp0_groupByTo = LinkedHashMap_init_$Create$();
     var tmp0_iterator = tmp0_groupBy.c();
@@ -920,14 +920,14 @@
           // Inline function 'kotlin.contracts.contract' call
           // Inline function 'kotlin.check' call
           // Inline function 'kotlin.contracts.contract' call
-          if (!(equals(element_1.g3p_1, first_0.g3p_1) ? element_1.h3p_1 == first_0.h3p_1 : false)) {
+          if (!(equals(element_1.s3q_1, first_0.s3q_1) ? element_1.t3q_1 == first_0.t3q_1 : false)) {
             // Inline function 'kotlin.check.<anonymous>' call
             var message = 'Check failed.';
             throw IllegalStateException_init_$Create$(toString(message));
           }
-          mergedModifier = mergedModifier.s3l(element_1.f3p_1);
+          mergedModifier = mergedModifier.e3n(element_1.r3q_1);
         }
-        tmp$ret$8 = new CssModifier(mergedModifier, first_0.g3p_1, first_0.h3p_1);
+        tmp$ret$8 = new CssModifier(mergedModifier, first_0.s3q_1, first_0.t3q_1);
       }
       tmp0_mapValuesTo.l3(tmp_0, tmp$ret$8);
     }
@@ -935,7 +935,7 @@
   }
   function ComponentStyle$addStyles$lambda($styles) {
     return function ($this$null) {
-      var tmp0_forEach = $styles.j2f_1;
+      var tmp0_forEach = $styles.e2g_1;
       var tmp$ret$0;
       // Inline function 'kotlin.collections.iterator' call
       tmp$ret$0 = tmp0_forEach.u1().c();
@@ -943,9 +943,9 @@
       while (tmp0_iterator.d()) {
         var element = tmp0_iterator.e();
         // Inline function 'com.varabyte.kobweb.silk.components.style.ComponentStyle.addStyles.<anonymous>.<anonymous>' call
-        $this$null.l28(element.t1(), element.w1());
+        $this$null.s28(element.t1(), element.w1());
       }
-      var tmp1_forEach = $styles.k2f_1;
+      var tmp1_forEach = $styles.f2g_1;
       var tmp$ret$1;
       // Inline function 'kotlin.collections.iterator' call
       tmp$ret$1 = tmp1_forEach.u1().c();
@@ -953,7 +953,7 @@
       while (tmp0_iterator_0.d()) {
         var element_0 = tmp0_iterator_0.e();
         // Inline function 'com.varabyte.kobweb.silk.components.style.ComponentStyle.addStyles.<anonymous>.<anonymous>' call
-        $this$null.r28(element_0.t1(), element_0.w1());
+        $this$null.y28(element_0.t1(), element_0.w1());
       }
       return Unit_getInstance();
     };
@@ -982,17 +982,17 @@
         notifySelectorName(Companion_getInstance_5(), name);
         var tmp$ret$0;
         // Inline function 'kotlin.text.orEmpty' call
-        var tmp0_orEmpty = $cssRuleKey.j3p_1;
+        var tmp0_orEmpty = $cssRuleKey.v3q_1;
         var tmp0_elvis_lhs = tmp0_orEmpty;
         tmp$ret$0 = tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs;
         var cssRule = name + tmp$ret$0;
         var tmp_0;
-        if (!($cssRuleKey.i3p_1 == null)) {
+        if (!($cssRuleKey.u3q_1 == null)) {
           var tmp$ret$1;
           // Inline function 'kotlin.apply' call
           // Inline function 'kotlin.contracts.contract' call
           // Inline function 'com.varabyte.kobweb.silk.components.style.ComponentStyle.addStylesInto.<anonymous>.<anonymous>.<anonymous>' call
-          media($styleSheet, $cssRuleKey.i3p_1, ComponentStyle$addStylesInto$lambda$lambda(this$0, cssRule, styles));
+          media($styleSheet, $cssRuleKey.u3q_1, ComponentStyle$addStylesInto$lambda$lambda(this$0, cssRule, styles));
           tmp$ret$1 = $styleSheet;
           tmp_0 = Unit_getInstance();
         } else {
@@ -1004,15 +1004,15 @@
       return Unit_getInstance();
     };
   }
-  protoOf(ComponentStyle).s3p = function (styleSheet, selectorName) {
+  protoOf(ComponentStyle).e3r = function (styleSheet, selectorName) {
     notifySelectorName(Companion_getInstance_5(), selectorName);
-    var lightModifiers = addStylesInto$mergeCssModifiers(new ComponentModifiers(ColorMode_LIGHT_getInstance()), this.n3p_1);
-    var darkModifiers = addStylesInto$mergeCssModifiers(new ComponentModifiers(ColorMode_DARK_getInstance()), this.n3p_1);
+    var lightModifiers = addStylesInto$mergeCssModifiers(new ComponentModifiers(ColorMode_LIGHT_getInstance()), this.z3q_1);
+    var darkModifiers = addStylesInto$mergeCssModifiers(new ComponentModifiers(ColorMode_DARK_getInstance()), this.z3q_1);
     var tmp = Companion_getInstance_6();
-    var tmp0_safe_receiver = lightModifiers.h2(Companion_getInstance_7().t3p_1);
-    var tmp_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.f3p_1;
-    var tmp1_safe_receiver = darkModifiers.h2(Companion_getInstance_7().t3p_1);
-    var tmp2_safe_receiver = tmp.u3p(tmp_0, tmp1_safe_receiver == null ? null : tmp1_safe_receiver.f3p_1);
+    var tmp0_safe_receiver = lightModifiers.h2(Companion_getInstance_7().f3r_1);
+    var tmp_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.r3q_1;
+    var tmp1_safe_receiver = darkModifiers.h2(Companion_getInstance_7().f3r_1);
+    var tmp2_safe_receiver = tmp.g3r(tmp_0, tmp1_safe_receiver == null ? null : tmp1_safe_receiver.r3q_1);
     if (tmp2_safe_receiver == null)
       null;
     else {
@@ -1028,7 +1028,7 @@
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.silk.components.style.ComponentStyle.addStylesInto.<anonymous>' call
-      if (!element.equals(Companion_getInstance_7().t3p_1)) {
+      if (!element.equals(Companion_getInstance_7().f3r_1)) {
         tmp0_filterTo.a(element);
       }
     }
@@ -1038,9 +1038,9 @@
       var cssRuleKey = tmp3_iterator.e();
       var tmp_1 = Companion_getInstance_6();
       var tmp4_safe_receiver = lightModifiers.h2(cssRuleKey);
-      var tmp_2 = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.f3p_1;
+      var tmp_2 = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.r3q_1;
       var tmp5_safe_receiver = darkModifiers.h2(cssRuleKey);
-      var tmp6_safe_receiver = tmp_1.u3p(tmp_2, tmp5_safe_receiver == null ? null : tmp5_safe_receiver.f3p_1);
+      var tmp6_safe_receiver = tmp_1.g3r(tmp_2, tmp5_safe_receiver == null ? null : tmp5_safe_receiver.r3q_1);
       if (tmp6_safe_receiver == null)
         null;
       else {
@@ -1050,18 +1050,18 @@
       }
     }
   };
-  protoOf(ComponentStyle).v3p = function (styleSheet) {
-    this.s3p(styleSheet, '.' + this.p3p_1);
+  protoOf(ComponentStyle).h3r = function (styleSheet) {
+    this.e3r(styleSheet, '.' + this.b3r_1);
   };
-  protoOf(ComponentStyle).w3p = function () {
-    return new ImmutableComponentStyle(this.p3p_1, this.l3p_1);
+  protoOf(ComponentStyle).i3r = function () {
+    return new ImmutableComponentStyle(this.b3r_1, this.x3q_1);
   };
   function ComponentStyle(name, extraModifiers, prefix, init) {
     Companion_getInstance_5();
     prefix = prefix === VOID ? null : prefix;
-    this.l3p_1 = extraModifiers;
-    this.m3p_1 = prefix;
-    this.n3p_1 = init;
+    this.x3q_1 = extraModifiers;
+    this.y3q_1 = prefix;
+    this.z3q_1 = init;
     // Inline function 'kotlin.require' call
     // Inline function 'kotlin.text.isNotEmpty' call
     // Inline function 'kotlin.contracts.contract' call
@@ -1070,9 +1070,9 @@
       var message = 'ComponentStyle name must not be empty';
       throw IllegalArgumentException_init_$Create$(toString(message));
     }
-    this.o3p_1 = name;
+    this.a3r_1 = name;
     var tmp = this;
-    var tmp0_safe_receiver = this.m3p_1;
+    var tmp0_safe_receiver = this.y3q_1;
     var tmp_0;
     if (tmp0_safe_receiver == null) {
       tmp_0 = null;
@@ -1083,31 +1083,31 @@
       tmp_0 = '' + tmp0_safe_receiver + '-' + name;
     }
     var tmp1_elvis_lhs = tmp_0;
-    tmp.p3p_1 = tmp1_elvis_lhs == null ? name : tmp1_elvis_lhs;
+    tmp.b3r_1 = tmp1_elvis_lhs == null ? name : tmp1_elvis_lhs;
     var tmp_1 = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp_1.q3p_1 = ArrayList_init_$Create$_0();
-    this.r3p_1 = 8;
+    tmp_1.c3r_1 = ArrayList_init_$Create$_0();
+    this.d3r_1 = 8;
   }
-  protoOf(ComponentStyle).x3p = function (name, extraModifiers, init) {
+  protoOf(ComponentStyle).j3r = function (name, extraModifiers, init) {
     // Inline function 'kotlin.also' call
-    var tmp0_also = new SimpleComponentVariant(new ComponentStyle(this.p3p_1 + '-' + name, extraModifiers, null, init), this);
+    var tmp0_also = new SimpleComponentVariant(new ComponentStyle(this.b3r_1 + '-' + name, extraModifiers, null, init), this);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.silk.components.style.ComponentStyle.addVariant$composable.<anonymous>' call
-    this.q3p_1.a(tmp0_also);
+    this.c3r_1.a(tmp0_also);
     return tmp0_also;
   };
-  protoOf(ComponentStyleProvider).m2l = function (propertyName) {
+  protoOf(ComponentStyleProvider).l2m = function (propertyName) {
     var name = titleCamelCaseToKebabCase(removeSuffix(propertyName, 'Style'));
-    return new ComponentStyle(name, this.a3q_1, this.b3q_1, this.c3q_1);
+    return new ComponentStyle(name, this.m3r_1, this.n3r_1, this.o3r_1);
   };
   function ComponentStyleProvider(extraModifiers, prefix, init) {
     prefix = prefix === VOID ? null : prefix;
     CacheByPropertyNameDelegate.call(this);
-    this.a3q_1 = extraModifiers;
-    this.b3q_1 = prefix;
-    this.c3q_1 = init;
-    this.d3q_1 = 0;
+    this.m3r_1 = extraModifiers;
+    this.n3r_1 = prefix;
+    this.o3r_1 = init;
+    this.p3r_1 = 0;
   }
   function ComponentStyle_0(extraModifiers, prefix, init) {
     extraModifiers = extraModifiers === VOID ? Companion_getInstance_0() : extraModifiers;
@@ -1116,18 +1116,18 @@
   }
   function ComponentModifiers(colorMode) {
     StyleModifiers.call(this);
-    this.h3q_1 = colorMode;
-    this.i3q_1 = 0;
+    this.t3r_1 = colorMode;
+    this.u3r_1 = 0;
   }
-  protoOf(ComponentModifiers).j3q = function () {
-    return this.h3q_1;
+  protoOf(ComponentModifiers).v3r = function () {
+    return this.t3r_1;
   };
   function Empty() {
     Empty_instance = this;
     ComponentVariant.call(this);
-    this.o3q_1 = 0;
+    this.a3s_1 = 0;
   }
-  protoOf(Empty).p3q = function ($composer, $changed) {
+  protoOf(Empty).b3s = function ($composer, $changed) {
     var $composer_0 = $composer;
     $composer_0.ny(1324185618);
     if (isTraceInProgress()) {
@@ -1147,32 +1147,32 @@
     return Empty_instance;
   }
   function ComponentVariant() {
-    this.q3q_1 = 0;
+    this.c3s_1 = 0;
   }
-  protoOf(ComponentVariant).r3q = function (next) {
+  protoOf(ComponentVariant).d3s = function (next) {
     return next === Empty_getInstance() ? this : this === Empty_getInstance() ? next : new CompositeComponentVariant(this, next);
   };
   function Light(styles) {
-    this.d3p_1 = styles;
-    this.e3p_1 = 0;
+    this.p3q_1 = styles;
+    this.q3q_1 = 0;
   }
   function Dark(styles) {
-    this.b3p_1 = styles;
-    this.c3p_1 = 0;
+    this.n3q_1 = styles;
+    this.o3q_1 = 0;
   }
   function ColorAgnostic(styles) {
-    this.z3o_1 = styles;
-    this.a3p_1 = 0;
+    this.l3q_1 = styles;
+    this.m3q_1 = 0;
   }
   function ColorAware(lightStyles, darkStyles) {
-    this.w3o_1 = lightStyles;
-    this.x3o_1 = darkStyles;
-    this.y3o_1 = 0;
+    this.i3q_1 = lightStyles;
+    this.j3q_1 = darkStyles;
+    this.k3q_1 = 0;
   }
   function Companion_1() {
     Companion_instance_1 = this;
   }
-  protoOf(Companion_1).u3p = function (lightModifiers, darkModifiers) {
+  protoOf(Companion_1).g3r = function (lightModifiers, darkModifiers) {
     var tmp;
     if (lightModifiers == null) {
       tmp = null;
@@ -1234,7 +1234,7 @@
   }
   function Companion_2() {
     Companion_instance_2 = this;
-    this.t3p_1 = new Key(null, null);
+    this.f3r_1 = new Key(null, null);
   }
   var Companion_instance_2;
   function Companion_getInstance_7() {
@@ -1243,16 +1243,16 @@
     return Companion_instance_2;
   }
   function Key(mediaQuery, suffix) {
-    this.i3p_1 = mediaQuery;
-    this.j3p_1 = suffix;
-    this.k3p_1 = 0;
+    this.u3q_1 = mediaQuery;
+    this.v3q_1 = suffix;
+    this.w3q_1 = 0;
   }
   protoOf(Key).toString = function () {
-    return 'Key(mediaQuery=' + this.i3p_1 + ', suffix=' + this.j3p_1 + ')';
+    return 'Key(mediaQuery=' + this.u3q_1 + ', suffix=' + this.v3q_1 + ')';
   };
   protoOf(Key).hashCode = function () {
-    var result = this.i3p_1 == null ? 0 : getStringHashCode(this.i3p_1);
-    result = imul(result, 31) + (this.j3p_1 == null ? 0 : getStringHashCode(this.j3p_1)) | 0;
+    var result = this.u3q_1 == null ? 0 : getStringHashCode(this.u3q_1);
+    result = imul(result, 31) + (this.v3q_1 == null ? 0 : getStringHashCode(this.v3q_1)) | 0;
     return result;
   };
   protoOf(Key).equals = function (other) {
@@ -1261,9 +1261,9 @@
     if (!(other instanceof Key))
       return false;
     var tmp0_other_with_cast = other instanceof Key ? other : THROW_CCE();
-    if (!(this.i3p_1 == tmp0_other_with_cast.i3p_1))
+    if (!(this.u3q_1 == tmp0_other_with_cast.u3q_1))
       return false;
-    if (!(this.j3p_1 == tmp0_other_with_cast.j3p_1))
+    if (!(this.v3q_1 == tmp0_other_with_cast.v3q_1))
       return false;
     return true;
   };
@@ -1277,21 +1277,21 @@
     Companion_getInstance_7();
     mediaQuery = mediaQuery === VOID ? null : mediaQuery;
     suffix = suffix === VOID ? null : suffix;
-    this.f3p_1 = modifier;
-    this.g3p_1 = mediaQuery;
-    this.h3p_1 = suffix;
-    this.f3p_1.r3l(Unit_getInstance(), CssModifier$lambda);
+    this.r3q_1 = modifier;
+    this.s3q_1 = mediaQuery;
+    this.t3q_1 = suffix;
+    this.r3q_1.d3n(Unit_getInstance(), CssModifier$lambda);
   }
   protoOf(CssModifier).t1 = function () {
-    var tmp0_safe_receiver = this.g3p_1;
-    return new Key(tmp0_safe_receiver == null ? null : toString(tmp0_safe_receiver), this.h3p_1);
+    var tmp0_safe_receiver = this.s3q_1;
+    return new Key(tmp0_safe_receiver == null ? null : toString(tmp0_safe_receiver), this.t3q_1);
   };
   function ImmutableComponentStyle(name, extraModifiers) {
-    this.s3q_1 = name;
-    this.t3q_1 = extraModifiers;
-    this.u3q_1 = 0;
+    this.e3s_1 = name;
+    this.f3s_1 = extraModifiers;
+    this.g3s_1 = 0;
   }
-  protoOf(ImmutableComponentStyle).p3q = function ($composer, $changed) {
+  protoOf(ImmutableComponentStyle).b3s = function ($composer, $changed) {
     var $composer_0 = $composer;
     $composer_0.ny(512683125);
     sourceInformation($composer_0, 'C(toModifier$composable)');
@@ -1299,14 +1299,14 @@
       traceEventStart(512683125, $changed, -1, 'com.varabyte.kobweb.silk.components.style.ImmutableComponentStyle.toModifier$composable (ComponentStyle.kt:201)');
     }
     // Inline function 'kotlin.collections.filter' call
-    var tmp0_filter = listOf([this.s3q_1, suffixedWith(this.s3q_1, Companion_getInstance_10().v3q($composer_0, 6))]);
+    var tmp0_filter = listOf([this.e3s_1, suffixedWith(this.e3s_1, Companion_getInstance_10().h3s($composer_0, 6))]);
     // Inline function 'kotlin.collections.filterTo' call
     var tmp0_filterTo = ArrayList_init_$Create$_0();
     var tmp0_iterator = tmp0_filter.c();
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.silk.components.style.ImmutableComponentStyle.toModifier$composable.<anonymous>' call
-      if (Companion_getInstance_5().v3o_1.m(element)) {
+      if (Companion_getInstance_5().h3q_1.m(element)) {
         tmp0_filterTo.a(element);
       }
     }
@@ -1322,7 +1322,7 @@
     } else {
       tmp = Companion_getInstance_0();
     }
-    var tmp0 = tmp.s3l(this.t3q_1($composer_0, 0));
+    var tmp0 = tmp.e3n(this.f3s_1($composer_0, 0));
     if (isTraceInProgress()) {
       traceEventEnd();
     }
@@ -1331,23 +1331,23 @@
   };
   function SimpleComponentVariant(style, baseStyle) {
     ComponentVariant.call(this);
-    this.x3q_1 = style;
-    this.y3q_1 = baseStyle;
-    this.z3q_1 = 0;
+    this.j3s_1 = style;
+    this.k3s_1 = baseStyle;
+    this.l3s_1 = 0;
   }
-  protoOf(SimpleComponentVariant).v3p = function (styleSheet) {
-    this.x3q_1.s3p(styleSheet, '.' + this.y3q_1.p3p_1 + '.' + this.x3q_1.p3p_1);
+  protoOf(SimpleComponentVariant).h3r = function (styleSheet) {
+    this.j3s_1.e3r(styleSheet, '.' + this.k3s_1.b3r_1 + '.' + this.j3s_1.b3r_1);
   };
-  protoOf(SimpleComponentVariant).w3p = function () {
-    return this.x3q_1.w3p();
+  protoOf(SimpleComponentVariant).i3r = function () {
+    return this.j3s_1.i3r();
   };
-  protoOf(SimpleComponentVariant).p3q = function ($composer, $changed) {
+  protoOf(SimpleComponentVariant).b3s = function ($composer, $changed) {
     var $composer_0 = $composer;
     $composer_0.ny(-1695500569);
     if (isTraceInProgress()) {
       traceEventStart(-1695500569, $changed, -1, 'com.varabyte.kobweb.silk.components.style.SimpleComponentVariant.toModifier$composable (ComponentStyle.kt:666)');
     }
-    var tmp0 = toModifier$composable(this.x3q_1, [], $composer_0, 64);
+    var tmp0 = toModifier$composable(this.j3s_1, [], $composer_0, 64);
     if (isTraceInProgress()) {
       traceEventEnd();
     }
@@ -1361,37 +1361,37 @@
   function StyleModifiers() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.q3o_1 = ArrayList_init_$Create$_0();
-    this.r3o_1 = this.q3o_1;
-    this.s3o_1 = 0;
+    tmp.c3q_1 = ArrayList_init_$Create$_0();
+    this.d3q_1 = this.c3q_1;
+    this.e3q_1 = 0;
   }
-  protoOf(StyleModifiers).k3q = function (createModifier) {
-    this.q3o_1.a(new CssModifier(createModifier()));
+  protoOf(StyleModifiers).w3r = function (createModifier) {
+    this.c3q_1.a(new CssModifier(createModifier()));
   };
-  protoOf(StyleModifiers).l3q = function (mediaQuery, suffix, createModifier) {
-    this.q3o_1.a(new CssModifier(createModifier(), mediaQuery, suffix));
+  protoOf(StyleModifiers).x3r = function (mediaQuery, suffix, createModifier) {
+    this.c3q_1.a(new CssModifier(createModifier(), mediaQuery, suffix));
   };
-  protoOf(StyleModifiers).m3q = function (suffix, createModifier) {
-    this.q3o_1.a(new CssModifier(createModifier(), null, suffix));
+  protoOf(StyleModifiers).y3r = function (suffix, createModifier) {
+    this.c3q_1.a(new CssModifier(createModifier(), null, suffix));
   };
-  protoOf(StyleModifiers).t3o = function (mediaQuery, createModifier) {
-    this.q3o_1.a(new CssModifier(createModifier(), mediaQuery));
+  protoOf(StyleModifiers).f3q = function (mediaQuery, createModifier) {
+    this.c3q_1.a(new CssModifier(createModifier(), mediaQuery));
   };
-  protoOf(StyleModifiers).u3o = function (_this__u8e3s4, createModifier) {
-    this.t3o(toMinWidthQuery(_this__u8e3s4), createModifier);
+  protoOf(StyleModifiers).g3q = function (_this__u8e3s4, createModifier) {
+    this.f3q(toMinWidthQuery(_this__u8e3s4), createModifier);
   };
   function CompositeComponentVariant(head, tail) {
     ComponentVariant.call(this);
-    this.b3r_1 = head;
-    this.c3r_1 = tail;
+    this.n3s_1 = head;
+    this.o3s_1 = tail;
   }
-  protoOf(CompositeComponentVariant).p3q = function ($composer, $changed) {
+  protoOf(CompositeComponentVariant).b3s = function ($composer, $changed) {
     var $composer_0 = $composer;
     $composer_0.ny(-690240964);
     if (isTraceInProgress()) {
       traceEventStart(-690240964, $changed, -1, 'com.varabyte.kobweb.silk.components.style.CompositeComponentVariant.toModifier$composable (ComponentStyle.kt:678)');
     }
-    var tmp0 = this.b3r_1.p3q($composer_0, 0).s3l(this.c3r_1.p3q($composer_0, 0));
+    var tmp0 = this.n3s_1.b3s($composer_0, 0).e3n(this.o3s_1.b3s($composer_0, 0));
     if (isTraceInProgress()) {
       traceEventEnd();
     }
@@ -1405,7 +1405,7 @@
     if (isTraceInProgress()) {
       traceEventStart(-1254167608, $changed, -1, 'com.varabyte.kobweb.silk.components.style.toModifier$composable (ComponentStyle.kt:690)');
     }
-    var tmp0 = getValue(get_SilkTheme().i3r_1, _this__u8e3s4.p3p_1).p3q($composer_0, 0).s3l(combine$composable(toList(variants), $composer_0, 0).p3q($composer_0, 0));
+    var tmp0 = getValue(get_SilkTheme().u3s_1, _this__u8e3s4.b3r_1).b3s($composer_0, 0).e3n(combine$composable(toList(variants), $composer_0, 0).b3s($composer_0, 0));
     if (isTraceInProgress()) {
       traceEventEnd();
     }
@@ -1424,7 +1424,7 @@
     while (tmp0_iterator.d()) {
       var variant = tmp0_iterator.e();
       var tmp = finalVariant;
-      finalVariant = tmp.r3q(variant == null ? Empty_getInstance() : variant);
+      finalVariant = tmp.d3s(variant == null ? Empty_getInstance() : variant);
     }
     var tmp0 = finalVariant;
     if (isTraceInProgress()) {
@@ -1439,16 +1439,16 @@
     return base$composable(_this__u8e3s4, base$lambda(extraModifiers), prefix, init);
   }
   function ComponentBaseModifier(colorMode) {
-    this.k3r_1 = colorMode;
-    this.l3r_1 = 0;
+    this.w3s_1 = colorMode;
+    this.x3s_1 = 0;
   }
-  protoOf(ComponentBaseModifier).j3q = function () {
-    return this.k3r_1;
+  protoOf(ComponentBaseModifier).v3r = function () {
+    return this.w3s_1;
   };
-  protoOf(ComponentVariantProvider).m2l = function (propertyName) {
+  protoOf(ComponentVariantProvider).l2m = function (propertyName) {
     var withoutSuffix = titleCamelCaseToKebabCase(removeSuffix(propertyName, 'Variant'));
     // Inline function 'kotlin.takeIf' call
-    var tmp0_takeIf = removeSuffix(removePrefix(withoutSuffix, this.o3r_1.o3p_1 + '-'), '-' + this.o3r_1.o3p_1);
+    var tmp0_takeIf = removeSuffix(removePrefix(withoutSuffix, this.a3t_1.a3r_1 + '-'), '-' + this.a3t_1.a3r_1);
     // Inline function 'kotlin.contracts.contract' call
     var tmp;
     // Inline function 'com.varabyte.kobweb.silk.components.style.ComponentVariantProvider.create.<anonymous>' call
@@ -1460,14 +1460,14 @@
     }
     var tmp0_elvis_lhs = tmp;
     var name = tmp0_elvis_lhs == null ? withoutSuffix : tmp0_elvis_lhs;
-    return this.o3r_1.x3p(name, this.p3r_1, this.q3r_1);
+    return this.a3t_1.j3r(name, this.b3t_1, this.c3t_1);
   };
   function ComponentVariantProvider(style, extraModifiers, init) {
     CacheByPropertyNameDelegate.call(this);
-    this.o3r_1 = style;
-    this.p3r_1 = extraModifiers;
-    this.q3r_1 = init;
-    this.r3r_1 = 8;
+    this.a3t_1 = style;
+    this.b3t_1 = extraModifiers;
+    this.c3t_1 = init;
+    this.d3t_1 = 8;
   }
   function addVariantBase(_this__u8e3s4, extraModifiers, init) {
     extraModifiers = extraModifiers === VOID ? Companion_getInstance_0() : extraModifiers;
@@ -1593,7 +1593,7 @@
     return function () {
       var tmp$ret$0;
       // Inline function 'kotlin.let' call
-      var tmp0_let = new ComponentBaseModifier($this_$receiver.h3q_1);
+      var tmp0_let = new ComponentBaseModifier($this_$receiver.t3r_1);
       // Inline function 'kotlin.contracts.contract' call
       tmp$ret$0 = $init(tmp0_let);
       return tmp$ret$0;
@@ -1601,7 +1601,7 @@
   }
   function base$composable$lambda($init) {
     return function ($this$$receiver) {
-      $this$$receiver.k3q(base$composable$lambda$lambda($this$$receiver, $init));
+      $this$$receiver.w3r(base$composable$lambda$lambda($this$$receiver, $init));
       return Unit_getInstance();
     };
   }
@@ -1609,7 +1609,7 @@
     return function () {
       var tmp$ret$0;
       // Inline function 'kotlin.let' call
-      var tmp0_let = new ComponentBaseModifier($this_$receiver.h3q_1);
+      var tmp0_let = new ComponentBaseModifier($this_$receiver.t3r_1);
       // Inline function 'kotlin.contracts.contract' call
       tmp$ret$0 = $init(tmp0_let);
       return tmp$ret$0;
@@ -1617,7 +1617,7 @@
   }
   function addVariantBase$composable$lambda($init) {
     return function ($this$$receiver) {
-      $this$$receiver.k3q(addVariantBase$composable$lambda$lambda($this$$receiver, $init));
+      $this$$receiver.w3r(addVariantBase$composable$lambda$lambda($this$$receiver, $init));
       return Unit_getInstance();
     };
   }
@@ -1625,7 +1625,7 @@
     return function () {
       var tmp$ret$0;
       // Inline function 'kotlin.let' call
-      var tmp0_let = new ComponentBaseModifier($this_$receiver.h3q_1);
+      var tmp0_let = new ComponentBaseModifier($this_$receiver.t3r_1);
       // Inline function 'kotlin.contracts.contract' call
       tmp$ret$0 = $init(tmp0_let);
       return tmp$ret$0;
@@ -1633,14 +1633,14 @@
   }
   function base$composable$lambda_0($init) {
     return function ($this$$receiver) {
-      $this$$receiver.k3q(base$composable$lambda$lambda_0($this$$receiver, $init));
+      $this$$receiver.w3r(base$composable$lambda$lambda_0($this$$receiver, $init));
       return Unit_getInstance();
     };
   }
   function Companion_3() {
     Companion_instance_3 = this;
   }
-  protoOf(Companion_3).s3r = function (target, pseudoClass, params) {
+  protoOf(Companion_3).e3t = function (target, pseudoClass, params) {
     // Inline function 'kotlin.collections.mapNotNull' call
     // Inline function 'kotlin.collections.mapNotNullTo' call
     var tmp0_mapNotNullTo = ArrayList_init_$Create$_0();
@@ -1652,7 +1652,7 @@
       inductionVariable = inductionVariable + 1 | 0;
       // Inline function 'kotlin.collections.mapNotNullTo.<anonymous>' call
       // Inline function 'com.varabyte.kobweb.silk.components.style.Companion.OfFunctionalPseudoClass.<anonymous>' call
-      var tmp0_safe_receiver = element.w3r();
+      var tmp0_safe_receiver = element.i3t();
       if (tmp0_safe_receiver == null)
         null;
       else {
@@ -1671,64 +1671,64 @@
   }
   function NonMediaCssRule(target) {
     CssRule.call(this, target);
-    this.a3s_1 = 0;
+    this.m3t_1 = 0;
   }
   function OfAttributeSelector(target, attributeSelector) {
     NonMediaCssRule.call(this, target);
-    this.g3s_1 = attributeSelector;
-    this.h3s_1 = 0;
+    this.s3t_1 = attributeSelector;
+    this.t3t_1 = 0;
   }
-  protoOf(OfAttributeSelector).w3r = function () {
-    return this.i3s(listOf_0(this), emptyList(), null);
+  protoOf(OfAttributeSelector).i3t = function () {
+    return this.u3t(listOf_0(this), emptyList(), null);
   };
   function OfPseudoClass(target, pseudoClass) {
     NonMediaCssRule.call(this, target);
-    this.o3s_1 = pseudoClass;
-    this.p3s_1 = 0;
+    this.a3u_1 = pseudoClass;
+    this.b3u_1 = 0;
   }
-  protoOf(OfPseudoClass).w3r = function () {
-    return this.i3s(emptyList(), listOf_0(this), null);
+  protoOf(OfPseudoClass).i3t = function () {
+    return this.u3t(emptyList(), listOf_0(this), null);
   };
-  protoOf(OfPseudoClass).q3s = function (other) {
-    return new CompositeOpen(this.t3r_1, null, emptyList(), listOf([this, other]));
+  protoOf(OfPseudoClass).c3u = function (other) {
+    return new CompositeOpen(this.f3t_1, null, emptyList(), listOf([this, other]));
   };
   function OfPseudoElement(target, pseudoElement) {
     NonMediaCssRule.call(this, target);
-    this.v3s_1 = pseudoElement;
-    this.w3s_1 = 0;
+    this.h3u_1 = pseudoElement;
+    this.i3u_1 = 0;
   }
-  protoOf(OfPseudoElement).w3r = function () {
-    return this.i3s(emptyList(), emptyList(), this);
+  protoOf(OfPseudoElement).i3t = function () {
+    return this.u3t(emptyList(), emptyList(), this);
   };
   function CompositeOpen(target, mediaQuery, attributeSelectors, pseudoClasses) {
     NonMediaCssRule.call(this, target);
-    this.b3t_1 = mediaQuery;
-    this.c3t_1 = attributeSelectors;
-    this.d3t_1 = pseudoClasses;
-    this.e3t_1 = 0;
+    this.n3u_1 = mediaQuery;
+    this.o3u_1 = attributeSelectors;
+    this.p3u_1 = pseudoClasses;
+    this.q3u_1 = 0;
   }
-  protoOf(CompositeOpen).b3s = function () {
-    return this.b3t_1;
+  protoOf(CompositeOpen).n3t = function () {
+    return this.n3u_1;
   };
-  protoOf(CompositeOpen).w3r = function () {
-    return this.i3s(this.c3t_1, this.d3t_1, null);
+  protoOf(CompositeOpen).i3t = function () {
+    return this.u3t(this.o3u_1, this.p3u_1, null);
   };
   function CssRule(target) {
     Companion_getInstance_8();
-    this.t3r_1 = target;
-    this.u3r_1 = null;
-    this.v3r_1 = 0;
+    this.f3t_1 = target;
+    this.g3t_1 = null;
+    this.h3t_1 = 0;
   }
-  protoOf(CssRule).j3s = function (createModifier) {
-    this.t3r_1.l3q(this.b3s(), this.w3r(), createModifier);
+  protoOf(CssRule).v3t = function (createModifier) {
+    this.f3t_1.x3r(this.n3t(), this.i3t(), createModifier);
   };
-  protoOf(CssRule).b3s = function () {
-    return this.u3r_1;
+  protoOf(CssRule).n3t = function () {
+    return this.g3t_1;
   };
-  protoOf(CssRule).w3r = function () {
+  protoOf(CssRule).i3t = function () {
     return null;
   };
-  protoOf(CssRule).i3s = function (attributeSelectors, pseudoClasses, pseudoElement) {
+  protoOf(CssRule).u3t = function (attributeSelectors, pseudoClasses, pseudoElement) {
     // Inline function 'kotlin.takeIf' call
     // Inline function 'kotlin.text.buildString' call
     // Inline function 'kotlin.contracts.contract' call
@@ -1741,17 +1741,17 @@
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.silk.components.style.CssRule.buildSelectorText.<anonymous>.<anonymous>' call
-      tmp0_apply.p6('[' + element.g3s_1 + ']');
+      tmp0_apply.q6('[' + element.s3t_1 + ']');
     }
     // Inline function 'kotlin.collections.forEach' call
     var tmp0_iterator_0 = pseudoClasses.c();
     while (tmp0_iterator_0.d()) {
       var element_0 = tmp0_iterator_0.e();
       // Inline function 'com.varabyte.kobweb.silk.components.style.CssRule.buildSelectorText.<anonymous>.<anonymous>' call
-      tmp0_apply.p6(':' + element_0.o3s_1);
+      tmp0_apply.q6(':' + element_0.a3u_1);
     }
     if (!(pseudoElement == null)) {
-      tmp0_apply.p6('::' + pseudoElement.v3s_1);
+      tmp0_apply.q6('::' + pseudoElement.h3u_1);
     }
     var tmp0_takeIf = tmp0_apply.toString();
     // Inline function 'kotlin.contracts.contract' call
@@ -1769,7 +1769,7 @@
     return new OfAttributeSelector(_this__u8e3s4, 'aria-disabled="true"');
   }
   function not(_this__u8e3s4, params) {
-    return Companion_getInstance_8().s3r(_this__u8e3s4, 'not', params.slice());
+    return Companion_getInstance_8().e3t(_this__u8e3s4, 'not', params.slice());
   }
   function get_hover_0(_this__u8e3s4) {
     return new OfPseudoClass(_this__u8e3s4, 'hover');
@@ -1847,20 +1847,20 @@
     return Breakpoint_XL_instance;
   }
   function BreakpointValues(sm, md, lg, xl) {
-    this.f3t_1 = sm;
-    this.g3t_1 = md;
-    this.h3t_1 = lg;
-    this.i3t_1 = xl;
-    this.j3t_1 = 0;
+    this.r3u_1 = sm;
+    this.s3u_1 = md;
+    this.t3u_1 = lg;
+    this.u3u_1 = xl;
+    this.v3u_1 = 0;
   }
   protoOf(BreakpointValues).toString = function () {
-    return 'BreakpointValues(sm=' + this.f3t_1 + ', md=' + this.g3t_1 + ', lg=' + this.h3t_1 + ', xl=' + this.i3t_1 + ')';
+    return 'BreakpointValues(sm=' + this.r3u_1 + ', md=' + this.s3u_1 + ', lg=' + this.t3u_1 + ', xl=' + this.u3u_1 + ')';
   };
   protoOf(BreakpointValues).hashCode = function () {
-    var result = hashCode(this.f3t_1);
-    result = imul(result, 31) + hashCode(this.g3t_1) | 0;
-    result = imul(result, 31) + hashCode(this.h3t_1) | 0;
-    result = imul(result, 31) + hashCode(this.i3t_1) | 0;
+    var result = hashCode(this.r3u_1);
+    result = imul(result, 31) + hashCode(this.s3u_1) | 0;
+    result = imul(result, 31) + hashCode(this.t3u_1) | 0;
+    result = imul(result, 31) + hashCode(this.u3u_1) | 0;
     return result;
   };
   protoOf(BreakpointValues).equals = function (other) {
@@ -1869,13 +1869,13 @@
     if (!(other instanceof BreakpointValues))
       return false;
     var tmp0_other_with_cast = other instanceof BreakpointValues ? other : THROW_CCE();
-    if (!equals(this.f3t_1, tmp0_other_with_cast.f3t_1))
+    if (!equals(this.r3u_1, tmp0_other_with_cast.r3u_1))
       return false;
-    if (!equals(this.g3t_1, tmp0_other_with_cast.g3t_1))
+    if (!equals(this.s3u_1, tmp0_other_with_cast.s3u_1))
       return false;
-    if (!equals(this.h3t_1, tmp0_other_with_cast.h3t_1))
+    if (!equals(this.t3u_1, tmp0_other_with_cast.t3u_1))
       return false;
-    if (!equals(this.i3t_1, tmp0_other_with_cast.i3t_1))
+    if (!equals(this.u3u_1, tmp0_other_with_cast.u3u_1))
       return false;
     return true;
   };
@@ -1888,14 +1888,14 @@
   }
   function Rem(value) {
     BreakpointUnitValue.call(this, value);
-    this.m3t_1 = 0;
+    this.y3u_1 = 0;
   }
-  protoOf(Rem).n3t = function () {
-    return get_px(this.o3t_1.value * numberToDouble(get_bodyFontSize(window)));
+  protoOf(Rem).z3u = function () {
+    return get_px(this.a3v_1.value * numberToDouble(get_bodyFontSize(window)));
   };
   function BreakpointUnitValue(width) {
-    this.o3t_1 = width;
-    this.p3t_1 = 0;
+    this.a3v_1 = width;
+    this.b3v_1 = 0;
   }
   function get_bodyFontSize(_this__u8e3s4) {
     var tmp0_safe_receiver = _this__u8e3s4.document.body;
@@ -1912,16 +1912,16 @@
     return bodySize == null ? 16 : bodySize;
   }
   function ResponsiveValues(base, sm, md, lg, xl) {
-    this.q3t_1 = base;
-    this.r3t_1 = sm;
-    this.s3t_1 = md;
-    this.t3t_1 = lg;
-    this.u3t_1 = xl;
-    this.v3t_1 = 0;
+    this.c3v_1 = base;
+    this.d3v_1 = sm;
+    this.e3v_1 = md;
+    this.f3v_1 = lg;
+    this.g3v_1 = xl;
+    this.h3v_1 = 0;
   }
   function get_SpanTextStyle() {
     _init_properties_SpanText_kt__upt1hl();
-    return SpanTextStyle$delegate.v2j(null, SpanTextStyle$factory());
+    return SpanTextStyle$delegate.r2k(null, SpanTextStyle$factory());
   }
   var SpanTextStyle$delegate;
   var TextStyle;
@@ -1964,15 +1964,15 @@
         traceEventStart(1205558567, $dirty, -1, 'com.varabyte.kobweb.silk.components.text.SpanText$composable (SpanText.kt:49)');
       }
       // Inline function 'com.varabyte.kobweb.compose.ui.thenIf' call
-      var tmp0_thenIf = toModifier$composable(get_SpanTextStyle(), [variant_0._v], $composer_0, 0).s3l(modifier_0._v);
+      var tmp0_thenIf = toModifier$composable(get_SpanTextStyle(), [variant_0._v], $composer_0, 0).e3n(modifier_0._v);
       var tmp;
       if (startsWith(text, _Char___init__impl__6a9atx(32)) ? true : endsWith(text, _Char___init__impl__6a9atx(32))) {
         // Inline function 'com.varabyte.kobweb.silk.components.text.SpanText$composable.<anonymous>' call
-        tmp = whiteSpace(Companion_getInstance_0(), Companion_getInstance_2().c2k());
+        tmp = whiteSpace(Companion_getInstance_0(), Companion_getInstance_2().y2k());
       } else {
         tmp = Companion_getInstance_0();
       }
-      var finalModifier = tmp0_thenIf.s3l(tmp);
+      var finalModifier = tmp0_thenIf.e3n(tmp);
       var tmp_0 = toAttrs(finalModifier);
       // Inline function 'kotlin.run' call
       // Inline function 'kotlin.contracts.contract' call
@@ -2075,18 +2075,18 @@
   function CacheByPropertyNameDelegate() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.n3o_1 = LinkedHashMap_init_$Create$();
-    this.o3o_1 = 8;
+    tmp.z3p_1 = LinkedHashMap_init_$Create$();
+    this.a3q_1 = 8;
   }
-  protoOf(CacheByPropertyNameDelegate).v2j = function (thisRef, property) {
+  protoOf(CacheByPropertyNameDelegate).r2k = function (thisRef, property) {
     var name = property.callableName;
     // Inline function 'kotlin.collections.getOrPut' call
-    var tmp0_getOrPut = this.n3o_1;
+    var tmp0_getOrPut = this.z3p_1;
     var value = tmp0_getOrPut.h2(name);
     var tmp;
     if (value == null) {
       // Inline function 'com.varabyte.kobweb.silk.components.util.internal.CacheByPropertyNameDelegate.getValue.<anonymous>' call
-      var answer = this.m2l(name);
+      var answer = this.l2m(name);
       tmp0_getOrPut.l3(name, answer);
       tmp = answer;
     } else {
@@ -2101,18 +2101,18 @@
   var LocalDeferred;
   function DeferredComposablesState$forEach$composable$lambda($tmp0_rcvr, $render, $$changed) {
     return function ($composer, $force) {
-      $tmp0_rcvr.z3t($render, $composer, updateChangedFlags($$changed | 1));
+      $tmp0_rcvr.l3v($render, $composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
   function DeferredComposablesState() {
-    this.w3t_1 = -1;
+    this.i3v_1 = -1;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.x3t_1 = ArrayList_init_$Create$_0();
-    this.y3t_1 = mutableStateListOf();
+    tmp.j3v_1 = ArrayList_init_$Create$_0();
+    this.k3v_1 = mutableStateListOf();
   }
-  protoOf(DeferredComposablesState).z3t = function (render, $composer, $changed) {
+  protoOf(DeferredComposablesState).l3v = function (render, $composer, $changed) {
     var $composer_0 = $composer;
     $composer_0 = $composer_0.ty(2016651302);
     sourceInformation($composer_0, 'C(forEach$composable)');
@@ -2121,7 +2121,7 @@
       traceEventStart(2016651302, $dirty, -1, 'com.varabyte.kobweb.silk.defer.DeferredComposablesState.forEach$composable (Deferred.kt:31)');
     }
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_iterator = this.y3t_1.c();
+    var tmp0_iterator = this.k3v_1.c();
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.silk.defer.DeferredComposablesState.forEach$composable.<anonymous>' call
@@ -2202,7 +2202,7 @@
     if (isTraceInProgress()) {
       traceEventStart(-300134205, $changed, -1, 'com.varabyte.kobweb.silk.defer.ComposableSingletons$DeferredKt.lambda-1.<anonymous> (Deferred.kt:83)');
     }
-    var tmp0_safe_receiver = entry.a3u_1;
+    var tmp0_safe_receiver = entry.m3v_1;
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
@@ -2220,7 +2220,7 @@
   function ComposableSingletons$DeferredKt() {
     ComposableSingletons$DeferredKt_instance = this;
     var tmp = this;
-    tmp.c3u_1 = ComposableLambda$invoke$ref_0(composableLambdaInstance(-300134205, false, ComposableSingletons$DeferredKt$lambda_1$lambda_ynev9p));
+    tmp.o3v_1 = ComposableLambda$invoke$ref_0(composableLambdaInstance(-300134205, false, ComposableSingletons$DeferredKt$lambda_1$lambda_ynev9p));
   }
   var ComposableSingletons$DeferredKt_instance;
   function ComposableSingletons$DeferredKt_getInstance() {
@@ -2241,7 +2241,7 @@
           traceEventStart(564114664, $changed, -1, 'com.varabyte.kobweb.silk.defer.renderWithDeferred$composable.<anonymous> (Deferred.kt:78)');
         }
         $content($composer_0, 14 & $$dirty);
-        $state.z3t(ComposableSingletons$DeferredKt_getInstance().c3u_1, $composer_0, 70);
+        $state.l3v(ComposableSingletons$DeferredKt_getInstance().o3v_1, $composer_0, 70);
         var tmp_0;
         if (isTraceInProgress()) {
           traceEventEnd();
@@ -2283,10 +2283,10 @@
   }
   var additionalSilkInitialization;
   function InitSilkContext(config, stylesheet, theme) {
-    this.d3u_1 = config;
-    this.e3u_1 = stylesheet;
-    this.f3u_1 = theme;
-    this.g3u_1 = 8;
+    this.p3v_1 = config;
+    this.q3v_1 = stylesheet;
+    this.r3v_1 = theme;
+    this.s3v_1 = 8;
   }
   function initSilk(additionalInit) {
     var tmp;
@@ -2299,24 +2299,24 @@
     _init_properties_InitSilk_kt__vukue3();
     var mutableTheme = new MutableSilkTheme();
     var config = new MutableSilkConfig();
-    mutableTheme.p3u(get_DisplayIfAtLeastZeroStyle());
-    mutableTheme.p3u(get_DisplayIfAtLeastSmStyle());
-    mutableTheme.p3u(get_DisplayIfAtLeastMdStyle());
-    mutableTheme.p3u(get_DisplayIfAtLeastLgStyle());
-    mutableTheme.p3u(get_DisplayIfAtLeastXlStyle());
-    mutableTheme.p3u(get_DisplayUntilZeroStyle());
-    mutableTheme.p3u(get_DisplayUntilSmStyle());
-    mutableTheme.p3u(get_DisplayUntilMdStyle());
-    mutableTheme.p3u(get_DisplayUntilLgStyle());
-    mutableTheme.p3u(get_DisplayUntilXlStyle());
-    mutableTheme.p3u(get_SpanTextStyle());
+    mutableTheme.b3w(get_DisplayIfAtLeastZeroStyle());
+    mutableTheme.b3w(get_DisplayIfAtLeastSmStyle());
+    mutableTheme.b3w(get_DisplayIfAtLeastMdStyle());
+    mutableTheme.b3w(get_DisplayIfAtLeastLgStyle());
+    mutableTheme.b3w(get_DisplayIfAtLeastXlStyle());
+    mutableTheme.b3w(get_DisplayUntilZeroStyle());
+    mutableTheme.b3w(get_DisplayUntilSmStyle());
+    mutableTheme.b3w(get_DisplayUntilMdStyle());
+    mutableTheme.b3w(get_DisplayUntilLgStyle());
+    mutableTheme.b3w(get_DisplayUntilXlStyle());
+    mutableTheme.b3w(get_SpanTextStyle());
     var ctx = new InitSilkContext(config, SilkStylesheetInstance_getInstance(), mutableTheme);
     additionalInit(ctx);
     get_additionalSilkInitialization()(ctx);
     set_MutableSilkConfigInstance(config);
     set__SilkTheme(new ImmutableSilkTheme(mutableTheme));
-    SilkStylesheetInstance_getInstance().s3u(SilkStyleSheet_getInstance());
-    get_SilkTheme().t3u(SilkStyleSheet_getInstance());
+    SilkStylesheetInstance_getInstance().e3w(SilkStyleSheet_getInstance());
+    get_SilkTheme().f3w(SilkStyleSheet_getInstance());
   }
   function additionalSilkInitialization$lambda(it) {
     _init_properties_InitSilk_kt__vukue3();
@@ -2343,16 +2343,16 @@
   }
   var MutableSilkConfigInstance;
   function MutableSilkConfig() {
-    this.u3u_1 = ColorMode_LIGHT_getInstance();
-    this.v3u_1 = 8;
+    this.g3w_1 = ColorMode_LIGHT_getInstance();
+    this.h3w_1 = 8;
   }
-  protoOf(MutableSilkConfig).w3u = function () {
-    return this.u3u_1;
+  protoOf(MutableSilkConfig).i3w = function () {
+    return this.g3w_1;
   };
   function Companion_4() {
     Companion_instance_4 = this;
   }
-  protoOf(Companion_4).x3u = function () {
+  protoOf(Companion_4).j3w = function () {
     return get_MutableSilkConfigInstance();
   };
   var Companion_instance_4;
@@ -2372,15 +2372,15 @@
     SilkStylesheetInstance_instance = this;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.q3u_1 = ArrayList_init_$Create$_0();
+    tmp.c3w_1 = ArrayList_init_$Create$_0();
     var tmp_0 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp_0.r3u_1 = LinkedHashMap_init_$Create$();
+    tmp_0.d3w_1 = LinkedHashMap_init_$Create$();
   }
-  protoOf(SilkStylesheetInstance).p3o = function (name, build) {
+  protoOf(SilkStylesheetInstance).b3q = function (name, build) {
     // Inline function 'kotlin.require' call
     // Inline function 'kotlin.collections.contains' call
-    var tmp0_contains = this.r3u_1;
+    var tmp0_contains = this.d3w_1;
     // Inline function 'kotlin.collections.containsKey' call
     // Inline function 'kotlin.contracts.contract' call
     if (!!(isInterface(tmp0_contains, Map) ? tmp0_contains : THROW_CCE()).d2(name)) {
@@ -2389,18 +2389,18 @@
       throw IllegalArgumentException_init_$Create$(toString(message));
     }
     // Inline function 'kotlin.collections.set' call
-    this.r3u_1.l3(name, build);
+    this.d3w_1.l3(name, build);
   };
-  protoOf(SilkStylesheetInstance).s3u = function (siteStyleSheet) {
+  protoOf(SilkStylesheetInstance).e3w = function (siteStyleSheet) {
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_iterator = this.q3u_1.c();
+    var tmp0_iterator = this.c3w_1.c();
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.silk.init.SilkStylesheetInstance.registerStylesAndKeyframesInto.<anonymous>' call
-      element.s3p(siteStyleSheet, element.p3p_1);
+      element.e3r(siteStyleSheet, element.b3r_1);
     }
     // Inline function 'kotlin.collections.map' call
-    var tmp1_map = this.r3u_1;
+    var tmp1_map = this.d3w_1;
     // Inline function 'kotlin.collections.mapTo' call
     var tmp0_mapTo = ArrayList_init_$Create$(tmp1_map.f());
     // Inline function 'kotlin.collections.iterator' call
@@ -2423,10 +2423,10 @@
       build(tmp1_apply);
       var darkBuilder = tmp1_apply;
       if (lightBuilder.equals(darkBuilder)) {
-        lightBuilder.c3o(siteStyleSheet, name);
+        lightBuilder.o3p(siteStyleSheet, name);
       } else {
-        lightBuilder.c3o(siteStyleSheet, suffixedWith(name, ColorMode_LIGHT_getInstance()));
-        darkBuilder.c3o(siteStyleSheet, suffixedWith(name, ColorMode_DARK_getInstance()));
+        lightBuilder.o3p(siteStyleSheet, suffixedWith(name, ColorMode_LIGHT_getInstance()));
+        darkBuilder.o3p(siteStyleSheet, suffixedWith(name, ColorMode_DARK_getInstance()));
       }
       tmp0_mapTo.a(Unit_getInstance());
     }
@@ -2442,21 +2442,21 @@
   }
   var _SilkTheme;
   function ImmutableSilkTheme(mutableSilkTheme) {
-    this.d3r_1 = mutableSilkTheme;
+    this.p3s_1 = mutableSilkTheme;
     var tmp = this;
-    var tmp_0 = this.d3r_1.m3u_1;
-    tmp.e3r_1 = isInterface(tmp_0, SilkPalettes) ? tmp_0 : THROW_CCE();
+    var tmp_0 = this.p3s_1.y3v_1;
+    tmp.q3s_1 = isInterface(tmp_0, SilkPalettes) ? tmp_0 : THROW_CCE();
     var tmp_1 = this;
-    var tmp_2 = this.d3r_1.l3u_1;
-    tmp_1.f3r_1 = isInterface(tmp_2, Palettes) ? tmp_2 : THROW_CCE();
-    this.g3r_1 = this.d3r_1.n3u_1;
+    var tmp_2 = this.p3s_1.x3v_1;
+    tmp_1.r3s_1 = isInterface(tmp_2, Palettes) ? tmp_2 : THROW_CCE();
+    this.s3s_1 = this.p3s_1.z3v_1;
     var tmp_3 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp_3.h3r_1 = LinkedHashMap_init_$Create$();
-    this.i3r_1 = this.h3r_1;
-    this.j3r_1 = 8;
+    tmp_3.t3s_1 = LinkedHashMap_init_$Create$();
+    this.u3s_1 = this.t3s_1;
+    this.v3s_1 = 8;
   }
-  protoOf(ImmutableSilkTheme).t3u = function (componentStyleSheet) {
+  protoOf(ImmutableSilkTheme).f3w = function (componentStyleSheet) {
     // Inline function 'kotlin.check' call
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'kotlin.check' call
@@ -2467,20 +2467,20 @@
       throw IllegalStateException_init_$Create$(toString(message));
     }
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_iterator = this.d3r_1.h3u_1.bb().c();
+    var tmp0_iterator = this.p3s_1.t3v_1.bb().c();
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.silk.theme.ImmutableSilkTheme.registerStyles.<anonymous>' call
-      element.v3p(componentStyleSheet);
+      element.h3r(componentStyleSheet);
       // Inline function 'kotlin.collections.set' call
-      var tmp0_set = this.h3r_1;
-      var tmp1_set = element.p3p_1;
-      var tmp2_set = element.w3p();
+      var tmp0_set = this.t3s_1;
+      var tmp1_set = element.b3r_1;
+      var tmp2_set = element.i3r();
       tmp0_set.l3(tmp1_set, tmp2_set);
     }
     // Inline function 'kotlin.collections.forEach' call
     // Inline function 'kotlin.collections.filterIsInstance' call
-    var tmp2_filterIsInstance = this.d3r_1.j3u_1.bb();
+    var tmp2_filterIsInstance = this.p3s_1.v3v_1.bb();
     // Inline function 'kotlin.collections.filterIsInstanceTo' call
     var tmp0_filterIsInstanceTo = ArrayList_init_$Create$_0();
     var tmp0_iterator_0 = tmp2_filterIsInstance.c();
@@ -2494,11 +2494,11 @@
     while (tmp0_iterator_1.d()) {
       var element_1 = tmp0_iterator_1.e();
       // Inline function 'com.varabyte.kobweb.silk.theme.ImmutableSilkTheme.registerStyles.<anonymous>' call
-      element_1.v3p(componentStyleSheet);
+      element_1.h3r(componentStyleSheet);
       // Inline function 'kotlin.collections.set' call
-      var tmp0_set_0 = this.h3r_1;
-      var tmp1_set_0 = element_1.x3q_1.p3p_1;
-      var tmp2_set_0 = element_1.w3p();
+      var tmp0_set_0 = this.t3s_1;
+      var tmp1_set_0 = element_1.j3s_1.b3r_1;
+      var tmp2_set_0 = element_1.i3r();
       tmp0_set_0.l3(tmp1_set_0, tmp2_set_0);
     }
   };
@@ -2515,44 +2515,44 @@
   function MutableSilkTheme() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.h3u_1 = LinkedHashMap_init_$Create$();
+    tmp.t3v_1 = LinkedHashMap_init_$Create$();
     var tmp_0 = this;
     // Inline function 'kotlin.collections.mutableSetOf' call
-    tmp_0.i3u_1 = LinkedHashSet_init_$Create$();
+    tmp_0.u3v_1 = LinkedHashSet_init_$Create$();
     var tmp_1 = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp_1.j3u_1 = LinkedHashMap_init_$Create$();
+    tmp_1.v3v_1 = LinkedHashMap_init_$Create$();
     var tmp_2 = this;
     // Inline function 'kotlin.collections.mutableSetOf' call
-    tmp_2.k3u_1 = LinkedHashSet_init_$Create$();
-    this.l3u_1 = new MutablePalettes();
-    this.m3u_1 = new LegacyMutableSilkPalettes(this.l3u_1);
-    this.n3u_1 = BreakpointSizes(get_cssRem(30), get_cssRem(48), get_cssRem(62), get_cssRem(80));
-    this.o3u_1 = 8;
+    tmp_2.w3v_1 = LinkedHashSet_init_$Create$();
+    this.x3v_1 = new MutablePalettes();
+    this.y3v_1 = new LegacyMutableSilkPalettes(this.x3v_1);
+    this.z3v_1 = BreakpointSizes(get_cssRem(30), get_cssRem(48), get_cssRem(62), get_cssRem(80));
+    this.a3w_1 = 8;
   }
-  protoOf(MutableSilkTheme).p3u = function (style) {
+  protoOf(MutableSilkTheme).b3w = function (style) {
     // Inline function 'kotlin.check' call
     // Inline function 'kotlin.let' call
-    var tmp0_let = this.h3u_1.h2(style.p3p_1);
+    var tmp0_let = this.t3v_1.h2(style.b3r_1);
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.silk.theme.MutableSilkTheme.registerComponentStyle.<anonymous>' call
     // Inline function 'kotlin.contracts.contract' call
     if (!(tmp0_let == null ? true : tmp0_let === style)) {
       // Inline function 'com.varabyte.kobweb.silk.theme.MutableSilkTheme.registerComponentStyle.<anonymous>' call
-      var message = trimIndent('\n                Attempting to register a second style with a name that\'s already used: "' + style.p3p_1 + '"\n\n                If this was an intentional override, you should use `replaceComponentStyle` instead.\n            ');
+      var message = trimIndent('\n                Attempting to register a second style with a name that\'s already used: "' + style.b3r_1 + '"\n\n                If this was an intentional override, you should use `replaceComponentStyle` instead.\n            ');
       throw IllegalStateException_init_$Create$(toString(message));
     }
     // Inline function 'kotlin.collections.set' call
-    var tmp2_set = this.h3u_1;
-    var tmp3_set = style.p3p_1;
+    var tmp2_set = this.t3v_1;
+    var tmp3_set = style.b3r_1;
     tmp2_set.l3(tmp3_set, style);
     var tmp$ret$3;
     // Inline function 'kotlin.collections.toTypedArray' call
-    var tmp4_toTypedArray = style.q3p_1;
+    var tmp4_toTypedArray = style.c3r_1;
     tmp$ret$3 = copyToArray(tmp4_toTypedArray);
-    this.y3u(tmp$ret$3.slice());
+    this.k3w(tmp$ret$3.slice());
   };
-  protoOf(MutableSilkTheme).y3u = function (variants) {
+  protoOf(MutableSilkTheme).k3w = function (variants) {
     // Inline function 'kotlin.collections.forEach' call
     // Inline function 'kotlin.collections.filterIsInstance' call
     // Inline function 'kotlin.collections.filterIsInstanceTo' call
@@ -2572,44 +2572,44 @@
       // Inline function 'com.varabyte.kobweb.silk.theme.MutableSilkTheme.registerComponentVariants.<anonymous>' call
       // Inline function 'kotlin.check' call
       // Inline function 'kotlin.let' call
-      var tmp0_let = this.j3u_1.h2(element_0.x3q_1.p3p_1);
+      var tmp0_let = this.v3v_1.h2(element_0.j3s_1.b3r_1);
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'com.varabyte.kobweb.silk.theme.MutableSilkTheme.registerComponentVariants.<anonymous>.<anonymous>' call
       // Inline function 'kotlin.contracts.contract' call
       if (!(tmp0_let == null ? true : tmp0_let === element_0)) {
         // Inline function 'com.varabyte.kobweb.silk.theme.MutableSilkTheme.registerComponentVariants.<anonymous>.<anonymous>' call
-        var message = trimIndent('\n                Attempting to register a second variant with a name that\'s already used: "' + element_0.x3q_1.p3p_1 + "\"\n\n                This isn't allowed. Please choose a different name. If there's a usecase for this I'm unaware of,\n                consider filing an issue at https://github.com/varabyte/kobweb/issues\n            ");
+        var message = trimIndent('\n                Attempting to register a second variant with a name that\'s already used: "' + element_0.j3s_1.b3r_1 + "\"\n\n                This isn't allowed. Please choose a different name. If there's a usecase for this I'm unaware of,\n                consider filing an issue at https://github.com/varabyte/kobweb/issues\n            ");
         throw IllegalStateException_init_$Create$(toString(message));
       }
       // Inline function 'kotlin.collections.set' call
-      var tmp2_set = this.j3u_1;
-      var tmp3_set = element_0.x3q_1.p3p_1;
+      var tmp2_set = this.v3v_1;
+      var tmp3_set = element_0.j3s_1.b3r_1;
       tmp2_set.l3(tmp3_set, element_0);
     }
   };
-  protoOf(MutableSilkTheme).z3u = function (style, extraModifiers, init) {
+  protoOf(MutableSilkTheme).l3w = function (style, extraModifiers, init) {
     // Inline function 'kotlin.check' call
     // Inline function 'kotlin.collections.contains' call
-    var tmp0_contains = this.h3u_1;
-    var tmp1_contains = style.p3p_1;
+    var tmp0_contains = this.t3v_1;
+    var tmp1_contains = style.b3r_1;
     // Inline function 'kotlin.collections.containsKey' call
     // Inline function 'kotlin.contracts.contract' call
     if (!(isInterface(tmp0_contains, Map) ? tmp0_contains : THROW_CCE()).d2(tmp1_contains)) {
       // Inline function 'com.varabyte.kobweb.silk.theme.MutableSilkTheme.replaceComponentStyle$composable.<anonymous>' call
-      var message = 'Attempting to replace a style that was never registered: "' + style.p3p_1 + '"';
+      var message = 'Attempting to replace a style that was never registered: "' + style.b3r_1 + '"';
       throw IllegalStateException_init_$Create$(toString(message));
     }
     // Inline function 'kotlin.check' call
     // Inline function 'kotlin.contracts.contract' call
-    if (!this.i3u_1.a(style.p3p_1)) {
+    if (!this.u3v_1.a(style.b3r_1)) {
       // Inline function 'com.varabyte.kobweb.silk.theme.MutableSilkTheme.replaceComponentStyle$composable.<anonymous>' call
-      var message_0 = 'Attempting to override style "' + style.p3p_1 + '" twice';
+      var message_0 = 'Attempting to override style "' + style.b3r_1 + '" twice';
       throw IllegalStateException_init_$Create$(toString(message_0));
     }
     // Inline function 'kotlin.collections.set' call
-    var tmp4_set = this.h3u_1;
-    var tmp5_set = style.p3p_1;
-    var tmp6_set = new ComponentStyle(style.o3p_1, extraModifiers, style.m3p_1, init);
+    var tmp4_set = this.t3v_1;
+    var tmp5_set = style.b3r_1;
+    var tmp6_set = new ComponentStyle(style.a3r_1, extraModifiers, style.y3q_1, init);
     tmp4_set.l3(tmp5_set, tmp6_set);
   };
   function modifyComponentStyleBase(_this__u8e3s4, style, extraModifiers, init) {
@@ -2622,19 +2622,19 @@
   function modifyComponentStyle$composable(_this__u8e3s4, style, extraModifiers, init) {
     // Inline function 'kotlin.check' call
     // Inline function 'kotlin.collections.contains' call
-    var tmp0_contains = _this__u8e3s4.h3u_1;
-    var tmp1_contains = style.p3p_1;
+    var tmp0_contains = _this__u8e3s4.t3v_1;
+    var tmp1_contains = style.b3r_1;
     // Inline function 'kotlin.collections.containsKey' call
     // Inline function 'kotlin.contracts.contract' call
     if (!(isInterface(tmp0_contains, Map) ? tmp0_contains : THROW_CCE()).d2(tmp1_contains)) {
       // Inline function 'com.varabyte.kobweb.silk.theme.modifyComponentStyle$composable.<anonymous>' call
-      var message = 'Attempting to modify a style that was never registered: "' + style.p3p_1 + '"';
+      var message = 'Attempting to modify a style that was never registered: "' + style.b3r_1 + '"';
       throw IllegalStateException_init_$Create$(toString(message));
     }
-    var existingExtraModifiers = style.l3p_1;
-    var existingInit = style.n3p_1;
+    var existingExtraModifiers = style.x3q_1;
+    var existingInit = style.z3q_1;
     var tmp = modifyComponentStyle$composable$lambda(existingExtraModifiers, extraModifiers);
-    _this__u8e3s4.z3u(style, tmp, modifyComponentStyle$composable$lambda_0(existingInit, init));
+    _this__u8e3s4.l3w(style, tmp, modifyComponentStyle$composable$lambda_0(existingInit, init));
   }
   function modifyComponentStyleBase$lambda($extraModifiers) {
     return function ($composer, $changed) {
@@ -2659,7 +2659,7 @@
     return function () {
       var tmp$ret$0;
       // Inline function 'kotlin.let' call
-      var tmp0_let = new ComponentBaseModifier($this_modifyComponentStyle.h3q_1);
+      var tmp0_let = new ComponentBaseModifier($this_modifyComponentStyle.t3r_1);
       // Inline function 'kotlin.contracts.contract' call
       tmp$ret$0 = $init(tmp0_let);
       return tmp$ret$0;
@@ -2667,7 +2667,7 @@
   }
   function modifyComponentStyleBase$composable$lambda($init) {
     return function ($this$modifyComponentStyle) {
-      $this$modifyComponentStyle.k3q(modifyComponentStyleBase$composable$lambda$lambda($this$modifyComponentStyle, $init));
+      $this$modifyComponentStyle.w3r(modifyComponentStyleBase$composable$lambda$lambda($this$modifyComponentStyle, $init));
       return Unit_getInstance();
     };
   }
@@ -2680,7 +2680,7 @@
         traceEventStart(-1936736259, $changed, -1, 'com.varabyte.kobweb.silk.theme.modifyComponentStyle$composable.<anonymous> (SilkTheme.kt:252)');
         tmp = Unit_getInstance();
       }
-      var tmp0 = $existingExtraModifiers($composer_0, 0).s3l($extraModifiers($composer_0, 0));
+      var tmp0 = $existingExtraModifiers($composer_0, 0).e3n($extraModifiers($composer_0, 0));
       var tmp_0;
       if (isTraceInProgress()) {
         traceEventEnd();
@@ -2702,7 +2702,7 @@
   }
   function toWidth(_this__u8e3s4) {
     var tmp0_safe_receiver = toValue(_this__u8e3s4);
-    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.o3t_1;
+    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.a3v_1;
     return tmp1_elvis_lhs == null ? get_px(0) : tmp1_elvis_lhs;
   }
   function toValue(_this__u8e3s4) {
@@ -2712,16 +2712,16 @@
         tmp = null;
         break;
       case 1:
-        tmp = get_SilkTheme().g3r_1.f3t_1;
+        tmp = get_SilkTheme().s3s_1.r3u_1;
         break;
       case 2:
-        tmp = get_SilkTheme().g3r_1.g3t_1;
+        tmp = get_SilkTheme().s3s_1.s3u_1;
         break;
       case 3:
-        tmp = get_SilkTheme().g3r_1.h3t_1;
+        tmp = get_SilkTheme().s3s_1.t3u_1;
         break;
       case 4:
-        tmp = get_SilkTheme().g3r_1.i3t_1;
+        tmp = get_SilkTheme().s3s_1.u3u_1;
         break;
       default:
         noWhenBranchMatchedException();
@@ -2749,7 +2749,7 @@
   }
   function toPx(_this__u8e3s4) {
     var tmp0_safe_receiver = toValue(_this__u8e3s4);
-    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.n3t();
+    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.z3u();
     return tmp1_elvis_lhs == null ? get_px(0) : tmp1_elvis_lhs;
   }
   function rememberBreakpoint$composable($composer, $changed) {
@@ -2803,14 +2803,14 @@
   function rememberBreakpoint$composable$slambda(resultContinuation) {
     CoroutineImpl.call(this, resultContinuation);
   }
-  protoOf(rememberBreakpoint$composable$slambda).k3v = function ($this$produceState, $completion) {
-    var tmp = this.l3v($this$produceState, $completion);
+  protoOf(rememberBreakpoint$composable$slambda).w3w = function ($this$produceState, $completion) {
+    var tmp = this.x3w($this$produceState, $completion);
     tmp.uh_1 = Unit_getInstance();
     tmp.vh_1 = null;
     return tmp.bi();
   };
   protoOf(rememberBreakpoint$composable$slambda).ni = function (p1, $completion) {
-    return this.k3v((!(p1 == null) ? isInterface(p1, ProduceStateScope) : false) ? p1 : THROW_CCE(), $completion);
+    return this.w3w((!(p1 == null) ? isInterface(p1, ProduceStateScope) : false) ? p1 : THROW_CCE(), $completion);
   };
   protoOf(rememberBreakpoint$composable$slambda).bi = function () {
     var suspendResult = this.uh_1;
@@ -2821,10 +2821,10 @@
           case 0:
             this.th_1 = 2;
             var tmp_0 = this;
-            tmp_0.j3v_1 = EventListener(rememberBreakpoint$composable$slambda$lambda(this.i3v_1));
-            window.addEventListener('resize', this.j3v_1);
+            tmp_0.v3w_1 = EventListener(rememberBreakpoint$composable$slambda$lambda(this.u3w_1));
+            window.addEventListener('resize', this.v3w_1);
             this.sh_1 = 1;
-            suspendResult = this.i3v_1.l1e(rememberBreakpoint$composable$slambda$lambda_0(this.j3v_1), this);
+            suspendResult = this.u3w_1.l1e(rememberBreakpoint$composable$slambda$lambda_0(this.v3w_1), this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
@@ -2847,15 +2847,15 @@
       }
      while (true);
   };
-  protoOf(rememberBreakpoint$composable$slambda).l3v = function ($this$produceState, completion) {
+  protoOf(rememberBreakpoint$composable$slambda).x3w = function ($this$produceState, completion) {
     var i = new rememberBreakpoint$composable$slambda(completion);
-    i.i3v_1 = $this$produceState;
+    i.u3w_1 = $this$produceState;
     return i;
   };
   function rememberBreakpoint$composable$slambda_0(resultContinuation) {
     var i = new rememberBreakpoint$composable$slambda(resultContinuation);
     var l = function ($this$produceState, $completion) {
-      return i.k3v($this$produceState, $completion);
+      return i.w3w($this$produceState, $completion);
     };
     l.$arity = 1;
     return l;
@@ -2883,7 +2883,7 @@
   function Companion_5() {
     Companion_instance_5 = this;
   }
-  protoOf(Companion_5).v3q = function ($composer, $changed) {
+  protoOf(Companion_5).h3s = function ($composer, $changed) {
     var $composer_0 = $composer;
     if (isTraceInProgress()) {
       traceEventStart(-1058079129, $changed, -1, 'com.varabyte.kobweb.silk.theme.colors.ColorMode.Companion.$get-current$$composable (ColorMode.kt:33)');
@@ -2919,10 +2919,10 @@
   function ColorMode(name, ordinal) {
     Enum.call(this, name, ordinal);
   }
-  protoOf(ColorMode).o3v = function () {
+  protoOf(ColorMode).a3x = function () {
     return this.equals(ColorMode_DARK_getInstance());
   };
-  protoOf(ColorMode).p3v = function () {
+  protoOf(ColorMode).b3x = function () {
     var tmp;
     switch (this.a5_1) {
       case 0:
@@ -2958,12 +2958,12 @@
     }
     return tmp;
   };
-  protoOf(ColorMode).q3v = function () {
+  protoOf(ColorMode).c3x = function () {
     return get_LocalColorMode().n1d(mutableStateOf(this));
   };
   function rootColorModeState$delegate$lambda() {
     _init_properties_ColorMode_kt__lz79sc();
-    return mutableStateOf(Companion_getInstance_9().x3u().w3u());
+    return mutableStateOf(Companion_getInstance_9().j3w().i3w());
   }
   function LocalColorMode$lambda() {
     _init_properties_ColorMode_kt__lz79sc();
@@ -2991,616 +2991,616 @@
     }
   }
   function ColorSchemes$Red$1() {
-    this.r3v_1 = Companion_getInstance_3().r3m(16772078);
-    this.s3v_1 = Companion_getInstance_3().r3m(16764370);
-    this.t3v_1 = Companion_getInstance_3().r3m(15702682);
-    this.u3v_1 = Companion_getInstance_3().r3m(15037299);
-    this.v3v_1 = Companion_getInstance_3().r3m(15684432);
-    this.w3v_1 = Companion_getInstance_3().r3m(16007990);
-    this.x3v_1 = Companion_getInstance_3().r3m(15022389);
-    this.y3v_1 = Companion_getInstance_3().r3m(13840175);
-    this.z3v_1 = Companion_getInstance_3().r3m(12986408);
-    this.a3w_1 = Companion_getInstance_3().r3m(12000284);
+    this.d3x_1 = Companion_getInstance_3().d3o(16772078);
+    this.e3x_1 = Companion_getInstance_3().d3o(16764370);
+    this.f3x_1 = Companion_getInstance_3().d3o(15702682);
+    this.g3x_1 = Companion_getInstance_3().d3o(15037299);
+    this.h3x_1 = Companion_getInstance_3().d3o(15684432);
+    this.i3x_1 = Companion_getInstance_3().d3o(16007990);
+    this.j3x_1 = Companion_getInstance_3().d3o(15022389);
+    this.k3x_1 = Companion_getInstance_3().d3o(13840175);
+    this.l3x_1 = Companion_getInstance_3().d3o(12986408);
+    this.m3x_1 = Companion_getInstance_3().d3o(12000284);
   }
-  protoOf(ColorSchemes$Red$1).b3w = function () {
-    return this.t3v_1;
+  protoOf(ColorSchemes$Red$1).n3x = function () {
+    return this.f3x_1;
   };
-  protoOf(ColorSchemes$Red$1).c3w = function () {
-    return this.u3v_1;
-  };
-  protoOf(ColorSchemes$Red$1).d3w = function () {
-    return this.w3v_1;
-  };
-  protoOf(ColorSchemes$Red$1).e3w = function () {
-    return this.x3v_1;
-  };
-  protoOf(ColorSchemes$Red$1).f3w = function () {
-    return this.y3v_1;
-  };
-  protoOf(ColorSchemes$Red$1).g3w = function () {
-    return this.a3w_1;
-  };
-  function ColorSchemes$Pink$1() {
-    this.h3w_1 = Companion_getInstance_3().r3m(16573676);
-    this.i3w_1 = Companion_getInstance_3().r3m(16301008);
-    this.j3w_1 = Companion_getInstance_3().r3m(16027569);
-    this.k3w_1 = Companion_getInstance_3().r3m(15753874);
-    this.l3w_1 = Companion_getInstance_3().r3m(15483002);
-    this.m3w_1 = Companion_getInstance_3().r3m(15277667);
-    this.n3w_1 = Companion_getInstance_3().r3m(14162784);
-    this.o3w_1 = Companion_getInstance_3().r3m(12720219);
-    this.p3w_1 = Companion_getInstance_3().r3m(11342935);
-    this.q3w_1 = Companion_getInstance_3().r3m(8916559);
-  }
-  protoOf(ColorSchemes$Pink$1).b3w = function () {
-    return this.j3w_1;
-  };
-  protoOf(ColorSchemes$Pink$1).c3w = function () {
-    return this.k3w_1;
-  };
-  protoOf(ColorSchemes$Pink$1).d3w = function () {
-    return this.m3w_1;
-  };
-  protoOf(ColorSchemes$Pink$1).e3w = function () {
-    return this.n3w_1;
-  };
-  protoOf(ColorSchemes$Pink$1).f3w = function () {
-    return this.o3w_1;
-  };
-  protoOf(ColorSchemes$Pink$1).g3w = function () {
-    return this.q3w_1;
-  };
-  function ColorSchemes$Purple$1() {
-    this.r3w_1 = Companion_getInstance_3().r3m(15984117);
-    this.s3w_1 = Companion_getInstance_3().r3m(14794471);
-    this.t3w_1 = Companion_getInstance_3().r3m(13538264);
-    this.u3w_1 = Companion_getInstance_3().r3m(12216520);
-    this.v3w_1 = Companion_getInstance_3().r3m(11225020);
-    this.w3w_1 = Companion_getInstance_3().r3m(10233776);
-    this.x3w_1 = Companion_getInstance_3().r3m(9315498);
-    this.y3w_1 = Companion_getInstance_3().r3m(8069026);
-    this.z3w_1 = Companion_getInstance_3().r3m(6953882);
-    this.a3x_1 = Companion_getInstance_3().r3m(4854924);
-  }
-  protoOf(ColorSchemes$Purple$1).b3w = function () {
-    return this.t3w_1;
-  };
-  protoOf(ColorSchemes$Purple$1).c3w = function () {
-    return this.u3w_1;
-  };
-  protoOf(ColorSchemes$Purple$1).d3w = function () {
-    return this.w3w_1;
-  };
-  protoOf(ColorSchemes$Purple$1).e3w = function () {
-    return this.x3w_1;
-  };
-  protoOf(ColorSchemes$Purple$1).f3w = function () {
-    return this.y3w_1;
-  };
-  protoOf(ColorSchemes$Purple$1).g3w = function () {
-    return this.a3x_1;
-  };
-  function ColorSchemes$DeepPurple$1() {
-    this.b3x_1 = Companion_getInstance_3().r3m(15591414);
-    this.c3x_1 = Companion_getInstance_3().r3m(13747433);
-    this.d3x_1 = Companion_getInstance_3().r3m(11771355);
-    this.e3x_1 = Companion_getInstance_3().r3m(9795021);
-    this.f3x_1 = Companion_getInstance_3().r3m(8280002);
-    this.g3x_1 = Companion_getInstance_3().r3m(6765239);
-    this.h3x_1 = Companion_getInstance_3().r3m(6174129);
-    this.i3x_1 = Companion_getInstance_3().r3m(5320104);
-    this.j3x_1 = Companion_getInstance_3().r3m(4532128);
-    this.k3x_1 = Companion_getInstance_3().r3m(3218322);
-  }
-  protoOf(ColorSchemes$DeepPurple$1).b3w = function () {
-    return this.d3x_1;
-  };
-  protoOf(ColorSchemes$DeepPurple$1).c3w = function () {
-    return this.e3x_1;
-  };
-  protoOf(ColorSchemes$DeepPurple$1).d3w = function () {
+  protoOf(ColorSchemes$Red$1).o3x = function () {
     return this.g3x_1;
   };
-  protoOf(ColorSchemes$DeepPurple$1).e3w = function () {
-    return this.h3x_1;
-  };
-  protoOf(ColorSchemes$DeepPurple$1).f3w = function () {
+  protoOf(ColorSchemes$Red$1).p3x = function () {
     return this.i3x_1;
   };
-  protoOf(ColorSchemes$DeepPurple$1).g3w = function () {
+  protoOf(ColorSchemes$Red$1).q3x = function () {
+    return this.j3x_1;
+  };
+  protoOf(ColorSchemes$Red$1).r3x = function () {
     return this.k3x_1;
   };
-  function ColorSchemes$Indigo$1() {
-    this.l3x_1 = Companion_getInstance_3().r3m(15264502);
-    this.m3x_1 = Companion_getInstance_3().r3m(12962537);
-    this.n3x_1 = Companion_getInstance_3().r3m(10463450);
-    this.o3x_1 = Companion_getInstance_3().r3m(7964363);
-    this.p3x_1 = Companion_getInstance_3().r3m(6056896);
-    this.q3x_1 = Companion_getInstance_3().r3m(4149685);
-    this.r3x_1 = Companion_getInstance_3().r3m(3754411);
-    this.s3x_1 = Companion_getInstance_3().r3m(3162015);
-    this.t3x_1 = Companion_getInstance_3().r3m(2635155);
-    this.u3x_1 = Companion_getInstance_3().r3m(1713022);
+  protoOf(ColorSchemes$Red$1).s3x = function () {
+    return this.m3x_1;
+  };
+  function ColorSchemes$Pink$1() {
+    this.t3x_1 = Companion_getInstance_3().d3o(16573676);
+    this.u3x_1 = Companion_getInstance_3().d3o(16301008);
+    this.v3x_1 = Companion_getInstance_3().d3o(16027569);
+    this.w3x_1 = Companion_getInstance_3().d3o(15753874);
+    this.x3x_1 = Companion_getInstance_3().d3o(15483002);
+    this.y3x_1 = Companion_getInstance_3().d3o(15277667);
+    this.z3x_1 = Companion_getInstance_3().d3o(14162784);
+    this.a3y_1 = Companion_getInstance_3().d3o(12720219);
+    this.b3y_1 = Companion_getInstance_3().d3o(11342935);
+    this.c3y_1 = Companion_getInstance_3().d3o(8916559);
   }
-  protoOf(ColorSchemes$Indigo$1).b3w = function () {
-    return this.n3x_1;
+  protoOf(ColorSchemes$Pink$1).n3x = function () {
+    return this.v3x_1;
   };
-  protoOf(ColorSchemes$Indigo$1).c3w = function () {
-    return this.o3x_1;
+  protoOf(ColorSchemes$Pink$1).o3x = function () {
+    return this.w3x_1;
   };
-  protoOf(ColorSchemes$Indigo$1).d3w = function () {
-    return this.q3x_1;
-  };
-  protoOf(ColorSchemes$Indigo$1).e3w = function () {
-    return this.r3x_1;
-  };
-  protoOf(ColorSchemes$Indigo$1).f3w = function () {
-    return this.s3x_1;
-  };
-  protoOf(ColorSchemes$Indigo$1).g3w = function () {
-    return this.u3x_1;
-  };
-  function ColorSchemes$Blue$1() {
-    this.v3x_1 = Companion_getInstance_3().r3m(14938877);
-    this.w3x_1 = Companion_getInstance_3().r3m(12312315);
-    this.x3x_1 = Companion_getInstance_3().r3m(9489145);
-    this.y3x_1 = Companion_getInstance_3().r3m(6600182);
-    this.z3x_1 = Companion_getInstance_3().r3m(4367861);
-    this.a3y_1 = Companion_getInstance_3().r3m(2201331);
-    this.b3y_1 = Companion_getInstance_3().r3m(2001125);
-    this.c3y_1 = Companion_getInstance_3().r3m(1668818);
-    this.d3y_1 = Companion_getInstance_3().r3m(1402304);
-    this.e3y_1 = Companion_getInstance_3().r3m(870305);
-  }
-  protoOf(ColorSchemes$Blue$1).b3w = function () {
-    return this.x3x_1;
-  };
-  protoOf(ColorSchemes$Blue$1).c3w = function () {
+  protoOf(ColorSchemes$Pink$1).p3x = function () {
     return this.y3x_1;
   };
-  protoOf(ColorSchemes$Blue$1).d3w = function () {
+  protoOf(ColorSchemes$Pink$1).q3x = function () {
+    return this.z3x_1;
+  };
+  protoOf(ColorSchemes$Pink$1).r3x = function () {
     return this.a3y_1;
   };
-  protoOf(ColorSchemes$Blue$1).e3w = function () {
-    return this.b3y_1;
-  };
-  protoOf(ColorSchemes$Blue$1).f3w = function () {
+  protoOf(ColorSchemes$Pink$1).s3x = function () {
     return this.c3y_1;
   };
-  protoOf(ColorSchemes$Blue$1).g3w = function () {
-    return this.e3y_1;
-  };
-  function ColorSchemes$LightBlue$1() {
-    this.f3y_1 = Companion_getInstance_3().r3m(14808574);
-    this.g3y_1 = Companion_getInstance_3().r3m(11789820);
-    this.h3y_1 = Companion_getInstance_3().r3m(8508666);
-    this.i3y_1 = Companion_getInstance_3().r3m(5227511);
-    this.j3y_1 = Companion_getInstance_3().r3m(2733814);
-    this.k3y_1 = Companion_getInstance_3().r3m(240116);
-    this.l3y_1 = Companion_getInstance_3().r3m(236517);
-    this.m3y_1 = Companion_getInstance_3().r3m(166097);
-    this.n3y_1 = Companion_getInstance_3().r3m(161725);
-    this.o3y_1 = Companion_getInstance_3().r3m(87963);
+  function ColorSchemes$Purple$1() {
+    this.d3y_1 = Companion_getInstance_3().d3o(15984117);
+    this.e3y_1 = Companion_getInstance_3().d3o(14794471);
+    this.f3y_1 = Companion_getInstance_3().d3o(13538264);
+    this.g3y_1 = Companion_getInstance_3().d3o(12216520);
+    this.h3y_1 = Companion_getInstance_3().d3o(11225020);
+    this.i3y_1 = Companion_getInstance_3().d3o(10233776);
+    this.j3y_1 = Companion_getInstance_3().d3o(9315498);
+    this.k3y_1 = Companion_getInstance_3().d3o(8069026);
+    this.l3y_1 = Companion_getInstance_3().d3o(6953882);
+    this.m3y_1 = Companion_getInstance_3().d3o(4854924);
   }
-  protoOf(ColorSchemes$LightBlue$1).b3w = function () {
-    return this.h3y_1;
+  protoOf(ColorSchemes$Purple$1).n3x = function () {
+    return this.f3y_1;
   };
-  protoOf(ColorSchemes$LightBlue$1).c3w = function () {
+  protoOf(ColorSchemes$Purple$1).o3x = function () {
+    return this.g3y_1;
+  };
+  protoOf(ColorSchemes$Purple$1).p3x = function () {
     return this.i3y_1;
   };
-  protoOf(ColorSchemes$LightBlue$1).d3w = function () {
+  protoOf(ColorSchemes$Purple$1).q3x = function () {
+    return this.j3y_1;
+  };
+  protoOf(ColorSchemes$Purple$1).r3x = function () {
     return this.k3y_1;
   };
-  protoOf(ColorSchemes$LightBlue$1).e3w = function () {
-    return this.l3y_1;
-  };
-  protoOf(ColorSchemes$LightBlue$1).f3w = function () {
+  protoOf(ColorSchemes$Purple$1).s3x = function () {
     return this.m3y_1;
   };
-  protoOf(ColorSchemes$LightBlue$1).g3w = function () {
-    return this.o3y_1;
-  };
-  function ColorSchemes$Cyan$1() {
-    this.p3y_1 = Companion_getInstance_3().r3m(14743546);
-    this.q3y_1 = Companion_getInstance_3().r3m(11725810);
-    this.r3y_1 = Companion_getInstance_3().r3m(8445674);
-    this.s3y_1 = Companion_getInstance_3().r3m(5099745);
-    this.t3y_1 = Companion_getInstance_3().r3m(2541274);
-    this.u3y_1 = Companion_getInstance_3().r3m(48340);
-    this.v3y_1 = Companion_getInstance_3().r3m(44225);
-    this.w3y_1 = Companion_getInstance_3().r3m(38823);
-    this.x3y_1 = Companion_getInstance_3().r3m(33679);
-    this.y3y_1 = Companion_getInstance_3().r3m(24676);
+  function ColorSchemes$DeepPurple$1() {
+    this.n3y_1 = Companion_getInstance_3().d3o(15591414);
+    this.o3y_1 = Companion_getInstance_3().d3o(13747433);
+    this.p3y_1 = Companion_getInstance_3().d3o(11771355);
+    this.q3y_1 = Companion_getInstance_3().d3o(9795021);
+    this.r3y_1 = Companion_getInstance_3().d3o(8280002);
+    this.s3y_1 = Companion_getInstance_3().d3o(6765239);
+    this.t3y_1 = Companion_getInstance_3().d3o(6174129);
+    this.u3y_1 = Companion_getInstance_3().d3o(5320104);
+    this.v3y_1 = Companion_getInstance_3().d3o(4532128);
+    this.w3y_1 = Companion_getInstance_3().d3o(3218322);
   }
-  protoOf(ColorSchemes$Cyan$1).b3w = function () {
-    return this.r3y_1;
+  protoOf(ColorSchemes$DeepPurple$1).n3x = function () {
+    return this.p3y_1;
   };
-  protoOf(ColorSchemes$Cyan$1).c3w = function () {
+  protoOf(ColorSchemes$DeepPurple$1).o3x = function () {
+    return this.q3y_1;
+  };
+  protoOf(ColorSchemes$DeepPurple$1).p3x = function () {
     return this.s3y_1;
   };
-  protoOf(ColorSchemes$Cyan$1).d3w = function () {
+  protoOf(ColorSchemes$DeepPurple$1).q3x = function () {
+    return this.t3y_1;
+  };
+  protoOf(ColorSchemes$DeepPurple$1).r3x = function () {
     return this.u3y_1;
   };
-  protoOf(ColorSchemes$Cyan$1).e3w = function () {
-    return this.v3y_1;
-  };
-  protoOf(ColorSchemes$Cyan$1).f3w = function () {
+  protoOf(ColorSchemes$DeepPurple$1).s3x = function () {
     return this.w3y_1;
   };
-  protoOf(ColorSchemes$Cyan$1).g3w = function () {
-    return this.y3y_1;
-  };
-  function ColorSchemes$Teal$1() {
-    this.z3y_1 = Companion_getInstance_3().r3m(14742257);
-    this.a3z_1 = Companion_getInstance_3().r3m(11722715);
-    this.b3z_1 = Companion_getInstance_3().r3m(8440772);
-    this.c3z_1 = Companion_getInstance_3().r3m(5093036);
-    this.d3z_1 = Companion_getInstance_3().r3m(2533018);
-    this.e3z_1 = Companion_getInstance_3().r3m(38536);
-    this.f3z_1 = Companion_getInstance_3().r3m(35195);
-    this.g3z_1 = Companion_getInstance_3().r3m(31083);
-    this.h3z_1 = Companion_getInstance_3().r3m(26972);
-    this.i3z_1 = Companion_getInstance_3().r3m(19776);
+  function ColorSchemes$Indigo$1() {
+    this.x3y_1 = Companion_getInstance_3().d3o(15264502);
+    this.y3y_1 = Companion_getInstance_3().d3o(12962537);
+    this.z3y_1 = Companion_getInstance_3().d3o(10463450);
+    this.a3z_1 = Companion_getInstance_3().d3o(7964363);
+    this.b3z_1 = Companion_getInstance_3().d3o(6056896);
+    this.c3z_1 = Companion_getInstance_3().d3o(4149685);
+    this.d3z_1 = Companion_getInstance_3().d3o(3754411);
+    this.e3z_1 = Companion_getInstance_3().d3o(3162015);
+    this.f3z_1 = Companion_getInstance_3().d3o(2635155);
+    this.g3z_1 = Companion_getInstance_3().d3o(1713022);
   }
-  protoOf(ColorSchemes$Teal$1).b3w = function () {
-    return this.b3z_1;
+  protoOf(ColorSchemes$Indigo$1).n3x = function () {
+    return this.z3y_1;
   };
-  protoOf(ColorSchemes$Teal$1).c3w = function () {
+  protoOf(ColorSchemes$Indigo$1).o3x = function () {
+    return this.a3z_1;
+  };
+  protoOf(ColorSchemes$Indigo$1).p3x = function () {
     return this.c3z_1;
   };
-  protoOf(ColorSchemes$Teal$1).d3w = function () {
+  protoOf(ColorSchemes$Indigo$1).q3x = function () {
+    return this.d3z_1;
+  };
+  protoOf(ColorSchemes$Indigo$1).r3x = function () {
     return this.e3z_1;
   };
-  protoOf(ColorSchemes$Teal$1).e3w = function () {
-    return this.f3z_1;
-  };
-  protoOf(ColorSchemes$Teal$1).f3w = function () {
+  protoOf(ColorSchemes$Indigo$1).s3x = function () {
     return this.g3z_1;
   };
-  protoOf(ColorSchemes$Teal$1).g3w = function () {
-    return this.i3z_1;
-  };
-  function ColorSchemes$Green$1() {
-    this.j3z_1 = Companion_getInstance_3().r3m(15267305);
-    this.k3z_1 = Companion_getInstance_3().r3m(13166281);
-    this.l3z_1 = Companion_getInstance_3().r3m(10868391);
-    this.m3z_1 = Companion_getInstance_3().r3m(8505220);
-    this.n3z_1 = Companion_getInstance_3().r3m(6732650);
-    this.o3z_1 = Companion_getInstance_3().r3m(5025616);
-    this.p3z_1 = Companion_getInstance_3().r3m(4431943);
-    this.q3z_1 = Companion_getInstance_3().r3m(3706428);
-    this.r3z_1 = Companion_getInstance_3().r3m(3046706);
-    this.s3z_1 = Companion_getInstance_3().r3m(1793568);
+  function ColorSchemes$Blue$1() {
+    this.h3z_1 = Companion_getInstance_3().d3o(14938877);
+    this.i3z_1 = Companion_getInstance_3().d3o(12312315);
+    this.j3z_1 = Companion_getInstance_3().d3o(9489145);
+    this.k3z_1 = Companion_getInstance_3().d3o(6600182);
+    this.l3z_1 = Companion_getInstance_3().d3o(4367861);
+    this.m3z_1 = Companion_getInstance_3().d3o(2201331);
+    this.n3z_1 = Companion_getInstance_3().d3o(2001125);
+    this.o3z_1 = Companion_getInstance_3().d3o(1668818);
+    this.p3z_1 = Companion_getInstance_3().d3o(1402304);
+    this.q3z_1 = Companion_getInstance_3().d3o(870305);
   }
-  protoOf(ColorSchemes$Green$1).b3w = function () {
-    return this.l3z_1;
+  protoOf(ColorSchemes$Blue$1).n3x = function () {
+    return this.j3z_1;
   };
-  protoOf(ColorSchemes$Green$1).c3w = function () {
+  protoOf(ColorSchemes$Blue$1).o3x = function () {
+    return this.k3z_1;
+  };
+  protoOf(ColorSchemes$Blue$1).p3x = function () {
     return this.m3z_1;
   };
-  protoOf(ColorSchemes$Green$1).d3w = function () {
+  protoOf(ColorSchemes$Blue$1).q3x = function () {
+    return this.n3z_1;
+  };
+  protoOf(ColorSchemes$Blue$1).r3x = function () {
     return this.o3z_1;
   };
-  protoOf(ColorSchemes$Green$1).e3w = function () {
-    return this.p3z_1;
-  };
-  protoOf(ColorSchemes$Green$1).f3w = function () {
+  protoOf(ColorSchemes$Blue$1).s3x = function () {
     return this.q3z_1;
   };
-  protoOf(ColorSchemes$Green$1).g3w = function () {
-    return this.s3z_1;
-  };
-  function ColorSchemes$LightGreen$1() {
-    this.t3z_1 = Companion_getInstance_3().r3m(15857897);
-    this.u3z_1 = Companion_getInstance_3().r3m(14478792);
-    this.v3z_1 = Companion_getInstance_3().r3m(12968357);
-    this.w3z_1 = Companion_getInstance_3().r3m(11457921);
-    this.x3z_1 = Companion_getInstance_3().r3m(10275941);
-    this.y3z_1 = Companion_getInstance_3().r3m(9159498);
-    this.z3z_1 = Companion_getInstance_3().r3m(8172354);
-    this.a40_1 = Companion_getInstance_3().r3m(6856504);
-    this.b40_1 = Companion_getInstance_3().r3m(5606191);
-    this.c40_1 = Companion_getInstance_3().r3m(3369246);
+  function ColorSchemes$LightBlue$1() {
+    this.r3z_1 = Companion_getInstance_3().d3o(14808574);
+    this.s3z_1 = Companion_getInstance_3().d3o(11789820);
+    this.t3z_1 = Companion_getInstance_3().d3o(8508666);
+    this.u3z_1 = Companion_getInstance_3().d3o(5227511);
+    this.v3z_1 = Companion_getInstance_3().d3o(2733814);
+    this.w3z_1 = Companion_getInstance_3().d3o(240116);
+    this.x3z_1 = Companion_getInstance_3().d3o(236517);
+    this.y3z_1 = Companion_getInstance_3().d3o(166097);
+    this.z3z_1 = Companion_getInstance_3().d3o(161725);
+    this.a40_1 = Companion_getInstance_3().d3o(87963);
   }
-  protoOf(ColorSchemes$LightGreen$1).b3w = function () {
-    return this.v3z_1;
+  protoOf(ColorSchemes$LightBlue$1).n3x = function () {
+    return this.t3z_1;
   };
-  protoOf(ColorSchemes$LightGreen$1).c3w = function () {
+  protoOf(ColorSchemes$LightBlue$1).o3x = function () {
+    return this.u3z_1;
+  };
+  protoOf(ColorSchemes$LightBlue$1).p3x = function () {
     return this.w3z_1;
   };
-  protoOf(ColorSchemes$LightGreen$1).d3w = function () {
+  protoOf(ColorSchemes$LightBlue$1).q3x = function () {
+    return this.x3z_1;
+  };
+  protoOf(ColorSchemes$LightBlue$1).r3x = function () {
     return this.y3z_1;
   };
-  protoOf(ColorSchemes$LightGreen$1).e3w = function () {
-    return this.z3z_1;
-  };
-  protoOf(ColorSchemes$LightGreen$1).f3w = function () {
+  protoOf(ColorSchemes$LightBlue$1).s3x = function () {
     return this.a40_1;
   };
-  protoOf(ColorSchemes$LightGreen$1).g3w = function () {
-    return this.c40_1;
-  };
-  function ColorSchemes$Lime$1() {
-    this.d40_1 = Companion_getInstance_3().r3m(16382951);
-    this.e40_1 = Companion_getInstance_3().r3m(15791299);
-    this.f40_1 = Companion_getInstance_3().r3m(15134364);
-    this.g40_1 = Companion_getInstance_3().r3m(14477173);
-    this.h40_1 = Companion_getInstance_3().r3m(13951319);
-    this.i40_1 = Companion_getInstance_3().r3m(13491257);
-    this.j40_1 = Companion_getInstance_3().r3m(12634675);
-    this.k40_1 = Companion_getInstance_3().r3m(11514923);
-    this.l40_1 = Companion_getInstance_3().r3m(10394916);
-    this.m40_1 = Companion_getInstance_3().r3m(8550167);
+  function ColorSchemes$Cyan$1() {
+    this.b40_1 = Companion_getInstance_3().d3o(14743546);
+    this.c40_1 = Companion_getInstance_3().d3o(11725810);
+    this.d40_1 = Companion_getInstance_3().d3o(8445674);
+    this.e40_1 = Companion_getInstance_3().d3o(5099745);
+    this.f40_1 = Companion_getInstance_3().d3o(2541274);
+    this.g40_1 = Companion_getInstance_3().d3o(48340);
+    this.h40_1 = Companion_getInstance_3().d3o(44225);
+    this.i40_1 = Companion_getInstance_3().d3o(38823);
+    this.j40_1 = Companion_getInstance_3().d3o(33679);
+    this.k40_1 = Companion_getInstance_3().d3o(24676);
   }
-  protoOf(ColorSchemes$Lime$1).b3w = function () {
-    return this.f40_1;
+  protoOf(ColorSchemes$Cyan$1).n3x = function () {
+    return this.d40_1;
   };
-  protoOf(ColorSchemes$Lime$1).c3w = function () {
+  protoOf(ColorSchemes$Cyan$1).o3x = function () {
+    return this.e40_1;
+  };
+  protoOf(ColorSchemes$Cyan$1).p3x = function () {
     return this.g40_1;
   };
-  protoOf(ColorSchemes$Lime$1).d3w = function () {
+  protoOf(ColorSchemes$Cyan$1).q3x = function () {
+    return this.h40_1;
+  };
+  protoOf(ColorSchemes$Cyan$1).r3x = function () {
     return this.i40_1;
   };
-  protoOf(ColorSchemes$Lime$1).e3w = function () {
-    return this.j40_1;
-  };
-  protoOf(ColorSchemes$Lime$1).f3w = function () {
+  protoOf(ColorSchemes$Cyan$1).s3x = function () {
     return this.k40_1;
   };
-  protoOf(ColorSchemes$Lime$1).g3w = function () {
-    return this.m40_1;
-  };
-  function ColorSchemes$Yellow$1() {
-    this.n40_1 = Companion_getInstance_3().r3m(16776679);
-    this.o40_1 = Companion_getInstance_3().r3m(16775620);
-    this.p40_1 = Companion_getInstance_3().r3m(16774557);
-    this.q40_1 = Companion_getInstance_3().r3m(16773494);
-    this.r40_1 = Companion_getInstance_3().r3m(16772696);
-    this.s40_1 = Companion_getInstance_3().r3m(16771899);
-    this.t40_1 = Companion_getInstance_3().r3m(16635957);
-    this.u40_1 = Companion_getInstance_3().r3m(16498733);
-    this.v40_1 = Companion_getInstance_3().r3m(16361509);
-    this.w40_1 = Companion_getInstance_3().r3m(16088855);
+  function ColorSchemes$Teal$1() {
+    this.l40_1 = Companion_getInstance_3().d3o(14742257);
+    this.m40_1 = Companion_getInstance_3().d3o(11722715);
+    this.n40_1 = Companion_getInstance_3().d3o(8440772);
+    this.o40_1 = Companion_getInstance_3().d3o(5093036);
+    this.p40_1 = Companion_getInstance_3().d3o(2533018);
+    this.q40_1 = Companion_getInstance_3().d3o(38536);
+    this.r40_1 = Companion_getInstance_3().d3o(35195);
+    this.s40_1 = Companion_getInstance_3().d3o(31083);
+    this.t40_1 = Companion_getInstance_3().d3o(26972);
+    this.u40_1 = Companion_getInstance_3().d3o(19776);
   }
-  protoOf(ColorSchemes$Yellow$1).b3w = function () {
-    return this.p40_1;
+  protoOf(ColorSchemes$Teal$1).n3x = function () {
+    return this.n40_1;
   };
-  protoOf(ColorSchemes$Yellow$1).c3w = function () {
+  protoOf(ColorSchemes$Teal$1).o3x = function () {
+    return this.o40_1;
+  };
+  protoOf(ColorSchemes$Teal$1).p3x = function () {
     return this.q40_1;
   };
-  protoOf(ColorSchemes$Yellow$1).d3w = function () {
+  protoOf(ColorSchemes$Teal$1).q3x = function () {
+    return this.r40_1;
+  };
+  protoOf(ColorSchemes$Teal$1).r3x = function () {
     return this.s40_1;
   };
-  protoOf(ColorSchemes$Yellow$1).e3w = function () {
-    return this.t40_1;
-  };
-  protoOf(ColorSchemes$Yellow$1).f3w = function () {
+  protoOf(ColorSchemes$Teal$1).s3x = function () {
     return this.u40_1;
   };
-  protoOf(ColorSchemes$Yellow$1).g3w = function () {
-    return this.w40_1;
-  };
-  function ColorSchemes$Amber$1() {
-    this.x40_1 = Companion_getInstance_3().r3m(16775393);
-    this.y40_1 = Companion_getInstance_3().r3m(16772275);
-    this.z40_1 = Companion_getInstance_3().r3m(16769154);
-    this.a41_1 = Companion_getInstance_3().r3m(16766287);
-    this.b41_1 = Companion_getInstance_3().r3m(16763432);
-    this.c41_1 = Companion_getInstance_3().r3m(16761095);
-    this.d41_1 = Companion_getInstance_3().r3m(16757504);
-    this.e41_1 = Companion_getInstance_3().r3m(16752640);
-    this.f41_1 = Companion_getInstance_3().r3m(16748288);
-    this.g41_1 = Companion_getInstance_3().r3m(16740096);
+  function ColorSchemes$Green$1() {
+    this.v40_1 = Companion_getInstance_3().d3o(15267305);
+    this.w40_1 = Companion_getInstance_3().d3o(13166281);
+    this.x40_1 = Companion_getInstance_3().d3o(10868391);
+    this.y40_1 = Companion_getInstance_3().d3o(8505220);
+    this.z40_1 = Companion_getInstance_3().d3o(6732650);
+    this.a41_1 = Companion_getInstance_3().d3o(5025616);
+    this.b41_1 = Companion_getInstance_3().d3o(4431943);
+    this.c41_1 = Companion_getInstance_3().d3o(3706428);
+    this.d41_1 = Companion_getInstance_3().d3o(3046706);
+    this.e41_1 = Companion_getInstance_3().d3o(1793568);
   }
-  protoOf(ColorSchemes$Amber$1).b3w = function () {
-    return this.z40_1;
+  protoOf(ColorSchemes$Green$1).n3x = function () {
+    return this.x40_1;
   };
-  protoOf(ColorSchemes$Amber$1).c3w = function () {
+  protoOf(ColorSchemes$Green$1).o3x = function () {
+    return this.y40_1;
+  };
+  protoOf(ColorSchemes$Green$1).p3x = function () {
     return this.a41_1;
   };
-  protoOf(ColorSchemes$Amber$1).d3w = function () {
+  protoOf(ColorSchemes$Green$1).q3x = function () {
+    return this.b41_1;
+  };
+  protoOf(ColorSchemes$Green$1).r3x = function () {
     return this.c41_1;
   };
-  protoOf(ColorSchemes$Amber$1).e3w = function () {
-    return this.d41_1;
-  };
-  protoOf(ColorSchemes$Amber$1).f3w = function () {
+  protoOf(ColorSchemes$Green$1).s3x = function () {
     return this.e41_1;
   };
-  protoOf(ColorSchemes$Amber$1).g3w = function () {
-    return this.g41_1;
-  };
-  function ColorSchemes$Orange$1() {
-    this.h41_1 = Companion_getInstance_3().r3m(16774112);
-    this.i41_1 = Companion_getInstance_3().r3m(16769202);
-    this.j41_1 = Companion_getInstance_3().r3m(16764032);
-    this.k41_1 = Companion_getInstance_3().r3m(16758605);
-    this.l41_1 = Companion_getInstance_3().r3m(16754470);
-    this.m41_1 = Companion_getInstance_3().r3m(16750592);
-    this.n41_1 = Companion_getInstance_3().r3m(16485376);
-    this.o41_1 = Companion_getInstance_3().r3m(16088064);
-    this.p41_1 = Companion_getInstance_3().r3m(15690752);
-    this.q41_1 = Companion_getInstance_3().r3m(15094016);
+  function ColorSchemes$LightGreen$1() {
+    this.f41_1 = Companion_getInstance_3().d3o(15857897);
+    this.g41_1 = Companion_getInstance_3().d3o(14478792);
+    this.h41_1 = Companion_getInstance_3().d3o(12968357);
+    this.i41_1 = Companion_getInstance_3().d3o(11457921);
+    this.j41_1 = Companion_getInstance_3().d3o(10275941);
+    this.k41_1 = Companion_getInstance_3().d3o(9159498);
+    this.l41_1 = Companion_getInstance_3().d3o(8172354);
+    this.m41_1 = Companion_getInstance_3().d3o(6856504);
+    this.n41_1 = Companion_getInstance_3().d3o(5606191);
+    this.o41_1 = Companion_getInstance_3().d3o(3369246);
   }
-  protoOf(ColorSchemes$Orange$1).b3w = function () {
-    return this.j41_1;
+  protoOf(ColorSchemes$LightGreen$1).n3x = function () {
+    return this.h41_1;
   };
-  protoOf(ColorSchemes$Orange$1).c3w = function () {
+  protoOf(ColorSchemes$LightGreen$1).o3x = function () {
+    return this.i41_1;
+  };
+  protoOf(ColorSchemes$LightGreen$1).p3x = function () {
     return this.k41_1;
   };
-  protoOf(ColorSchemes$Orange$1).d3w = function () {
+  protoOf(ColorSchemes$LightGreen$1).q3x = function () {
+    return this.l41_1;
+  };
+  protoOf(ColorSchemes$LightGreen$1).r3x = function () {
     return this.m41_1;
   };
-  protoOf(ColorSchemes$Orange$1).e3w = function () {
-    return this.n41_1;
-  };
-  protoOf(ColorSchemes$Orange$1).f3w = function () {
+  protoOf(ColorSchemes$LightGreen$1).s3x = function () {
     return this.o41_1;
   };
-  protoOf(ColorSchemes$Orange$1).g3w = function () {
-    return this.q41_1;
-  };
-  function ColorSchemes$DeepOrange$1() {
-    this.r41_1 = Companion_getInstance_3().r3m(16509415);
-    this.s41_1 = Companion_getInstance_3().r3m(16764092);
-    this.t41_1 = Companion_getInstance_3().r3m(16755601);
-    this.u41_1 = Companion_getInstance_3().r3m(16747109);
-    this.v41_1 = Companion_getInstance_3().r3m(16740419);
-    this.w41_1 = Companion_getInstance_3().r3m(16733986);
-    this.x41_1 = Companion_getInstance_3().r3m(16011550);
-    this.y41_1 = Companion_getInstance_3().r3m(15092249);
-    this.z41_1 = Companion_getInstance_3().r3m(14172949);
-    this.a42_1 = Companion_getInstance_3().r3m(12531212);
+  function ColorSchemes$Lime$1() {
+    this.p41_1 = Companion_getInstance_3().d3o(16382951);
+    this.q41_1 = Companion_getInstance_3().d3o(15791299);
+    this.r41_1 = Companion_getInstance_3().d3o(15134364);
+    this.s41_1 = Companion_getInstance_3().d3o(14477173);
+    this.t41_1 = Companion_getInstance_3().d3o(13951319);
+    this.u41_1 = Companion_getInstance_3().d3o(13491257);
+    this.v41_1 = Companion_getInstance_3().d3o(12634675);
+    this.w41_1 = Companion_getInstance_3().d3o(11514923);
+    this.x41_1 = Companion_getInstance_3().d3o(10394916);
+    this.y41_1 = Companion_getInstance_3().d3o(8550167);
   }
-  protoOf(ColorSchemes$DeepOrange$1).b3w = function () {
-    return this.t41_1;
+  protoOf(ColorSchemes$Lime$1).n3x = function () {
+    return this.r41_1;
   };
-  protoOf(ColorSchemes$DeepOrange$1).c3w = function () {
+  protoOf(ColorSchemes$Lime$1).o3x = function () {
+    return this.s41_1;
+  };
+  protoOf(ColorSchemes$Lime$1).p3x = function () {
     return this.u41_1;
   };
-  protoOf(ColorSchemes$DeepOrange$1).d3w = function () {
+  protoOf(ColorSchemes$Lime$1).q3x = function () {
+    return this.v41_1;
+  };
+  protoOf(ColorSchemes$Lime$1).r3x = function () {
     return this.w41_1;
   };
-  protoOf(ColorSchemes$DeepOrange$1).e3w = function () {
-    return this.x41_1;
-  };
-  protoOf(ColorSchemes$DeepOrange$1).f3w = function () {
+  protoOf(ColorSchemes$Lime$1).s3x = function () {
     return this.y41_1;
   };
-  protoOf(ColorSchemes$DeepOrange$1).g3w = function () {
-    return this.a42_1;
-  };
-  function ColorSchemes$Brown$1() {
-    this.b42_1 = Companion_getInstance_3().r3m(15723497);
-    this.c42_1 = Companion_getInstance_3().r3m(14142664);
-    this.d42_1 = Companion_getInstance_3().r3m(12364452);
-    this.e42_1 = Companion_getInstance_3().r3m(10586239);
-    this.f42_1 = Companion_getInstance_3().r3m(9268835);
-    this.g42_1 = Companion_getInstance_3().r3m(7951688);
-    this.h42_1 = Companion_getInstance_3().r3m(7162945);
-    this.i42_1 = Companion_getInstance_3().r3m(6111287);
-    this.j42_1 = Companion_getInstance_3().r3m(5125166);
-    this.k42_1 = Companion_getInstance_3().r3m(4073251);
+  function ColorSchemes$Yellow$1() {
+    this.z41_1 = Companion_getInstance_3().d3o(16776679);
+    this.a42_1 = Companion_getInstance_3().d3o(16775620);
+    this.b42_1 = Companion_getInstance_3().d3o(16774557);
+    this.c42_1 = Companion_getInstance_3().d3o(16773494);
+    this.d42_1 = Companion_getInstance_3().d3o(16772696);
+    this.e42_1 = Companion_getInstance_3().d3o(16771899);
+    this.f42_1 = Companion_getInstance_3().d3o(16635957);
+    this.g42_1 = Companion_getInstance_3().d3o(16498733);
+    this.h42_1 = Companion_getInstance_3().d3o(16361509);
+    this.i42_1 = Companion_getInstance_3().d3o(16088855);
   }
-  protoOf(ColorSchemes$Brown$1).b3w = function () {
-    return this.d42_1;
+  protoOf(ColorSchemes$Yellow$1).n3x = function () {
+    return this.b42_1;
   };
-  protoOf(ColorSchemes$Brown$1).c3w = function () {
+  protoOf(ColorSchemes$Yellow$1).o3x = function () {
+    return this.c42_1;
+  };
+  protoOf(ColorSchemes$Yellow$1).p3x = function () {
     return this.e42_1;
   };
-  protoOf(ColorSchemes$Brown$1).d3w = function () {
+  protoOf(ColorSchemes$Yellow$1).q3x = function () {
+    return this.f42_1;
+  };
+  protoOf(ColorSchemes$Yellow$1).r3x = function () {
     return this.g42_1;
   };
-  protoOf(ColorSchemes$Brown$1).e3w = function () {
-    return this.h42_1;
-  };
-  protoOf(ColorSchemes$Brown$1).f3w = function () {
+  protoOf(ColorSchemes$Yellow$1).s3x = function () {
     return this.i42_1;
   };
-  protoOf(ColorSchemes$Brown$1).g3w = function () {
-    return this.k42_1;
-  };
-  function ColorSchemes$Gray$1() {
-    this.l42_1 = Companion_getInstance_3().r3m(16448250);
-    this.m42_1 = Companion_getInstance_3().r3m(16119285);
-    this.n42_1 = Companion_getInstance_3().r3m(15658734);
-    this.o42_1 = Companion_getInstance_3().r3m(14737632);
-    this.p42_1 = Companion_getInstance_3().r3m(12434877);
-    this.q42_1 = Companion_getInstance_3().r3m(10395294);
-    this.r42_1 = Companion_getInstance_3().r3m(7697781);
-    this.s42_1 = Companion_getInstance_3().r3m(6381921);
-    this.t42_1 = Companion_getInstance_3().r3m(4342338);
-    this.u42_1 = Companion_getInstance_3().r3m(2171169);
+  function ColorSchemes$Amber$1() {
+    this.j42_1 = Companion_getInstance_3().d3o(16775393);
+    this.k42_1 = Companion_getInstance_3().d3o(16772275);
+    this.l42_1 = Companion_getInstance_3().d3o(16769154);
+    this.m42_1 = Companion_getInstance_3().d3o(16766287);
+    this.n42_1 = Companion_getInstance_3().d3o(16763432);
+    this.o42_1 = Companion_getInstance_3().d3o(16761095);
+    this.p42_1 = Companion_getInstance_3().d3o(16757504);
+    this.q42_1 = Companion_getInstance_3().d3o(16752640);
+    this.r42_1 = Companion_getInstance_3().d3o(16748288);
+    this.s42_1 = Companion_getInstance_3().d3o(16740096);
   }
-  protoOf(ColorSchemes$Gray$1).b3w = function () {
-    return this.n42_1;
+  protoOf(ColorSchemes$Amber$1).n3x = function () {
+    return this.l42_1;
   };
-  protoOf(ColorSchemes$Gray$1).c3w = function () {
+  protoOf(ColorSchemes$Amber$1).o3x = function () {
+    return this.m42_1;
+  };
+  protoOf(ColorSchemes$Amber$1).p3x = function () {
     return this.o42_1;
   };
-  protoOf(ColorSchemes$Gray$1).d3w = function () {
+  protoOf(ColorSchemes$Amber$1).q3x = function () {
+    return this.p42_1;
+  };
+  protoOf(ColorSchemes$Amber$1).r3x = function () {
     return this.q42_1;
   };
-  protoOf(ColorSchemes$Gray$1).e3w = function () {
-    return this.r42_1;
-  };
-  protoOf(ColorSchemes$Gray$1).f3w = function () {
+  protoOf(ColorSchemes$Amber$1).s3x = function () {
     return this.s42_1;
   };
-  protoOf(ColorSchemes$Gray$1).g3w = function () {
-    return this.u42_1;
-  };
-  function ColorSchemes$BlueGray$1() {
-    this.v42_1 = Companion_getInstance_3().r3m(15527921);
-    this.w42_1 = Companion_getInstance_3().r3m(13621468);
-    this.x42_1 = Companion_getInstance_3().r3m(11583173);
-    this.y42_1 = Companion_getInstance_3().r3m(9479342);
-    this.z42_1 = Companion_getInstance_3().r3m(7901340);
-    this.a43_1 = Companion_getInstance_3().r3m(6323595);
-    this.b43_1 = Companion_getInstance_3().r3m(5533306);
-    this.c43_1 = Companion_getInstance_3().r3m(4545124);
-    this.d43_1 = Companion_getInstance_3().r3m(3622735);
-    this.e43_1 = Companion_getInstance_3().r3m(2503224);
+  function ColorSchemes$Orange$1() {
+    this.t42_1 = Companion_getInstance_3().d3o(16774112);
+    this.u42_1 = Companion_getInstance_3().d3o(16769202);
+    this.v42_1 = Companion_getInstance_3().d3o(16764032);
+    this.w42_1 = Companion_getInstance_3().d3o(16758605);
+    this.x42_1 = Companion_getInstance_3().d3o(16754470);
+    this.y42_1 = Companion_getInstance_3().d3o(16750592);
+    this.z42_1 = Companion_getInstance_3().d3o(16485376);
+    this.a43_1 = Companion_getInstance_3().d3o(16088064);
+    this.b43_1 = Companion_getInstance_3().d3o(15690752);
+    this.c43_1 = Companion_getInstance_3().d3o(15094016);
   }
-  protoOf(ColorSchemes$BlueGray$1).b3w = function () {
-    return this.x42_1;
+  protoOf(ColorSchemes$Orange$1).n3x = function () {
+    return this.v42_1;
   };
-  protoOf(ColorSchemes$BlueGray$1).c3w = function () {
+  protoOf(ColorSchemes$Orange$1).o3x = function () {
+    return this.w42_1;
+  };
+  protoOf(ColorSchemes$Orange$1).p3x = function () {
     return this.y42_1;
   };
-  protoOf(ColorSchemes$BlueGray$1).d3w = function () {
+  protoOf(ColorSchemes$Orange$1).q3x = function () {
+    return this.z42_1;
+  };
+  protoOf(ColorSchemes$Orange$1).r3x = function () {
     return this.a43_1;
   };
-  protoOf(ColorSchemes$BlueGray$1).e3w = function () {
-    return this.b43_1;
-  };
-  protoOf(ColorSchemes$BlueGray$1).f3w = function () {
+  protoOf(ColorSchemes$Orange$1).s3x = function () {
     return this.c43_1;
   };
-  protoOf(ColorSchemes$BlueGray$1).g3w = function () {
-    return this.e43_1;
+  function ColorSchemes$DeepOrange$1() {
+    this.d43_1 = Companion_getInstance_3().d3o(16509415);
+    this.e43_1 = Companion_getInstance_3().d3o(16764092);
+    this.f43_1 = Companion_getInstance_3().d3o(16755601);
+    this.g43_1 = Companion_getInstance_3().d3o(16747109);
+    this.h43_1 = Companion_getInstance_3().d3o(16740419);
+    this.i43_1 = Companion_getInstance_3().d3o(16733986);
+    this.j43_1 = Companion_getInstance_3().d3o(16011550);
+    this.k43_1 = Companion_getInstance_3().d3o(15092249);
+    this.l43_1 = Companion_getInstance_3().d3o(14172949);
+    this.m43_1 = Companion_getInstance_3().d3o(12531212);
+  }
+  protoOf(ColorSchemes$DeepOrange$1).n3x = function () {
+    return this.f43_1;
+  };
+  protoOf(ColorSchemes$DeepOrange$1).o3x = function () {
+    return this.g43_1;
+  };
+  protoOf(ColorSchemes$DeepOrange$1).p3x = function () {
+    return this.i43_1;
+  };
+  protoOf(ColorSchemes$DeepOrange$1).q3x = function () {
+    return this.j43_1;
+  };
+  protoOf(ColorSchemes$DeepOrange$1).r3x = function () {
+    return this.k43_1;
+  };
+  protoOf(ColorSchemes$DeepOrange$1).s3x = function () {
+    return this.m43_1;
+  };
+  function ColorSchemes$Brown$1() {
+    this.n43_1 = Companion_getInstance_3().d3o(15723497);
+    this.o43_1 = Companion_getInstance_3().d3o(14142664);
+    this.p43_1 = Companion_getInstance_3().d3o(12364452);
+    this.q43_1 = Companion_getInstance_3().d3o(10586239);
+    this.r43_1 = Companion_getInstance_3().d3o(9268835);
+    this.s43_1 = Companion_getInstance_3().d3o(7951688);
+    this.t43_1 = Companion_getInstance_3().d3o(7162945);
+    this.u43_1 = Companion_getInstance_3().d3o(6111287);
+    this.v43_1 = Companion_getInstance_3().d3o(5125166);
+    this.w43_1 = Companion_getInstance_3().d3o(4073251);
+  }
+  protoOf(ColorSchemes$Brown$1).n3x = function () {
+    return this.p43_1;
+  };
+  protoOf(ColorSchemes$Brown$1).o3x = function () {
+    return this.q43_1;
+  };
+  protoOf(ColorSchemes$Brown$1).p3x = function () {
+    return this.s43_1;
+  };
+  protoOf(ColorSchemes$Brown$1).q3x = function () {
+    return this.t43_1;
+  };
+  protoOf(ColorSchemes$Brown$1).r3x = function () {
+    return this.u43_1;
+  };
+  protoOf(ColorSchemes$Brown$1).s3x = function () {
+    return this.w43_1;
+  };
+  function ColorSchemes$Gray$1() {
+    this.x43_1 = Companion_getInstance_3().d3o(16448250);
+    this.y43_1 = Companion_getInstance_3().d3o(16119285);
+    this.z43_1 = Companion_getInstance_3().d3o(15658734);
+    this.a44_1 = Companion_getInstance_3().d3o(14737632);
+    this.b44_1 = Companion_getInstance_3().d3o(12434877);
+    this.c44_1 = Companion_getInstance_3().d3o(10395294);
+    this.d44_1 = Companion_getInstance_3().d3o(7697781);
+    this.e44_1 = Companion_getInstance_3().d3o(6381921);
+    this.f44_1 = Companion_getInstance_3().d3o(4342338);
+    this.g44_1 = Companion_getInstance_3().d3o(2171169);
+  }
+  protoOf(ColorSchemes$Gray$1).n3x = function () {
+    return this.z43_1;
+  };
+  protoOf(ColorSchemes$Gray$1).o3x = function () {
+    return this.a44_1;
+  };
+  protoOf(ColorSchemes$Gray$1).p3x = function () {
+    return this.c44_1;
+  };
+  protoOf(ColorSchemes$Gray$1).q3x = function () {
+    return this.d44_1;
+  };
+  protoOf(ColorSchemes$Gray$1).r3x = function () {
+    return this.e44_1;
+  };
+  protoOf(ColorSchemes$Gray$1).s3x = function () {
+    return this.g44_1;
+  };
+  function ColorSchemes$BlueGray$1() {
+    this.h44_1 = Companion_getInstance_3().d3o(15527921);
+    this.i44_1 = Companion_getInstance_3().d3o(13621468);
+    this.j44_1 = Companion_getInstance_3().d3o(11583173);
+    this.k44_1 = Companion_getInstance_3().d3o(9479342);
+    this.l44_1 = Companion_getInstance_3().d3o(7901340);
+    this.m44_1 = Companion_getInstance_3().d3o(6323595);
+    this.n44_1 = Companion_getInstance_3().d3o(5533306);
+    this.o44_1 = Companion_getInstance_3().d3o(4545124);
+    this.p44_1 = Companion_getInstance_3().d3o(3622735);
+    this.q44_1 = Companion_getInstance_3().d3o(2503224);
+  }
+  protoOf(ColorSchemes$BlueGray$1).n3x = function () {
+    return this.j44_1;
+  };
+  protoOf(ColorSchemes$BlueGray$1).o3x = function () {
+    return this.k44_1;
+  };
+  protoOf(ColorSchemes$BlueGray$1).p3x = function () {
+    return this.m44_1;
+  };
+  protoOf(ColorSchemes$BlueGray$1).q3x = function () {
+    return this.n44_1;
+  };
+  protoOf(ColorSchemes$BlueGray$1).r3x = function () {
+    return this.o44_1;
+  };
+  protoOf(ColorSchemes$BlueGray$1).s3x = function () {
+    return this.q44_1;
   };
   function ColorSchemes() {
     ColorSchemes_instance = this;
     var tmp = this;
-    tmp.f43_1 = new ColorSchemes$Red$1();
+    tmp.r44_1 = new ColorSchemes$Red$1();
     var tmp_0 = this;
-    tmp_0.g43_1 = new ColorSchemes$Pink$1();
+    tmp_0.s44_1 = new ColorSchemes$Pink$1();
     var tmp_1 = this;
-    tmp_1.h43_1 = new ColorSchemes$Purple$1();
+    tmp_1.t44_1 = new ColorSchemes$Purple$1();
     var tmp_2 = this;
-    tmp_2.i43_1 = new ColorSchemes$DeepPurple$1();
+    tmp_2.u44_1 = new ColorSchemes$DeepPurple$1();
     var tmp_3 = this;
-    tmp_3.j43_1 = new ColorSchemes$Indigo$1();
+    tmp_3.v44_1 = new ColorSchemes$Indigo$1();
     var tmp_4 = this;
-    tmp_4.k43_1 = new ColorSchemes$Blue$1();
+    tmp_4.w44_1 = new ColorSchemes$Blue$1();
     var tmp_5 = this;
-    tmp_5.l43_1 = new ColorSchemes$LightBlue$1();
+    tmp_5.x44_1 = new ColorSchemes$LightBlue$1();
     var tmp_6 = this;
-    tmp_6.m43_1 = new ColorSchemes$Cyan$1();
+    tmp_6.y44_1 = new ColorSchemes$Cyan$1();
     var tmp_7 = this;
-    tmp_7.n43_1 = new ColorSchemes$Teal$1();
+    tmp_7.z44_1 = new ColorSchemes$Teal$1();
     var tmp_8 = this;
-    tmp_8.o43_1 = new ColorSchemes$Green$1();
+    tmp_8.a45_1 = new ColorSchemes$Green$1();
     var tmp_9 = this;
-    tmp_9.p43_1 = new ColorSchemes$LightGreen$1();
+    tmp_9.b45_1 = new ColorSchemes$LightGreen$1();
     var tmp_10 = this;
-    tmp_10.q43_1 = new ColorSchemes$Lime$1();
+    tmp_10.c45_1 = new ColorSchemes$Lime$1();
     var tmp_11 = this;
-    tmp_11.r43_1 = new ColorSchemes$Yellow$1();
+    tmp_11.d45_1 = new ColorSchemes$Yellow$1();
     var tmp_12 = this;
-    tmp_12.s43_1 = new ColorSchemes$Amber$1();
+    tmp_12.e45_1 = new ColorSchemes$Amber$1();
     var tmp_13 = this;
-    tmp_13.t43_1 = new ColorSchemes$Orange$1();
+    tmp_13.f45_1 = new ColorSchemes$Orange$1();
     var tmp_14 = this;
-    tmp_14.u43_1 = new ColorSchemes$DeepOrange$1();
+    tmp_14.g45_1 = new ColorSchemes$DeepOrange$1();
     var tmp_15 = this;
-    tmp_15.v43_1 = new ColorSchemes$Brown$1();
+    tmp_15.h45_1 = new ColorSchemes$Brown$1();
     var tmp_16 = this;
-    tmp_16.w43_1 = new ColorSchemes$Gray$1();
+    tmp_16.i45_1 = new ColorSchemes$Gray$1();
     var tmp_17 = this;
-    tmp_17.x43_1 = new ColorSchemes$BlueGray$1();
-    this.y43_1 = 0;
+    tmp_17.j45_1 = new ColorSchemes$BlueGray$1();
+    this.k45_1 = 0;
   }
   var ColorSchemes_instance;
   function ColorSchemes_getInstance() {
@@ -3611,136 +3611,136 @@
   function SilkPalettes() {
   }
   function LegacyMutableSilkPalettes(palettes, light, dark) {
-    light = light === VOID ? new LegacyMutableSilkPalette(palettes.z43_1) : light;
-    dark = dark === VOID ? new LegacyMutableSilkPalette(palettes.a44_1) : dark;
-    this.c44_1 = light;
-    this.d44_1 = dark;
-    this.e44_1 = 0;
+    light = light === VOID ? new LegacyMutableSilkPalette(palettes.l45_1) : light;
+    dark = dark === VOID ? new LegacyMutableSilkPalette(palettes.m45_1) : dark;
+    this.o45_1 = light;
+    this.p45_1 = dark;
+    this.q45_1 = 0;
   }
   function PaletteEntry($outer) {
-    this.f44_1 = $outer;
+    this.r45_1 = $outer;
   }
   function Button($outer) {
-    this.k44_1 = $outer;
-    this.g44_1 = new PaletteEntry(this.k44_1);
-    this.h44_1 = new PaletteEntry(this.k44_1);
-    this.i44_1 = new PaletteEntry(this.k44_1);
-    this.j44_1 = new PaletteEntry(this.k44_1);
+    this.w45_1 = $outer;
+    this.s45_1 = new PaletteEntry(this.w45_1);
+    this.t45_1 = new PaletteEntry(this.w45_1);
+    this.u45_1 = new PaletteEntry(this.w45_1);
+    this.v45_1 = new PaletteEntry(this.w45_1);
   }
   function Checkbox($outer) {
-    this.o44_1 = $outer;
-    this.l44_1 = new PaletteEntry(this.o44_1);
-    this.m44_1 = new PaletteEntry(this.o44_1);
-    this.n44_1 = new PaletteEntry(this.o44_1);
+    this.a46_1 = $outer;
+    this.x45_1 = new PaletteEntry(this.a46_1);
+    this.y45_1 = new PaletteEntry(this.a46_1);
+    this.z45_1 = new PaletteEntry(this.a46_1);
   }
   function Input($outer) {
-    this.u44_1 = $outer;
-    this.p44_1 = new PaletteEntry(this.u44_1);
-    this.q44_1 = new PaletteEntry(this.u44_1);
-    this.r44_1 = new PaletteEntry(this.u44_1);
-    this.s44_1 = new PaletteEntry(this.u44_1);
-    this.t44_1 = new PaletteEntry(this.u44_1);
+    this.g46_1 = $outer;
+    this.b46_1 = new PaletteEntry(this.g46_1);
+    this.c46_1 = new PaletteEntry(this.g46_1);
+    this.d46_1 = new PaletteEntry(this.g46_1);
+    this.e46_1 = new PaletteEntry(this.g46_1);
+    this.f46_1 = new PaletteEntry(this.g46_1);
   }
   function Link($outer) {
-    this.x44_1 = $outer;
-    this.v44_1 = new PaletteEntry(this.x44_1);
-    this.w44_1 = new PaletteEntry(this.x44_1);
+    this.j46_1 = $outer;
+    this.h46_1 = new PaletteEntry(this.j46_1);
+    this.i46_1 = new PaletteEntry(this.j46_1);
   }
   function Switch($outer) {
-    this.b45_1 = $outer;
-    this.y44_1 = new PaletteEntry(this.b45_1);
-    this.z44_1 = new PaletteEntry(this.b45_1);
-    this.a45_1 = new PaletteEntry(this.b45_1);
+    this.n46_1 = $outer;
+    this.k46_1 = new PaletteEntry(this.n46_1);
+    this.l46_1 = new PaletteEntry(this.n46_1);
+    this.m46_1 = new PaletteEntry(this.n46_1);
   }
   function Tab($outer) {
-    this.k45_1 = $outer;
-    this.c45_1 = new PaletteEntry(this.k45_1);
-    this.d45_1 = new PaletteEntry(this.k45_1);
-    this.e45_1 = new PaletteEntry(this.k45_1);
-    this.f45_1 = new PaletteEntry(this.k45_1);
-    this.g45_1 = new PaletteEntry(this.k45_1);
-    this.h45_1 = new PaletteEntry(this.k45_1);
-    this.i45_1 = new PaletteEntry(this.k45_1);
-    this.j45_1 = new PaletteEntry(this.k45_1);
+    this.w46_1 = $outer;
+    this.o46_1 = new PaletteEntry(this.w46_1);
+    this.p46_1 = new PaletteEntry(this.w46_1);
+    this.q46_1 = new PaletteEntry(this.w46_1);
+    this.r46_1 = new PaletteEntry(this.w46_1);
+    this.s46_1 = new PaletteEntry(this.w46_1);
+    this.t46_1 = new PaletteEntry(this.w46_1);
+    this.u46_1 = new PaletteEntry(this.w46_1);
+    this.v46_1 = new PaletteEntry(this.w46_1);
   }
   function Tooltip($outer) {
-    this.n45_1 = $outer;
-    this.l45_1 = new PaletteEntry(this.n45_1);
-    this.m45_1 = new PaletteEntry(this.n45_1);
+    this.z46_1 = $outer;
+    this.x46_1 = new PaletteEntry(this.z46_1);
+    this.y46_1 = new PaletteEntry(this.z46_1);
   }
   function LegacyMutableSilkPalette(delegatePalette) {
-    this.o45_1 = delegatePalette;
-    this.p45_1 = new Button(this);
-    this.q45_1 = new Checkbox(this);
-    this.r45_1 = new Input(this);
-    this.s45_1 = new Link(this);
-    this.t45_1 = new Switch(this);
-    this.u45_1 = new Tab(this);
-    this.v45_1 = new Tooltip(this);
-    this.w45_1 = 8;
+    this.a47_1 = delegatePalette;
+    this.b47_1 = new Button(this);
+    this.c47_1 = new Checkbox(this);
+    this.d47_1 = new Input(this);
+    this.e47_1 = new Link(this);
+    this.f47_1 = new Switch(this);
+    this.g47_1 = new Tab(this);
+    this.h47_1 = new Tooltip(this);
+    this.i47_1 = 8;
   }
   function Palettes() {
   }
   function MutablePalettes() {
-    this.z43_1 = new MutablePalette();
-    this.a44_1 = new MutablePalette();
-    this.b44_1 = 0;
+    this.l45_1 = new MutablePalette();
+    this.m45_1 = new MutablePalette();
+    this.n45_1 = 0;
   }
-  protoOf(MutablePalettes).x45 = function () {
-    return this.z43_1;
+  protoOf(MutablePalettes).j47 = function () {
+    return this.l45_1;
   };
-  protoOf(MutablePalettes).y45 = function () {
-    return this.a44_1;
+  protoOf(MutablePalettes).k47 = function () {
+    return this.m45_1;
   };
   function Palette() {
   }
   function EntryDelegate(palette, prefix) {
     prefix = prefix === VOID ? null : prefix;
-    this.b46_1 = palette;
-    this.c46_1 = prefix;
-    this.d46_1 = 8;
+    this.n47_1 = palette;
+    this.o47_1 = prefix;
+    this.p47_1 = 8;
   }
-  protoOf(EntryDelegate).v2j = function (thisRef, property) {
+  protoOf(EntryDelegate).r2k = function (thisRef, property) {
     var tmp$ret$0;
     // Inline function 'kotlin.text.orEmpty' call
-    var tmp0_elvis_lhs = this.c46_1;
+    var tmp0_elvis_lhs = this.o47_1;
     tmp$ret$0 = tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs;
-    return getValue(this.b46_1.e46_1, tmp$ret$0 + property.callableName);
+    return getValue(this.n47_1.q47_1, tmp$ret$0 + property.callableName);
   };
-  protoOf(EntryDelegate).g46 = function (thisRef, property, value) {
+  protoOf(EntryDelegate).s47 = function (thisRef, property, value) {
     // Inline function 'kotlin.collections.set' call
-    var tmp1_set = this.b46_1.e46_1;
+    var tmp1_set = this.n47_1.q47_1;
     // Inline function 'kotlin.text.orEmpty' call
-    var tmp0_elvis_lhs = this.c46_1;
+    var tmp0_elvis_lhs = this.o47_1;
     var tmp2_set = (tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs) + property.callableName;
     tmp1_set.l3(tmp2_set, value);
   };
   function ColorGroup(palette, groupName) {
-    this.h46_1 = palette;
-    this.i46_1 = groupName;
-    this.j46_1 = 8;
+    this.t47_1 = palette;
+    this.u47_1 = groupName;
+    this.v47_1 = 8;
   }
-  protoOf(ColorGroup).k46 = function () {
-    return new EntryDelegate(this.h46_1, this.i46_1 + '.');
+  protoOf(ColorGroup).w47 = function () {
+    return new EntryDelegate(this.t47_1, this.u47_1 + '.');
   };
   function MutablePalette() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.e46_1 = LinkedHashMap_init_$Create$();
-    this.f46_1 = 8;
+    tmp.q47_1 = LinkedHashMap_init_$Create$();
+    this.r47_1 = 8;
   }
-  protoOf(MutablePalette).g38 = function (key) {
-    return this.e46_1.h2(key);
+  protoOf(MutablePalette).k39 = function (key) {
+    return this.q47_1.h2(key);
   };
-  protoOf(MutablePalette).l46 = function (key, value) {
+  protoOf(MutablePalette).x47 = function (key, value) {
     // Inline function 'kotlin.collections.set' call
-    this.e46_1.l3(key, value);
+    this.q47_1.l3(key, value);
   };
   function toPalette(_this__u8e3s4) {
-    return get_SilkTheme().f3r_1.z45(_this__u8e3s4);
+    return get_SilkTheme().r3s_1.l47(_this__u8e3s4);
   }
   function clip(_this__u8e3s4, shape) {
-    var tmp0_safe_receiver = shape.m46();
+    var tmp0_safe_receiver = shape.y47();
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
@@ -3763,27 +3763,27 @@
   }
   function RectF(topLeft, botRight, cornerRadius) {
     cornerRadius = cornerRadius === VOID ? get_px(0) : cornerRadius;
-    this.n46_1 = topLeft;
-    this.o46_1 = botRight;
-    this.p46_1 = cornerRadius;
-    this.q46_1 = 0;
+    this.z47_1 = topLeft;
+    this.a48_1 = botRight;
+    this.b48_1 = cornerRadius;
+    this.c48_1 = 0;
   }
-  protoOf(RectF).m46 = function () {
+  protoOf(RectF).y47 = function () {
     var tmp;
-    if ((((!(this.n46_1.h3_1 === 0.0) ? true : !(this.n46_1.i3_1 === 0.0)) ? true : !(this.o46_1.h3_1 === 100.0)) ? true : !(this.o46_1.i3_1 === 100.0)) ? true : !equals(this.p46_1, get_px(0))) {
-      tmp = new InsetPath(this.n46_1, this.o46_1, this.p46_1);
+    if ((((!(this.z47_1.h3_1 === 0.0) ? true : !(this.z47_1.i3_1 === 0.0)) ? true : !(this.a48_1.h3_1 === 100.0)) ? true : !(this.a48_1.i3_1 === 100.0)) ? true : !equals(this.b48_1, get_px(0))) {
+      tmp = new InsetPath(this.z47_1, this.a48_1, this.b48_1);
     } else {
       tmp = null;
     }
     return tmp;
   };
   function Path() {
-    this.r46_1 = 0;
+    this.d48_1 = 0;
   }
-  protoOf(Path).t46 = function (_this__u8e3s4) {
+  protoOf(Path).f48 = function (_this__u8e3s4) {
     return toString(_this__u8e3s4) + '%';
   };
-  protoOf(Path).u46 = function (_this__u8e3s4) {
+  protoOf(Path).g48 = function (_this__u8e3s4) {
     return toString(_this__u8e3s4.h3_1) + '% ' + toString(_this__u8e3s4.i3_1) + '%';
   };
   function from100(_this__u8e3s4) {
@@ -3792,14 +3792,14 @@
   function InsetPath(topLeft, botRight, roundness) {
     roundness = roundness === VOID ? get_px(0) : roundness;
     Path.call(this);
-    this.w46_1 = topLeft;
-    this.x46_1 = roundness;
-    this.y46_1 = from100(botRight);
-    this.z46_1 = 0;
+    this.i48_1 = topLeft;
+    this.j48_1 = roundness;
+    this.k48_1 = from100(botRight);
+    this.l48_1 = 0;
   }
-  protoOf(InsetPath).s46 = function () {
+  protoOf(InsetPath).e48 = function () {
     // Inline function 'kotlin.takeIf' call
-    var tmp0_takeIf = this.x46_1;
+    var tmp0_takeIf = this.j48_1;
     // Inline function 'kotlin.contracts.contract' call
     var tmp;
     // Inline function 'com.varabyte.kobweb.silk.theme.shapes.InsetPath.toPathStr.<anonymous>' call
@@ -3820,27 +3820,27 @@
     }
     var tmp1_elvis_lhs = tmp_0;
     var roundnessPart = tmp1_elvis_lhs == null ? '' : tmp1_elvis_lhs;
-    var left = this.w46_1.h3_1;
-    var top = this.w46_1.i3_1;
-    var right = this.y46_1.h3_1;
-    var bottom = this.y46_1.i3_1;
-    var insetPart = ((left === top ? right === bottom : false) ? left === right : false) ? this.t46(left) : (left === right ? top === bottom : false) ? this.u46(to(top, left)) : this.t46(top) + ' ' + this.t46(right) + ' ' + this.t46(bottom) + ' ' + this.t46(left);
+    var left = this.i48_1.h3_1;
+    var top = this.i48_1.i3_1;
+    var right = this.k48_1.h3_1;
+    var bottom = this.k48_1.i3_1;
+    var insetPart = ((left === top ? right === bottom : false) ? left === right : false) ? this.f48(left) : (left === right ? top === bottom : false) ? this.g48(to(top, left)) : this.f48(top) + ' ' + this.f48(right) + ' ' + this.f48(bottom) + ' ' + this.f48(left);
     return 'inset(' + insetPart + roundnessPart + ')';
   };
   function clip$lambda($tmp0_safe_receiver) {
     return function ($this$styleModifier) {
-      $this$styleModifier.l28('clip-path', $tmp0_safe_receiver.s46());
+      $this$styleModifier.s28('clip-path', $tmp0_safe_receiver.e48());
       return Unit_getInstance();
     };
   }
   //region block: post-declaration
-  protoOf(SilkStyleSheet).r29 = style;
-  protoOf(SilkStyleSheet).t29 = style_0;
+  protoOf(SilkStyleSheet).y29 = style;
+  protoOf(SilkStyleSheet).a2a = style_0;
   protoOf(SilkStyleSheet).returnUniversalSelector = returnUniversalSelector;
   protoOf(SilkStyleSheet).returnHoverSelector = returnHoverSelector;
-  protoOf(SilkStyleSheet).u29 = get_hover;
-  protoOf(MutablePalettes).z45 = get;
-  protoOf(MutablePalette).a46 = getValue_0;
+  protoOf(SilkStyleSheet).b2a = get_hover;
+  protoOf(MutablePalettes).l47 = get;
+  protoOf(MutablePalette).m47 = getValue_0;
   //endregion
   //region block: init
   _SilkTheme = null;

@@ -91,7 +91,7 @@ public fun main(): Unit {
         ctx.router.register("/admin/login") {
                 com.example.blogmultiplatform.pages.admin.LoginScreen() }
         ctx.router.register("/admin/my_posts") {
-                com.example.blogmultiplatform.pages.admin.MyPostPage() }
+                com.example.blogmultiplatform.pages.admin.MyPostsPage() }
         ctx.router.register("/admin/success") {
                 com.example.blogmultiplatform.pages.admin.SuccessPage() }
 

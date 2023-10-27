@@ -43,6 +43,12 @@ if (typeof Math.clz32 === 'undefined') {
     };
   }(Math.log, Math.LN2);
 }
+if (typeof String.prototype.startsWith === 'undefined') {
+  Object.defineProperty(String.prototype, 'startsWith', {value: function (searchString, position) {
+    position = position || 0;
+    return this.lastIndexOf(searchString, position) === position;
+  }});
+}
 if (typeof String.prototype.endsWith === 'undefined') {
   Object.defineProperty(String.prototype, 'endsWith', {value: function (searchString, position) {
     var subjectString = this.toString();
@@ -52,12 +58,6 @@ if (typeof String.prototype.endsWith === 'undefined') {
     position -= searchString.length;
     var lastIndex = subjectString.indexOf(searchString, position);
     return lastIndex !== -1 && lastIndex === position;
-  }});
-}
-if (typeof String.prototype.startsWith === 'undefined') {
-  Object.defineProperty(String.prototype, 'startsWith', {value: function (searchString, position) {
-    position = position || 0;
-    return this.lastIndexOf(searchString, position) === position;
   }});
 }
 if (typeof Math.imul === 'undefined') {
@@ -3014,7 +3014,7 @@ if (typeof Math.imul === 'undefined') {
       var item = tmp0_iterator.e();
       var tmp$ret$1;
       // Inline function 'kotlin.text.split.<anonymous>' call
-      tmp$ret$1 = substring(_this__u8e3s4, item);
+      tmp$ret$1 = substring_0(_this__u8e3s4, item);
       tmp0_mapTo.a(tmp$ret$1);
     }
     return tmp0_mapTo;
@@ -3082,7 +3082,7 @@ if (typeof Math.imul === 'undefined') {
       var item = tmp0_iterator.e();
       var tmp$ret$0;
       // Inline function 'kotlin.text.split.<anonymous>' call
-      tmp$ret$0 = substring(_this__u8e3s4, item);
+      tmp$ret$0 = substring_0(_this__u8e3s4, item);
       tmp0_mapTo.a(tmp$ret$0);
     }
     return tmp0_mapTo;
@@ -3132,6 +3132,13 @@ if (typeof Math.imul === 'undefined') {
       tmp = indexOf_8(_this__u8e3s4, other, 0, charSequenceLength(_this__u8e3s4), ignoreCase) >= 0;
     }
     return tmp;
+  }
+  function substring(_this__u8e3s4, range) {
+    // Inline function 'kotlin.text.substring' call
+    var tmp0_substring = range.h5();
+    var tmp1_substring = range.i5() + 1 | 0;
+    // Inline function 'kotlin.js.asDynamic' call
+    return _this__u8e3s4.substring(tmp0_substring, tmp1_substring);
   }
   function padStart(_this__u8e3s4, length, padChar) {
     padChar = padChar === VOID ? _Char___init__impl__6a9atx(32) : padChar;
@@ -3235,7 +3242,7 @@ if (typeof Math.imul === 'undefined') {
     result.a(tmp$ret$1);
     return result;
   }
-  function substring(_this__u8e3s4, range) {
+  function substring_0(_this__u8e3s4, range) {
     return toString_2(charSequenceSubSequence(_this__u8e3s4, range.h5(), range.i5() + 1 | 0));
   }
   function rangesDelimitedBy(_this__u8e3s4, delimiters, startIndex, ignoreCase, limit) {
@@ -3352,6 +3359,9 @@ if (typeof Math.imul === 'undefined') {
          while (!(index_0 === last_1));
     }
     return -1;
+  }
+  function replaceRange(_this__u8e3s4, range, replacement) {
+    return replaceRange_0(_this__u8e3s4, range.h5(), range.i5() + 1 | 0, replacement);
   }
   function padStart_0(_this__u8e3s4, length, padChar) {
     padChar = padChar === VOID ? _Char___init__impl__6a9atx(32) : padChar;
@@ -3630,6 +3640,15 @@ if (typeof Math.imul === 'undefined') {
        while (inductionVariable < length);
     return true;
   }
+  function replaceRange_0(_this__u8e3s4, startIndex, endIndex, replacement) {
+    if (endIndex < startIndex)
+      throw IndexOutOfBoundsException_init_$Create$('End index (' + endIndex + ') is less than start index (' + startIndex + ').');
+    var sb = StringBuilder_init_$Create$_0();
+    sb.f6(_this__u8e3s4, 0, startIndex);
+    sb.b(replacement);
+    sb.f6(_this__u8e3s4, endIndex, charSequenceLength(_this__u8e3s4));
+    return sb;
+  }
   function lastIndexOf_1(_this__u8e3s4, string, startIndex, ignoreCase) {
     startIndex = startIndex === VOID ? get_lastIndex_3(_this__u8e3s4) : startIndex;
     ignoreCase = ignoreCase === VOID ? false : ignoreCase;
@@ -3689,7 +3708,7 @@ if (typeof Math.imul === 'undefined') {
   }
   function splitToSequence$lambda($this_splitToSequence) {
     return function (it) {
-      return substring($this_splitToSequence, it);
+      return substring_0($this_splitToSequence, it);
     };
   }
   function _Duration___init__impl__kdtzql(rawValue) {
@@ -3720,26 +3739,26 @@ if (typeof Math.imul === 'undefined') {
     return $this;
   }
   function _get_value__a43j40($this) {
-    return _get_rawValue__5zfu4e($this).f6(1);
+    return _get_rawValue__5zfu4e($this).g6(1);
   }
   function isInNanos($this) {
     // Inline function 'kotlin.time.Duration.unitDiscriminator' call
-    return (_get_rawValue__5zfu4e($this).g6() & 1) === 0;
+    return (_get_rawValue__5zfu4e($this).h6() & 1) === 0;
   }
   function isInMillis($this) {
     // Inline function 'kotlin.time.Duration.unitDiscriminator' call
-    return (_get_rawValue__5zfu4e($this).g6() & 1) === 1;
+    return (_get_rawValue__5zfu4e($this).h6() & 1) === 1;
   }
   function _get_storageUnit__szjgha($this) {
     return isInNanos($this) ? DurationUnit_NANOSECONDS_getInstance() : DurationUnit_MILLISECONDS_getInstance();
   }
   function Companion_4() {
     Companion_instance_4 = this;
-    this.h6_1 = _Duration___init__impl__kdtzql(new Long(0, 0));
-    this.i6_1 = durationOfMillis(new Long(-1, 1073741823));
-    this.j6_1 = durationOfMillis(new Long(1, -1073741824));
+    this.i6_1 = _Duration___init__impl__kdtzql(new Long(0, 0));
+    this.j6_1 = durationOfMillis(new Long(-1, 1073741823));
+    this.k6_1 = durationOfMillis(new Long(1, -1073741824));
   }
-  protoOf(Companion_4).k6 = function (value) {
+  protoOf(Companion_4).l6 = function (value) {
     var tmp;
     try {
       tmp = parseDuration(value, true);
@@ -3764,12 +3783,12 @@ if (typeof Math.imul === 'undefined') {
     var tmp = _get_value__a43j40($this).p5();
     var tmp$ret$0;
     // Inline function 'kotlin.time.Duration.unitDiscriminator' call
-    tmp$ret$0 = _get_rawValue__5zfu4e($this).g6() & 1;
+    tmp$ret$0 = _get_rawValue__5zfu4e($this).h6() & 1;
     return durationOf(tmp, tmp$ret$0);
   }
   function Duration__plus_impl_yu9v8f($this, other) {
     if (Duration__isInfinite_impl_tsn9y3($this)) {
-      if (Duration__isFinite_impl_rzjsps(other) ? true : _get_rawValue__5zfu4e($this).l6(_get_rawValue__5zfu4e(other)).s(new Long(0, 0)) >= 0)
+      if (Duration__isFinite_impl_rzjsps(other) ? true : _get_rawValue__5zfu4e($this).m6(_get_rawValue__5zfu4e(other)).s(new Long(0, 0)) >= 0)
         return $this;
       else
         throw IllegalArgumentException_init_$Create$_0('Summing infinite durations of different signs yields an undefined result.');
@@ -3777,9 +3796,9 @@ if (typeof Math.imul === 'undefined') {
       return other;
     var tmp;
     // Inline function 'kotlin.time.Duration.unitDiscriminator' call
-    var tmp_0 = _get_rawValue__5zfu4e($this).g6() & 1;
+    var tmp_0 = _get_rawValue__5zfu4e($this).h6() & 1;
     // Inline function 'kotlin.time.Duration.unitDiscriminator' call
-    if (tmp_0 === (_get_rawValue__5zfu4e(other).g6() & 1)) {
+    if (tmp_0 === (_get_rawValue__5zfu4e(other).h6() & 1)) {
       var result = _get_value__a43j40($this).s5(_get_value__a43j40(other));
       tmp = isInNanos($this) ? durationOfNanosNormalized(result) : durationOfMillisNormalized(result);
     } else {
@@ -3808,7 +3827,7 @@ if (typeof Math.imul === 'undefined') {
     return _get_rawValue__5zfu4e($this).s(new Long(0, 0)) < 0;
   }
   function Duration__isInfinite_impl_tsn9y3($this) {
-    return _get_rawValue__5zfu4e($this).equals(_get_rawValue__5zfu4e(Companion_getInstance_4().i6_1)) ? true : _get_rawValue__5zfu4e($this).equals(_get_rawValue__5zfu4e(Companion_getInstance_4().j6_1));
+    return _get_rawValue__5zfu4e($this).equals(_get_rawValue__5zfu4e(Companion_getInstance_4().j6_1)) ? true : _get_rawValue__5zfu4e($this).equals(_get_rawValue__5zfu4e(Companion_getInstance_4().k6_1));
   }
   function Duration__isFinite_impl_rzjsps($this) {
     return !Duration__isInfinite_impl_tsn9y3($this);
@@ -3817,18 +3836,18 @@ if (typeof Math.imul === 'undefined') {
     return Duration__isNegative_impl_pbysfa($this) ? Duration__unaryMinus_impl_x2k1y0($this) : $this;
   }
   function Duration__compareTo_impl_pchp0f($this, other) {
-    var compareBits = _get_rawValue__5zfu4e($this).l6(_get_rawValue__5zfu4e(other));
-    if (compareBits.s(new Long(0, 0)) < 0 ? true : (compareBits.g6() & 1) === 0)
+    var compareBits = _get_rawValue__5zfu4e($this).m6(_get_rawValue__5zfu4e(other));
+    if (compareBits.s(new Long(0, 0)) < 0 ? true : (compareBits.h6() & 1) === 0)
       return _get_rawValue__5zfu4e($this).s(_get_rawValue__5zfu4e(other));
     // Inline function 'kotlin.time.Duration.unitDiscriminator' call
-    var tmp = _get_rawValue__5zfu4e($this).g6() & 1;
+    var tmp = _get_rawValue__5zfu4e($this).h6() & 1;
     // Inline function 'kotlin.time.Duration.unitDiscriminator' call
-    var r = tmp - (_get_rawValue__5zfu4e(other).g6() & 1) | 0;
+    var r = tmp - (_get_rawValue__5zfu4e(other).h6() & 1) | 0;
     return Duration__isNegative_impl_pbysfa($this) ? -r | 0 : r;
   }
   function Duration__compareTo_impl_pchp0f_0($this, other) {
-    var tmp = $this.m6_1;
-    return Duration__compareTo_impl_pchp0f(tmp, other instanceof Duration ? other.m6_1 : THROW_CCE());
+    var tmp = $this.n6_1;
+    return Duration__compareTo_impl_pchp0f(tmp, other instanceof Duration ? other.n6_1 : THROW_CCE());
   }
   function _Duration___get_hoursComponent__impl__7hllxa($this) {
     var tmp;
@@ -3836,7 +3855,7 @@ if (typeof Math.imul === 'undefined') {
       tmp = 0;
     } else {
       // Inline function 'kotlin.Long.rem' call
-      tmp = _Duration___get_inWholeHours__impl__kb9f3j($this).n6(new Long(24, 0)).g6();
+      tmp = _Duration___get_inWholeHours__impl__kb9f3j($this).o6(new Long(24, 0)).h6();
     }
     return tmp;
   }
@@ -3846,7 +3865,7 @@ if (typeof Math.imul === 'undefined') {
       tmp = 0;
     } else {
       // Inline function 'kotlin.Long.rem' call
-      tmp = _Duration___get_inWholeMinutes__impl__dognoh($this).n6(new Long(60, 0)).g6();
+      tmp = _Duration___get_inWholeMinutes__impl__dognoh($this).o6(new Long(60, 0)).h6();
     }
     return tmp;
   }
@@ -3856,7 +3875,7 @@ if (typeof Math.imul === 'undefined') {
       tmp = 0;
     } else {
       // Inline function 'kotlin.Long.rem' call
-      tmp = _Duration___get_inWholeSeconds__impl__hpy7b3($this).n6(new Long(60, 0)).g6();
+      tmp = _Duration___get_inWholeSeconds__impl__hpy7b3($this).o6(new Long(60, 0)).h6();
     }
     return tmp;
   }
@@ -3867,21 +3886,21 @@ if (typeof Math.imul === 'undefined') {
     } else if (isInMillis($this)) {
       var tmp$ret$0;
       // Inline function 'kotlin.Long.rem' call
-      tmp$ret$0 = _get_value__a43j40($this).n6(new Long(1000, 0));
-      tmp = millisToNanos(tmp$ret$0).g6();
+      tmp$ret$0 = _get_value__a43j40($this).o6(new Long(1000, 0));
+      tmp = millisToNanos(tmp$ret$0).h6();
     } else {
       // Inline function 'kotlin.Long.rem' call
-      tmp = _get_value__a43j40($this).n6(new Long(1000000000, 0)).g6();
+      tmp = _get_value__a43j40($this).o6(new Long(1000000000, 0)).h6();
     }
     return tmp;
   }
   function Duration__toLong_impl_shr43i($this, unit) {
     var tmp0_subject = _get_rawValue__5zfu4e($this);
     var tmp;
-    if (tmp0_subject.equals(_get_rawValue__5zfu4e(Companion_getInstance_4().i6_1))) {
+    if (tmp0_subject.equals(_get_rawValue__5zfu4e(Companion_getInstance_4().j6_1))) {
       Companion_getInstance_16();
       tmp = new Long(-1, 2147483647);
-    } else if (tmp0_subject.equals(_get_rawValue__5zfu4e(Companion_getInstance_4().j6_1))) {
+    } else if (tmp0_subject.equals(_get_rawValue__5zfu4e(Companion_getInstance_4().k6_1))) {
       Companion_getInstance_16();
       tmp = new Long(0, -2147483648);
     } else {
@@ -3934,9 +3953,9 @@ if (typeof Math.imul === 'undefined') {
     var tmp;
     if (tmp0_subject.equals(new Long(0, 0))) {
       tmp = '0s';
-    } else if (tmp0_subject.equals(_get_rawValue__5zfu4e(Companion_getInstance_4().i6_1))) {
-      tmp = 'Infinity';
     } else if (tmp0_subject.equals(_get_rawValue__5zfu4e(Companion_getInstance_4().j6_1))) {
+      tmp = 'Infinity';
+    } else if (tmp0_subject.equals(_get_rawValue__5zfu4e(Companion_getInstance_4().k6_1))) {
       tmp = '-Infinity';
     } else {
       var isNegative = Duration__isNegative_impl_pbysfa($this);
@@ -3963,7 +3982,7 @@ if (typeof Math.imul === 'undefined') {
       var hasSeconds = !(tmp4_anonymous === 0) ? true : !(tmp5_anonymous === 0);
       var components = 0;
       if (hasDays) {
-        tmp0_apply.o6(tmp1_anonymous).o5(_Char___init__impl__6a9atx(100));
+        tmp0_apply.p6(tmp1_anonymous).o5(_Char___init__impl__6a9atx(100));
         components = components + 1 | 0;
       }
       if (hasHours ? true : hasDays ? hasMinutes ? true : hasSeconds : false) {
@@ -3972,7 +3991,7 @@ if (typeof Math.imul === 'undefined') {
         if (tmp1 > 0) {
           tmp0_apply.o5(_Char___init__impl__6a9atx(32));
         }
-        tmp0_apply.o6(tmp2_anonymous).o5(_Char___init__impl__6a9atx(104));
+        tmp0_apply.p6(tmp2_anonymous).o5(_Char___init__impl__6a9atx(104));
       }
       if (hasMinutes ? true : hasSeconds ? hasHours ? true : hasDays : false) {
         var tmp2 = components;
@@ -3980,7 +3999,7 @@ if (typeof Math.imul === 'undefined') {
         if (tmp2 > 0) {
           tmp0_apply.o5(_Char___init__impl__6a9atx(32));
         }
-        tmp0_apply.o6(tmp3_anonymous).o5(_Char___init__impl__6a9atx(109));
+        tmp0_apply.p6(tmp3_anonymous).o5(_Char___init__impl__6a9atx(109));
       }
       if (hasSeconds) {
         var tmp3 = components;
@@ -3995,12 +4014,12 @@ if (typeof Math.imul === 'undefined') {
         } else if (tmp5_anonymous >= 1000) {
           appendFractional(tmp0_apply, $this, tmp5_anonymous / 1000 | 0, tmp5_anonymous % 1000 | 0, 3, 'us', false);
         } else {
-          tmp0_apply.o6(tmp5_anonymous).p6('ns');
+          tmp0_apply.p6(tmp5_anonymous).q6('ns');
         }
       }
       var tmp_0;
       if (isNegative ? components > 1 : false) {
-        tmp0_apply.q6(1, _Char___init__impl__6a9atx(40)).o5(_Char___init__impl__6a9atx(41));
+        tmp0_apply.r6(1, _Char___init__impl__6a9atx(40)).o5(_Char___init__impl__6a9atx(41));
         tmp_0 = Unit_getInstance();
       }
       tmp = tmp0_apply.toString();
@@ -4008,7 +4027,7 @@ if (typeof Math.imul === 'undefined') {
     return tmp;
   }
   function appendFractional(_this__u8e3s4, $this, whole, fractional, fractionalSize, unit, isoZeroes) {
-    _this__u8e3s4.o6(whole);
+    _this__u8e3s4.p6(whole);
     if (!(fractional === 0)) {
       _this__u8e3s4.o5(_Char___init__impl__6a9atx(46));
       var fracString = padStart(fractional.toString(), fractionalSize, _Char___init__impl__6a9atx(48));
@@ -4031,12 +4050,12 @@ if (typeof Math.imul === 'undefined') {
       }
       var nonZeroDigits = tmp$ret$1 + 1 | 0;
       if (!isoZeroes ? nonZeroDigits < 3 : false) {
-        _this__u8e3s4.r6(fracString, 0, nonZeroDigits);
+        _this__u8e3s4.f6(fracString, 0, nonZeroDigits);
       } else {
-        _this__u8e3s4.r6(fracString, 0, imul((nonZeroDigits + 2 | 0) / 3 | 0, 3));
+        _this__u8e3s4.f6(fracString, 0, imul((nonZeroDigits + 2 | 0) / 3 | 0, 3));
       }
     }
-    _this__u8e3s4.p6(unit);
+    _this__u8e3s4.q6(unit);
   }
   function Duration__toIsoString_impl_9h6wsm($this) {
     // Inline function 'kotlin.text.buildString' call
@@ -4048,7 +4067,7 @@ if (typeof Math.imul === 'undefined') {
     if (Duration__isNegative_impl_pbysfa($this)) {
       tmp0_apply.o5(_Char___init__impl__6a9atx(45));
     }
-    tmp0_apply.p6('PT');
+    tmp0_apply.q6('PT');
     // Inline function 'kotlin.time.Duration.toComponents' call
     var tmp0_toComponents = _Duration___get_absoluteValue__impl__vr7i6w($this);
     // Inline function 'kotlin.contracts.contract' call
@@ -4064,10 +4083,10 @@ if (typeof Math.imul === 'undefined') {
     var hasSeconds = !(tmp3_anonymous === 0) ? true : !(tmp4_anonymous === 0);
     var hasMinutes = !(tmp2_anonymous === 0) ? true : hasSeconds ? hasHours : false;
     if (hasHours) {
-      tmp0_apply.o6(hours).o5(_Char___init__impl__6a9atx(72));
+      tmp0_apply.p6(hours).o5(_Char___init__impl__6a9atx(72));
     }
     if (hasMinutes) {
-      tmp0_apply.o6(tmp2_anonymous).o5(_Char___init__impl__6a9atx(77));
+      tmp0_apply.p6(tmp2_anonymous).o5(_Char___init__impl__6a9atx(77));
     }
     var tmp;
     if (hasSeconds ? true : !hasHours ? !hasMinutes : false) {
@@ -4082,29 +4101,29 @@ if (typeof Math.imul === 'undefined') {
   function Duration__equals_impl_ygj6w6($this, other) {
     if (!(other instanceof Duration))
       return false;
-    var tmp0_other_with_cast = other instanceof Duration ? other.m6_1 : THROW_CCE();
+    var tmp0_other_with_cast = other instanceof Duration ? other.n6_1 : THROW_CCE();
     if (!$this.equals(tmp0_other_with_cast))
       return false;
     return true;
   }
   function Duration(rawValue) {
     Companion_getInstance_4();
-    this.m6_1 = rawValue;
+    this.n6_1 = rawValue;
   }
   protoOf(Duration).s6 = function (other) {
-    return Duration__compareTo_impl_pchp0f(this.m6_1, other);
+    return Duration__compareTo_impl_pchp0f(this.n6_1, other);
   };
   protoOf(Duration).t6 = function (other) {
     return Duration__compareTo_impl_pchp0f_0(this, other);
   };
   protoOf(Duration).toString = function () {
-    return Duration__toString_impl_8d916b(this.m6_1);
+    return Duration__toString_impl_8d916b(this.n6_1);
   };
   protoOf(Duration).hashCode = function () {
-    return Duration__hashCode_impl_u4exz6(this.m6_1);
+    return Duration__hashCode_impl_u4exz6(this.n6_1);
   };
   protoOf(Duration).equals = function (other) {
-    return Duration__equals_impl_ygj6w6(this.m6_1, other);
+    return Duration__equals_impl_ygj6w6(this.n6_1, other);
   };
   function toDuration(_this__u8e3s4, unit) {
     var valueInNs = convertDurationUnit(_this__u8e3s4, unit, DurationUnit_NANOSECONDS_getInstance());
@@ -4146,7 +4165,7 @@ if (typeof Math.imul === 'undefined') {
     if (length === 0)
       throw IllegalArgumentException_init_$Create$_0('The string is empty');
     var index = 0;
-    var result = Companion_getInstance_4().h6_1;
+    var result = Companion_getInstance_4().i6_1;
     var infinityString = 'Infinity';
     var tmp0_subject = charSequenceGet(value, index);
     if (tmp0_subject === _Char___init__impl__6a9atx(43) ? true : tmp0_subject === _Char___init__impl__6a9atx(45)) {
@@ -4245,7 +4264,7 @@ if (typeof Math.imul === 'undefined') {
           var tmp4_maxOf = infinityString.length;
           tmp$ret$11 = Math.max(tmp3_maxOf, tmp4_maxOf);
           if (regionMatches(value, tmp_3, infinityString, 0, tmp$ret$11, true)) {
-            result = Companion_getInstance_4().i6_1;
+            result = Companion_getInstance_4().j6_1;
           } else {
             var prevUnit_0 = null;
             var afterFirst = false;
@@ -5675,6 +5694,9 @@ if (typeof Math.imul === 'undefined') {
   protoOf(UShortArray).equals = function (other) {
     return UShortArray__equals_impl_tyc3mk(this.g9_1, other);
   };
+  function toULongOrNull(_this__u8e3s4) {
+    return toULongOrNull_0(_this__u8e3s4, 10);
+  }
   function toUInt(_this__u8e3s4) {
     var tmp0_elvis_lhs = toUIntOrNull(_this__u8e3s4);
     var tmp;
@@ -5718,18 +5740,6 @@ if (typeof Math.imul === 'undefined') {
       tmp = tmp0_elvis_lhs;
     }
     return tmp;
-  }
-  function toULongOrNull(_this__u8e3s4) {
-    return toULongOrNull_0(_this__u8e3s4, 10);
-  }
-  function toUIntOrNull(_this__u8e3s4) {
-    return toUIntOrNull_0(_this__u8e3s4, 10);
-  }
-  function toUByteOrNull(_this__u8e3s4) {
-    return toUByteOrNull_0(_this__u8e3s4, 10);
-  }
-  function toUShortOrNull(_this__u8e3s4) {
-    return toUShortOrNull_0(_this__u8e3s4, 10);
   }
   function toULongOrNull_0(_this__u8e3s4, radix) {
     checkRadix(radix);
@@ -5796,6 +5806,15 @@ if (typeof Math.imul === 'undefined') {
       }
        while (inductionVariable < length);
     return result;
+  }
+  function toUIntOrNull(_this__u8e3s4) {
+    return toUIntOrNull_0(_this__u8e3s4, 10);
+  }
+  function toUByteOrNull(_this__u8e3s4) {
+    return toUByteOrNull_0(_this__u8e3s4, 10);
+  }
+  function toUShortOrNull(_this__u8e3s4) {
+    return toUShortOrNull_0(_this__u8e3s4, 10);
   }
   function toUIntOrNull_0(_this__u8e3s4, radix) {
     checkRadix(radix);
@@ -5917,13 +5936,13 @@ if (typeof Math.imul === 'undefined') {
     // Inline function 'kotlin.UInt.toLong' call
     tmp$ret$1 = toLong_0(_UInt___get_data__impl__f0vqqw(v2)).d8(new Long(-1, 0));
     var tmp0_toUInt = tmp.q5(tmp$ret$1);
-    return _UInt___init__impl__l7qpdl(tmp0_toUInt.g6());
+    return _UInt___init__impl__l7qpdl(tmp0_toUInt.h6());
   }
   function ulongCompare(v1, v2) {
     Companion_getInstance_16();
-    var tmp = v1.l6(new Long(0, -2147483648));
+    var tmp = v1.m6(new Long(0, -2147483648));
     Companion_getInstance_16();
-    return tmp.s(v2.l6(new Long(0, -2147483648)));
+    return tmp.s(v2.m6(new Long(0, -2147483648)));
   }
   function ulongDivide(v1, v2) {
     // Inline function 'kotlin.ULong.toLong' call
@@ -8590,19 +8609,19 @@ if (typeof Math.imul === 'undefined') {
     return this;
   };
   protoOf(StringBuilder).ze = function (value, startIndex, endIndex) {
-    return this.r6(value == null ? 'null' : value, startIndex, endIndex);
+    return this.f6(value == null ? 'null' : value, startIndex, endIndex);
   };
-  protoOf(StringBuilder).o6 = function (value) {
+  protoOf(StringBuilder).p6 = function (value) {
     this.u5_1 = this.u5_1 + toString_1(value);
     return this;
   };
-  protoOf(StringBuilder).p6 = function (value) {
+  protoOf(StringBuilder).q6 = function (value) {
     var tmp = this;
     var tmp_0 = this.u5_1;
     tmp.u5_1 = tmp_0 + (value == null ? 'null' : value);
     return this;
   };
-  protoOf(StringBuilder).q6 = function (index, value) {
+  protoOf(StringBuilder).r6 = function (index, value) {
     Companion_getInstance().h1(index, this.k9());
     var tmp = this;
     // Inline function 'kotlin.text.substring' call
@@ -8640,7 +8659,7 @@ if (typeof Math.imul === 'undefined') {
     this.u5_1 = '';
     return this;
   };
-  protoOf(StringBuilder).r6 = function (value, startIndex, endIndex) {
+  protoOf(StringBuilder).f6 = function (value, startIndex, endIndex) {
     var stringCsq = toString_2(value);
     Companion_getInstance().n1(startIndex, endIndex, stringCsq.length);
     var tmp = this;
@@ -9429,10 +9448,10 @@ if (typeof Math.imul === 'undefined') {
     }
   }
   function dumpSelfTrace(_this__u8e3s4, $this, indent, qualifier) {
-    $this.fg_1.p6(indent).p6(qualifier);
+    $this.fg_1.q6(indent).q6(qualifier);
     var shortInfo = _this__u8e3s4.toString();
     if (hasSeen($this, _this__u8e3s4)) {
-      $this.fg_1.p6('[CIRCULAR REFERENCE, SEE ABOVE: ').p6(shortInfo).p6(']\n');
+      $this.fg_1.q6('[CIRCULAR REFERENCE, SEE ABOVE: ').q6(shortInfo).q6(']\n');
       return false;
     }
     // Inline function 'kotlin.js.asDynamic' call
@@ -9447,7 +9466,7 @@ if (typeof Math.imul === 'undefined') {
       // Inline function 'kotlin.ExceptionTraceBuilder.dumpSelfTrace.<anonymous>' call
       var stackStart = tmp1_let < 0 ? 0 : tmp1_let + shortInfo.length | 0;
       if (stackStart === 0) {
-        $this.fg_1.p6(shortInfo).p6('\n');
+        $this.fg_1.q6(shortInfo).q6('\n');
       }
       // Inline function 'kotlin.text.isEmpty' call
       var tmp2_isEmpty = $this.hg_1;
@@ -9487,15 +9506,15 @@ if (typeof Math.imul === 'undefined') {
           var tmp1 = index;
           index = tmp1 + 1 | 0;
           if (checkIndexOverflow(tmp1) >= messageLines) {
-            $this.fg_1.p6(indent);
+            $this.fg_1.q6(indent);
           }
-          $this.fg_1.p6(item).p6('\n');
+          $this.fg_1.q6(item).q6('\n');
         }
       } else {
-        $this.fg_1.p6(stack).p6('\n');
+        $this.fg_1.q6(stack).q6('\n');
       }
     } else {
-      $this.fg_1.p6(shortInfo).p6('\n');
+      $this.fg_1.q6(shortInfo).q6('\n');
     }
     var suppressed = get_suppressedExceptions(_this__u8e3s4);
     // Inline function 'kotlin.collections.isNotEmpty' call
@@ -10452,7 +10471,7 @@ if (typeof Math.imul === 'undefined') {
   protoOf(Long).q5 = function (other) {
     return divide(this, other);
   };
-  protoOf(Long).n6 = function (other) {
+  protoOf(Long).o6 = function (other) {
     return modulo(this, other);
   };
   protoOf(Long).gh = function () {
@@ -10464,7 +10483,7 @@ if (typeof Math.imul === 'undefined') {
   protoOf(Long).u6 = function (bitCount) {
     return shiftLeft(this, bitCount);
   };
-  protoOf(Long).f6 = function (bitCount) {
+  protoOf(Long).g6 = function (bitCount) {
     return shiftRight(this, bitCount);
   };
   protoOf(Long).j9 = function (bitCount) {
@@ -10476,7 +10495,7 @@ if (typeof Math.imul === 'undefined') {
   protoOf(Long).ih = function (other) {
     return new Long(this.q_1 | other.q_1, this.r_1 | other.r_1);
   };
-  protoOf(Long).l6 = function (other) {
+  protoOf(Long).m6 = function (other) {
     return new Long(this.q_1 ^ other.q_1, this.r_1 ^ other.r_1);
   };
   protoOf(Long).hh = function () {
@@ -10488,7 +10507,7 @@ if (typeof Math.imul === 'undefined') {
   protoOf(Long).kh = function () {
     return toShort(this.q_1);
   };
-  protoOf(Long).g6 = function () {
+  protoOf(Long).h6 = function () {
     return this.q_1;
   };
   protoOf(Long).nd = function () {
@@ -10773,7 +10792,7 @@ if (typeof Math.imul === 'undefined') {
       if (equalsLong(_this__u8e3s4, get_MIN_VALUE())) {
         var radixLong = fromInt(radix);
         var div = _this__u8e3s4.q5(radixLong);
-        var rem = subtract(multiply(div, radixLong), _this__u8e3s4).g6();
+        var rem = subtract(multiply(div, radixLong), _this__u8e3s4).h6();
         var tmp = toStringImpl(div, radix);
         // Inline function 'kotlin.js.unsafeCast' call
         // Inline function 'kotlin.js.asDynamic' call
@@ -10788,7 +10807,7 @@ if (typeof Math.imul === 'undefined') {
     var result = '';
     while (true) {
       var remDiv = rem_0.q5(radixToPower);
-      var intval = subtract(rem_0, multiply(remDiv, radixToPower)).g6();
+      var intval = subtract(rem_0, multiply(remDiv, radixToPower)).h6();
       // Inline function 'kotlin.js.unsafeCast' call
       // Inline function 'kotlin.js.asDynamic' call
       var digits = intval.toString(radix);
@@ -10928,7 +10947,7 @@ if (typeof Math.imul === 'undefined') {
   function numberToInt(a) {
     var tmp;
     if (a instanceof Long) {
-      tmp = a.g6();
+      tmp = a.h6();
     } else {
       tmp = doubleToInt(a);
     }
@@ -12450,119 +12469,123 @@ if (typeof Math.imul === 'undefined') {
   _.$_$.y9 = numberToChar;
   _.$_$.z9 = numberToDouble;
   _.$_$.aa = numberToInt;
-  _.$_$.ba = objectCreate;
-  _.$_$.ca = objectMeta;
-  _.$_$.da = protoOf;
-  _.$_$.ea = setMetadataFor;
-  _.$_$.fa = toByte;
-  _.$_$.ga = toLong_0;
-  _.$_$.ha = toShort;
-  _.$_$.ia = toString_2;
-  _.$_$.ja = coerceAtLeast;
-  _.$_$.ka = coerceAtMost;
-  _.$_$.la = coerceIn_1;
-  _.$_$.ma = coerceIn;
-  _.$_$.na = step;
-  _.$_$.oa = until;
-  _.$_$.pa = KClass;
-  _.$_$.qa = KMutableProperty0;
-  _.$_$.ra = KMutableProperty1;
-  _.$_$.sa = KProperty0;
-  _.$_$.ta = KProperty1;
-  _.$_$.ua = KTypeParameter;
-  _.$_$.va = SequenceScope;
-  _.$_$.wa = sequence;
-  _.$_$.xa = contains_8;
-  _.$_$.ya = contains_7;
-  _.$_$.za = decodeToString;
-  _.$_$.ab = dropLast;
-  _.$_$.bb = drop;
-  _.$_$.cb = encodeToByteArray;
-  _.$_$.db = endsWith;
-  _.$_$.eb = equals_0;
-  _.$_$.fb = first_0;
-  _.$_$.gb = indexOf_6;
-  _.$_$.hb = isBlank;
-  _.$_$.ib = isLowerCase;
-  _.$_$.jb = isUpperCase;
-  _.$_$.kb = isWhitespace;
-  _.$_$.lb = get_lastIndex_3;
-  _.$_$.mb = lastIndexOf_1;
-  _.$_$.nb = removePrefix;
-  _.$_$.ob = removeSuffix;
-  _.$_$.pb = repeat;
-  _.$_$.qb = single_2;
-  _.$_$.rb = split_0;
-  _.$_$.sb = split;
-  _.$_$.tb = startsWith_1;
-  _.$_$.ub = startsWith;
-  _.$_$.vb = substringAfterLast;
-  _.$_$.wb = substringAfter;
-  _.$_$.xb = titlecase;
-  _.$_$.yb = toBoolean;
-  _.$_$.zb = toDoubleOrNull;
-  _.$_$.ac = toDouble;
-  _.$_$.bc = toIntOrNull;
-  _.$_$.cc = toInt;
-  _.$_$.dc = toLongOrNull;
-  _.$_$.ec = toLong;
-  _.$_$.fc = toUByte;
-  _.$_$.gc = toUInt;
-  _.$_$.hc = toULongOrNull;
-  _.$_$.ic = toULong;
-  _.$_$.jc = toUShort;
-  _.$_$.kc = trimIndent;
-  _.$_$.lc = trimStart;
-  _.$_$.mc = trim;
-  _.$_$.nc = Duration;
-  _.$_$.oc = toDuration;
-  _.$_$.pc = Char;
-  _.$_$.qc = DeepRecursiveFunction;
-  _.$_$.rc = DeepRecursiveScope;
-  _.$_$.sc = Enum;
-  _.$_$.tc = Error_0;
-  _.$_$.uc = Exception;
-  _.$_$.vc = IllegalArgumentException;
-  _.$_$.wc = IllegalStateException;
-  _.$_$.xc = Long;
-  _.$_$.yc = Pair;
-  _.$_$.zc = Result;
-  _.$_$.ad = RuntimeException;
-  _.$_$.bd = THROW_CCE;
-  _.$_$.cd = THROW_ISE;
-  _.$_$.dd = Triple;
-  _.$_$.ed = UByteArray;
-  _.$_$.fd = UByte;
-  _.$_$.gd = UIntArray;
-  _.$_$.hd = UInt;
-  _.$_$.id = ULongArray;
-  _.$_$.jd = ULong;
-  _.$_$.kd = UShortArray;
-  _.$_$.ld = UShort;
-  _.$_$.md = Unit;
-  _.$_$.nd = UnsupportedOperationException;
-  _.$_$.od = addSuppressed;
-  _.$_$.pd = arrayOf;
-  _.$_$.qd = countOneBits;
-  _.$_$.rd = countTrailingZeroBits_0;
-  _.$_$.sd = createFailure;
-  _.$_$.td = ensureNotNull;
-  _.$_$.ud = invoke;
-  _.$_$.vd = isFinite_0;
-  _.$_$.wd = isFinite;
-  _.$_$.xd = lazy_0;
-  _.$_$.yd = lazy;
-  _.$_$.zd = noWhenBranchMatchedException;
-  _.$_$.ae = plus_4;
-  _.$_$.be = printStackTrace;
-  _.$_$.ce = rotateLeft;
-  _.$_$.de = rotateRight;
-  _.$_$.ee = takeLowestOneBit;
-  _.$_$.fe = throwKotlinNothingValueException;
-  _.$_$.ge = throwUninitializedPropertyAccessException;
-  _.$_$.he = toString_1;
-  _.$_$.ie = to;
-  _.$_$.je = VOID;
+  _.$_$.ba = numberToLong;
+  _.$_$.ca = objectCreate;
+  _.$_$.da = objectMeta;
+  _.$_$.ea = protoOf;
+  _.$_$.fa = setMetadataFor;
+  _.$_$.ga = toByte;
+  _.$_$.ha = toLong_0;
+  _.$_$.ia = toShort;
+  _.$_$.ja = toString_2;
+  _.$_$.ka = IntRange;
+  _.$_$.la = coerceAtLeast;
+  _.$_$.ma = coerceAtMost;
+  _.$_$.na = coerceIn_1;
+  _.$_$.oa = coerceIn;
+  _.$_$.pa = step;
+  _.$_$.qa = until;
+  _.$_$.ra = KClass;
+  _.$_$.sa = KMutableProperty0;
+  _.$_$.ta = KMutableProperty1;
+  _.$_$.ua = KProperty0;
+  _.$_$.va = KProperty1;
+  _.$_$.wa = KTypeParameter;
+  _.$_$.xa = SequenceScope;
+  _.$_$.ya = sequence;
+  _.$_$.za = contains_8;
+  _.$_$.ab = contains_7;
+  _.$_$.bb = decodeToString;
+  _.$_$.cb = dropLast;
+  _.$_$.db = drop;
+  _.$_$.eb = encodeToByteArray;
+  _.$_$.fb = endsWith;
+  _.$_$.gb = equals_0;
+  _.$_$.hb = first_0;
+  _.$_$.ib = indexOf_6;
+  _.$_$.jb = isBlank;
+  _.$_$.kb = isLowerCase;
+  _.$_$.lb = isUpperCase;
+  _.$_$.mb = isWhitespace;
+  _.$_$.nb = get_lastIndex_3;
+  _.$_$.ob = lastIndexOf_1;
+  _.$_$.pb = removePrefix;
+  _.$_$.qb = removeSuffix;
+  _.$_$.rb = repeat;
+  _.$_$.sb = replaceRange;
+  _.$_$.tb = single_2;
+  _.$_$.ub = split_0;
+  _.$_$.vb = split;
+  _.$_$.wb = startsWith_1;
+  _.$_$.xb = startsWith;
+  _.$_$.yb = substringAfterLast;
+  _.$_$.zb = substringAfter;
+  _.$_$.ac = substring;
+  _.$_$.bc = titlecase;
+  _.$_$.cc = toBoolean;
+  _.$_$.dc = toDoubleOrNull;
+  _.$_$.ec = toDouble;
+  _.$_$.fc = toIntOrNull;
+  _.$_$.gc = toInt;
+  _.$_$.hc = toLongOrNull;
+  _.$_$.ic = toLong;
+  _.$_$.jc = toUByte;
+  _.$_$.kc = toUInt;
+  _.$_$.lc = toULongOrNull;
+  _.$_$.mc = toULong;
+  _.$_$.nc = toUShort;
+  _.$_$.oc = trimIndent;
+  _.$_$.pc = trimStart;
+  _.$_$.qc = trim;
+  _.$_$.rc = Duration;
+  _.$_$.sc = toDuration;
+  _.$_$.tc = Char;
+  _.$_$.uc = DeepRecursiveFunction;
+  _.$_$.vc = DeepRecursiveScope;
+  _.$_$.wc = Enum;
+  _.$_$.xc = Error_0;
+  _.$_$.yc = Exception;
+  _.$_$.zc = IllegalArgumentException;
+  _.$_$.ad = IllegalStateException;
+  _.$_$.bd = Long;
+  _.$_$.cd = Pair;
+  _.$_$.dd = Result;
+  _.$_$.ed = RuntimeException;
+  _.$_$.fd = THROW_CCE;
+  _.$_$.gd = THROW_ISE;
+  _.$_$.hd = Triple;
+  _.$_$.id = UByteArray;
+  _.$_$.jd = UByte;
+  _.$_$.kd = UIntArray;
+  _.$_$.ld = UInt;
+  _.$_$.md = ULongArray;
+  _.$_$.nd = ULong;
+  _.$_$.od = UShortArray;
+  _.$_$.pd = UShort;
+  _.$_$.qd = Unit;
+  _.$_$.rd = UnsupportedOperationException;
+  _.$_$.sd = addSuppressed;
+  _.$_$.td = arrayOf;
+  _.$_$.ud = countOneBits;
+  _.$_$.vd = countTrailingZeroBits_0;
+  _.$_$.wd = createFailure;
+  _.$_$.xd = ensureNotNull;
+  _.$_$.yd = invoke;
+  _.$_$.zd = isFinite_0;
+  _.$_$.ae = isFinite;
+  _.$_$.be = lazy_0;
+  _.$_$.ce = lazy;
+  _.$_$.de = noWhenBranchMatchedException;
+  _.$_$.ee = plus_4;
+  _.$_$.fe = printStackTrace;
+  _.$_$.ge = rotateLeft;
+  _.$_$.he = rotateRight;
+  _.$_$.ie = takeLowestOneBit;
+  _.$_$.je = throwKotlinNothingValueException;
+  _.$_$.ke = throwUninitializedPropertyAccessException;
+  _.$_$.le = toString_1;
+  _.$_$.me = to;
+  _.$_$.ne = VOID;
   //endregion
   return _;
 }));

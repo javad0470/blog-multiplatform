@@ -35,24 +35,24 @@
   //region block: imports
   var get_BorderColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.f;
   var StyleVariable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e;
-  var protoOf = kotlin_kotlin.$_$.da;
-  var objectMeta = kotlin_kotlin.$_$.ca;
-  var VOID = kotlin_kotlin.$_$.je;
-  var setMetadataFor = kotlin_kotlin.$_$.ea;
-  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u3;
-  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.d2;
+  var protoOf = kotlin_kotlin.$_$.ea;
+  var objectMeta = kotlin_kotlin.$_$.da;
+  var VOID = kotlin_kotlin.$_$.ne;
+  var setMetadataFor = kotlin_kotlin.$_$.fa;
+  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y3;
+  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e2;
   var listStyle = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
-  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.i2;
-  var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
-  var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.y1;
-  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
+  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.j2;
+  var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
+  var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.b2;
+  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e2;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.f3;
   var borderRadius = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l;
   var Companion_getInstance_2 = kotlin_org_jetbrains_compose_html_html_core.$_$.k;
   var border = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n;
-  var KProperty0 = kotlin_kotlin.$_$.sa;
+  var KProperty0 = kotlin_kotlin.$_$.ua;
   var getPropertyCallableRef = kotlin_kotlin.$_$.d9;
-  var KProperty1 = kotlin_kotlin.$_$.ta;
+  var KProperty1 = kotlin_kotlin.$_$.va;
   var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_silk_foundation.$_$.o1;
   var base = kotlin_com_varabyte_kobweb_silk_foundation.$_$.m;
   var addVariantBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.h;
@@ -62,34 +62,34 @@
   var Companion_getInstance_4 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
   var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
   var toModifier$composable = kotlin_com_varabyte_kobweb_silk_foundation.$_$.v;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e3;
-  var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.q3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i3;
+  var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.t3;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var Unit_getInstance = kotlin_kotlin.$_$.j4;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.a3;
-  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
-  var Companion_getInstance_5 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e2;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.d3;
+  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b3;
+  var Companion_getInstance_5 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f2;
   var objectFit = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t1;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   var ComponentStyle = kotlin_com_varabyte_kobweb_silk_foundation.$_$.f;
   var get_link = kotlin_com_varabyte_kobweb_silk_foundation.$_$.s;
   var get_visited = kotlin_com_varabyte_kobweb_silk_foundation.$_$.w;
   var get_hover = kotlin_com_varabyte_kobweb_silk_foundation.$_$.r;
-  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.j2;
-  var textDecorationLine = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o2;
+  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.k2;
+  var textDecorationLine = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t;
   var get_ColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.g;
   var addVariant = kotlin_com_varabyte_kobweb_silk_foundation.$_$.i;
-  var Colors_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m3;
+  var Colors_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q3;
   var get_SilkColorsStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.h;
   var modifyComponentStyleBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.g1;
   var toPalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d1;
-  var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k2;
+  var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
   var ColorGroup = kotlin_com_varabyte_kobweb_silk_foundation.$_$.b1;
   var classMeta = kotlin_kotlin.$_$.w8;
-  var THROW_CCE = kotlin_kotlin.$_$.bd;
+  var THROW_CCE = kotlin_kotlin.$_$.fd;
   var MutablePalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.c1;
-  var KMutableProperty1 = kotlin_kotlin.$_$.ra;
+  var KMutableProperty1 = kotlin_kotlin.$_$.ta;
   //endregion
   //region block: pre-declaration
   setMetadataFor(TocVars, 'TocVars', objectMeta);
@@ -98,23 +98,23 @@
   //endregion
   function get_TocStyle() {
     _init_properties_Toc_kt__9n5312();
-    return TocStyle$delegate.v2j(null, TocStyle$factory());
+    return TocStyle$delegate.r2k(null, TocStyle$factory());
   }
   var TocStyle$delegate;
   function get_TocBorderedVariant() {
     _init_properties_Toc_kt__9n5312();
-    return TocBorderedVariant$delegate.v2j(null, TocBorderedVariant$factory());
+    return TocBorderedVariant$delegate.r2k(null, TocBorderedVariant$factory());
   }
   var TocBorderedVariant$delegate;
   function TocVars() {
     TocVars_instance = this;
     var tmp = this;
-    var tmp0_defaultFallback = get_BorderColorVar().n2j();
-    tmp.g4h_1 = StyleVariable(tmp0_defaultFallback, 'silk');
-    this.h4h_1 = 0;
+    var tmp0_defaultFallback = get_BorderColorVar().j2k();
+    tmp.s4i_1 = StyleVariable(tmp0_defaultFallback, 'silk');
+    this.t4i_1 = 0;
   }
-  protoOf(TocVars).t47 = function () {
-    return this.g4h_1.v2j(this, BorderColor$factory());
+  protoOf(TocVars).f49 = function () {
+    return this.s4i_1.r2k(this, BorderColor$factory());
   };
   var TocVars_instance;
   function TocVars_getInstance() {
@@ -124,7 +124,7 @@
   }
   function TocStyle$delegate$lambda($this$base) {
     _init_properties_Toc_kt__9n5312();
-    return padding(textAlign(listStyle(Companion_getInstance(), Companion_getInstance_0().k2i()), Companion_getInstance_1().w2e()), get_cssRem(0));
+    return padding(textAlign(listStyle(Companion_getInstance(), Companion_getInstance_0().f2j()), Companion_getInstance_1().r2f()), get_cssRem(0));
   }
   function TocBorderedVariant$delegate$lambda($this$addVariantBase) {
     _init_properties_Toc_kt__9n5312();
@@ -135,7 +135,7 @@
     // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    return padding(border(tmp, tmp_0, 'solid', TocVars_getInstance().t47().n2j()), get_cssRem(1));
+    return padding(border(tmp, tmp_0, 'solid', TocVars_getInstance().f49().j2k()), get_cssRem(1));
   }
   function TocStyle$factory() {
     return getPropertyCallableRef('TocStyle', 0, KProperty0, function () {
@@ -149,7 +149,7 @@
   }
   function BorderColor$factory() {
     return getPropertyCallableRef('BorderColor', 1, KProperty1, function (receiver) {
-      return receiver.t47();
+      return receiver.f49();
     }, null);
   }
   var properties_initialized_Toc_kt_t9o4p4;
@@ -164,12 +164,12 @@
   }
   function get_ImageStyle() {
     _init_properties_Image_kt__h9v8mh();
-    return ImageStyle$delegate.v2j(null, ImageStyle$factory());
+    return ImageStyle$delegate.r2k(null, ImageStyle$factory());
   }
   var ImageStyle$delegate;
   function get_FitWidthImageVariant() {
     _init_properties_Image_kt__h9v8mh();
-    return FitWidthImageVariant$delegate.v2j(null, FitWidthImageVariant$factory());
+    return FitWidthImageVariant$delegate.r2k(null, FitWidthImageVariant$factory());
   }
   var FitWidthImageVariant$delegate;
   function Image$composable(src, desc, modifier, autoPrefix, variant, $composer, $changed, $default) {
@@ -218,7 +218,7 @@
       if (isTraceInProgress()) {
         traceEventStart(34210657, $dirty, -1, 'com.varabyte.kobweb.silk.components.graphics.Image$composable (Image.kt:41)');
       }
-      Img$composable(prependIf(Companion_getInstance_4(), autoPrefix_0._v, src), desc_0._v, toAttrs(toModifier$composable(get_ImageStyle(), [variant_0._v], $composer_0, 0).s3l(modifier_0._v)), $composer_0, 112 & $dirty, 0);
+      Img$composable(prependIf(Companion_getInstance_4(), autoPrefix_0._v, src), desc_0._v, toAttrs(toModifier$composable(get_ImageStyle(), [variant_0._v], $composer_0, 0).e3n(modifier_0._v)), $composer_0, 112 & $dirty, 0);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -238,7 +238,7 @@
   }
   function FitWidthImageVariant$delegate$lambda($this$addVariantBase) {
     _init_properties_Image_kt__h9v8mh();
-    return objectFit(width(Companion_getInstance(), get_percent(100)), Companion_getInstance_5().p2i());
+    return objectFit(width(Companion_getInstance(), get_percent(100)), Companion_getInstance_5().l2j());
   }
   function Image$composable$lambda($src, $desc, $modifier, $autoPrefix, $variant, $$changed, $$default) {
     return function ($composer, $force) {
@@ -267,30 +267,30 @@
   }
   function get_LinkStyle() {
     _init_properties_Link_kt__dm1ox2();
-    return LinkStyle$delegate.v2j(null, LinkStyle$factory());
+    return LinkStyle$delegate.r2k(null, LinkStyle$factory());
   }
   var LinkStyle$delegate;
   function get_UndecoratedLinkVariant() {
     _init_properties_Link_kt__dm1ox2();
-    return UndecoratedLinkVariant$delegate.v2j(null, UndecoratedLinkVariant$factory());
+    return UndecoratedLinkVariant$delegate.r2k(null, UndecoratedLinkVariant$factory());
   }
   var UndecoratedLinkVariant$delegate;
   function get_UncoloredLinkVariant() {
     _init_properties_Link_kt__dm1ox2();
-    return UncoloredLinkVariant$delegate.v2j(null, UncoloredLinkVariant$factory());
+    return UncoloredLinkVariant$delegate.r2k(null, UncoloredLinkVariant$factory());
   }
   var UncoloredLinkVariant$delegate;
   function LinkVars() {
     LinkVars_instance = this;
-    this.i4h_1 = StyleVariable(VOID, 'silk');
-    this.j4h_1 = StyleVariable(VOID, 'silk');
-    this.k4h_1 = 0;
+    this.u4i_1 = StyleVariable(VOID, 'silk');
+    this.v4i_1 = StyleVariable(VOID, 'silk');
+    this.w4i_1 = 0;
   }
-  protoOf(LinkVars).l4h = function () {
-    return this.i4h_1.v2j(this, DefaultColor$factory());
+  protoOf(LinkVars).x4i = function () {
+    return this.u4i_1.r2k(this, DefaultColor$factory());
   };
-  protoOf(LinkVars).m4h = function () {
-    return this.j4h_1.v2j(this, VisitedColor$factory());
+  protoOf(LinkVars).y4i = function () {
+    return this.v4i_1.r2k(this, VisitedColor$factory());
   };
   var LinkVars_instance;
   function LinkVars_getInstance() {
@@ -300,48 +300,48 @@
   }
   function LinkStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_Link_kt__dm1ox2();
-    $this$ComponentStyle.k3q(LinkStyle$delegate$lambda$lambda);
+    $this$ComponentStyle.w3r(LinkStyle$delegate$lambda$lambda);
     var tmp = get_link($this$ComponentStyle);
-    tmp.j3s(LinkStyle$delegate$lambda$lambda_0);
+    tmp.v3t(LinkStyle$delegate$lambda$lambda_0);
     var tmp_0 = get_visited($this$ComponentStyle);
-    tmp_0.j3s(LinkStyle$delegate$lambda$lambda_1);
+    tmp_0.v3t(LinkStyle$delegate$lambda$lambda_1);
     var tmp_1 = get_hover($this$ComponentStyle);
-    tmp_1.j3s(LinkStyle$delegate$lambda$lambda_2);
+    tmp_1.v3t(LinkStyle$delegate$lambda$lambda_2);
     return Unit_getInstance();
   }
   function LinkStyle$delegate$lambda$lambda() {
     _init_properties_Link_kt__dm1ox2();
-    return textDecorationLine(Companion_getInstance(), Companion_getInstance_6().k2i());
+    return textDecorationLine(Companion_getInstance(), Companion_getInstance_6().f2j());
   }
   function LinkStyle$delegate$lambda$lambda_0() {
     _init_properties_Link_kt__dm1ox2();
-    return color(Companion_getInstance(), LinkVars_getInstance().l4h().n2j());
+    return color(Companion_getInstance(), LinkVars_getInstance().x4i().j2k());
   }
   function LinkStyle$delegate$lambda$lambda_1() {
     _init_properties_Link_kt__dm1ox2();
-    return color(Companion_getInstance(), LinkVars_getInstance().m4h().n2j());
+    return color(Companion_getInstance(), LinkVars_getInstance().y4i().j2k());
   }
   function LinkStyle$delegate$lambda$lambda_2() {
     _init_properties_Link_kt__dm1ox2();
-    return textDecorationLine(Companion_getInstance(), Companion_getInstance_6().h2k());
+    return textDecorationLine(Companion_getInstance(), Companion_getInstance_6().d2l());
   }
   function UndecoratedLinkVariant$delegate$lambda($this$addVariant) {
     _init_properties_Link_kt__dm1ox2();
     var tmp = get_hover($this$addVariant);
-    tmp.j3s(UndecoratedLinkVariant$delegate$lambda$lambda);
+    tmp.v3t(UndecoratedLinkVariant$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function UndecoratedLinkVariant$delegate$lambda$lambda() {
     _init_properties_Link_kt__dm1ox2();
-    return textDecorationLine(Companion_getInstance(), Companion_getInstance_6().k2i());
+    return textDecorationLine(Companion_getInstance(), Companion_getInstance_6().f2j());
   }
   function UncoloredLinkVariant$delegate$lambda($this$addVariant) {
     _init_properties_Link_kt__dm1ox2();
-    var colorModifier = color(Companion_getInstance(), get_ColorVar().n2j());
+    var colorModifier = color(Companion_getInstance(), get_ColorVar().j2k());
     var tmp = get_link($this$addVariant);
-    tmp.j3s(UncoloredLinkVariant$delegate$lambda$lambda(colorModifier));
+    tmp.v3t(UncoloredLinkVariant$delegate$lambda$lambda(colorModifier));
     var tmp_0 = get_visited($this$addVariant);
-    tmp_0.j3s(UncoloredLinkVariant$delegate$lambda$lambda_0(colorModifier));
+    tmp_0.v3t(UncoloredLinkVariant$delegate$lambda$lambda_0(colorModifier));
     return Unit_getInstance();
   }
   function UncoloredLinkVariant$delegate$lambda$lambda($colorModifier) {
@@ -371,12 +371,12 @@
   }
   function DefaultColor$factory() {
     return getPropertyCallableRef('DefaultColor', 1, KProperty1, function (receiver) {
-      return receiver.l4h();
+      return receiver.x4i();
     }, null);
   }
   function VisitedColor$factory() {
     return getPropertyCallableRef('VisitedColor', 1, KProperty1, function (receiver) {
-      return receiver.m4h();
+      return receiver.y4i();
     }, null);
   }
   var properties_initialized_Link_kt_5x6v44;
@@ -391,51 +391,51 @@
     }
   }
   function initSilkWidgetsKobweb(ctx) {
-    var mutableTheme = ctx.f3u_1;
+    var mutableTheme = ctx.r3v_1;
     // Inline function 'kotlin.apply' call
-    var tmp0_apply = ctx.f3u_1.l3u_1;
+    var tmp0_apply = ctx.r3v_1.x3v_1;
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.silk.init.initSilkWidgetsKobweb.<anonymous>' call
     // Inline function 'kotlin.run' call
     // Inline function 'kotlin.contracts.contract' call
-    (new MutableLink(tmp0_apply.z43_1)).x4f(Colors_getInstance().w3m(), Colors_getInstance().e3n());
+    (new MutableLink(tmp0_apply.l45_1)).j4h(Colors_getInstance().i3o(), Colors_getInstance().q3o());
     // Inline function 'kotlin.run' call
     // Inline function 'kotlin.contracts.contract' call
-    (new MutableLink(tmp0_apply.a44_1)).x4f(Colors_getInstance().y3m(), Colors_getInstance().g3n());
+    (new MutableLink(tmp0_apply.m45_1)).j4h(Colors_getInstance().k3o(), Colors_getInstance().s3o());
     var tmp = get_SilkColorsStyle();
     modifyComponentStyleBase(mutableTheme, tmp, VOID, initSilkWidgetsKobweb$lambda);
-    mutableTheme.p3u(get_ImageStyle());
-    mutableTheme.y3u([get_FitWidthImageVariant()]);
-    mutableTheme.p3u(get_LinkStyle());
-    mutableTheme.y3u([get_UncoloredLinkVariant(), get_UndecoratedLinkVariant()]);
-    mutableTheme.p3u(get_TocStyle());
-    mutableTheme.y3u([get_TocBorderedVariant()]);
+    mutableTheme.b3w(get_ImageStyle());
+    mutableTheme.k3w([get_FitWidthImageVariant()]);
+    mutableTheme.b3w(get_LinkStyle());
+    mutableTheme.k3w([get_UncoloredLinkVariant(), get_UndecoratedLinkVariant()]);
+    mutableTheme.b3w(get_TocStyle());
+    mutableTheme.k3w([get_TocBorderedVariant()]);
   }
   function initSilkWidgetsKobweb$lambda($this$modifyComponentStyleBase) {
-    var palette = toPalette($this$modifyComponentStyleBase.j3q());
-    return setVariable(setVariable(Companion_getInstance(), LinkVars_getInstance().l4h(), get_link_0(palette).y4f()), LinkVars_getInstance().m4h(), get_link_0(palette).t4h());
+    var palette = toPalette($this$modifyComponentStyleBase.v3r());
+    return setVariable(setVariable(Companion_getInstance(), LinkVars_getInstance().x4i(), get_link_0(palette).k4h()), LinkVars_getInstance().y4i(), get_link_0(palette).f4j());
   }
   function MutableLink(palette) {
     ColorGroup.call(this, palette, 'link');
-    this.q4h_1 = this.k46();
-    this.r4h_1 = this.k46();
-    this.s4h_1 = 0;
+    this.c4j_1 = this.w47();
+    this.d4j_1 = this.w47();
+    this.e4j_1 = 0;
   }
-  protoOf(MutableLink).j4g = function (_set____db54di) {
-    return this.q4h_1.g46(this, default$factory(), _set____db54di);
+  protoOf(MutableLink).v4h = function (_set____db54di) {
+    return this.c4j_1.s47(this, default$factory(), _set____db54di);
   };
-  protoOf(MutableLink).y4f = function () {
-    return this.q4h_1.v2j(this, default$factory_0());
+  protoOf(MutableLink).k4h = function () {
+    return this.c4j_1.r2k(this, default$factory_0());
   };
-  protoOf(MutableLink).u4h = function (_set____db54di) {
-    return this.r4h_1.g46(this, visited$factory(), _set____db54di);
+  protoOf(MutableLink).g4j = function (_set____db54di) {
+    return this.d4j_1.s47(this, visited$factory(), _set____db54di);
   };
-  protoOf(MutableLink).t4h = function () {
-    return this.r4h_1.v2j(this, visited$factory_0());
+  protoOf(MutableLink).f4j = function () {
+    return this.d4j_1.r2k(this, visited$factory_0());
   };
-  protoOf(MutableLink).x4f = function (default_0, visited) {
-    this.j4g(default_0);
-    this.u4h(visited);
+  protoOf(MutableLink).j4h = function (default_0, visited) {
+    this.v4h(default_0);
+    this.g4j(visited);
   };
   function get_link_0(_this__u8e3s4) {
     return get_link_1(_this__u8e3s4 instanceof MutablePalette ? _this__u8e3s4 : THROW_CCE());
@@ -445,30 +445,30 @@
   }
   function default$factory() {
     return getPropertyCallableRef('default', 1, KMutableProperty1, function (receiver) {
-      return receiver.y4f();
+      return receiver.k4h();
     }, function (receiver, value) {
-      return receiver.j4g(value);
+      return receiver.v4h(value);
     });
   }
   function default$factory_0() {
     return getPropertyCallableRef('default', 1, KMutableProperty1, function (receiver) {
-      return receiver.y4f();
+      return receiver.k4h();
     }, function (receiver, value) {
-      return receiver.j4g(value);
+      return receiver.v4h(value);
     });
   }
   function visited$factory() {
     return getPropertyCallableRef('visited', 1, KMutableProperty1, function (receiver) {
-      return receiver.t4h();
+      return receiver.f4j();
     }, function (receiver, value) {
-      return receiver.u4h(value);
+      return receiver.g4j(value);
     });
   }
   function visited$factory_0() {
     return getPropertyCallableRef('visited', 1, KMutableProperty1, function (receiver) {
-      return receiver.t4h();
+      return receiver.f4j();
     }, function (receiver, value) {
-      return receiver.u4h(value);
+      return receiver.g4j(value);
     });
   }
   //region block: exports

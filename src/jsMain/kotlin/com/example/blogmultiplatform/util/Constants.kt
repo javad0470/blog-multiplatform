@@ -46,4 +46,5 @@ object ID {
     const val thumbnailInput = "thumbnailInput"
     const val linHrefInput = "linHrefInput"
     const val linTitleInput = "linTitleInput"
+    const val adminSearchBar = "adminSearchBar"
 }

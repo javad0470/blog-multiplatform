@@ -29,7 +29,7 @@
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
-  var THROW_CCE = kotlin_kotlin.$_$.bd;
+  var THROW_CCE = kotlin_kotlin.$_$.fd;
   var isObject = kotlin_kotlin.$_$.t9;
   var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;

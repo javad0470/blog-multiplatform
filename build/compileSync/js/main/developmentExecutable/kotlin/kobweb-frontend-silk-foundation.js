@@ -30,17 +30,17 @@
   var imul = Math.imul;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.n1;
-  var THROW_CCE = kotlin_kotlin.$_$.xe;
-  var isObject = kotlin_kotlin.$_$.za;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
+  var isObject = kotlin_kotlin.$_$.bb;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
-  var Unit_getInstance = kotlin_kotlin.$_$.p4;
-  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l3;
-  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.k9;
+  var Unit_getInstance = kotlin_kotlin.$_$.q4;
+  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o3;
+  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.l9;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h1;
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.z6;
-  var protoOf = kotlin_kotlin.$_$.mb;
+  var protoOf = kotlin_kotlin.$_$.ob;
   var style = kotlin_org_jetbrains_compose_html_html_core.$_$.y6;
   var style_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.f3;
   var style_1 = kotlin_org_jetbrains_compose_html_html_core.$_$.g3;
@@ -139,111 +139,111 @@
   var get_fileSelectorButton = kotlin_org_jetbrains_compose_html_html_core.$_$.l4;
   var get_selection = kotlin_org_jetbrains_compose_html_html_core.$_$.d6;
   var slotted = kotlin_org_jetbrains_compose_html_html_core.$_$.g6;
-  var objectMeta = kotlin_kotlin.$_$.lb;
-  var VOID = kotlin_kotlin.$_$.gg;
-  var setMetadataFor = kotlin_kotlin.$_$.nb;
-  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.s;
+  var objectMeta = kotlin_kotlin.$_$.nb;
+  var VOID = kotlin_kotlin.$_$.ig;
+  var setMetadataFor = kotlin_kotlin.$_$.pb;
+  var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.t;
   var From_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.m;
-  var to = kotlin_kotlin.$_$.fg;
+  var to = kotlin_kotlin.$_$.hg;
   var To_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.n;
   var Percentage = kotlin_org_jetbrains_compose_html_html_core.$_$.x2;
-  var toList = kotlin_kotlin.$_$.m8;
+  var toList = kotlin_kotlin.$_$.o8;
   var Combine = kotlin_org_jetbrains_compose_html_html_core.$_$.w2;
-  var equals = kotlin_kotlin.$_$.fa;
-  var hashCode = kotlin_kotlin.$_$.la;
-  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.i;
-  var toStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g3;
+  var equals = kotlin_kotlin.$_$.ha;
+  var hashCode = kotlin_kotlin.$_$.na;
+  var ArrayList_init_$Create$ = kotlin_kotlin.$_$.j;
+  var toStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j3;
   var StyleScopeBuilder = kotlin_org_jetbrains_compose_html_html_core.$_$.w6;
   var CSSKeyframeRuleDeclaration = kotlin_org_jetbrains_compose_html_html_core.$_$.y2;
   var CSSKeyframesRuleDeclaration = kotlin_org_jetbrains_compose_html_html_core.$_$.z2;
-  var classMeta = kotlin_kotlin.$_$.ca;
-  var mapCapacity = kotlin_kotlin.$_$.q7;
-  var LinkedHashMap_init_$Create$_0 = kotlin_kotlin.$_$.r;
+  var classMeta = kotlin_kotlin.$_$.ea;
+  var mapCapacity = kotlin_kotlin.$_$.r7;
+  var LinkedHashMap_init_$Create$_0 = kotlin_kotlin.$_$.s;
   var ComparableStyleScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.b;
-  var listOf = kotlin_kotlin.$_$.p7;
-  var collectionSizeOrDefault = kotlin_kotlin.$_$.a6;
-  var distinct = kotlin_kotlin.$_$.q6;
-  var lazy = kotlin_kotlin.$_$.vf;
-  var titleCamelCaseToKebabCase = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.v1;
-  var KProperty1 = kotlin_kotlin.$_$.gc;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.ja;
+  var listOf = kotlin_kotlin.$_$.q7;
+  var collectionSizeOrDefault = kotlin_kotlin.$_$.b6;
+  var distinct = kotlin_kotlin.$_$.r6;
+  var lazy = kotlin_kotlin.$_$.xf;
+  var titleCamelCaseToKebabCase = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.w1;
+  var KProperty1 = kotlin_kotlin.$_$.ic;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.la;
   var Raw = kotlin_org_jetbrains_compose_html_html_core.$_$.b3;
-  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v3;
+  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y3;
   var Companion_getInstance_1 = kotlin_org_jetbrains_compose_html_html_core.$_$.o;
   var display = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w;
-  var KProperty0 = kotlin_kotlin.$_$.fc;
-  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.e2;
-  var charArrayOf = kotlin_kotlin.$_$.x9;
-  var split = kotlin_kotlin.$_$.hd;
-  var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.j;
-  var charSequenceLength = kotlin_kotlin.$_$.aa;
-  var objectCreate = kotlin_kotlin.$_$.kb;
-  var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.u;
-  var first = kotlin_kotlin.$_$.y6;
-  var Modifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
-  var isInterface = kotlin_kotlin.$_$.wa;
-  var toString = kotlin_kotlin.$_$.rb;
-  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.s1;
+  var KProperty0 = kotlin_kotlin.$_$.hc;
+  var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.f2;
+  var charArrayOf = kotlin_kotlin.$_$.z9;
+  var split = kotlin_kotlin.$_$.jd;
+  var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.k;
+  var charSequenceLength = kotlin_kotlin.$_$.ca;
+  var objectCreate = kotlin_kotlin.$_$.mb;
+  var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.v;
+  var first = kotlin_kotlin.$_$.z6;
+  var Modifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d3;
+  var isInterface = kotlin_kotlin.$_$.ya;
+  var toString = kotlin_kotlin.$_$.tb;
+  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.t1;
   var isNotEmpty = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r;
   var media = kotlin_org_jetbrains_compose_html_html_core.$_$.h8;
   var illegalDecoyCallException = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c;
-  var plus_1 = kotlin_kotlin.$_$.w7;
-  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.n1;
-  var removeSuffix = kotlin_kotlin.$_$.cd;
-  var interfaceMeta = kotlin_kotlin.$_$.na;
-  var getStringHashCode = kotlin_kotlin.$_$.ka;
-  var StyleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b3;
-  var copyToArray = kotlin_kotlin.$_$.o6;
+  var plus_1 = kotlin_kotlin.$_$.x7;
+  var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.o1;
+  var removeSuffix = kotlin_kotlin.$_$.ed;
+  var interfaceMeta = kotlin_kotlin.$_$.pa;
+  var getStringHashCode = kotlin_kotlin.$_$.ma;
+  var StyleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e3;
+  var copyToArray = kotlin_kotlin.$_$.p6;
   var classNames = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s;
-  var removePrefix = kotlin_kotlin.$_$.bd;
-  var getValue = kotlin_kotlin.$_$.b7;
-  var joinToString = kotlin_kotlin.$_$.f7;
-  var emptyList = kotlin_kotlin.$_$.r6;
-  var listOf_0 = kotlin_kotlin.$_$.o7;
-  var plus_2 = kotlin_kotlin.$_$.z7;
-  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.d1;
-  var THROW_ISE = kotlin_kotlin.$_$.ye;
-  var enumEntries = kotlin_kotlin.$_$.r9;
-  var Enum = kotlin_kotlin.$_$.me;
-  var numberToDouble = kotlin_kotlin.$_$.hb;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.r8;
+  var removePrefix = kotlin_kotlin.$_$.dd;
+  var getValue = kotlin_kotlin.$_$.c7;
+  var joinToString = kotlin_kotlin.$_$.g7;
+  var emptyList = kotlin_kotlin.$_$.s6;
+  var listOf_0 = kotlin_kotlin.$_$.p7;
+  var plus_2 = kotlin_kotlin.$_$.a8;
+  var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.e1;
+  var THROW_ISE = kotlin_kotlin.$_$.af;
+  var enumEntries = kotlin_kotlin.$_$.t9;
+  var Enum = kotlin_kotlin.$_$.oe;
   var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.n7;
-  var toIntOrNull = kotlin_kotlin.$_$.sd;
-  var endsWith = kotlin_kotlin.$_$.qc;
-  var startsWith = kotlin_kotlin.$_$.kd;
-  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.p2;
-  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f3;
+  var numberToDouble = kotlin_kotlin.$_$.jb;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.r8;
+  var toIntOrNull = kotlin_kotlin.$_$.ud;
+  var endsWith = kotlin_kotlin.$_$.sc;
+  var startsWith = kotlin_kotlin.$_$.md;
+  var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r2;
+  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i3;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
-  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.j9;
-  var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r1;
-  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.m9;
+  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.k9;
+  var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.s1;
+  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.n9;
   var mutableStateListOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.y;
   var CompositionLocalProvider$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g;
   var composableLambdaInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a;
   var staticCompositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
-  var Annotation = kotlin_kotlin.$_$.he;
-  var Map = kotlin_kotlin.$_$.k5;
-  var trimIndent = kotlin_kotlin.$_$.ce;
-  var NoSuchElementException_init_$Create$ = kotlin_kotlin.$_$.x1;
+  var Annotation = kotlin_kotlin.$_$.je;
+  var Map = kotlin_kotlin.$_$.l5;
+  var trimIndent = kotlin_kotlin.$_$.ee;
   var MediaFeature = kotlin_org_jetbrains_compose_html_html_core.$_$.a3;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.wf;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.yf;
+  var NoSuchElementException_init_$Create$ = kotlin_kotlin.$_$.y1;
   var produceState$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a1;
-  var CoroutineImpl = kotlin_kotlin.$_$.m9;
+  var CoroutineImpl = kotlin_kotlin.$_$.o9;
   var ProduceStateScope = kotlin_org_jetbrains_compose_runtime_runtime.$_$.p;
   var EventListener = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.e;
-  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.w8;
-  var throwKotlinNothingValueException = kotlin_kotlin.$_$.cg;
-  var SuspendFunction1 = kotlin_kotlin.$_$.n9;
+  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.y8;
+  var throwKotlinNothingValueException = kotlin_kotlin.$_$.eg;
+  var SuspendFunction1 = kotlin_kotlin.$_$.p9;
   var sourceInformationMarkerStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
   var sourceInformationMarkerEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var compositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.u;
-  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m3;
-  var getKClassFromExpression = kotlin_kotlin.$_$.c;
-  var ensureNotNull = kotlin_kotlin.$_$.qf;
-  var KMutableProperty1 = kotlin_kotlin.$_$.ec;
-  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d3;
+  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p3;
+  var getKClassFromExpression = kotlin_kotlin.$_$.d;
+  var ensureNotNull = kotlin_kotlin.$_$.sf;
+  var KMutableProperty1 = kotlin_kotlin.$_$.gc;
+  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g3;
   //endregion
   //region block: pre-declaration
   setMetadataFor(SilkStyleSheet, 'SilkStyleSheet', objectMeta, StyleSheet);
@@ -2497,6 +2497,13 @@
       return false;
     return true;
   };
+  function BreakpointSizes(sm, md, lg, xl) {
+    sm = sm === VOID ? get_cssRem(0) : sm;
+    md = md === VOID ? sm : md;
+    lg = lg === VOID ? md : lg;
+    xl = xl === VOID ? lg : xl;
+    return new BreakpointValues(new Rem(sm), new Rem(md), new Rem(lg), new Rem(xl));
+  }
   function get_$stableprop_27() {
     return 0;
   }
@@ -2537,13 +2544,6 @@
   protoOf(BreakpointUnitValue).get_width_j0q4yl_k$ = function () {
     return this.width_1;
   };
-  function BreakpointSizes(sm, md, lg, xl) {
-    sm = sm === VOID ? get_cssRem(0) : sm;
-    md = md === VOID ? sm : md;
-    lg = lg === VOID ? md : lg;
-    xl = xl === VOID ? lg : xl;
-    return new BreakpointValues(new Rem(sm), new Rem(md), new Rem(lg), new Rem(xl));
-  }
   function get_bodyFontSize(_this__u8e3s4) {
     var tmp0_safe_receiver = _this__u8e3s4.document.body;
     var tmp;
@@ -3685,31 +3685,8 @@
       return Unit_getInstance();
     };
   }
-  function get_breakpointFloor(_this__u8e3s4) {
-    var tmp$ret$1;
-    $l$block: {
-      // Inline function 'kotlin.collections.last' call
-      var tmp0_last = get_entries();
-      var iterator = tmp0_last.listIterator_5hanv9_k$(tmp0_last.get_size_woubt6_k$());
-      while (iterator.hasPrevious_qh0629_k$()) {
-        var element = iterator.previous_l2dfd5_k$();
-        // Inline function 'com.varabyte.kobweb.silk.theme.breakpoint.<get-breakpointFloor>.<anonymous>' call
-        if (toPx(element).value <= _this__u8e3s4.innerWidth) {
-          tmp$ret$1 = element;
-          break $l$block;
-        }
-      }
-      throw NoSuchElementException_init_$Create$('List contains no element matching the predicate.');
-    }
-    return tmp$ret$1;
-  }
   function toMinWidthQuery(_this__u8e3s4) {
     return new MediaFeature('min-width', toWidth(_this__u8e3s4));
-  }
-  function toPx(_this__u8e3s4) {
-    var tmp0_safe_receiver = toValue(_this__u8e3s4);
-    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.toPx_24esj_k$();
-    return tmp1_elvis_lhs == null ? get_px(0) : tmp1_elvis_lhs;
   }
   function toWidth(_this__u8e3s4) {
     var tmp0_safe_receiver = toValue(_this__u8e3s4);
@@ -3739,6 +3716,29 @@
         break;
     }
     return tmp;
+  }
+  function get_breakpointFloor(_this__u8e3s4) {
+    var tmp$ret$1;
+    $l$block: {
+      // Inline function 'kotlin.collections.last' call
+      var tmp0_last = get_entries();
+      var iterator = tmp0_last.listIterator_5hanv9_k$(tmp0_last.get_size_woubt6_k$());
+      while (iterator.hasPrevious_qh0629_k$()) {
+        var element = iterator.previous_l2dfd5_k$();
+        // Inline function 'com.varabyte.kobweb.silk.theme.breakpoint.<get-breakpointFloor>.<anonymous>' call
+        if (toPx(element).value <= _this__u8e3s4.innerWidth) {
+          tmp$ret$1 = element;
+          break $l$block;
+        }
+      }
+      throw NoSuchElementException_init_$Create$('List contains no element matching the predicate.');
+    }
+    return tmp$ret$1;
+  }
+  function toPx(_this__u8e3s4) {
+    var tmp0_safe_receiver = toValue(_this__u8e3s4);
+    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.toPx_24esj_k$();
+    return tmp1_elvis_lhs == null ? get_px(0) : tmp1_elvis_lhs;
   }
   function rememberBreakpoint$composable($composer, $changed) {
     var $composer_0 = $composer;
@@ -4029,6 +4029,8 @@
       rootColorModeState$delegate = lazy(rootColorModeState$delegate$lambda);
       LocalColorMode = compositionLocalOf(VOID, LocalColorMode$lambda);
     }
+  }
+  function ColorScheme() {
   }
   function get_$stableprop_37() {
     return 0;
@@ -4935,8 +4937,6 @@
     if (ColorSchemes_instance == null)
       new ColorSchemes();
     return ColorSchemes_instance;
-  }
-  function ColorScheme() {
   }
   function SilkPalettes() {
   }

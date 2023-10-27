@@ -22,6 +22,7 @@ import org.jetbrains.compose.web.css.px
 @Composable
 fun SuccessPage() {
     val context = rememberPageContext()
+    val postUpdated = context.route.params.containsKey("updated")
 
     LaunchedEffect(key1 = Unit) {
         delay(5000)
@@ -43,7 +44,7 @@ fun SuccessPage() {
             modifier = Modifier
                 .fontFamily(FONT_FAMILY)
                 .fontSize(24.px),
-            text = "Post Successfully Created!"
+            text = if (postUpdated) "Post Successfully Updated!" else "Post Successfully Created!"
         )
 
         SpanText(
